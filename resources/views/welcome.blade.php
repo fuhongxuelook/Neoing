@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Laravel</title>
+        <title>Welcome come to Norganno Zone</title>
 
         
 
@@ -38,7 +38,8 @@
     <body>
         <div class="container">
             <div class="content">
-                <div class="title">Laravel 5</div>
+                <div class="title">Norganno Zone</div>
+                <a href="www.baidu.com">join</a>
             </div>
         </div>
     </body>

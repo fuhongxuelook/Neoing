@@ -22,7 +22,7 @@ class CreateUsersTable extends Migration
             $table->string('nickname')->comment('网名');
             $table->int('state')->comment('账号状态');
             $table->int('sex')->comment('性别');
-            $table->int('add_id')->comment('地址id');
+            $table->int('addr_id')->comment('id');
             $table->int('Authorization')->comment('权限');
             $table->rememberToken();
             $table->timestamps();

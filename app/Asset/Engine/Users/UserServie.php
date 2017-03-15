@@ -12,9 +12,16 @@ class UserService {
 		$this->bean = $request;
 	}	
 
-	public function checkUser() {
-		$account = $this->bean->getAccount();
-		$password = $this->bean->getPassword();
-	}
-
+    public function login($params) {
+    	$account = $params['account'];
+    	$password = $params['password'];
+    	$accountRes = Schema::select('id')
+    			->where('account','=',$account)
+    			->where('password','=',$password)
+    			->first() ;
+    	if(empty($accountRes){
+    		return false;
+    	}
+    	return true;
+    }
 }
