@@ -3,7 +3,7 @@
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateUserAddTable extends Migration
+class CreateUserAddrTable extends Migration
 {
     /**
      * Run the migrations.
@@ -12,7 +12,7 @@ class CreateUserAddTable extends Migration
      */
     public function up()
     {
-        Schema::create('user_add', function (Blueprint $table) {
+        Schema::create('user_addr', function (Blueprint $table) {
             $table->increments('id');
             $table->int('uid')->comment('用户id');
             $table->int('provice_code')->comment('省代码');
@@ -34,6 +34,6 @@ class CreateUserAddTable extends Migration
     public function down()
     {
         //
-        Schema::drop('user_add');
+        Schema::drop('user_addr');
     }
 }
