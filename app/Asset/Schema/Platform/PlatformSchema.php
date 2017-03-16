@@ -14,5 +14,14 @@ class PlatformSchema {
 		return $query->where('artist','=',$artist);
 	}
 
+	public function scopeUid($query,$uid) {
+		return $query->where('uid','=',$uid);
+	}
+
+	public function scopeDesc($query) {
+		return $query->orderBy('created_at','desc');
+	}
+
+
 
 }

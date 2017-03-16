@@ -17,7 +17,7 @@ class CreateArtistTable extends Migration
             $table->string('artist')->comment('画家')
             $table->int('tel')->comment('手机');
             $table->int('product_id')->comment('产品id');
-            $table->int('zone_id')->comment('个人空间ID');
+            $table->int('circle_id')->comment('个人空间ID');
             $table->int('univercity_id')->comment('大学ID');
             $table->string('nickname')->comment('网名');
             $table->int('sex')->comment('性别');
