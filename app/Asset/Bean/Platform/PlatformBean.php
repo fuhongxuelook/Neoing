@@ -5,6 +5,7 @@ class PlatformBean {
 	private $id;
 	private $artist;
 	private $space;
+	private $circle;
 
 	public function setId($id) {
 		$this->id = $id;
@@ -28,6 +29,14 @@ class PlatformBean {
 
 	public function getSpace() {
 		return $this->space;
+	}
+
+	public function setCircle($circle) {
+		$this->circle = $circle;
+	}
+
+	public function getCircle() {
+		return $this->circle;
 	}
 }
 

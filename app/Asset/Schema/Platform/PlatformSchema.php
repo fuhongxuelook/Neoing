@@ -22,6 +22,9 @@ class PlatformSchema {
 		return $query->orderBy('created_at','desc');
 	}
 
+	public function scopeCircle($query,$circle) {
+		return $query->where('circle_id','=',$circle);
+	}
 
 
 }

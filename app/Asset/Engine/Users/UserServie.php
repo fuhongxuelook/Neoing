@@ -24,4 +24,6 @@ class UserService {
     	}
     	return true;
     }
+
+    public
 }
