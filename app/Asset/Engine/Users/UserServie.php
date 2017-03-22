@@ -2,19 +2,15 @@
 namepsace Nor\Asset\Engine\Users;
 
 
-use Nor\Http\Request\UserRequest;
+use Nor\Asset\Bean\UserBean;
 
 class UserService {
 
 	private $bean;
 
-	function __construct(UserRequest $request) {
-		$this->bean = $request;
-	}	
-
-    public function login($params) {
-    	$account = $params['account'];
-    	$password = $params['password'];
+    public function login(UserBean $params) {
+    	$account = $params->getAccount();
+    	$password = $params->getPassword();
     	$accountRes = Schema::select('id')
     			->where('account','=',$account)
     			->where('password','=',$password)
@@ -22,8 +18,8 @@ class UserService {
     	if(empty($accountRes){
     		return false;
     	}
+        session(['user'=>$account]);
     	return true;
     }
 
-    public
 }

@@ -5,7 +5,6 @@ class UserBean {
 
 	private $account ;
 	private $password;
-
 	private $tel;
 
 	public function setAccount($account) {

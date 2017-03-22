@@ -39,7 +39,9 @@
         <div class="container">
             <div class="content">
                 <div class="title">Norganno Zone</div>
-                <a href="www.baidu.com">join</a>
+                <br><br><br><br>
+                <span> account &nbsp;</span><input type="text" name='account'>
+                <span> password &nbsp;</span><input type="text" name='password'>
             </div>
         </div>
     </body>
