@@ -34,6 +34,7 @@ class CreateArtistTable extends Migration
      */
     public function down()
     {
+        Schema::drop('artist');
         //
     }
 }

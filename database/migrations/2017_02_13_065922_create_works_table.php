@@ -3,7 +3,7 @@
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateProductTable extends Migration
+class CreateWorksTable extends Migration
 {
     /**
      * Run the migrations.
@@ -12,7 +12,7 @@ class CreateProductTable extends Migration
      */
     public function up()
     {
-         Schema::create('product', function (Blueprint $table) {
+         Schema::create('works', function (Blueprint $table) {
             $table->increments('id');
             $table->int('uid')->comment('用户id');
             $table->string('name')->comment('商品名称');
@@ -33,6 +33,7 @@ class CreateProductTable extends Migration
      */
     public function down()
     {
+        Schema::drop('works');
         //
     }
 }

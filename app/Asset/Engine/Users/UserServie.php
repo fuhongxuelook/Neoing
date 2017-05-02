@@ -22,4 +22,16 @@ class UserService {
     	return true;
     }
 
+    public function addUser(UserBean $params) {
+        $account = $params->getAccount();
+        $res = Schema::select('id')
+            ->where('account',$account)
+            ->first();
+        if(!empty($res)) {
+            return false;
+        }
+        Schema::insert(['account'=>$account,'password'=>$password]);
+        return true;
+    }
+
 }
