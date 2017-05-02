@@ -17,7 +17,6 @@ class CreateUsersTable extends Migration
             $table->increments('id');
             $table->string('account')->comment('账号');
             $table->string('password')->comment('密码');
-            $table->int('tel')->comment('手机');
             $table->string('nickname')->comment('网名');
             $table->int('state')->comment('账号状态');
             $table->int('auth')->comment('权限');

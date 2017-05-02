@@ -34,4 +34,19 @@ class UserService {
         return true;
     }
 
+    public function updatePw(UserBean $params) {
+        $account = $params->getAccount();
+        $password = $params->getPassword();
+        $res = Schema::select('id')
+            ->where('account',$account)
+            ->first();
+        if(empty($res)) {
+            return false ;
+        }
+        Schema::where('account',$account)
+            ->update(['password'=>$password]);
+        return true;
+    }
+
+
 }
