@@ -1,0 +1,127 @@
+/* ::::: http://soulieren.com/PcTpl/Home/Public/css/goods/allgoodsList.css ::::: */
+
+* { margin: 0px; padding: 0px; }
+.allGoods { max-width: 1180px; min-width: 1180px; margin: 0px auto; padding: 10px; }
+.allGoods-hd { width: 100%; height: 30px; }
+.allGoods-hd p { padding-left: 15px; color: rgb(119, 119, 119); font-size: 0px; margin: 5px 0px; }
+.allGoods-hd p span { display: inline-block; font-size: 14px; height: 20px; line-height: 20px; }
+.arrow { font-weight: bold; padding: 0px 3px; }
+.allGoodsList { width: 100%; }
+.allGoodsList ul { width: 100%; list-style: outside none none; font-size: 0px; }
+.allGoodsList ul li { display: inline-block; box-sizing: border-box; position: relative; padding: 15px; font-size: 16px; width: 287px; }
+.allGoodsList ul li a { display: block; width: 100%; }
+.goodCard { width: 100%; background-color: rgb(255, 255, 255); overflow: hidden; border-radius: 3px; position: relative; border-width: 1px; border-style: solid; border-color: rgb(225, 227, 223) rgb(225, 227, 223) rgb(203, 204, 201); -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none; border-image: none; }
+.goodCard-img { width: 100%; height: 170px; overflow: hidden; }
+.goodCard-info { margin: 6px; }
+.goodCard-info p { font-size: 14px; margin-bottom: 3px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.goodCard-info p:last-child span { display: inline-block; font-size: 12px; }
+.good-title { color: rgb(154, 154, 154); width: 150px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.price { float: right; color: rgb(255, 120, 62); }
+.allGoodsList ul li .bubble { position: absolute; top: 20px; right: 20px; font-size: 0px; }
+.favorite, .pup { cursor: pointer; }
+.favorite:hover, .pup:hover { background-color: rgb(248, 248, 246); }
+.bubble { display: none; }
+.bubble > div { display: inline-block; line-height: 23px; height: 23px; background-color: rgb(255, 255, 255); border: 1px solid rgba(0, 0, 0, 0.15); color: rgb(68, 68, 68); border-radius: 2px; }
+.bubble .favorite { width: 24px; position: relative; }
+.bubble .pup { width: 32px; margin-left: 2px; padding-top: 6px; position: relative; }
+.bubble .pup span { width: 14px; height: 2px; background-color: rgb(186, 181, 178); display: block; border-radius: 2px; margin-left: 4px; margin-bottom: 2px; box-shadow: 0px 0px 1px rgb(150, 146, 141) inset; }
+.bubble .pup .arrow_b { position: absolute; width: 0px; height: 0px; top: 10px; right: 3px; border-width: 4px; border-style: solid; border-color: rgb(186, 181, 178) transparent transparent; -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none; border-image: none; box-shadow: 0px 0px 1px rgb(150, 146, 141) inset; }
+.heart-shape { position: absolute; left: 8px; top: 9px; width: 8px; height: 8px; transform: rotate(45deg); background-color: rgb(186, 181, 178); z-index: 10; }
+.heart-shape::before, .heart-shape::after { position: absolute; width: 8px; height: 8px; content: ""; border-radius: 50%; background-color: rgb(186, 181, 178); }
+.heart-shape::before { bottom: 0px; left: -5px; }
+.heart-shape::after { top: -5px; right: 0px; }
+.heart-change::before, .heart-change::after { position: absolute; width: 8px; height: 8px; content: ""; border-radius: 50%; background-color: rgb(242, 102, 93); }
+.heart-change::before { bottom: 0px; left: -5px; }
+.heart-change::after { top: -5px; right: 0px; }
+/* ::::: http://v3.jiathis.com/code/css/jiathis_share.css ::::: */
+
+.jiathis_style_32x32 .jtico { text-align: left; overflow: hidden; display: block !important; height: 32px !important; line-height: 32px !important; padding-left: 36px !important; background: transparent url('jiathis_ico_32x32.png') no-repeat scroll left center; cursor: pointer; }
+.jiathis_style_32x32 .jtico:hover { opacity: 0.8; }
+.jiathis_style_32x32 .jiathis_txt { float: left; font-size: 22px; text-decoration: none; line-height: 32px !important; }
+.jiathis_style_32x32 .jtico_tsina { background-position: 0px 0px; }
+.jiathis_style_32x32 .jtico_weixin { background-position: 0px -3680px; }
+.jiathis_style_32x32 .jtico_cqq { background-position: 0px -4032px; }
+/* ::::: http://soulieren.com/PcTpl/Home/Public/css/index/navigation.css ::::: */
+
+a { text-decoration: none; color: rgb(0, 0, 0); }
+header { background-color: rgb(255, 255, 255); min-width: 830px; width: 100%; padding: 15px 0px; }
+.header_bar { min-width: 830px; max-width: 1340px; height: 60px; margin: 0px auto; }
+.header_bar .logo { position: inherit; float: left; }
+.logo a { display: block; }
+.header_bar .logo a img { vertical-align: top; width: 60px; height: 60px; }
+.search_bar { float: left; margin: 15px 0px 0px 100px; font-size: 0px; }
+.search_bar input[type="text"] { float: left; width: 230px; height: 30px; padding-left: 10px; border-width: 1px medium 1px 1px; border-style: solid none solid solid; border-color: rgb(221, 221, 220) currentcolor rgb(221, 221, 220) rgb(221, 221, 220); -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none; border-image: none; font-size: 12px; border-top-left-radius: 3px; border-bottom-left-radius: 3px; box-sizing: border-box; }
+.search_bar input[type="submit"] { float: left; color: rgb(255, 255, 255); background-color: rgb(52, 168, 196); height: 30px; width: 100px; font-size: 12px; border-width: 1px 1px 1px medium; border-style: solid solid solid none; border-color: rgb(52, 168, 196) rgb(52, 168, 196) rgb(52, 168, 196) currentcolor; -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none; border-image: none; border-top-right-radius: 3px; border-bottom-right-radius: 3px; }
+.operation { float: right; margin-top: 15px; position: relative; }
+.loginBtn { border: 1px solid rgb(76, 178, 203); border-radius: 8px; padding: 0px 5px; display: inline-block; }
+.operation > span { display: inline-block; height: 30px; line-height: 30px; margin: 0px 12px; position: relative; }
+.operation > span a { color: rgb(76, 178, 203); text-decoration: none; }
+.operation .car { margin: 0px; position: relative; }
+.operation .car a { padding: 0px 12px; vertical-align: middle; border-left: 1px solid rgb(221, 221, 220); }
+.nav { width: 100%; min-width: 830px; height: 44px; background-color: rgb(255, 255, 255); border-width: 1px medium; border-style: solid none; border-color: rgb(221, 221, 220) currentcolor; -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none; border-image: none; }
+.nav .navBar { min-width: 830px; max-width: 1340px; font-size: 0px; margin: 0px auto; position: relative; }
+.nav .navBar > li { display: inline-block; font-size: 16px; height: 44px; line-height: 44px; position: relative; }
+.nav .navBar > li:hover .nav-menu { display: block; }
+.nav .navBar > li > a { display: block; text-decoration: none; }
+.nav .navBar > li > a { padding: 0px 15px; }
+.nav .navBar > li > a:hover { color: rgb(255, 135, 62); }
+.nav-menu { display: none; position: absolute; z-index: 999; border-top: 1px solid rgb(221, 221, 220); top: 42px; left: 0px; width: 100%; background-color: rgb(255, 255, 255); }
+.nav-menu li { height: 44px; overflow: hidden; position: relative; }
+.nav-menu li a { padding-left: 15px; display: block; text-decoration: none; }
+.nav-menu li a:hover { color: rgb(255, 135, 62); }
+.nav-menu li .move { position: absolute; left: 0px; top: -44px; width: 100%; }
+.nav-menu li .move .changeA { background-color: rgb(255, 135, 62); color: rgb(255, 255, 255); }
+.mark_bg { display: none; position: absolute; z-index: 9999; left: 0px; top: 0px; width: 100%; height: 4486px; background-color: rgba(0, 0, 0, 0.7); }
+* { margin: 0px; padding: 0px; box-sizing: border-box; }
+#full_navigation .tabs { width: 580px; margin: 91px auto; position: relative; display: inline-block; background-color: rgb(245, 245, 241); padding-top: 20px; z-index: 10990; }
+#full_navigation .nav .nav-menu li .move .changeA { background-color: rgb(255, 135, 62); color: rgb(255, 255, 255); }
+#full_navigation .nav .nav-menu li a { text-align: left; display: block; padding-left: 14px; text-decoration: none; }
+.header_bar span a { font-size: 16px; }
+#full_navigation .ul1s { list-style: outside none none; display: flex; margin: 0px 0px 0px 51px; padding: 0px; align-items: center; }
+#full_navigation .ul1s li { font-size: 13px; background-color: rgb(243, 243, 243); border: 1px solid rgb(221, 221, 220); width: 50px; height: 30px; text-align: center; line-height: 29px; cursor: pointer; }
+#full_navigation .ul1s li:nth-child(1) { border-right: medium none; }
+#full_navigation .ul1s li.active { background: rgb(255, 255, 255) none repeat scroll 0% 0%; border-bottom: medium none; height: 30px; color: rgb(255, 135, 62); }
+#full_navigation .tabs div { background-color: rgb(255, 255, 255); }
+#full_navigation .tabs .boxs > div { line-height: 28px; padding-top: 0px; z-index: -1; border-top: 1px solid rgb(221, 221, 220); display: none; margin-top: -1px; }
+#full_navigation .all_div { display: none; position: absolute; z-index: 100; text-align: center; margin: -134px auto 0px; width: 100%; height: 100%; }
+body .all_div .tabs .boxs { width: 100%; height: auto; }
+#full_navigation .all_div_bj { position: fixed; top: 0px; left: 0px; width: 100%; height: 100%; z-index: 999; display: block; opacity: 0.8; background-color: rgb(221, 221, 221); }
+body #full_navigation .boxs input { box-sizing: border-box; font-family: inherit; width: 232px; line-height: 20px; color: rgb(51, 51, 51); font-size: 12px; margin: 0px 0px 0.2em; padding: 6px; border-width: 1px; border-style: solid; border-color: rgb(194, 194, 194) rgb(230, 230, 230) rgb(230, 230, 230) rgb(194, 194, 194); -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none; border-image: none; display: block; }
+#full_navigation .register p { font-size: 12px; margin-top: 8px; margin-bottom: 4px; }
+#full_navigation .register { padding: 20px 53px; text-align: left; }
+#full_navigation .boxs .checkbox { width: 13px; }
+#full_navigation .boxs .register span { color: red; position: absolute; margin: -34px 0px 0px 256px; font-size: 12px; }
+#full_navigation .boxs .login span { color: red; position: absolute; margin: -34px 0px 0px 256px; font-size: 12px; }
+#full_navigation .boxs .register hr { background-color: rgb(225, 225, 223); color: rgb(225, 225, 223); border: 0px none; height: 1px; margin: 19px 0px 11px; clear: both; }
+#full_navigation .boxs .login span { font-size: 12px; color: red; position: absolute; margin: -34px 0px 0px 256px; }
+#full_navigation .login .submit-button { font-size: 14px; line-height: inherit; background-color: rgb(60, 177, 203); box-sizing: border-box; border-radius: 3px; color: rgb(255, 255, 255); border: medium none; margin: 10px 0px; }
+#full_navigation .login p { font-size: 12px; margin-top: 8px; margin-bottom: 4px; }
+#full_navigation .login { padding: 20px 53px; text-align: left; }
+#full_navigation .boxs .login hr { background-color: rgb(225, 225, 223); color: rgb(225, 225, 223); border: 0px none; height: 1px; margin: 19px 0px 11px; clear: both; }
+#full_navigation #kd { width: 82px; position: absolute; height: 34px; border-width: 1px 1px 1px medium; border-style: solid solid solid none; border-color: rgb(221, 221, 220) rgb(221, 221, 220) rgb(221, 221, 220) currentcolor; -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none; border-image: none; margin-top: -36px; margin-left: 150px; }
+#full_navigation #kds { width: 82px; position: absolute; height: 34px; border-width: 1px 1px 1px medium; border-style: solid solid solid none; border-color: rgb(221, 221, 220) rgb(221, 221, 220) rgb(221, 221, 220) currentcolor; -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none; border-image: none; margin-top: -36px; margin-left: 150px; }
+#full_navigation img { vertical-align: middle; }
+#full_navigation .boxs #mobilecode { width: 150px; }
+#full_navigation #btnSendCode { width: 82px; height: 34px; font-size: 11px; background-color: rgb(255, 135, 62); color: rgb(255, 255, 255); margin-top: -37px; margin-left: 150px; display: -webkit-box; border: medium none; }
+#full_navigation .boxs .register .input_text { font-size: 12px; margin: -23px 22px 0px; color: rgb(0, 0, 0); }
+#full_navigation .boxs .login .input_text { font-size: 12px; margin: -23px 22px 0px; color: rgb(0, 0, 0); }
+#full_navigation #randCode { width: 150px; }
+#full_navigation .button-login { background-color: rgb(52, 168, 196); width: 232px; margin-top: 10px; border: medium none; font-size: 14px; line-height: inherit; border-radius: 3px; color: rgb(255, 255, 255); }
+#full_navigation .submit-button { width: 232px; border-radius: 3px; }
+#full_navigation #randCode1 { width: 150px; }
+#full_navigation .lgs .kuaijie { text-align: center; border-radius: 3px; width: 232px; margin-top: 10px; margin-bottom: 20px; background-color: rgb(52, 168, 196); color: rgb(255, 255, 255); }
+#full_navigation .lgs .kuaijie a { color: rgb(255, 255, 255); }
+footer { margin-top: 100px; width: 100%; }
+.footer_list { max-width: 1340px; min-width: 980px; margin: 0px auto; overflow: hidden; display: flex; justify-content: space-around; }
+.footer_list > ul { list-style: outside none none; }
+.footer_list > ul li a { text-decoration: none; font-size: 12px; display: inline-block; margin-top: 14px; line-height: 20px; }
+.open { background-color: rgb(52, 168, 196); color: rgb(255, 255, 255); border-radius: 4px; padding: 8px; }
+.footer_info { max-width: 1340px; min-width: 980px; box-sizing: border-box; padding: 0px 60px; margin: 60px auto 30px; }
+.footer_info::after { content: ""; display: block; clear: both; }
+.footer_info p { border: 1px solid rgb(221, 221, 220); padding: 5px; display: inline-block; font-size: 13px; }
+.footer_info p:last-child { float: right; }
+.footer_list .last_list li a { margin: 0px; }
+.jiathis_style_32x32 {  }
+.jiathis_style_32x32 .jtico_cqq { background: transparent url('aa3.png') no-repeat scroll 0px 0px / 22px 22px; margin-left: 2px; }
+.jiathis_style_32x32 .jtico_tsina { background: transparent url('aa2.png') no-repeat scroll 0px 0px / 22px 22px; margin-left: 2px; }
+.jiathis_style_32x32 .jtico_weixin { background: transparent url('aa1.png') no-repeat scroll 0px 0px / 22px 22px; margin-left: 2px; }
