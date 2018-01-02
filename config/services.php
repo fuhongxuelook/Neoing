@@ -30,7 +30,7 @@ return [
     ],
 
     'stripe' => [
-        'model' => Nor\User::class,
+        'model' => Neo\User::class,
         'key' => env('STRIPE_KEY'),
         'secret' => env('STRIPE_SECRET'),
     ],

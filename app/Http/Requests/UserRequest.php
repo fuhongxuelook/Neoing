@@ -1,7 +1,7 @@
 <?php
-namespace Nor\Http\Request;
+namespace Neo\Http\Request;
 
-use Nor\Asset\Bean\UserBean;
+use Neo\Asset\Bean\UserBean;
 use Request;
 class UserRequest implements RequestInterface {
 

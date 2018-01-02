@@ -1,6 +1,6 @@
 <?php
 
-namespace Nor\Events;
+namespace Neo\Events;
 
 abstract class Event
 {

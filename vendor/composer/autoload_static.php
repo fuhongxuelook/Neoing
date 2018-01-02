@@ -50,7 +50,7 @@ class ComposerStaticInit74b54a19c78c48d17b8e780688bb749d
         ),
         'N' => 
         array (
-            'Nor\\' => 4,
+            'Neo\\' => 4,
         ),
         'M' => 
         array (
@@ -161,7 +161,7 @@ class ComposerStaticInit74b54a19c78c48d17b8e780688bb749d
         array (
             0 => __DIR__ . '/..' . '/nikic/php-parser/lib/PhpParser',
         ),
-        'Nor\\' => 
+        'Neo\\' => 
         array (
             0 => __DIR__ . '/../..' . '/app',
         ),

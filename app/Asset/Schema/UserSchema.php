@@ -1,5 +1,5 @@
 <?php
-namespace Nor\Asset\Schema;
+namespace Neo\Asset\Schema;
 
 
 use DB;

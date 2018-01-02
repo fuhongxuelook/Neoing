@@ -1,11 +1,11 @@
 <?php
 
-namespace Nor\Http\Controllers\Platform;
+namespace Neo\Http\Controllers\Platform;
 
 
-use Nor\Http\Controllers\Controller;
-use Nor\Asset\Engine\Platform\PlatformService;
-use Nor\Http\Requests\Platform\PlatformRequest;
+use Neo\Http\Controllers\Controller;
+use Neo\Asset\Engine\Platform\PlatformService;
+use Neo\Http\Requests\Platform\PlatformRequest;
 
 class RestfulController extends Controller{
 

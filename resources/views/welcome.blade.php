@@ -39,9 +39,6 @@
         <div class="container">
             <div class="content">
                 <div class="title">Norganno Zone</div>
-                <br><br><br><br>
-                <span> account &nbsp;</span><input type="text" name='account'>
-                <span> password &nbsp;</span><input type="text" name='password'>
             </div>
         </div>
     </body>

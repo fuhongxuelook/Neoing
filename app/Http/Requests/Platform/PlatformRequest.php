@@ -1,7 +1,7 @@
 <?php 
-namespace Nor\Http\Requests\Platform;
+namespace Neo\Http\Requests\Platform;
 
-use Nor\Asset\Bean\Platform\PlatformBean;
+use Neo\Asset\Bean\Platform\PlatformBean;
 use Request;
 
 class PlatformRequest {

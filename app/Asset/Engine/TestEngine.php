@@ -1,8 +1,8 @@
 <?php
-namespace Nor\Asset\Engine;
+namespace Neo\Asset\Engine;
 
-use Nor\Asset\Bean\UserBean;
-use Nor\Asset\Schema\UserSchema;
+use Neo\Asset\Bean\UserBean;
+use Neo\Asset\Schema\UserSchema;
 
 class TestEngine {
 	

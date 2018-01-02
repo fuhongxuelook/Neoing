@@ -1,6 +1,6 @@
 <?php
 
-namespace Nor\Http\Controllers;
+namespace Neo\Http\Controllers;
 
 use Illuminate\Foundation\Bus\DispatchesJobs;
 use Illuminate\Routing\Controller as BaseController;

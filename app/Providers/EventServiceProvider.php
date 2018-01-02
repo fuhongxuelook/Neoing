@@ -1,6 +1,6 @@
 <?php
 
-namespace Nor\Providers;
+namespace Neo\Providers;
 
 use Illuminate\Contracts\Events\Dispatcher as DispatcherContract;
 use Illuminate\Foundation\Support\Providers\EventServiceProvider as ServiceProvider;
@@ -13,8 +13,8 @@ class EventServiceProvider extends ServiceProvider
      * @var array
      */
     protected $listen = [
-        'Nor\Events\SomeEvent' => [
-            'Nor\Listeners\EventListener',
+        'Neo\Events\SomeEvent' => [
+            'Neo\Listeners\EventListener',
         ],
     ];
 

@@ -15,12 +15,6 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/art/index',function() {
-	return view('art.index');
-});
-Route::get('/art/list',function() {
-	return view('art.list');
-});
 /*
 |--------------------------------------------------------------------------
 | Application Routes

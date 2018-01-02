@@ -1,8 +1,8 @@
 <?php
-namepsace Nor\Asset\Engine\Users;
+namepsace Neo\Asset\Engine\Users;
 
 
-use Nor\Asset\Bean\UserBean;
+use Neo\Asset\Bean\UserBean;
 
 class UserService {
 

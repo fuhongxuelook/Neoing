@@ -1,7 +1,7 @@
 <?php
-namespace Nor\Http\Request\User;
+namespace Neo\Http\Request\User;
 
-use Nor\Asset\Bean\UserBean;
+use Neo\Asset\Bean\UserBean;
 use Request;
 
 

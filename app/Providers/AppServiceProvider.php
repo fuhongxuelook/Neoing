@@ -1,6 +1,6 @@
 <?php
 
-namespace Nor\Providers;
+namespace Neo\Providers;
 
 use Illuminate\Support\ServiceProvider;
 

@@ -1,10 +1,10 @@
 <?php
 
-namespace Nor\Http\Controllers\Auth;
+namespace Neo\Http\Controllers\Auth;
 
-use Nor\User;
+use Neo\User;
 use Validator;
-use Nor\Http\Controllers\Controller;
+use Neo\Http\Controllers\Controller;
 use Illuminate\Foundation\Auth\ThrottlesLogins;
 use Illuminate\Foundation\Auth\AuthenticatesAndRegistersUsers;
 

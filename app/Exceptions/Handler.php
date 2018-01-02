@@ -1,6 +1,6 @@
 <?php
 
-namespace Nor\Exceptions;
+namespace Neo\Exceptions;
 
 use Exception;
 use Illuminate\Validation\ValidationException;

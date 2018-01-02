@@ -1,6 +1,6 @@
 <?php
 
-namespace Nor\Http\Middleware;
+namespace Neo\Http\Middleware;
 
 use Closure;
 use Illuminate\Support\Facades\Auth;

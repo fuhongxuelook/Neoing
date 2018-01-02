@@ -1,10 +1,10 @@
 <?php
 
-namespace Nor\Asset\Engine\Platform;
+namespace Neo\Asset\Engine\Platform;
 
-use Nor\Asset\Schema\Platform\PlatformSchema as Schema;
-use Nor\Asset\Bean\Platform\PlatformBean;
-use Nor\Asset\Config\PlatformConfig as Conf;
+use Neo\Asset\Schema\Platform\PlatformSchema as Schema;
+use Neo\Asset\Bean\Platform\PlatformBean;
+use Neo\Asset\Config\PlatformConfig as Conf;
 
 class PlatformService {
 

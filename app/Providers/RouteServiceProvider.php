@@ -1,6 +1,6 @@
 <?php
 
-namespace Nor\Providers;
+namespace Neo\Providers;
 
 use Illuminate\Routing\Router;
 use Illuminate\Foundation\Support\Providers\RouteServiceProvider as ServiceProvider;
@@ -14,7 +14,7 @@ class RouteServiceProvider extends ServiceProvider
      *
      * @var string
      */
-    protected $namespace = 'Nor\Http\Controllers';
+    protected $namespace = 'Neo\Http\Controllers';
 
     /**
      * Define your route model bindings, pattern filters, etc.

@@ -1,6 +1,6 @@
 <?php
 
-namespace Nor;
+namespace Neo;
 
 use Illuminate\Foundation\Auth\User as Authenticatable;
 

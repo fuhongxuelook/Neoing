@@ -1,6 +1,6 @@
 <?php
 
-namespace Nor\Providers;
+namespace Neo\Providers;
 
 use Illuminate\Contracts\Auth\Access\Gate as GateContract;
 use Illuminate\Foundation\Support\Providers\AuthServiceProvider as ServiceProvider;
@@ -13,7 +13,7 @@ class AuthServiceProvider extends ServiceProvider
      * @var array
      */
     protected $policies = [
-        'Nor\Model' => 'Nor\Policies\ModelPolicy',
+        'Neo\Model' => 'Neo\Policies\ModelPolicy',
     ];
 
     /**

@@ -1,5 +1,5 @@
 <?php 
-namespace Nor\Asset\Config;
+namespace Neo\Asset\Config;
 
 
 class PlatformConfig {

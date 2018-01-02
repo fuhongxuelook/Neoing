@@ -1,5 +1,5 @@
 <?php
-namespace Nor\Asset\Interface\Users;
+namespace Neo\Asset\Interface\Users;
 
 use Request;
 

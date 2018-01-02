@@ -1,5 +1,5 @@
 <?php
-namespace Nor\Asset\Interface;
+namespace Neo\Asset\Interface;
 interface TestInterface{
 	//..
 }

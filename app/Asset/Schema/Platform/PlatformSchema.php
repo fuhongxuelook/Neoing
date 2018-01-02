@@ -1,6 +1,6 @@
 <?php
 
-namespace Nor\Asset\Schema\Platform;
+namespace Neo\Asset\Schema\Platform;
 
 class PlatformSchema {
 

@@ -20,7 +20,7 @@
             "database"
         ],
         "psr-4": {
-            "Nor\\": "app/"
+            "Neo\\": "app/"
         }
     },
     "autoload-dev": {

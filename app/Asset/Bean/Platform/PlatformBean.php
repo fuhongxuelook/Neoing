@@ -1,5 +1,5 @@
 <?php
-namespace Nor\Asset\Bean\Platform;
+namespace Neo\Asset\Bean\Platform;
 
 class PlatformBean {
 	private $id;

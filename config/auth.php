@@ -67,7 +67,7 @@ return [
     'providers' => [
         'users' => [
             'driver' => 'eloquent',
-            'model' => Nor\User::class,
+            'model' => Neo\User::class,
         ],
 
         // 'users' => [

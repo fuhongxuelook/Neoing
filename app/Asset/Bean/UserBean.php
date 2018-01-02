@@ -1,5 +1,5 @@
 <?php
-namespace Nor\Asset\Bean;
+namespace Neo\Asset\Bean;
 
 class UserBean {
 

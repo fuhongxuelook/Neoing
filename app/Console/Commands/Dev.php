@@ -1,6 +1,6 @@
 <?php
 
-namespace Nor\Console\Commands;
+namespace Neo\Console\Commands;
 
 use Illuminate\Console\Command;
 
