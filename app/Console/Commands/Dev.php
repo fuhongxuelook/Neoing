@@ -11,7 +11,7 @@ class Dev extends Command
      *
      * @var string
      */
-    protected $signature = 'geo:dev';
+    protected $signature = 'nor:dev';
 
     /**
      * The console command description.
