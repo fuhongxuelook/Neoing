@@ -41,6 +41,8 @@
                 <div class="title">🐦 鸟布鲸科技</div>
                 <br>
                 <label>Copyright(C) 2018-2038</label>
+                <br><br><br>
+                 <a href="http://www.baidu.com/" class="button button-tiny">Go</a>
             </div>
         </div>
     </body>
