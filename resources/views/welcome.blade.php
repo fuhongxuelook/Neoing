@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Welcome come to Norganno Zone</title>
+        <title>Welcome come to Neo Zone</title>
 
         
 
@@ -38,7 +38,9 @@
     <body>
         <div class="container">
             <div class="content">
-                <div class="title">Norganno Zone</div>
+                <div class="title">🐦 鸟布鲸科技</div>
+                <br>
+                <label>Copyright(C) 2018-2038</label>
             </div>
         </div>
     </body>
