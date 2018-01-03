@@ -14,6 +14,9 @@
 Route::get('/', function () {
     return view('welcome');
 });
+Route::get('/art', function () {
+    return view('art/index');
+});
 
 /*
 |--------------------------------------------------------------------------

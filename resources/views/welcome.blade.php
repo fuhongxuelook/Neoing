@@ -42,7 +42,7 @@
                 <br>
                 <label>Copyright(C) 2018-2038</label>
                 <br><br><br>
-                 <a href="http://www.baidu.com/" class="button button-tiny">Go</a>
+                 <a href="http://niao.com/art" class="button button-tiny">Go</a>
             </div>
         </div>
     </body>

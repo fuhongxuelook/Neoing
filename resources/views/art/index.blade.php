@@ -6,7 +6,7 @@
     
     <meta name="keywords" content="我们的世界">
     <meta name="description" content="张国栋 一个纯废物">
-    <title>OUR WORLD</title>
+    <title>Neo</title>
     <link rel="shortcut icon" href="../pic/soulieren.ico">
     
     <!--分享-->
@@ -52,41 +52,39 @@
     <header>
         <div class="header_bar">
             <div class="logo"><a href="http://soulieren.com/index.php/Home/Index/index.html"><img src="../pic/logo.png"></a></div>
-            <div class="search_bar">
-                <form action="http://soulieren.com/index.php/Home/Search/search" method="post">
-                    <input name="name" placeholder="你在寻找什么？" value="" type="text">
-                    <input value="搜索" type="submit">
-                </form>
-            </div>
             <div class="operation">
-                <span><a href="http://soulieren.com/index.php/Home/Index/company.html">搜猎人上出售</a></span>                <span><a id="register">注册</a></span>                <span><a class="loginBtn" id="login">登录</a></span>                                                <span class="car"><a href="http://soulieren.com/index.php/Home/carts/index.html"><img src="../pic/shopping@20cart.png"></a></span>
+                <span>
+                    <a href="http://soulieren.com/index.php/Home/Index/company.html">鸟布鲸</a>
+                </span>                
+                <span><a id="register">注册</a></span>                <span><a class="loginBtn" id="login">登录</a></span>           
+                <span class="car"><a href="http://niao.com"><img src="../pic/shopping@20cart.png"></a></span>
             </div>
         </div>
     </header>
     <div class="nav">
         <ul class="navBar">
             <li class="current-line">
-                <a class="move" href="javascript:;">墙面装饰与收藏</a>
+                <a class="move" href="javascript:;">写生油画</a>
                 <ul class="nav-menu">
                     <li>
+                        <div class="move">
+                            <a class="changeA" href="http://soulieren.com/index.php/Home/Goods/allgoodsList/id/6.html">风景</a>
+                            <a href="http://soulieren.com/index.php/Home/Goods/allgoodsList/id/6.html">风景</a>
+                            </div>
+                    </li><li>
+                        <div class="move">
+                            <a class="changeA" href="http://soulieren.com/index.php/Home/Goods/allgoodsList/id/7.html">人物</a>
+                            <a href="http://soulieren.com/index.php/Home/Goods/allgoodsList/id/7.html">人物</a>
+                        </div>
+                    </li><li>
                             <div class="move">
-                                <a class="changeA" href="http://soulieren.com/index.php/Home/Goods/allgoodsList/id/6.html">版画</a>
-                                <a href="http://soulieren.com/index.php/Home/Goods/allgoodsList/id/6.html">版画</a>
+                                <a class="changeA" href="http://soulieren.com/index.php/Home/Goods/allgoodsList/id/11.html">夜色</a>
+                                <a href="http://soulieren.com/index.php/Home/Goods/allgoodsList/id/11.html">夜色</a>
                             </div>
                         </li><li>
                             <div class="move">
-                                <a class="changeA" href="http://soulieren.com/index.php/Home/Goods/allgoodsList/id/7.html">油画</a>
-                                <a href="http://soulieren.com/index.php/Home/Goods/allgoodsList/id/7.html">油画</a>
-                            </div>
-                        </li><li>
-                            <div class="move">
-                                <a class="changeA" href="http://soulieren.com/index.php/Home/Goods/allgoodsList/id/11.html">水彩(粉)</a>
-                                <a href="http://soulieren.com/index.php/Home/Goods/allgoodsList/id/11.html">水彩(粉)</a>
-                            </div>
-                        </li><li>
-                            <div class="move">
-                                <a class="changeA" href="http://soulieren.com/index.php/Home/Goods/allgoodsList/id/12.html">国画</a>
-                                <a href="http://soulieren.com/index.php/Home/Goods/allgoodsList/id/12.html">国画</a>
+                                <a class="changeA" href="http://soulieren.com/index.php/Home/Goods/allgoodsList/id/12.html">水果</a>
+                                <a href="http://soulieren.com/index.php/Home/Goods/allgoodsList/id/12.html">水果</a>
                             </div>
                         </li><li>
                             <div class="move">
@@ -96,32 +94,32 @@
                         </li>                </ul>
             </li>
             <li>
-                <a class="move" href="javascript:;">服装和配饰</a>
+                <a class="move" href="javascript:;">画师作品</a>
                 <ul class="nav-menu">
                     <li>
                             <div class="move">
-                                <a class="changeA" href="http://soulieren.com/index.php/Home/Goods/allgoodsList/id/14.html">包和钱包</a>
-                                <a href="http://soulieren.com/index.php/Home/Goods/allgoodsList/id/14.html">包和钱包</a>
+                                <a class="changeA" href="http://soulieren.com/index.php/Home/Goods/allgoodsList/id/14.html">古典主义</a>
+                                <a href="http://soulieren.com/index.php/Home/Goods/allgoodsList/id/14.html">古典主义</a>
                             </div>
                         </li><li>
                             <div class="move">
-                                <a class="changeA" href="http://soulieren.com/index.php/Home/Goods/allgoodsList/id/15.html">服装</a>
-                                <a href="http://soulieren.com/index.php/Home/Goods/allgoodsList/id/15.html">服装</a>
+                                <a class="changeA" href="http://soulieren.com/index.php/Home/Goods/allgoodsList/id/15.html">巴洛克艺术</a>
+                                <a href="http://soulieren.com/index.php/Home/Goods/allgoodsList/id/15.html">巴洛克艺术</a>
                             </div>
                         </li><li>
                             <div class="move">
-                                <a class="changeA" href="http://soulieren.com/index.php/Home/Goods/allgoodsList/id/16.html">腰带</a>
-                                <a href="http://soulieren.com/index.php/Home/Goods/allgoodsList/id/16.html">腰带</a>
+                                <a class="changeA" href="http://soulieren.com/index.php/Home/Goods/allgoodsList/id/16.html">印象主义</a>
+                                <a href="http://soulieren.com/index.php/Home/Goods/allgoodsList/id/16.html">印象主义</a>
                             </div>
                         </li><li>
                             <div class="move">
-                                <a class="changeA" href="http://soulieren.com/index.php/Home/Goods/allgoodsList/id/21.html">鞋子</a>
-                                <a href="http://soulieren.com/index.php/Home/Goods/allgoodsList/id/21.html">鞋子</a>
+                                <a class="changeA" href="http://soulieren.com/index.php/Home/Goods/allgoodsList/id/21.html">表现主义</a>
+                                <a href="http://soulieren.com/index.php/Home/Goods/allgoodsList/id/21.html">表现主义</a>
                             </div>
                         </li>                </ul>
             </li>
             <li>
-                <a class="move" href="javascript:;">家庭和生活</a>
+                <a class="move" href="javascript:;">流浪画家</a>
                 <ul class="nav-menu">
                     <li>
                             <div class="move">
@@ -156,7 +154,7 @@
                         </li>                </ul>
             </li>
             <li>
-                <a class="move" href="javascript:;">文化用品</a>
+                <a class="move" href="javascript:;">深爱的</a>
                 <ul class="nav-menu">
                     <li>
                             <div class="move" style="top: -44px;">
@@ -203,7 +201,7 @@
                         <span class="rpassword_span"></span>
                         <hr>
                         <div>
-                            <input class="checkbox" checked="checked" type="checkbox"><span class="input_text">请确认已阅读并同意搜猎人使用条款和隐私条款</span>
+                            <input class="checkbox" checked="checked" type="checkbox"><span class="input_text">请确认已阅读并同意鸟布鲸使用条款和隐私条款</span>
                         </div>
                         <button type="button" class=" button-login registerBtn">立即注册</button>
                     </form>
@@ -228,7 +226,7 @@
                         <span class="randCode1_span"></span>
                         <hr>
                         <div>
-                            <input class="checkbox" checked="checked" type="checkbox"><span class="input_text">请确认已阅读并同意搜猎人使用条款和隐私条款</span>
+                            <input class="checkbox" checked="checked" type="checkbox"><span class="input_text">请确认已阅读并同意鸟布鲸使用条款和隐私条款</span>
                         </div>
                         <button type="button" value="登录" class="submit-button" onclick="addAjax()">登录</button>
                     </form>
@@ -458,7 +456,7 @@
                         <!--</div>-->
                         <div class="text_1">
                             <strong>购买安全、可靠</strong>
-                            <p>搜猎人保护每一笔交易，购物体验安心便捷</p><br>
+                            <p>鸟布鲸保护每一笔交易，购物体验安心便捷</p><br>
                         </div>
                     </div>
                 </div>
