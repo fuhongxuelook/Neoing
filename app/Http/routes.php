@@ -17,6 +17,9 @@ Route::get('/', function () {
 Route::get('/art', function () {
     return view('art/index');
 });
+Route::get('/list', function () {
+    return view('art/list');
+});
 
 /*
 |--------------------------------------------------------------------------

@@ -51,7 +51,7 @@
 <div id="full_navigation">
     <header>
         <div class="header_bar">
-            <div class="logo"><a href="http://soulieren.com/index.php/Home/Index/index.html"><img src="../pic/logo.png"></a></div>
+            <div class="logo"><a href="http://niao.com/list"><img src="../pic/logo.png"></a></div>
             <div class="operation">
                 <span>
                     <a href="http://soulieren.com/index.php/Home/Index/company.html">鸟布鲸</a>

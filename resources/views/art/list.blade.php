@@ -6,11 +6,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="keywords" content="搜猎人">
-    <meta name="description" content="搜猎人——一个民族的原创品牌、一家原创者自己的平台，以“平台化整合创新”为理念、
-    打造高品质电子商务平台。经营一切具有原创精神的产品，汇集艺术家、设计师、手工业者、创新独立品牌。成立于 2015 年，
-    旗下北京搜猎人电子商务有限公司、北京搜猎人文化发展有限公司、宁波搜猎人科技有限公司。办公场地位于北京、香港、深圳、
-    昆明、宁波。">
+    <meta name="keywords" content="鸟布鲸">
+    <meta name="description" content="鸟布鲸---活去下">
     <title>所有商品</title>
     <link rel="shortcut icon" href="soulieren.ico">
     
@@ -50,14 +47,14 @@
     <header>
         <div class="header_bar">
             <div class="logo"><a href="http://soulieren.com/index.php/Home/Index/index.html"><img src="../images/list/logo.png"></a></div>
-            <div class="search_bar">
+            <!--div class="search_bar">
                 <form action="http://soulieren.com/index.php/Home/Search/search" method="post">
                     <input name="name" placeholder="你在寻找什么？" value="" type="text">
                     <input value="搜索" type="submit">
                 </form>
-            </div>
+            </div-->
             <div class="operation">
-                <span><a href="http://soulieren.com/index.php/Home/Index/company.html">搜猎人上出售</a></span>                <span><a id="register">注册</a></span>                <span><a class="loginBtn" id="login">登录</a></span>                                                <span class="car"><a href="http://soulieren.com/index.php/Home/carts/index.html"><img src="../images/list/shopping@20cart.png"></a></span>
+                <span><a href="http://soulieren.com/index.php/Home/Index/company.html">鸟布鲸上出售</a></span>                <span><a id="register">注册</a></span>                <span><a class="loginBtn" id="login">登录</a></span>                                                <span class="car"><a href="http://soulieren.com/index.php/Home/carts/index.html"><img src="../images/list/shopping@20cart.png"></a></span>
             </div>
         </div>
     </header>
@@ -201,7 +198,7 @@
                         <span class="rpassword_span"></span>
                         <hr>
                         <div>
-                            <input class="checkbox" checked="checked" type="checkbox"><span class="input_text">请确认已阅读并同意搜猎人使用条款和隐私条款</span>
+                            <input class="checkbox" checked="checked" type="checkbox"><span class="input_text">请确认已阅读并同意鸟布鲸使用条款和隐私条款</span>
                         </div>
                         <button type="button" class=" button-login registerBtn">立即注册</button>
                     </form>
@@ -226,7 +223,7 @@
                         <span class="randCode1_span"></span>
                         <hr>
                         <div>
-                            <input class="checkbox" checked="checked" type="checkbox"><span class="input_text">请确认已阅读并同意搜猎人使用条款和隐私条款</span>
+                            <input class="checkbox" checked="checked" type="checkbox"><span class="input_text">请确认已阅读并同意鸟布鲸使用条款和隐私条款</span>
                         </div>
                         <button type="button" value="登录" class="submit-button" onclick="addAjax()">登录</button>
                     </form>
@@ -380,7 +377,7 @@
                             <div class="goodCard">
                                 <div class="goodCard-img"><img src="../images/list/1494512730.png" data-original="/./Upload/Goods/smallImg/2017-05-11/1494512730.png" class="thumb" alt="" style="display: inline;" width="100%"></div>
                                 <div class="goodCard-info">
-                                    <p>搜猎人艺术生活</p>
+                                    <p>鸟布鲸艺术生活</p>
                                     <p><span class="good-title">攻城狮</span><span class="price">3500.00</span></p>
                                 </div>
                             </div>
@@ -422,7 +419,7 @@
                             <div class="goodCard">
                                 <div class="goodCard-img"><img src="../images/list/1494421306.png" data-original="/./Upload/Goods/smallImg/2017-05-10/1494421306.png" class="thumb" alt="" style="display: inline;" width="100%"></div>
                                 <div class="goodCard-info">
-                                    <p>搜猎人艺术生活</p>
+                                    <p>鸟布鲸艺术生活</p>
                                     <p><span class="good-title">Great news, or</span><span class="price">64800.00</span></p>
                                 </div>
                             </div>
@@ -443,7 +440,7 @@
                             <div class="goodCard">
                                 <div class="goodCard-img"><img src="../images/list/1494421238.png" data-original="/./Upload/Goods/smallImg/2017-05-10/1494421238.png" class="thumb" alt="" style="display: inline;" width="100%"></div>
                                 <div class="goodCard-info">
-                                    <p>搜猎人艺术生活</p>
+                                    <p>鸟布鲸艺术生活</p>
                                     <p><span class="good-title">斗鸡</span><span class="price">12000.00</span></p>
                                 </div>
                             </div>
@@ -464,7 +461,7 @@
                             <div class="goodCard">
                                 <div class="goodCard-img"><img src="../images/list/1494421181.png" data-original="/./Upload/Goods/smallImg/2017-05-10/1494421181.png" class="thumb" alt="" style="display: inline;" width="100%"></div>
                                 <div class="goodCard-info">
-                                    <p>搜猎人艺术生活</p>
+                                    <p>鸟布鲸艺术生活</p>
                                     <p><span class="good-title">孙悟空-鸡年版NO.2</span><span class="price">12000.00</span></p>
                                 </div>
                             </div>
@@ -485,7 +482,7 @@
                             <div class="goodCard">
                                 <div class="goodCard-img"><img src="../images/list/1494421159.png" data-original="/./Upload/Goods/smallImg/2017-05-10/1494421159.png" class="thumb" alt="" style="display: inline;" width="100%"></div>
                                 <div class="goodCard-info">
-                                    <p>搜猎人艺术生活</p>
+                                    <p>鸟布鲸艺术生活</p>
                                     <p><span class="good-title">孙悟空-鸡年版NO.3</span><span class="price">12000.00</span></p>
                                 </div>
                             </div>
@@ -506,7 +503,7 @@
                             <div class="goodCard">
                                 <div class="goodCard-img"><img src="../images/list/1494421129.png" data-original="/./Upload/Goods/smallImg/2017-05-10/1494421129.png" class="thumb" alt="" style="display: inline;" width="100%"></div>
                                 <div class="goodCard-info">
-                                    <p>搜猎人艺术生活</p>
+                                    <p>鸟布鲸艺术生活</p>
                                     <p><span class="good-title">西游记归来-鸡年版</span><span class="price">48600.00</span></p>
                                 </div>
                             </div>
@@ -527,7 +524,7 @@
                             <div class="goodCard">
                                 <div class="goodCard-img"><img src="../images/list/1494421092.png" data-original="/./Upload/Goods/smallImg/2017-05-10/1494421092.png" class="thumb" alt="" style="display: inline;" width="100%"></div>
                                 <div class="goodCard-info">
-                                    <p>搜猎人艺术生活</p>
+                                    <p>鸟布鲸艺术生活</p>
                                     <p><span class="good-title">西游记归来-鸡年版NO.2</span><span class="price">24000.00</span></p>
                                 </div>
                             </div>
@@ -548,7 +545,7 @@
                             <div class="goodCard">
                                 <div class="goodCard-img"><img src="../images/list/1494420933.png" data-original="/./Upload/Goods/smallImg/2017-05-10/1494420933.png" class="thumb" alt="" style="display: inline;" width="100%"></div>
                                 <div class="goodCard-info">
-                                    <p>搜猎人艺术生活</p>
+                                    <p>鸟布鲸艺术生活</p>
                                     <p><span class="good-title">昂日星官救救我</span><span class="price">28800.00</span></p>
                                 </div>
                             </div>
@@ -569,7 +566,7 @@
                             <div class="goodCard">
                                 <div class="goodCard-img"><img src="../images/list/1494420910.png" data-original="/./Upload/Goods/smallImg/2017-05-10/1494420910.png" class="thumb" alt="" style="display: inline;" width="100%"></div>
                                 <div class="goodCard-info">
-                                    <p>搜猎人艺术生活</p>
+                                    <p>鸟布鲸艺术生活</p>
                                     <p><span class="good-title">恰逢时机</span><span class="price">48000.00</span></p>
                                 </div>
                             </div>
@@ -590,7 +587,7 @@
                             <div class="goodCard">
                                 <div class="goodCard-img"><img src="../images/list/1494420889.png" data-original="/./Upload/Goods/smallImg/2017-05-10/1494420889.png" class="thumb" alt="" style="display: inline;" width="100%"></div>
                                 <div class="goodCard-info">
-                                    <p>搜猎人艺术生活</p>
+                                    <p>鸟布鲸艺术生活</p>
                                     <p><span class="good-title">缘来是你</span><span class="price">48000.00</span></p>
                                 </div>
                             </div>
@@ -611,7 +608,7 @@
                             <div class="goodCard">
                                 <div class="goodCard-img"><img src="../images/list/1494420857.png" data-original="/./Upload/Goods/smallImg/2017-05-10/1494420857.png" class="thumb" alt="" style="display: inline;" width="100%"></div>
                                 <div class="goodCard-info">
-                                    <p>搜猎人艺术生活</p>
+                                    <p>鸟布鲸艺术生活</p>
                                     <p><span class="good-title">孙悟空鸡年梵高版</span><span class="price">7200.00</span></p>
                                 </div>
                             </div>
@@ -632,7 +629,7 @@
                             <div class="goodCard">
                                 <div class="goodCard-img"><img src="../images/list/1494420761.png" data-original="/./Upload/Goods/smallImg/2017-05-10/1494420761.png" class="thumb" alt="" style="display: inline;" width="100%"></div>
                                 <div class="goodCard-info">
-                                    <p>搜猎人艺术生活</p>
+                                    <p>鸟布鲸艺术生活</p>
                                     <p><span class="good-title">疯狂动物城的猪八戒</span><span class="price">45000.00</span></p>
                                 </div>
                             </div>
@@ -653,7 +650,7 @@
                             <div class="goodCard">
                                 <div class="goodCard-img"><img src="../images/list/1494420635.png" data-original="/./Upload/Goods/smallImg/2017-05-10/1494420635.png" class="thumb" alt="" style="display: inline;" width="100%"></div>
                                 <div class="goodCard-info">
-                                    <p>搜猎人艺术生活</p>
+                                    <p>鸟布鲸艺术生活</p>
                                     <p><span class="good-title">Lion dance</span><span class="price">64800.00</span></p>
                                 </div>
                             </div>
@@ -674,7 +671,7 @@
                             <div class="goodCard">
                                 <div class="goodCard-img"><img src="../images/list/1494420602.png" data-original="/./Upload/Goods/smallImg/2017-05-10/1494420602.png" class="thumb" alt="" style="display: inline;" width="100%"></div>
                                 <div class="goodCard-info">
-                                    <p>搜猎人艺术生活</p>
+                                    <p>鸟布鲸艺术生活</p>
                                     <p><span class="good-title">孙悟空天使版</span><span class="price">64800.00</span></p>
                                 </div>
                             </div>
@@ -695,7 +692,7 @@
                             <div class="goodCard">
                                 <div class="goodCard-img"><img src="../images/list/1494420564.png" data-original="/./Upload/Goods/smallImg/2017-05-10/1494420564.png" class="thumb" alt="" style="display: inline;" width="100%"></div>
                                 <div class="goodCard-info">
-                                    <p>搜猎人艺术生活</p>
+                                    <p>鸟布鲸艺术生活</p>
                                     <p><span class="good-title">没完没了</span><span class="price">45000.00</span></p>
                                 </div>
                             </div>
@@ -716,7 +713,7 @@
                             <div class="goodCard">
                                 <div class="goodCard-img"><img src="../images/list/1494420536.png" data-original="/./Upload/Goods/smallImg/2017-05-10/1494420536.png" class="thumb" alt="" style="display: inline;" width="100%"></div>
                                 <div class="goodCard-info">
-                                    <p>搜猎人艺术生活</p>
+                                    <p>鸟布鲸艺术生活</p>
                                     <p><span class="good-title">美猴王圣诞版</span><span class="price">45000.00</span></p>
                                 </div>
                             </div>
@@ -737,7 +734,7 @@
                             <div class="goodCard">
                                 <div class="goodCard-img"><img src="../images/list/1494420505.png" data-original="/./Upload/Goods/smallImg/2017-05-10/1494420505.png" class="thumb" alt="" style="display: inline;" width="100%"></div>
                                 <div class="goodCard-info">
-                                    <p>搜猎人艺术生活</p>
+                                    <p>鸟布鲸艺术生活</p>
                                     <p><span class="good-title">定海神针</span><span class="price">15000.00</span></p>
                                 </div>
                             </div>
@@ -758,7 +755,7 @@
                             <div class="goodCard">
                                 <div class="goodCard-img"><img src="../images/list/1494561040.png" data-original="/./Upload/Goods/smallImg/2017-05-12/1494561040.png" class="thumb" alt="" style="display: inline;" width="100%"></div>
                                 <div class="goodCard-info">
-                                    <p>搜猎人艺术生活</p>
+                                    <p>鸟布鲸艺术生活</p>
                                     <p><span class="good-title">献给大卫的猴子</span><span class="price">140400.00</span></p>
                                 </div>
                             </div>
@@ -779,7 +776,7 @@
                             <div class="goodCard">
                                 <div class="goodCard-img"><img src="../images/list/1494561487.png" data-original="/./Upload/Goods/smallImg/2017-05-12/1494561487.png" class="thumb" alt="" style="display: inline;" width="100%"></div>
                                 <div class="goodCard-info">
-                                    <p>搜猎人艺术生活</p>
+                                    <p>鸟布鲸艺术生活</p>
                                     <p><span class="good-title">齐天大圣大战哪吒</span><span class="price">117000.00</span></p>
                                 </div>
                             </div>
@@ -800,7 +797,7 @@
                             <div class="goodCard">
                                 <div class="goodCard-img"><img src="../images/list/1494561457.png" data-original="/./Upload/Goods/smallImg/2017-05-12/1494561457.png" class="thumb" alt="" style="display: inline;" width="100%"></div>
                                 <div class="goodCard-info">
-                                    <p>搜猎人艺术生活</p>
+                                    <p>鸟布鲸艺术生活</p>
                                     <p><span class="good-title">悟空与八戒</span><span class="price">117000.00</span></p>
                                 </div>
                             </div>
@@ -821,7 +818,7 @@
                             <div class="goodCard">
                                 <div class="goodCard-img"><img src="../images/list/1494420416.png" data-original="/./Upload/Goods/smallImg/2017-05-10/1494420416.png" class="thumb" alt="" style="display: inline;" width="100%"></div>
                                 <div class="goodCard-info">
-                                    <p>搜猎人艺术生活</p>
+                                    <p>鸟布鲸艺术生活</p>
                                     <p><span class="good-title">猪八戒在洗澡</span><span class="price">48000.00</span></p>
                                 </div>
                             </div>
@@ -842,7 +839,7 @@
                             <div class="goodCard">
                                 <div class="goodCard-img"><img src="../images/list/1494420358.png" data-original="/./Upload/Goods/smallImg/2017-05-10/1494420358.png" class="thumb" alt="" style="display: inline;" width="100%"></div>
                                 <div class="goodCard-info">
-                                    <p>搜猎人艺术生活</p>
+                                    <p>鸟布鲸艺术生活</p>
                                     <p><span class="good-title">孙悟空与牛魔王</span><span class="price">45000.00</span></p>
                                 </div>
                             </div>
@@ -863,7 +860,7 @@
                             <div class="goodCard">
                                 <div class="goodCard-img"><img src="../images/list/1494420324.png" data-original="/./Upload/Goods/smallImg/2017-05-10/1494420324.png" class="thumb" alt="" style="display: inline;" width="100%"></div>
                                 <div class="goodCard-info">
-                                    <p>搜猎人艺术生活</p>
+                                    <p>鸟布鲸艺术生活</p>
                                     <p><span class="good-title">孙悟空NO.4</span><span class="price">15000.00</span></p>
                                 </div>
                             </div>
@@ -884,7 +881,7 @@
                             <div class="goodCard">
                                 <div class="goodCard-img"><img src="../images/list/1494419810.png" data-original="/./Upload/Goods/smallImg/2017-05-10/1494419810.png" class="thumb" alt="" style="display: inline;" width="100%"></div>
                                 <div class="goodCard-info">
-                                    <p>搜猎人艺术生活</p>
+                                    <p>鸟布鲸艺术生活</p>
                                     <p><span class="good-title">讲故事</span><span class="price">45000.00</span></p>
                                 </div>
                             </div>
@@ -905,7 +902,7 @@
                             <div class="goodCard">
                                 <div class="goodCard-img"><img src="../images/list/1494419554.png" data-original="/./Upload/Goods/smallImg/2017-05-10/1494419554.png" class="thumb" alt="" style="display: inline;" width="100%"></div>
                                 <div class="goodCard-info">
-                                    <p>搜猎人艺术生活</p>
+                                    <p>鸟布鲸艺术生活</p>
                                     <p><span class="good-title">孙悟空NO.12</span><span class="price">60000.00</span></p>
                                 </div>
                             </div>
@@ -926,7 +923,7 @@
                             <div class="goodCard">
                                 <div class="goodCard-img"><img src="../images/list/1494419498.png" data-original="/./Upload/Goods/smallImg/2017-05-10/1494419498.png" class="thumb" alt="" style="display: inline;" width="100%"></div>
                                 <div class="goodCard-info">
-                                    <p>搜猎人艺术生活</p>
+                                    <p>鸟布鲸艺术生活</p>
                                     <p><span class="good-title">美猴王-圣诞版NO.2</span><span class="price">12000.00</span></p>
                                 </div>
                             </div>
@@ -947,7 +944,7 @@
                             <div class="goodCard">
                                 <div class="goodCard-img"><img src="../images/list/1494418697.png" data-original="/./Upload/Goods/smallImg/2017-05-10/1494418697.png" class="thumb" alt="" style="display: inline;" width="100%"></div>
                                 <div class="goodCard-info">
-                                    <p>搜猎人艺术生活</p>
+                                    <p>鸟布鲸艺术生活</p>
                                     <p><span class="good-title">小风景NO.18</span><span class="price">20000.00</span></p>
                                 </div>
                             </div>
@@ -968,7 +965,7 @@
                             <div class="goodCard">
                                 <div class="goodCard-img"><img src="../images/list/1494418628.png" data-original="/./Upload/Goods/smallImg/2017-05-10/1494418628.png" class="thumb" alt="" style="display: inline;" width="100%"></div>
                                 <div class="goodCard-info">
-                                    <p>搜猎人艺术生活</p>
+                                    <p>鸟布鲸艺术生活</p>
                                     <p><span class="good-title">幽香浓 锁春宵</span><span class="price">32000.00</span></p>
                                 </div>
                             </div>
@@ -989,7 +986,7 @@
                             <div class="goodCard">
                                 <div class="goodCard-img"><img src="../images/list/1494418569.png" data-original="/./Upload/Goods/smallImg/2017-05-10/1494418569.png" class="thumb" alt="" style="display: inline;" width="100%"></div>
                                 <div class="goodCard-info">
-                                    <p>搜猎人艺术生活</p>
+                                    <p>鸟布鲸艺术生活</p>
                                     <p><span class="good-title">星</span><span class="price">24000.00</span></p>
                                 </div>
                             </div>
@@ -1010,7 +1007,7 @@
                             <div class="goodCard">
                                 <div class="goodCard-img"><img src="../images/list/1494418494.png" data-original="/./Upload/Goods/smallImg/2017-05-10/1494418494.png" class="thumb" alt="" style="display: inline;" width="100%"></div>
                                 <div class="goodCard-info">
-                                    <p>搜猎人艺术生活</p>
+                                    <p>鸟布鲸艺术生活</p>
                                     <p><span class="good-title">小风景NO.34</span><span class="price">20000.00</span></p>
                                 </div>
                             </div>
@@ -1031,7 +1028,7 @@
                             <div class="goodCard">
                                 <div class="goodCard-img"><img src="../images/list/1494418455.png" data-original="/./Upload/Goods/smallImg/2017-05-10/1494418455.png" class="thumb" alt="" style="display: inline;" width="100%"></div>
                                 <div class="goodCard-info">
-                                    <p>搜猎人艺术生活</p>
+                                    <p>鸟布鲸艺术生活</p>
                                     <p><span class="good-title">风景NO.2</span><span class="price">5000.00</span></p>
                                 </div>
                             </div>
@@ -1052,7 +1049,7 @@
                             <div class="goodCard">
                                 <div class="goodCard-img"><img src="../images/list/1494418395.png" data-original="/./Upload/Goods/smallImg/2017-05-10/1494418395.png" class="thumb" alt="" style="display: inline;" width="100%"></div>
                                 <div class="goodCard-info">
-                                    <p>搜猎人艺术生活</p>
+                                    <p>鸟布鲸艺术生活</p>
                                     <p><span class="good-title">泡泡时代</span><span class="price">25000.00</span></p>
                                 </div>
                             </div>
@@ -1073,7 +1070,7 @@
                             <div class="goodCard">
                                 <div class="goodCard-img"><img src="../images/list/1494418333.png" data-original="/./Upload/Goods/smallImg/2017-05-10/1494418333.png" class="thumb" alt="" style="display: inline;" width="100%"></div>
                                 <div class="goodCard-info">
-                                    <p>搜猎人艺术生活</p>
+                                    <p>鸟布鲸艺术生活</p>
                                     <p><span class="good-title">南瓜与鹦鹉</span><span class="price">6000.00</span></p>
                                 </div>
                             </div>
@@ -1094,7 +1091,7 @@
                             <div class="goodCard">
                                 <div class="goodCard-img"><img src="../images/list/1494418286.png" data-original="/./Upload/Goods/smallImg/2017-05-10/1494418286.png" class="thumb" alt="" style="display: inline;" width="100%"></div>
                                 <div class="goodCard-info">
-                                    <p>搜猎人艺术生活</p>
+                                    <p>鸟布鲸艺术生活</p>
                                     <p><span class="good-title">矗立</span><span class="price">12000.00</span></p>
                                 </div>
                             </div>
@@ -1115,7 +1112,7 @@
                             <div class="goodCard">
                                 <div class="goodCard-img"><img src="../images/list/1494418220.png" data-original="/./Upload/Goods/smallImg/2017-05-10/1494418220.png" class="thumb" alt="" style="display: inline;" width="100%"></div>
                                 <div class="goodCard-info">
-                                    <p>搜猎人艺术生活</p>
+                                    <p>鸟布鲸艺术生活</p>
                                     <p><span class="good-title">昭君出塞</span><span class="price">50000.00</span></p>
                                 </div>
                             </div>
@@ -1136,7 +1133,7 @@
                             <div class="goodCard">
                                 <div class="goodCard-img"><img src="../images/list/1494418097.png" data-original="/./Upload/Goods/smallImg/2017-05-10/1494418097.png" class="thumb" alt="" style="display: inline;" width="100%"></div>
                                 <div class="goodCard-info">
-                                    <p>搜猎人艺术生活</p>
+                                    <p>鸟布鲸艺术生活</p>
                                     <p><span class="good-title">重幕卷影</span><span class="price">36000.00</span></p>
                                 </div>
                             </div>
@@ -1157,7 +1154,7 @@
                             <div class="goodCard">
                                 <div class="goodCard-img"><img src="../images/list/1494409108.png" data-original="/./Upload/Goods/smallImg/2017-05-10/1494409108.png" class="thumb" alt="" style="display: inline;" width="100%"></div>
                                 <div class="goodCard-info">
-                                    <p>搜猎人艺术生活</p>
+                                    <p>鸟布鲸艺术生活</p>
                                     <p><span class="good-title">卢卡斯与马利颜料</span><span class="price">12000.00</span></p>
                                 </div>
                             </div>
@@ -1178,7 +1175,7 @@
                             <div class="goodCard">
                                 <div class="goodCard-img"><img src="../images/list/1494408552.png" data-original="/./Upload/Goods/smallImg/2017-05-10/1494408552.png" class="thumb" alt="" style="display: inline;" width="100%"></div>
                                 <div class="goodCard-info">
-                                    <p>搜猎人艺术生活</p>
+                                    <p>鸟布鲸艺术生活</p>
                                     <p><span class="good-title">祈祷</span><span class="price">36000.00</span></p>
                                 </div>
                             </div>
@@ -1199,7 +1196,7 @@
                             <div class="goodCard">
                                 <div class="goodCard-img"><img src="../images/list/1494408503.png" data-original="/./Upload/Goods/smallImg/2017-05-10/1494408503.png" class="thumb" alt="" style="display: inline;" width="100%"></div>
                                 <div class="goodCard-info">
-                                    <p>搜猎人艺术生活</p>
+                                    <p>鸟布鲸艺术生活</p>
                                     <p><span class="good-title">读书</span><span class="price">18000.00</span></p>
                                 </div>
                             </div>
@@ -1220,7 +1217,7 @@
                             <div class="goodCard">
                                 <div class="goodCard-img"><img src="../images/list/1494408329.png" data-original="/./Upload/Goods/smallImg/2017-05-10/1494408329.png" class="thumb" alt="" style="display: inline;" width="100%"></div>
                                 <div class="goodCard-info">
-                                    <p>搜猎人艺术生活</p>
+                                    <p>鸟布鲸艺术生活</p>
                                     <p><span class="good-title">日记</span><span class="price">23000.00</span></p>
                                 </div>
                             </div>
@@ -1730,7 +1727,7 @@
             <ul>
                 <li><a>把你的激情融入企业</a></li>
                 <li><a class="open" href="http://soulieren.com/index.php/Home/goods/goodsList/uid/211316.html">打开一个商店</a></li>
-                <li><a href="http://soulieren.com/index.php/Home/Index/company.html">在搜猎人出售</a></li>
+                <li><a href="http://soulieren.com/index.php/Home/Index/company.html">在鸟布鲸出售</a></li>
                 <li><a href="http://soulieren.com/index.php/Home/Index/specifications.html">我们的规则</a></li>
                 <!--<li><a href="javascript:return false;">使用条款</a></li>-->
                 <!--<li><a href="javascript:return false;">隐私条款</a></li>-->
