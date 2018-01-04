@@ -20,6 +20,8 @@ Route::get('/art', function () {
 Route::get('/list', function () {
     return view('art/list');
 });
+Route::get('/test', 'Project\RestfulController@buildProject');
+
 
 /*
 |--------------------------------------------------------------------------

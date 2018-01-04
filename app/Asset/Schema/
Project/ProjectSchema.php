@@ -1,10 +1,10 @@
 <?php
 
-namespace Neo\Asset\Schema\Platform;
+namespace Neo\Asset\Schema\Project;
 
-class PlatformSchema {
+class ProjectSchema {
 
-	protected table = 'product';
+	protected $table = 'product';
 
 	public function scopeId($query,$id) {
 		return $query->where('id','=',$id);
