@@ -2,17 +2,32 @@
 namespace Neo\Http\Requests\Project;
 
 use Neo\Asset\Bean\Project\ProjectBean;
-use Request;
+//use Request;
+use Illuminate\Http\Request;
 
 class ProjectRequest {
 	private $bean;
+	private $request;
 
-	function __construct(PlatformBean $bean) {
+	function __construct(ProjectBean $bean,Request $request) {
 		$this->bean = $bean;
+		$this->request = $request;
 	}
 
-	public function toParamsBean(Request $request) {
-		$this->bean->setFile($request->input('file'));
+	public function toParamsBean() {
+		if(!$this->request->hasFile('file')) {
+        	return false;
+    	} 
+    	$file = $this->request->file('file');
+    	if(!$file->isValid()){
+        	return false;
+    	}
+		$this->bean->setFile($file);
+		$this->bean->setName($this->request->input('name'));
+		$this->bean->setPrice($this->request->input('price'));
+		$this->bean->setStyle($this->request->input('style'));
+		$this->bean->setLabel($this->request->input('label'));
+		$this->bean->setContent($this->request->input('content'));
 		return $this->bean;
 	}
 }

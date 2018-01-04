@@ -4,7 +4,7 @@ namespace Neo\Asset\Schema\Project;
 
 class ProjectSchema {
 
-	protected $table = 'product';
+	protected $table = 'project';
 
 	public function scopeId($query,$id) {
 		return $query->where('id','=',$id);

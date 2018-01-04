@@ -1,9 +1,9 @@
 <?php
-namespace Neo\Asset\Interface\ProjectInterface;
+namespace Neo\Asset\Interface\Project;
 
 use Request;
 
-interface UserInterface {
+interface ProjectInterface {
 	/**
 	 * 获取输入的用户账号密码
 	 *
