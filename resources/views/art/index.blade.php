@@ -53,7 +53,7 @@
             <div class="logo"><a href="/list"><img src="../pic/logo.png"></a></div>
             <div class="operation">
                 <span>
-                    <a href="/">鸟布鲸</a>
+                    <a href="/">鸟布鲸上出售</a>
                 </span>                
                 <span><a id="register">注册</a></span>                <span><a class="loginBtn" id="login">登录</a></span>           
                 <span class="car"><a href="http://niao.com"><img src="../pic/shopping@20cart.png"></a></span>
@@ -118,7 +118,7 @@
                         </li>                </ul>
             </li>
             <li>
-                <a class="move" href="javascript:;">学院派&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+                <a class="move" href="javascript:;">学院派&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
                 <ul class="nav-menu">
                     <li>
                             <div class="move">
