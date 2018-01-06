@@ -51,10 +51,10 @@
 <div id="full_navigation">
     <header>
         <div class="header_bar">
-            <div class="logo"><a href="http://niao.com/list"><img src="../pic/logo.png"></a></div>
+            <div class="logo"><a href="/list"><img src="../pic/logo.png"></a></div>
             <div class="operation">
                 <span>
-                    <a href="http://soulieren.com/index.php/Home/Index/company.html">鸟布鲸</a>
+                    <a href="/">鸟布鲸</a>
                 </span>                
                 <span><a id="register">注册</a></span>                <span><a class="loginBtn" id="login">登录</a></span>           
                 <span class="car"><a href="http://niao.com"><img src="../pic/shopping@20cart.png"></a></span>
