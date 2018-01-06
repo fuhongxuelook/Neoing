@@ -459,7 +459,7 @@
             <div class="Search" style="margin-left: 50px;">
                 <form action="/search" method="post">
                     <input name="name" class="Search_text" placeholder="阳光照耀的日子" value="" type="text">
-                    <label> &nbsp;</label>
+                    <label> &nbsp;&nbsp;&nbsp;</label>
                     <input value="Neo" class="Search_submit" type="submit">
                 </form>
             </div>
