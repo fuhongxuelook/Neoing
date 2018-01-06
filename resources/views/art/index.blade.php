@@ -67,8 +67,8 @@
                 <ul class="nav-menu">
                     <li>
                         <div class="move">
-                            <a class="changeA" href="http://soulieren.com/index.php/Home/Goods/allgoodsList/id/6.html">风景</a>
-                            <a href="http://soulieren.com/index.php/Home/Goods/allgoodsList/id/6.html">风景</a>
+                            <a class="changeA" href="http://soulieren.com/index.php/Home/Goods/allgoodsList/id/6.html">写生风景</a>
+                            <a href="http://soulieren.com/index.php/Home/Goods/allgoodsList/id/6.html">写生风景</a>
                             </div>
                     </li><li>
                         <div class="move">
@@ -77,18 +77,18 @@
                         </div>
                     </li><li>
                             <div class="move">
-                                <a class="changeA" href="http://soulieren.com/index.php/Home/Goods/allgoodsList/id/11.html">夜色</a>
-                                <a href="http://soulieren.com/index.php/Home/Goods/allgoodsList/id/11.html">夜色</a>
+                                <a class="changeA" href="http://soulieren.com/index.php/Home/Goods/allgoodsList/id/11.html">山水</a>
+                                <a href="http://soulieren.com/index.php/Home/Goods/allgoodsList/id/11.html">山水</a>
                             </div>
                         </li><li>
                             <div class="move">
-                                <a class="changeA" href="http://soulieren.com/index.php/Home/Goods/allgoodsList/id/12.html">水果</a>
-                                <a href="http://soulieren.com/index.php/Home/Goods/allgoodsList/id/12.html">水果</a>
+                                <a class="changeA" href="http://soulieren.com/index.php/Home/Goods/allgoodsList/id/12.html">生活</a>
+                                <a href="http://soulieren.com/index.php/Home/Goods/allgoodsList/id/12.html">生活</a>
                             </div>
                         </li><li>
                             <div class="move">
-                                <a class="changeA" href="http://soulieren.com/index.php/Home/Goods/allgoodsList/id/13.html">朝鲜画</a>
-                                <a href="http://soulieren.com/index.php/Home/Goods/allgoodsList/id/13.html">朝鲜画</a>
+                                <a class="changeA" href="http://soulieren.com/index.php/Home/Goods/allgoodsList/id/13.html">街景</a>
+                                <a href="http://soulieren.com/index.php/Home/Goods/allgoodsList/id/13.html">街景</a>
                             </div>
                         </li>                </ul>
             </li>
@@ -122,55 +122,88 @@
                 <ul class="nav-menu">
                     <li>
                             <div class="move">
-                                <a class="changeA" href="http://soulieren.com/index.php/Home/Goods/allgoodsList/id/4.html">书</a>
-                                <a href="http://soulieren.com/index.php/Home/Goods/allgoodsList/id/4.html">书</a>
+                                <a class="changeA" href="http://soulieren.com/index.php/Home/Goods/allgoodsList/id/4.html">中央美术学院</a>
+                                <a href="http://soulieren.com/index.php/Home/Goods/allgoodsList/id/4.html">中央美术学院</a>
                             </div>
                         </li><li>
                             <div class="move">
-                                <a class="changeA" href="http://soulieren.com/index.php/Home/Goods/allgoodsList/id/8.html">明信片</a>
-                                <a href="http://soulieren.com/index.php/Home/Goods/allgoodsList/id/8.html">明信片</a>
+                                <a class="changeA" href="http://soulieren.com/index.php/Home/Goods/allgoodsList/id/8.html">中国美术学院</a>
+                                <a href="http://soulieren.com/index.php/Home/Goods/allgoodsList/id/8.html">中国美术学院</a>
                             </div>
                         </li><li>
                             <div class="move">
-                                <a class="changeA" href="http://soulieren.com/index.php/Home/Goods/allgoodsList/id/9.html">雕塑和摆件</a>
-                                <a href="http://soulieren.com/index.php/Home/Goods/allgoodsList/id/9.html">雕塑和摆件</a>
+                                <a class="changeA" href="http://soulieren.com/index.php/Home/Goods/allgoodsList/id/9.html">鲁迅美术学院</a>
+                                <a href="http://soulieren.com/index.php/Home/Goods/allgoodsList/id/9.html">鲁迅美术学院</a>
                             </div>
                         </li><li>
                             <div class="move">
-                                <a class="changeA" href="http://soulieren.com/index.php/Home/Goods/allgoodsList/id/10.html">手账本</a>
-                                <a href="http://soulieren.com/index.php/Home/Goods/allgoodsList/id/10.html">手账本</a>
+                                <a class="changeA" href="http://soulieren.com/index.php/Home/Goods/allgoodsList/id/10.html">四川美术学院</a>
+                                <a href="http://soulieren.com/index.php/Home/Goods/allgoodsList/id/10.html">四川美术学院</a>
                             </div>
                         </li><li>
                             <div class="move">
-                                <a class="changeA" href="http://soulieren.com/index.php/Home/Goods/allgoodsList/id/19.html">家具</a>
-                                <a href="http://soulieren.com/index.php/Home/Goods/allgoodsList/id/19.html">家具</a>
+                                <a class="changeA" href="http://soulieren.com/index.php/Home/Goods/allgoodsList/id/19.html">其他美院</a>
+                                <a href="http://soulieren.com/index.php/Home/Goods/allgoodsList/id/19.html">其他美院</a>
                             </div>
-                        </li><li>
-                            <div class="move">
-                                <a class="changeA" href="http://soulieren.com/index.php/Home/Goods/allgoodsList/id/31.html">抱枕</a>
-                                <a href="http://soulieren.com/index.php/Home/Goods/allgoodsList/id/31.html">抱枕</a>
-                            </div>
-                        </li>                </ul>
+                        </li> </ul>
             </li>
             <li>
                 <a class="move" href="javascript:;">流浪的艺术&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
                 <ul class="nav-menu">
                     <li>
                             <div class="move" style="top: -44px;">
-                                <a class="changeA" href="/art">砚台</a>
-                                <a href="/art">砚台</a>
+                                <a class="changeA" href="/art">北风</a>
+                                <a href="/art">北风</a>
                             </div>
-                        </li>                </ul>
+                        </li> 
+                    <li>
+                            <div class="move" style="top: -44px;">
+                                <a class="changeA" href="/art">南风</a>
+                                <a href="/art">南风</a>
+                            </div>
+                        </li> 
+                    <li>
+                            <div class="move" style="top: -44px;">
+                                <a class="changeA" href="/art">大彩</a>
+                                <a href="/art">大彩</a>
+                            </div>
+                        </li> 
+                    <li>
+                            <div class="move" style="top: -44px;">
+                                <a class="changeA" href="/art">漂</a>
+                                <a href="/art">漂</a>
+                            </div>
+                        </li> 
+                    </ul>
             </li>
             <li>
                 <a class="move" href="javascript:;">异域风采&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
                 <ul class="nav-menu">
                     <li>
                             <div class="move" style="top: -44px;">
-                                <a class="changeA" href="/art">砚台</a>
-                                <a href="/art">砚台</a>
+                                <a class="changeA" href="/art">欧美风情</a>
+                                <a href="/art">欧美风情</a>
                             </div>
-                        </li>                </ul>
+                        </li> 
+                     <li>
+                            <div class="move" style="top: -44px;">
+                                <a class="changeA" href="/art">地中海艺术</a>
+                                <a href="/art">地中海艺术</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="move" style="top: -44px;">
+                                <a class="changeA" href="/art">拉丁美洲</a>
+                                <a href="/art">拉丁美洲</a>
+                            </div>
+                        </li>
+                    <li>
+                            <div class="move" style="top: -44px;">
+                                <a class="changeA" href="/art">龟兹文化</a>
+                                <a href="/art">龟兹文化</a>
+                            </div>
+                        </li>                
+                </ul>
             </li>
            
         </ul>
