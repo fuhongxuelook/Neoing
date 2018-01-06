@@ -46,7 +46,7 @@
 <div id="full_navigation">
     <header>
         <div class="header_bar">
-            <div class="logo"><a href="http://soulieren.com/index.php/Home/Index/index.html"><img src="../images/list/logo.png"></a></div>
+            <div class="logo"><a href="/art"><img src="../images/list/logo.png"></a></div>
             <!--div class="search_bar">
                 <form action="http://soulieren.com/index.php/Home/Search/search" method="post">
                     <input name="name" placeholder="你在寻找什么？" value="" type="text">
@@ -54,7 +54,7 @@
                 </form>
             </div-->
             <div class="operation">
-                <span><a href="http://soulieren.com/index.php/Home/Index/company.html">鸟布鲸上出售</a></span>                <span><a id="register">注册</a></span>                <span><a class="loginBtn" id="login">登录</a></span>                                                <span class="car"><a href="http://soulieren.com/index.php/Home/carts/index.html"><img src="../images/list/shopping@20cart.png"></a></span>
+                <span><a href="/upload/index">鸟布鲸上出售</a></span>                <span><a id="register">注册</a></span>                <span><a class="loginBtn" id="login">登录</a></span>                                                <span class="car"><a href="http://soulieren.com/index.php/Home/carts/index.html"><img src="../images/list/shopping@20cart.png"></a></span>
             </div>
         </div>
     </header>
@@ -140,8 +140,8 @@
                             </div>
                         </li><li>
                             <div class="move">
-                                <a class="changeA" href="http://soulieren.com/index.php/Home/Goods/allgoodsList/id/19.html">其他美院</a>
-                                <a href="http://soulieren.com/index.php/Home/Goods/allgoodsList/id/19.html">其他美院</a>
+                                <a class="changeA" href="http://soulieren.com/index.php/Home/Goods/allgoodsList/id/19.html">其他美院 >></a>
+                                <a href="http://soulieren.com/index.php/Home/Goods/allgoodsList/id/19.html">其他美院 >></a>
                             </div>
                         </li> </ul>
             </li>
@@ -409,7 +409,7 @@
 
     <section class="allGoods">
         <div class="allGoods-hd">
-            <p><span>首页</span><span class="arrow">&gt;</span><span>墙面装饰与收藏</span><span class="arrow">&gt;</span><span>油画</span></p>
+            <p><span>首页</span><span class="arrow">&gt;</span><span>学院派</span><span class="arrow">&gt;</span><span>川美作品</span></p>
         </div>
         <div class="allGoodsList">
             <ul>

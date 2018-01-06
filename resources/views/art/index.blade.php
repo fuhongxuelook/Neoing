@@ -53,7 +53,7 @@
             <div class="logo"><a href="/list"><img src="../pic/logo.png"></a></div>
             <div class="operation">
                 <span>
-                    <a href="/">鸟布鲸上出售</a>
+                    <a href="/upload/index">鸟布鲸上出售</a>
                 </span>                
                 <span><a id="register">注册</a></span>                <span><a class="loginBtn" id="login">登录</a></span>           
                 <span class="car"><a href="http://niao.com"><img src="../pic/shopping@20cart.png"></a></span>
@@ -142,8 +142,8 @@
                             </div>
                         </li><li>
                             <div class="move">
-                                <a class="changeA" href="http://soulieren.com/index.php/Home/Goods/allgoodsList/id/19.html">其他美院</a>
-                                <a href="http://soulieren.com/index.php/Home/Goods/allgoodsList/id/19.html">其他美院</a>
+                                <a class="changeA" href="http://soulieren.com/index.php/Home/Goods/allgoodsList/id/19.html">其他美院 >></a>
+                                <a href="http://soulieren.com/index.php/Home/Goods/allgoodsList/id/19.html">其他美院 >></a>
                             </div>
                         </li> </ul>
             </li>
