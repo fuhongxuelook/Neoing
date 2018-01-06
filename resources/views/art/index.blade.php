@@ -4,10 +4,9 @@
 <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
 
     
-    <meta name="keywords" content="我们的世界">
-    <meta name="description" content="张国栋 一个纯废物">
+    <meta name="keywords" content="鸟布鲸">
+    <meta name="description" content="我们的世界">
     <title>Neo</title>
-    <link rel="shortcut icon" href="../pic/soulieren.ico">
     
     <!--分享-->
     <script src="../pic/push.js"></script><script src="../pic/hm.js"></script><script src="../pic/wb.js" type="text/javascript" charset="utf-8"></script>
@@ -64,7 +63,7 @@
     <div class="nav">
         <ul class="navBar">
             <li class="current-line">
-                <a class="move" href="javascript:;">写生油画</a>
+                <a class="move" href="javascript:;">鸟布鲸&nbsp;&nbsp;&nbsp;&nbsp;</a>
                 <ul class="nav-menu">
                     <li>
                         <div class="move">
@@ -94,7 +93,7 @@
                         </li>                </ul>
             </li>
             <li>
-                <a class="move" href="javascript:;">画师作品</a>
+                <a class="move" href="javascript:;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;画风&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
                 <ul class="nav-menu">
                     <li>
                             <div class="move">
@@ -119,7 +118,7 @@
                         </li>                </ul>
             </li>
             <li>
-                <a class="move" href="javascript:;">流浪画家</a>
+                <a class="move" href="javascript:;">学院派&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
                 <ul class="nav-menu">
                     <li>
                             <div class="move">
@@ -154,18 +153,26 @@
                         </li>                </ul>
             </li>
             <li>
-                <a class="move" href="javascript:;">深爱的</a>
+                <a class="move" href="javascript:;">流浪的艺术&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
                 <ul class="nav-menu">
                     <li>
                             <div class="move" style="top: -44px;">
-                                <a class="changeA" href="http://soulieren.com/index.php/Home/Goods/allgoodsList/id/33.html">砚台</a>
-                                <a href="http://soulieren.com/index.php/Home/Goods/allgoodsList/id/33.html">砚台</a>
+                                <a class="changeA" href="/art">砚台</a>
+                                <a href="/art">砚台</a>
                             </div>
                         </li>                </ul>
             </li>
             <li>
-                <a class="move" href="http://soulieren.com/index.php/Home/Article/articlelist.html">原创故事</a>
+                <a class="move" href="javascript:;">异域风采&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+                <ul class="nav-menu">
+                    <li>
+                            <div class="move" style="top: -44px;">
+                                <a class="changeA" href="/art">砚台</a>
+                                <a href="/art">砚台</a>
+                            </div>
+                        </li>                </ul>
             </li>
+           
         </ul>
     </div>
     <div class="mark_bg"></div>
@@ -258,7 +265,7 @@
             };
             $.ajax({
                 type: "POST",
-                url: "/index.php/Home/customer/login.html",
+                url: "/upload/index",
                 data: user,
                 dataType: 'json',
                 success: function (data) {
@@ -374,36 +381,35 @@
             var sec = now.getSeconds()
             var ad = sec % how_many_ads;
             ad +=1;
-
             if (ad==1){
-                url="/index.php/Home/goods/goodsInfo/gid/102/id/96.html";
+                url="/art";
                 banner="../pic/01.jpg";
                 width="1920";
                 height="360";
-                alr="佛缘 >"
+                alr=""
             }
 
             if (ad==2) {
-                url="/index.php/Home/goods/goodsInfo/gid/264/id/265.html";
+                url="/art";
                 banner="../pic/04.jpg";
                 width="1920";
                 height="360";
-                alr="信封式手拿包 >"
+                alr=""
             }
 
             if (ad==3) {
-                url="/index.php/Home/goods/goodsInfo/gid/29/id/28.html";
+                url="/art";
                 banner="../pic/05.jpg";
                 width="1920";
                 height="360";
-                alr="经典 >"
+                alr=""
             }
 
             if (ad==4) {
-                url="/index.php/Home/goods/goodsInfo/gid/165/id/159.html";
+                url="/art";
                 banner="../pic/03.jpg";
                 width="1920";
-                alr="“触角”手包（浅鳄 蓝色） >";
+                alr="";
                 height="360";
             }
             document.write('<div class="banner">');
@@ -414,14 +420,14 @@
             document.write('</div>');
         </script>
         <div class="sousuo" style="max-width: 1330px; margin: 0px auto;">
-        <div class="ALL ">
+        <div class="ALL">
             <div class="ALL_text">
-                都有你想要的
             </div>
-            <div class="Search">
-                <form action="http://soulieren.com/index.php/Home/Search/search" method="post">
-                    <input name="name" class="Search_text" placeholder="你在寻找什么？" value="" type="text">
-                    <input value="搜索" class="Search_submit" type="submit">
+            <div class="Search" style="margin-left: 50px;">
+                <form action="/search" method="post">
+                    <input name="name" class="Search_text" placeholder="阳光照耀的日子" value="" type="text">
+                    <label> &nbsp;</label>
+                    <input value="Neo" class="Search_submit" type="submit">
                 </form>
             </div>
         </div>
