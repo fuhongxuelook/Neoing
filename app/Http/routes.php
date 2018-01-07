@@ -12,7 +12,7 @@
 */
 
 Route::get('/', function () {
-    return view('welcome',['title' => '鸟布鲸文化']);
+    return view('index',['title' => '鸟布鲸文化','url' => '/art']);
 });
 Route::get('/art', function () {
     return view('art/index');
