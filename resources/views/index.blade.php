@@ -40,7 +40,7 @@
             <div class="content">
                 <div class="title">🐦 {{$title}}</div>
                 <br>
-                <label>Copyright(C) 2018-2038</label>
+                <label>{{$copyright}}</label>
                 <br><br><br>
                  <a href="{{$url}}" class="button button-tiny">Go</a>
             </div>
