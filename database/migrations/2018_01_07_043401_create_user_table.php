@@ -3,7 +3,7 @@
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateUsersTable extends Migration
+class CreateUserTable extends Migration
 {
     /**
      * Run the migrations.
@@ -12,15 +12,17 @@ class CreateUsersTable extends Migration
      */
     public function up()
     {
-        //
-        Schema::create('users', function (Blueprint $table) {
+        Schema::create('user', function (Blueprint $table) {
             $table->increments('id');
+            $table->char('uid',15)->comment('用户ID');
             $table->string('account')->comment('账号');
             $table->string('password')->comment('密码');
-            $table->string('nickname')->comment('网名');
-            $table->int('state')->comment('账号状态');
-            $table->int('auth')->comment('权限');
+            $table->string('tel')->comment('手机');
+            $table->string('mail')->comment('邮箱');
+            $table->integer('state')->comment('账号状态');
+            $table->integer('auth')->comment('权限');
             $table->rememberToken();
+            $table->softDeletes();
             $table->timestamps();
         });
     }
@@ -32,7 +34,6 @@ class CreateUsersTable extends Migration
      */
     public function down()
     {
-        //
-        Schema::drop('users');
+        Schema::drop('user');
     }
 }
