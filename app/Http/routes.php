@@ -12,7 +12,7 @@
 */
 
 Route::get('/', function () {
-    return view('index',['title' => '鸟布鲸文化','url' => '/art']);
+    return view('index',['title' => '鸟布鲸文化','url' => '/art','copyright' => 'Copyright © 2018-2038']);
 });
 Route::get('/art', function () {
     return view('art/index');
