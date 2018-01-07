@@ -38,7 +38,7 @@
     <body>
         <div class="container">
             <div class="content">
-                <div class="title">🐦 鸟布鲸文化</div>
+                <div class="title">🐦 {{$title}}</div>
                 <br>
                 <label>Copyright(C) 2018-2038</label>
                 <br><br><br>
