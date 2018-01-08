@@ -1,8 +1,11 @@
-/vendor
+vendor
 /node_modules
 /public/storage
+bootstrap/cache/
 Homestead.yaml
 Homestead.json
+.env.*.php
+.env.php
 .env
 _dev.php
 test.txt
