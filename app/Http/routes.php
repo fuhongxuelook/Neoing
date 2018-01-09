@@ -14,14 +14,23 @@
 Route::get('/', function () {
     return view('index',['title' => '鸟布鲸文化','url' => '/art','copyright' => 'Copyright © 2018-2038']);
 });
-Route::get('/art', function () {
-    return view('art/index');
+
+Route::group(['prefix' => 'art'],function() {
+	Route::get('/index', function () {
+    	return view('art/index');
+	});
+	Route::get('/list', function () {
+    	return view('art/list');
+	});
 });
-Route::get('/list', function () {
-    return view('art/list');
+
+Route::group(['namespace'=> 'Project'],function() {
+	Route::group(['prefix' => 'upload'],function() {
+		Route::post('/build', 'RestfulController@buildProject');
+		Route::get('/index', 'RestfulController@index');
+	});
 });
-Route::post('/upload/build', 'Project\RestfulController@buildProject');
-Route::get('/upload/index', 'Project\RestfulController@index');
+
 
 
 /*
