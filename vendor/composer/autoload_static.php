@@ -253,7 +253,13 @@ class ComposerStaticInit74b54a19c78c48d17b8e780688bb749d
     );
 
     public static $classMap = array (
+        'CityMapTableSeeder' => __DIR__ . '/../..' . '/database/seeds/CityMapTableSeeder.php',
+        'CityTableSeeder' => __DIR__ . '/../..' . '/database/seeds/CityTableSeeder.php',
+        'CreateCarTable' => __DIR__ . '/../..' . '/database/migrations/2018_01_09_032054_create_car_table.php',
+        'CreateCityMapTable' => __DIR__ . '/../..' . '/database/migrations/2018_01_09_022246_create_city_map_table.php',
+        'CreateCityTable' => __DIR__ . '/../..' . '/database/migrations/2018_01_08_060407_create_city_table.php',
         'CreateJellyTable' => __DIR__ . '/../..' . '/database/migrations/2018_01_07_045127_create_jelly_table.php',
+        'CreateProvinceTable' => __DIR__ . '/../..' . '/database/migrations/2018_01_08_020934_create_province_table.php',
         'CreateUserTable' => __DIR__ . '/../..' . '/database/migrations/2018_01_07_043401_create_user_table.php',
         'DatabaseSeeder' => __DIR__ . '/../..' . '/database/seeds/DatabaseSeeder.php',
         'File_Iterator' => __DIR__ . '/..' . '/phpunit/php-file-iterator/src/Iterator.php',
@@ -723,6 +729,7 @@ class ComposerStaticInit74b54a19c78c48d17b8e780688bb749d
         'PHP_Token_XOR_EQUAL' => __DIR__ . '/..' . '/phpunit/php-token-stream/src/Token.php',
         'PHP_Token_YIELD' => __DIR__ . '/..' . '/phpunit/php-token-stream/src/Token.php',
         'PHP_Token_YIELD_FROM' => __DIR__ . '/..' . '/phpunit/php-token-stream/src/Token.php',
+        'ProvinceTableSeeder' => __DIR__ . '/../..' . '/database/seeds/ProvinceTableSeeder.php',
         'SebastianBergmann\\Comparator\\ArrayComparator' => __DIR__ . '/..' . '/sebastian/comparator/src/ArrayComparator.php',
         'SebastianBergmann\\Comparator\\Comparator' => __DIR__ . '/..' . '/sebastian/comparator/src/Comparator.php',
         'SebastianBergmann\\Comparator\\ComparisonFailure' => __DIR__ . '/..' . '/sebastian/comparator/src/ComparisonFailure.php',

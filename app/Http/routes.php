@@ -12,22 +12,22 @@
 */
 
 Route::get('/', function () {
-    return view('index',['title' => '鸟布鲸文化','url' => '/art','copyright' => 'Copyright © 2018-2038']);
+    return view('index',['title' => '鸟布鲸文化','url' => '/art/index','copyright' => 'Copyright © 2018-2038']);
 });
 
 Route::group(['prefix' => 'art'],function() {
-	Route::get('/index', function () {
-    	return view('art/index');
+	Route::get('index', function () {
+    	return view('art/index',['list' => '/art/list','sale' => '/upload/index']);
 	});
-	Route::get('/list', function () {
-    	return view('art/list');
+	Route::get('list', function () {
+    	return view('art/list',['index' => '/art/list','sale' => '/upload/index']);
 	});
 });
 
 Route::group(['namespace'=> 'Project'],function() {
 	Route::group(['prefix' => 'upload'],function() {
-		Route::post('/build', 'RestfulController@buildProject');
-		Route::get('/index', 'RestfulController@index');
+		Route::post('build', 'RestfulController@buildProject');
+		Route::get('index', 'RestfulController@index');
 	});
 });
 

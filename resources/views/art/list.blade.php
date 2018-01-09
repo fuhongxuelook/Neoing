@@ -46,7 +46,7 @@
 <div id="full_navigation">
     <header>
         <div class="header_bar">
-            <div class="logo"><a href="/art"><img src="../images/list/logo.png"></a></div>
+            <div class="logo"><a href="{{$index}}"><img src="../images/list/logo.png"></a></div>
             <!--div class="search_bar">
                 <form action="http://soulieren.com/index.php/Home/Search/search" method="post">
                     <input name="name" placeholder="你在寻找什么？" value="" type="text">
@@ -54,7 +54,7 @@
                 </form>
             </div-->
             <div class="operation">
-                <span><a href="/upload/index">鸟布鲸上出售</a></span>                <span><a id="register">注册</a></span>                <span><a class="loginBtn" id="login">登录</a></span>                                                <span class="car"><a href="http://soulieren.com/index.php/Home/carts/index.html"><img src="../images/list/shopping@20cart.png"></a></span>
+                <span><a href="{{$sale}}">鸟布鲸上出售</a></span>                <span><a id="register">注册</a></span>                <span><a class="loginBtn" id="login">登录</a></span>                                                <span class="car"><a href="http://soulieren.com/index.php/Home/carts/index.html"><img src="../images/list/shopping@20cart.png"></a></span>
             </div>
         </div>
     </header>
