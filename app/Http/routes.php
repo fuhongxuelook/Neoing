@@ -20,7 +20,10 @@ Route::group(['prefix' => 'art'],function() {
     	return view('art/index',['list' => '/art/list','sale' => '/upload/index']);
 	});
 	Route::get('list', function () {
-    	return view('art/list',['index' => '/art/list','sale' => '/upload/index']);
+    	return view('art/list',['jelly' => '/art/jelly','sale' => '/upload/index']);
+	});
+	Route::get('jelly', function () {
+    	return view('art/jelly',['index' => '/art/index','sale' => '/upload/index']);
 	});
 });
 

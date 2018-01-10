@@ -46,7 +46,7 @@
 <div id="full_navigation">
     <header>
         <div class="header_bar">
-            <div class="logo"><a href="{{$index}}"><img src="../images/list/logo.png"></a></div>
+            <div class="logo"><a href="{{$jelly}}"><img src="../images/list/logo.png"></a></div>
             <!--div class="search_bar">
                 <form action="http://soulieren.com/index.php/Home/Search/search" method="post">
                     <input name="name" placeholder="你在寻找什么？" value="" type="text">
