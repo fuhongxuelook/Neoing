@@ -80,7 +80,7 @@
 
 <header>
         <div class="logo" title="L">
-            <a href="https://www.ywart.com/"><img src="../artNet/img/svg_file" alt="艺网logo"></a>
+            <a href="/"><img src="../artNet/img/svg_file" alt="鸟布鲸logo"></a>
         </div>
 
     <div class="nav">
@@ -289,7 +289,7 @@
         <section id="model2" oncontextmenu="return false" onselectstart="return false" style="overflow: hidden; display: none;"></section>
     </section>
     <nav class="daohang">
-        <a href="https://www.ywart.com/">艺网</a> › <a href="https://www.ywart.com/buy?category=%E6%B2%B9%E7%94%BB">油画</a> › <a href="https://www.ywart.com/artist/1350dd">刘川</a> › <a>角落</a>
+        <a href="/">鸟布鲸</a> › <a href="https://www.ywart.com/buy?category=%E6%B2%B9%E7%94%BB">油画</a> › <a href="https://www.ywart.com/artist/1350dd">刘川</a> › <a>角落</a>
     </nav>
     <section class="workInformation clearfix">
         <div class="workHeader "><span class="spanActive">艺术评析</span><span>艺术品信息</span></div>
@@ -343,7 +343,7 @@
             
 
             <div class="smallRemind">
-                <i class="fa fa-bookmark"></i><span>艺网小贴士</span>
+                <i class="fa fa-bookmark"></i><span>black winds,black words</span>
                 <div class="ywtixings">
                     <div class="ywtixing">
                         <p>绘画作品</p>
@@ -673,64 +673,14 @@
         <div class="BackJoinVIP" style="width:20px;height:20px;padding:10px;cursor:pointer;position:absolute;top:20px;left:25px;font-size:32px;">
             <div style="border-left:2px solid rgb(204, 184, 146);border-top:2px solid rgb(204, 184, 146);-webkit-transform: rotate(-45deg);transform: rotate(-45deg);width:10px;height:10px;"></div>
         </div>
-        <div style="position:absolute;top:131px;left:77px;width:565px;font-size:12px;line-height:1.75;color: rgb(51, 51, 51);">
-            1. 获艺网 <strong>藏艺术</strong> 板块资讯、价格浏览权限<br>
-            2. 立获 <strong>¥588</strong> 代金券， 购买艺术品<strong>终身98折</strong>（特殊作品除外）<br>
-            3. 加入<strong>艺网尊享收藏家群</strong>，获得业内最核心的艺术品信息，推荐最具有投资潜力的艺术品；第一时间获悉所购作品的艺术家最新动态、资讯与作品未来的价格趋向<br>
-            4. 艺网专业的<strong>艺术品收藏顾问</strong>，将会不定期在群中分享艺术与投资收藏的心得，规避盲目购买艺术品投资风险，提供艺术收藏捷径<br>
-        </div>
         <a id="gobuyVIP" href="https://www.ywart.com/shopping/BuyVirtualGoods?id=1" style="text-align:center;position:absolute;top: 77.3%;background-color:rgb(204, 184, 146);left:50%;width:248px;line-height:40px;margin-left:-128px;outline:none;border:0;padding:0;cursor:pointer;color:#fff;font-size: 20px;font-weight: 600; letter-spacing: 0.2px;">
             <span style="position:absolute;left:-12px;top:0;width:0;height:0;border-bottom:20px solid rgba(0,0,0,0);border-top:20px solid rgba(0,0,0,0);border-right:12px solid rgb(204,184,146);"></span>
-            支付 ¥588 立即成为VIP
+            艺术大本营
             <span style="position:absolute;right:-12px;top:0;width:0;height:0;border-bottom:20px solid rgba(0,0,0,0);border-top:20px solid rgba(0,0,0,0);border-left:12px solid rgb(204,184,146);"></span>
         </a>
     </div>
 </section>
 
-<!--
-<script>
- 
-    function ($, common) {
-        $(function () {
-            if ($('.joinVIPcshtml_background').length > 0) {
-                $('.closeJoinVIP').click(function () {
-                    common.returnrefererr('/collect/index');
-                });
-            } else {
-                $('.closeJoinVIP').click(function () {
-                    $('#vipdialog').hide();
-                });
-            }
-            $('.howVipbtn').click(function () {
-                $('#vipbox').hide();
-                $('#howvipbox').show();
-            });
-            $('.BackJoinVIP').click(function () {
-                $('#howvipbox').hide();
-                $('#vipbox').show();
-            });
-            $('#vipcodecheck').click(function () {
-                //请求校验vipcode
-                common.checkVipCode(invitecode.value, function () {
-                    $('#vipbox').css({ 'background-image': 'url(https://cdn.ywart.com/material/view1/collect/vipdone.jpg)' }).html('');
-                    $.post('/SessionWriteable/SyncVipLV');
-                    $(document).click(function () {
-                            common.pass('/collect/index');
-                    });
-                })
-            });
-            $('#invitecode').on('input', function (e) {
-                //输入后按钮变化
-                if (e.target.value == "") {
-                    $('#vipbox').css({ "background-image": "url(https://cdn.ywart.com/material/view1/collect/VIP1.jpg)" });
-                } else {
-                    $('#vipbox').css({ "background-image": "url(https://cdn.ywart.com/material/view1/collect/VIP2.jpg)" });
-                }
-            });
-        });
-    });
-</script>
--->
     <section id="firstAD" class="_hidden" isshow="-1">
     <div>
             <img src="../artNet/img/pc1123ad.png">
