@@ -15,6 +15,11 @@ Route::get('/', function () {
     return view('index',['title' => '鸟布鲸文化','url' => '/art/index','copyright' => 'Copyright © 2018-2038']);
 });
 
+
+Route::get('/ajax', function () {
+    return view('art/ajax');
+});
+
 Route::group(['prefix' => 'art'],function() {
 	Route::get('index', function () {
     	return view('art/index',['list' => '/art/list','sale' => '/upload/index']);
@@ -34,7 +39,26 @@ Route::group(['namespace'=> 'Project'],function() {
 	});
 });
 
+Route::group(['namespace'=> 'Ajax'],function() {
+	Route::group(['prefix' => 'ajax'],function() {
+		Route::post('dealajax', 'RestfulController@dealAjax');
+	});
+});
 
+Route::get('testCsrf',function(){
+    $csrf_field = csrf_field();
+    $html = <<<GET
+        <form method="POST" action="/testCsrf">
+            {$csrf_field}
+            <input type="submit" value="Test"/>
+        </form>
+GET;
+    return $html;
+});
+
+Route::post('testCsrf',function(){
+    return 'Success!';
+});
 
 /*
 |--------------------------------------------------------------------------
