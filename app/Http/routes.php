@@ -12,13 +12,20 @@
 */
 
 Route::get('/', function () {
-    return view('index',['title' => '鸟布鲸文化','url' => '/art/index','copyright' => 'Copyright © 2018-2038']);
+    return view('index',['title' => '鸟布鲸文化','url' => '/home/index','copyright' => 'Copyright © 2018-2038']);
 });
 
 
 Route::get('/ajax', function () {
     return view('art/ajax');
 });
+
+Route::group(['namespace' => 'Home'],function() {
+    Route::group(['prefix' => 'home'],function() {
+        Route::get('index', 'RestfulController@index');
+    });
+});
+
 
 Route::group(['prefix' => 'art'],function() {
 	Route::get('index', function () {
