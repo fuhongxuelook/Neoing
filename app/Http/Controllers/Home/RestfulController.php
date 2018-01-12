@@ -53,6 +53,19 @@ class RestfulController extends Controller{
 			'jump' => '/art/list',
 			'sale' => '/upload/index',
 		);
-    	return view('art/index',compact('category','route'));
+		$content = array(
+			'鸟布鲸' => array(
+				'油画的世界之树',
+				'汇集了世界每个角落里对油画怀抱热爱和真诚的人'
+			),
+			'百家争鸣' => array(
+				'刚进入美术学院的学生,油画领域里专业的画师',
+				'颇有艺术造诣的上班族'
+			),
+			'永葆价值' => array(
+				'购买后的油画,随时都可以原价退回,可放心挑选'
+			),
+		);
+    	return view('art/index',compact('category','route','content'));
 	}
 }

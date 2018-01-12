@@ -70,8 +70,8 @@
                     @foreach($lists as $list)
                     <li>
                         <div class="move">
-                            <a class="changeA" href="http://baidu.com">{{$list}}</a>
-                            <a href="http://baidu.com">{{$list}}</a>
+                            <a class="changeA" href="{{$route['jump']}}">{{$list}}</a>
+                            <a href="{{$route['jump']}}">{{$list}}</a>
                         </div>
                     </li> 
                     @endforeach     
@@ -342,37 +342,41 @@
     <div class="container-fluid ">
         <div class="row ">
             <div class="accordion-body">
+                <br><br>
                 <div class="banner_text">
+                    @foreach($content as $key => $value)
                     <div class=" col-lg-4  col-md-4  col-sm-4 col-xs-4">
-                        <!--<div class="banner_img">-->
-                            <!--<img  src="/PcTpl/Home/Public/images/index/flag-img1.png"/>-->
-                        <!--</div>-->
                         <div class="text_1">
-                            <strong>期待你的爱</strong>
+                            <strong>{{$key}}</strong>
+                            <p>{{ $value[0] or '' }}</p>
+                            <p>{{ $value[1] or '' }}</p>
+                            <p>{{ $value[2] or '' }}</p>
+                            <p>{{ $value[3] or '' }}</p>
+                        </div>
+                    </div>
+                    @endforeach 
+                    > 
+                    <!--div class=" col-lg-4  col-md-4  col-sm-4 col-xs-4">
+                        <div class="text_1">
+                            <strong>niao</strong>
                             <p>汇集原创属性的产品，总有你满意的</p>
                         </div>
                     </div>
                     <div class="col-lg-4  col-md-4  col-sm-4 col-xs-4">
-                        <!--<div class="banner_img">-->
-                            <!--<img  src="/PcTpl/Home/Public/images/index/flag-img2.png"/>-->
-                        <!--</div>-->
                         <div class="text_1">
                             <strong>匠人匠心，为你而生</strong>
                             <p>原创者、艺术家、设计师、独立品牌汇聚于此，喝杯茶，进来聊一聊</p>
                         </div>
                     </div>
                     <div class="col-lg-4  col-md-4  col-sm-4 col-xs-4">
-                        <!--<div class="banner_img">-->
-                            <!--<img  src="/PcTpl/Home/Public/images/index/flag-img3.png"/>-->
-                        <!--</div>-->
                         <div class="text_1">
                             <strong>购买安全、可靠</strong>
                             <p>鸟布鲸保护每一笔交易，购物体验安心便捷</p><br>
                         </div>
-                    </div>
+                    </div-->
                 </div>
                 <div class="Title">
-                    <p>类别</p>
+                    <p>&nbsp;&nbsp;</p>
                 </div>
                 <div class="list">
                     <div class="cool-lg-5 " style="padding: 0px 10px;">
@@ -437,7 +441,7 @@
                     </div>
                 </div>
                 <div class="Title">
-                    <p>独家限量产品</p>
+                    <p>&nbsp;</p>
                 </div>
                 <div class="list">
                     <div class="col-lg-6  col-md-6  col-sm-6 col-xs-6" style="padding: 0px 10px;">
@@ -469,11 +473,9 @@
                                 </a>
                             </div>
                         </div>                </div>
-                <div class="good_a">
-                    <a href="http://soulieren.com/index.php/Home/Goods/allgoodsList/all/all.html">查看更多&gt;<span></span></a>
-                </div>
+                
                 <div class="Title">
-                    <p>平台推荐</p>
+                    <p>&nbsp;</p>
                 </div>
                 <div class="list">
                     <div class="col-lg-3  col-md-3  col-sm-4 col-xs-4" style="padding: 0px 10px;">
@@ -524,7 +526,14 @@
                                     </div>
                                 </a>
                             </div>
-                        </div>                </div>
+                        </div>               
+                    </div>
+                    <div class="Title">
+                        <p>&nbsp;</p>
+                    </div>
+                    <div class="good_a">
+                    <a href="http://soulieren.com/index.php/Home/Goods/allgoodsList/all/all.html">查看更多&gt;<span></span></a>
+                </div>
             </div>
             <div class="accordion-body_a">
                 <div class="accordion-body">
