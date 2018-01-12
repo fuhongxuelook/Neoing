@@ -356,7 +356,7 @@
                     </div>
                     @endforeach 
                 </div>
-                @foreach($lists as $list)
+                @foreach($recommend as $list)
                 <div class="Title">
                     <p>&nbsp;</p>
                 </div>
@@ -412,43 +412,24 @@
             </div>
             <div class="accordion-body">
                 <div class="Title">
-                    <p>轻触，发现新世界</p>
+                    <p>最新作品</p>
                 </div>
                 <div class="list" style="display: -webkit-box;">
+                    @foreach($newWork as $list) 
                     <div class="col-lg-4  col-md-4  col-sm-4 col-xs-4" style="padding: 0px 10px;">
                             <div class="block-grid-item">
-                                <a href="http://soulieren.com/index.php/Home/goods/goodsList/uid/212625.html">
+                                <a href="{{$list['href']}}">
                                     <div class="list_img">
-                                        <img src="../pic/h5129210609812175915aa6a1bc7a.png">
+                                        <img src="{{$list['src']}}">
                                     </div>
                                     <div class="box-info">
-                                        <p class="goods-name">陳建周</p>
+                                        <p class="goods-name">{{$list['name']}}</p>
                                     </div>
                                 </a>
                             </div>
-                        </div><div class="col-lg-4  col-md-4  col-sm-4 col-xs-4" style="padding: 0px 10px;">
-                            <div class="block-grid-item">
-                                <a href="http://soulieren.com/index.php/Home/goods/goodsList/uid/212624.html">
-                                    <div class="list_img">
-                                        <img src="../pic/h5129207088328705915aa46d7a56.png">
-                                    </div>
-                                    <div class="box-info">
-                                        <p class="goods-name">PEINTTERIV</p>
-                                    </div>
-                                </a>
-                            </div>
-                        </div><div class="col-lg-4  col-md-4  col-sm-4 col-xs-4" style="padding: 0px 10px;">
-                            <div class="block-grid-item">
-                                <a href="http://soulieren.com/index.php/Home/goods/goodsList/uid/212813.html">
-                                    <div class="list_img">
-                                        <img src="../pic/h5129202995327155915aa1de8bba.png">
-                                    </div>
-                                    <div class="box-info">
-                                        <p class="goods-name">卷卷品牌店</p>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>                </div>
+                        </div>
+                    @endforeach               
+                </div>
             </div>
             <div class="good_a">
                 <a href="http://soulieren.com/index.php/Home/shop/shopList.html">查看更多&gt;<span></span></a>
@@ -468,21 +449,24 @@
             </div>
             <div class="accordion-body">
                 <div class="Title">
-                    <p>精彩视频</p>
+                    <p>优秀画师</p>
                 </div>
                 <div class="list">
+                    @foreach($artist as $list)
                     <div class="col-lg-4  col-md-4  col-sm-4 col-xs-4" style="padding: 0px 10px;">
                             <div class="block-grid-item">
-                                <a href="http://v.qq.com/x/page/w0337x8r52z.html" target="_top">
+                                <a href="{{$list['href']}}" target="_top">
                                     <div class="list_img">
-                                        <img src="../pic/h5129162874834335915a88cba85e.jpg">
+                                        <img src="{{$list['src']}}">
                                     </div>
                                     <div class="box-info">
-                                        <p class="goods-name">王华祥</p>
+                                        <p class="goods-name">{{$list['name']}}</p>
                                     </div>
                                 </a>
                             </div>
-                        </div><div class="col-lg-4  col-md-4  col-sm-4 col-xs-4" style="padding: 0px 10px;">
+                        </div>
+                        @endforeach
+                        <!--div class="col-lg-4  col-md-4  col-sm-4 col-xs-4" style="padding: 0px 10px;">
                             <div class="block-grid-item">
                                 <a href="http://v.qq.com/x/page/q0338m4g8bh.html" target="_top">
                                     <div class="list_img">
@@ -493,7 +477,8 @@
                                     </div>
                                 </a>
                             </div>
-                        </div><div class="col-lg-4  col-md-4  col-sm-4 col-xs-4" style="padding: 0px 10px;">
+                        </div>
+                        <div class="col-lg-4  col-md-4  col-sm-4 col-xs-4" style="padding: 0px 10px;">
                             <div class="block-grid-item">
                                 <a href="http://v.qq.com/x/page/l0337ijxabg.html" target="_top">
                                     <div class="list_img">
@@ -504,7 +489,8 @@
                                     </div>
                                 </a>
                             </div>
-                        </div>                </div>
+                        </div-->                
+                </div>
             </div>
             <div class="accordion-body_a" style="margin: 60px 0px; height: 236px !important;">
                 <div class="accordion-body">
