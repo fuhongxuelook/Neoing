@@ -466,30 +466,6 @@
                             </div>
                         </div>
                         @endforeach
-                        <!--div class="col-lg-4  col-md-4  col-sm-4 col-xs-4" style="padding: 0px 10px;">
-                            <div class="block-grid-item">
-                                <a href="http://v.qq.com/x/page/q0338m4g8bh.html" target="_top">
-                                    <div class="list_img">
-                                        <img src="../pic/h5129159567864555915a86ba5af4.jpg">
-                                    </div>
-                                    <div class="box-info">
-                                        <p class="goods-name">王唐糖</p>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-lg-4  col-md-4  col-sm-4 col-xs-4" style="padding: 0px 10px;">
-                            <div class="block-grid-item">
-                                <a href="http://v.qq.com/x/page/l0337ijxabg.html" target="_top">
-                                    <div class="list_img">
-                                        <img src="../pic/h5129153398612775915a82e006f6.jpg">
-                                    </div>
-                                    <div class="box-info">
-                                        <p class="goods-name">王子娇</p>
-                                    </div>
-                                </a>
-                            </div>
-                        </div-->                
                 </div>
             </div>
             <div class="accordion-body_a" style="margin: 60px 0px; height: 236px !important;">

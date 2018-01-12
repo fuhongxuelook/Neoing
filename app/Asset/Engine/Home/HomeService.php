@@ -190,7 +190,7 @@ class HomeService  {
 
     public function route() {
         $route = array(
-            'jump' => '/art/list',
+            'jump' => '/module/index',
             'sale' => '/upload/index',
         );
         return $route;
