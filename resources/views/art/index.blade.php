@@ -62,16 +62,16 @@
     </header>
     <div class="nav">
         <ul class="navBar">
-           @foreach ($category as $cate => $lists) 
+           @foreach ($category as $cates => $cate) 
            <li>
-                {{$cate}}
-                <a class="move" href="javascript:;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{$cate}}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+                {{$cates}}
+                <a class="move" href="javascript:;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{$cates}}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
                 <ul class="nav-menu">
-                    @foreach($lists as $list)
+                    @foreach($cate as $ca)
                     <li>
                         <div class="move">
-                            <a class="changeA" href="{{$route['jump']}}">{{$list}}</a>
-                            <a href="{{$route['jump']}}">{{$list}}</a>
+                            <a class="changeA" href="{{$route['jump']}}">{{$ca}}</a>
+                            <a href="{{$route['jump']}}">{{$ca}}</a>
                         </div>
                     </li> 
                     @endforeach     
@@ -355,184 +355,33 @@
                         </div>
                     </div>
                     @endforeach 
-                    > 
-                    <!--div class=" col-lg-4  col-md-4  col-sm-4 col-xs-4">
-                        <div class="text_1">
-                            <strong>niao</strong>
-                            <p>汇集原创属性的产品，总有你满意的</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-4  col-md-4  col-sm-4 col-xs-4">
-                        <div class="text_1">
-                            <strong>匠人匠心，为你而生</strong>
-                            <p>原创者、艺术家、设计师、独立品牌汇聚于此，喝杯茶，进来聊一聊</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-4  col-md-4  col-sm-4 col-xs-4">
-                        <div class="text_1">
-                            <strong>购买安全、可靠</strong>
-                            <p>鸟布鲸保护每一笔交易，购物体验安心便捷</p><br>
-                        </div>
-                    </div-->
                 </div>
-                <div class="Title">
-                    <p>&nbsp;&nbsp;</p>
-                </div>
-                <div class="list">
-                    <div class="cool-lg-5 " style="padding: 0px 10px;">
-                        <div class="block-grid-item">
-                            <a href="http://soulieren.com/index.php/Home/Goods/allgoodsList/pid/1.html">
-                                <div class="list_img">
-                                    <img src="../pic/nav_img2.jpg">
-                                </div>
-                                <div class="box-info">
-                                    <p class="goods-name">墙面装饰与收藏</p>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="cool-lg-5 " style="padding: 0px 10px;">
-                        <div class="block-grid-item">
-                            <a href="http://soulieren.com/index.php/Home/Goods/allgoodsList/pid/2.html">
-                                <div class="list_img">
-                                    <img src="../pic/nav_img1.jpg">
-                                </div>
-                                <div class="box-info">
-                                    <p class="goods-name">服装和配饰</p>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="cool-lg-5 " style="padding: 0px 10px;">
-                        <div class="block-grid-item">
-                            <a href="http://soulieren.com/index.php/Home/Goods/allgoodsList/pid/3.html">
-                                <div class="list_img">
-                                    <img src="../pic/nav_img3.jpg">
-                                </div>
-                                <div class="box-info">
-                                    <p class="goods-name">家庭和生活</p>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="cool-lg-5 " style="padding: 0px 10px;">
-                        <div class="block-grid-item">
-                            <a href="http://soulieren.com/index.php/Home/Goods/allgoodsList/pid/32.html">
-                                <div class="list_img">
-                                    <img src="../pic/nav_img4.jpg">
-                                </div>
-                                <div class="box-info">
-                                    <p class="goods-name">文房用品</p>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="cool-lg-5 " style="padding: 0px 10px;">
-                        <div class="block-grid-item">
-                            <a href="http://soulieren.com/index.php/Home/Article/ArticleList.html">
-                                <div class="list_img">
-                                    <img src="../pic/nav_img5.jpg">
-                                </div>
-                                <div class="box-info">
-                                    <p class="goods-name">原创故事</p>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                </div>
+                @foreach($lists as $list)
                 <div class="Title">
                     <p>&nbsp;</p>
                 </div>
-                <div class="list">
-                    <div class="col-lg-6  col-md-6  col-sm-6 col-xs-6" style="padding: 0px 10px;">
-                            <div class="block-grid-item">
-                                <a href="http://soulieren.com/index.php/Home/goods/goodsInfo/gid/179/id/173.html" style="width: 100%;">
-                                    <div class="col-lg-6  col-md-6  col-sm-6 col-xs-6" style="padding: 0px;">
-                                        <img src="../pic/1494407417.png" width="100%">
-                                    </div>
-                                    <div class="col-lg-6  col-md-6  col-sm-6 col-xs-6">
-                                        <div class="good">
-                                            <p class="goods-name">朝鲜画</p>
-                                            <p>绽放之十四</p>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                        </div><div class="col-lg-6  col-md-6  col-sm-6 col-xs-6" style="padding: 0px 10px;">
-                            <div class="block-grid-item">
-                                <a href="http://soulieren.com/index.php/Home/goods/goodsInfo/gid/166/id/160.html" style="width: 100%;">
-                                    <div class="col-lg-6  col-md-6  col-sm-6 col-xs-6" style="padding: 0px;">
-                                        <img src="../pic/1494408126.png" width="100%">
-                                    </div>
-                                    <div class="col-lg-6  col-md-6  col-sm-6 col-xs-6">
-                                        <div class="good">
-                                            <p class="goods-name">版画</p>
-                                            <p>白桦林</p>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>                </div>
-                
-                <div class="Title">
-                    <p>&nbsp;</p>
-                </div>
+                @foreach($list as $li) 
                 <div class="list">
                     <div class="col-lg-3  col-md-3  col-sm-4 col-xs-4" style="padding: 0px 10px;">
-                            <div class="block-grid-item">
-                                <a href="http://soulieren.com/index.php/Home/goods/goodsInfo/gid/270/id/272.html">
+                        <div class="block-grid-item">
+                            <a href="{{$li['href']}}">
                                     <div class="list_img">
-                                        <img src="../pic/5915a69d6ef54.png">
+                                        <img src="{{$li['src']}}">
                                     </div>
                                     <div class="box-info">
-                                        <p class="goods-name">卷卷公主坐姿公仔</p>
-                                        <p><span class="business">卷卷</span><span class="price">39.00</span></p>
+                                        <p class="goods-name">{{$li['name']}}</p>
+                                        <p><span class="business">{{$li['author']}}</span><span class="price">{{$li['price']}}</span></p>
                                     </div>
                                 </a>
                             </div>
-                        </div><div class="col-lg-3  col-md-3  col-sm-4 col-xs-4" style="padding: 0px 10px;">
-                            <div class="block-grid-item">
-                                <a href="http://soulieren.com/index.php/Home/goods/goodsInfo/gid/260/id/261.html">
-                                    <div class="list_img">
-                                        <img src="../pic/5915a6c3a8c78.png">
-                                    </div>
-                                    <div class="box-info">
-                                        <p class="goods-name">D型竹柄手拎小包</p>
-                                        <p><span class="business">mimeme谜因手工皮具</span><span class="price">980.00</span></p>
-                                    </div>
-                                </a>
-                            </div>
-                        </div><div class="col-lg-3  col-md-3  col-sm-4 col-xs-4" style="padding: 0px 10px;">
-                            <div class="block-grid-item">
-                                <a href="http://soulieren.com/index.php/Home/goods/goodsInfo/gid/21/id/20.html">
-                                    <div class="list_img">
-                                        <img src="../pic/5915a6e5efd44.png">
-                                    </div>
-                                    <div class="box-info">
-                                        <p class="goods-name">小胖看世界</p>
-                                        <p><span class="business">果冻</span><span class="price">1800.00</span></p>
-                                    </div>
-                                </a>
-                            </div>
-                        </div><div class="col-lg-3  col-md-3  col-sm-4 col-xs-4" style="padding: 0px 10px;">
-                            <div class="block-grid-item">
-                                <a href="http://soulieren.com/index.php/Home/goods/goodsInfo/gid/47/id/46.html">
-                                    <div class="list_img">
-                                        <img src="../pic/5915a6fd6ec32.png">
-                                    </div>
-                                    <div class="box-info">
-                                        <p class="goods-name">西游记去哪儿</p>
-                                        <p><span class="business">果冻</span><span class="price">1590.00</span></p>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>               
-                    </div>
-                    <div class="Title">
+                        </div> 
+                @endforeach
+                @endforeach
+                <div class="Title">
                         <p>&nbsp;</p>
                     </div>
                     <div class="good_a">
-                    <a href="http://soulieren.com/index.php/Home/Goods/allgoodsList/all/all.html">查看更多&gt;<span></span></a>
+                    <a href="{{$route['jump']}}">More&gt;<span></span></a>
                 </div>
             </div>
             <div class="accordion-body_a">
