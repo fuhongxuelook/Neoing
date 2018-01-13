@@ -52,7 +52,7 @@ class IndexService  {
     public function lists() {
         $lists = array(
             array(
-                'href' => '/art/jelly',
+                'href' => '/market/jelly',
                 'src' => '../images/list/1494421129.png',
                 'dataOriginal' => '/./Upload/Goods/smallImg/2017-05-10/1494421129.png',
                 'name' => '西游系列',
@@ -60,7 +60,7 @@ class IndexService  {
                 'price' => '39.00',
             ),
             array(
-                'href' => '/art/jelly',
+                'href' => '/market/jelly',
                 'src' => '../images/list/1494421159.png',
                 'dataOriginal' => '/./Upload/Goods/smallImg/2017-05-10/1494421159.png',
                 'name' => '西游系列',
@@ -68,7 +68,7 @@ class IndexService  {
                 'price' => '39.00',
             ),
             array(
-                'href' => '/art/jelly',
+                'href' => '/market/jelly',
                 'src' => '../images/list/1494420933.png',
                 'dataOriginal' => '/./Upload/Goods/smallImg/2017-05-10/1494420933.png',
                 'name' => '西游系列',
@@ -76,7 +76,7 @@ class IndexService  {
                 'price' => '39.00',
             ),
             array(
-                'href' => '/art/jelly',
+                'href' => '/market/jelly',
                 'src' => '../images/list/1494420910.png',
                 'dataOriginal' => '/./Upload/Goods/smallImg/2017-05-10/1494420910.png',
                 'name' => '西游系列',
@@ -84,7 +84,7 @@ class IndexService  {
                 'price' => '39.00',
             ),
             array(
-                'href' => '/art/jelly',
+                'href' => '/market/jelly',
                 'src' => '../images/list/1494420889.png',
                 'dataOriginal' => '/./Upload/Goods/smallImg/2017-05-10/1494420889.png',
                 'name' => '西游系列',
@@ -97,7 +97,7 @@ class IndexService  {
 
     public function route() {
         $route = array(
-            'jump' => '/art/jelly',
+            'jump' => '/market/jelly',
             'sale' => '/upload/index',
         );
         return $route;

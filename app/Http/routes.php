@@ -32,10 +32,10 @@ Route::group(['namespace' => 'Module'],function() {
     });
 });
 
-Route::group(['prefix' => 'art'],function() {
-	Route::get('jelly', function () {
-    	return view('art/jelly',['index' => '/art/index','sale' => '/upload/index']);
-	});
+Route::group(['namespace' => 'Jelly'],function() {
+    Route::group(['prefix' => 'market'],function() {
+        Route::get('jelly', 'RestfulController@index');
+    });
 });
 
 Route::group(['namespace'=> 'Project'],function() {
