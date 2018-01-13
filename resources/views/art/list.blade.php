@@ -62,7 +62,6 @@
         <ul class="navBar">
             @foreach ($category as $cates => $cate) 
             <li>
-                {{$cates}}
                 <a class="move" href="javascript:;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{$cates}}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
                 <ul class="nav-menu">
                     @foreach($cate as $ca)
