@@ -77,52 +77,23 @@
                 height="0" width="0" style="display:none;visibility:hidden"&gt;&lt;/iframe&gt;
     </noscript>
 <link href="../artNet/css/Header.min.css" rel="stylesheet">
+<div class="nav">
+<br>
+<br>
+<br>     
 
-<header>
-        <div class="logo" title="L">
-            <a href="/"><img src="../artNet/img/svg_file" alt="鸟布鲸logo"></a>
-        </div>
-
-    <div class="nav">
-        <a href="https://www.ywart.com/buy" class="">
-            原创艺术
-        </a>
-            <a href="https://www.ywart.com/makeart" class="">
-                造艺
-            </a>
-            <a href="https://www.ywart.com/collect/index" class="">
-                藏艺术
-            </a>
-            <a href="https://www.ywart.com/user/userwishlist" class="">
-                我的珍藏
-            </a>
-
-        <div class="search">
-            <a href="javascript:void(0);">
-                <img src="../artNet/img/svg_file(1)" class="active souicon">
-                <img src="../artNet/img/svg_file(2)" class="close">
-            </a>
-        </div>
-    </div>
-    <div class="member">
-            <div class="login_prev">
-                <a href="https://www.ywart.com/login">
-                    <b>登录 / 注册</b>
-                </a>
-            </div>
-    </div>
-    <div class="searchBox">
-        <input placeholder="搜索艺术家或艺术品">
-    </div>
-</header>    
+</div>
 
 <section id="detail_index" class="clearfix">
     <section id="container" style="height: 741px; background-image: url(&quot;/content/image/WallPaper/wall_bg.jpg&quot;);">
+        <nav class="daohang">
+            <a href="/">鸟布鲸</a> › <a href="https://www.ywart.com/buy?category=%E6%B2%B9%E7%94%BB">油画</a> › <a href="https://www.ywart.com/artist/1350dd">刘川</a> › <a>角落</a>
+        </nav>
         <section class="msgowl abs100">
             <section class="works abs100 owl-carousel" style="display: block;"><div class="work" biaoshifu="1">
                     <section class="abs100 model1">
                         <div class="staff widthLine" style="width: 735px; display: none;"><div></div><div></div><span>2.4m</span></div>
-                        <div class="staff heightLine" style="display: none;"><div></div><div></div><span>2.0m</span></div>
+                        <div class="staff heightLine" style="display: none;"><div></div><span>2.0m</span></div>
                         <div class="staff imgLine imgWidthLine" style="display: none; margin-left: -185px; margin-top: -187px; transition: width 1s; width: 370px;"><div></div><div></div><span>1.20m</span></div>
                         <div class="staff imgLine imgHeightLine" style="display: none; margin-left: -218px; margin-top: -154px; transition: height 1s; height: 308px;"><div></div><div></div><span>1.00m</span></div>
                         <div class="imgScale">
@@ -131,10 +102,6 @@
                     </section>
                 </div></section>
             <section class="goodsInfo">
-                <div class="detailBox">
-                    <span class="buyInfoBtn"></span>
-                    <span class="artInfoBtn"></span>
-                </div>
                 
                 <div class="buyInfo" style="display: none;">
                     <p class="pirce clearfix">
@@ -179,14 +146,6 @@
                             <div class="paddingstylebox">
                             </div>
                         </div>
-                    </div>
-                    <div class="buyBtn">
-                                <p>如有装裱需求，请联系客服。</p>
-                            <p class="pinfo"><span class="span1">运费：</span><span class="ExpressAmount">¥260</span></p>
-                                                    <div>
-                                <a href="javascript:void(0);" class="cart">加入购物车</a>
-                                <a href="javascript:void(0);" class="buy">立即购买</a>
-                            </div>
                     </div>
                     <div class="buyagainbox _hidden">
                         <section class="BAnologin">
@@ -243,53 +202,19 @@
                     </div>
                 </div>
             </section>
-
-
-            <section class="share">
-                    <div class="sharebtns">
-                        <div id="sharejs" class=" share-component social-share"><a class="social-share-icon icon-weibo" href="http://service.weibo.com/share/share.php?url=https%3A%2F%2Fwww.ywart.com%2Fartworks%2F1qvw7d&amp;title=%E8%A7%92%E8%90%BD_%E5%88%98%E5%B7%9D_%E6%B2%B9%E7%94%BB-%E8%89%BA%E7%BD%91%7C%E4%B8%8A%E8%89%BA%E7%BD%91%2C%E8%B4%AD%E8%89%BA%E6%9C%AF%E3%80%82%E3%80%8A%E8%A7%92%E8%90%BD%E3%80%8B%E7%94%B1%E4%B8%AD%E5%9B%BD%E8%89%BA%E6%9C%AF%E5%AE%B6%E5%88%98%E5%B7%9D%E7%B2%BE%E5%BF%83%E5%88%9B%E4%BD%9C%EF%BC%8C%E5%B1%9E%E4%BA%8E%E5%B8%83%E9%9D%A2%E4%B8%99%E7%83%AF%E6%B2%B9%E7%94%BB%E4%BD%9C%E5%93%81%EF%BC%8C%E9%80%82%E5%90%88%E6%94%BE%E7%BD%AE%E4%BA%8E%E5%95%86%E4%B8%9A%E7%A9%BA%E9%97%B4%EF%BC%8C%E4%BD%8F%E5%AE%85%EF%BC%8C%E7%BB%86%E8%85%BB%E7%9A%84%E3%80%81%E7%9C%8B%E4%BC%BC%E6%B2%A1%E6%9C%89%E7%A7%A9%E5%BA%8F%E7%9A%84%E7%AC%94%E8%A7%A6%E5%9C%A8%E7%94%BB%E5%B8%83%E4%B8%8A%E5%91%88%E7%8E%B0%E7%9D%80%E7%8E%B0%E5%AE%9E%E6%99%AF%E8%B1%A1%E7%9A%84%E5%8F%A6%E4%B8%80%E7%A7%8D%E8%A7%82%E7%9C%8B%E6%96%B9%E5%BC%8F%EF%BC%8C%E5%AE%83%E4%BB%AC%E5%A6%82%E8%A2%AB%E8%92%99%E4%B8%8A%E4%B8%80%E5%B1%82%E4%B8%8D%E6%96%AD%E5%8F%98%E5%8C%96%E7%9A%84%E6%83%85%E7%BB%AA%EF%BC%8C%E9%9D%99%E6%AD%A2%E7%9A%84%E4%BA%8B%E7%89%A9%E4%BE%BF%E5%83%8F%E8%A2%AB%E8%B5%8B%E4%BA%88%E7%94%9F%E5%91%BD%E4%B8%80%E8%88%AC%EF%BC%8C%E5%9C%A8%E7%83%AD%E9%97%B9%E8%80%8C%E5%AE%89%E9%9D%99%E7%9A%84%E8%A7%92%E8%90%BD%EF%BC%8C%E8%B7%B3%E8%B7%83%E7%9D%80%E8%87%AA%E5%B7%B1%E7%9A%84%E8%84%9A%E6%AD%A5%E3%80%82&amp;pic=https%3A%2F%2Fcdn.ywart.com%2Fyw%2F20171106132355226c63d5096.jpg%40300h_300w_0e_1l.src&amp;appkey=" target="_blank"></a><a class="social-share-icon icon-qzone" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=https%3A%2F%2Fwww.ywart.com%2Fartworks%2F1qvw7d&amp;title=%E8%A7%92%E8%90%BD_%E5%88%98%E5%B7%9D_%E6%B2%B9%E7%94%BB-%E8%89%BA%E7%BD%91%7C%E4%B8%8A%E8%89%BA%E7%BD%91%2C%E8%B4%AD%E8%89%BA%E6%9C%AF&amp;desc=%E3%80%8A%E8%A7%92%E8%90%BD%E3%80%8B%E7%94%B1%E4%B8%AD%E5%9B%BD%E8%89%BA%E6%9C%AF%E5%AE%B6%E5%88%98%E5%B7%9D%E7%B2%BE%E5%BF%83%E5%88%9B%E4%BD%9C%EF%BC%8C%E5%B1%9E%E4%BA%8E%E5%B8%83%E9%9D%A2%E4%B8%99%E7%83%AF%E6%B2%B9%E7%94%BB%E4%BD%9C%E5%93%81%EF%BC%8C%E9%80%82%E5%90%88%E6%94%BE%E7%BD%AE%E4%BA%8E%E5%95%86%E4%B8%9A%E7%A9%BA%E9%97%B4%EF%BC%8C%E4%BD%8F%E5%AE%85%EF%BC%8C%E7%BB%86%E8%85%BB%E7%9A%84%E3%80%81%E7%9C%8B%E4%BC%BC%E6%B2%A1%E6%9C%89%E7%A7%A9%E5%BA%8F%E7%9A%84%E7%AC%94%E8%A7%A6%E5%9C%A8%E7%94%BB%E5%B8%83%E4%B8%8A%E5%91%88%E7%8E%B0%E7%9D%80%E7%8E%B0%E5%AE%9E%E6%99%AF%E8%B1%A1%E7%9A%84%E5%8F%A6%E4%B8%80%E7%A7%8D%E8%A7%82%E7%9C%8B%E6%96%B9%E5%BC%8F%EF%BC%8C%E5%AE%83%E4%BB%AC%E5%A6%82%E8%A2%AB%E8%92%99%E4%B8%8A%E4%B8%80%E5%B1%82%E4%B8%8D%E6%96%AD%E5%8F%98%E5%8C%96%E7%9A%84%E6%83%85%E7%BB%AA%EF%BC%8C%E9%9D%99%E6%AD%A2%E7%9A%84%E4%BA%8B%E7%89%A9%E4%BE%BF%E5%83%8F%E8%A2%AB%E8%B5%8B%E4%BA%88%E7%94%9F%E5%91%BD%E4%B8%80%E8%88%AC%EF%BC%8C%E5%9C%A8%E7%83%AD%E9%97%B9%E8%80%8C%E5%AE%89%E9%9D%99%E7%9A%84%E8%A7%92%E8%90%BD%EF%BC%8C%E8%B7%B3%E8%B7%83%E7%9D%80%E8%87%AA%E5%B7%B1%E7%9A%84%E8%84%9A%E6%AD%A5%E3%80%82&amp;summary=%E3%80%8A%E8%A7%92%E8%90%BD%E3%80%8B%E7%94%B1%E4%B8%AD%E5%9B%BD%E8%89%BA%E6%9C%AF%E5%AE%B6%E5%88%98%E5%B7%9D%E7%B2%BE%E5%BF%83%E5%88%9B%E4%BD%9C%EF%BC%8C%E5%B1%9E%E4%BA%8E%E5%B8%83%E9%9D%A2%E4%B8%99%E7%83%AF%E6%B2%B9%E7%94%BB%E4%BD%9C%E5%93%81%EF%BC%8C%E9%80%82%E5%90%88%E6%94%BE%E7%BD%AE%E4%BA%8E%E5%95%86%E4%B8%9A%E7%A9%BA%E9%97%B4%EF%BC%8C%E4%BD%8F%E5%AE%85%EF%BC%8C%E7%BB%86%E8%85%BB%E7%9A%84%E3%80%81%E7%9C%8B%E4%BC%BC%E6%B2%A1%E6%9C%89%E7%A7%A9%E5%BA%8F%E7%9A%84%E7%AC%94%E8%A7%A6%E5%9C%A8%E7%94%BB%E5%B8%83%E4%B8%8A%E5%91%88%E7%8E%B0%E7%9D%80%E7%8E%B0%E5%AE%9E%E6%99%AF%E8%B1%A1%E7%9A%84%E5%8F%A6%E4%B8%80%E7%A7%8D%E8%A7%82%E7%9C%8B%E6%96%B9%E5%BC%8F%EF%BC%8C%E5%AE%83%E4%BB%AC%E5%A6%82%E8%A2%AB%E8%92%99%E4%B8%8A%E4%B8%80%E5%B1%82%E4%B8%8D%E6%96%AD%E5%8F%98%E5%8C%96%E7%9A%84%E6%83%85%E7%BB%AA%EF%BC%8C%E9%9D%99%E6%AD%A2%E7%9A%84%E4%BA%8B%E7%89%A9%E4%BE%BF%E5%83%8F%E8%A2%AB%E8%B5%8B%E4%BA%88%E7%94%9F%E5%91%BD%E4%B8%80%E8%88%AC%EF%BC%8C%E5%9C%A8%E7%83%AD%E9%97%B9%E8%80%8C%E5%AE%89%E9%9D%99%E7%9A%84%E8%A7%92%E8%90%BD%EF%BC%8C%E8%B7%B3%E8%B7%83%E7%9D%80%E8%87%AA%E5%B7%B1%E7%9A%84%E8%84%9A%E6%AD%A5%E3%80%82&amp;site=%E8%A7%92%E8%90%BD_%E5%88%98%E5%B7%9D_%E6%B2%B9%E7%94%BB-%E8%89%BA%E7%BD%91%7C%E4%B8%8A%E8%89%BA%E7%BD%91%2C%E8%B4%AD%E8%89%BA%E6%9C%AF&amp;pics=https%3A%2F%2Fcdn.ywart.com%2Fyw%2F20171106132355226c63d5096.jpg%40300h_300w_0e_1l.src" target="_blank"></a><a class="social-share-icon icon-qq" href="http://connect.qq.com/widget/shareqq/index.html?url=https%3A%2F%2Fwww.ywart.com%2Fartworks%2F1qvw7d&amp;title=%E8%A7%92%E8%90%BD_%E5%88%98%E5%B7%9D_%E6%B2%B9%E7%94%BB-%E8%89%BA%E7%BD%91%7C%E4%B8%8A%E8%89%BA%E7%BD%91%2C%E8%B4%AD%E8%89%BA%E6%9C%AF&amp;source=%E8%A7%92%E8%90%BD_%E5%88%98%E5%B7%9D_%E6%B2%B9%E7%94%BB-%E8%89%BA%E7%BD%91%7C%E4%B8%8A%E8%89%BA%E7%BD%91%2C%E8%B4%AD%E8%89%BA%E6%9C%AF&amp;desc=%E3%80%8A%E8%A7%92%E8%90%BD%E3%80%8B%E7%94%B1%E4%B8%AD%E5%9B%BD%E8%89%BA%E6%9C%AF%E5%AE%B6%E5%88%98%E5%B7%9D%E7%B2%BE%E5%BF%83%E5%88%9B%E4%BD%9C%EF%BC%8C%E5%B1%9E%E4%BA%8E%E5%B8%83%E9%9D%A2%E4%B8%99%E7%83%AF%E6%B2%B9%E7%94%BB%E4%BD%9C%E5%93%81%EF%BC%8C%E9%80%82%E5%90%88%E6%94%BE%E7%BD%AE%E4%BA%8E%E5%95%86%E4%B8%9A%E7%A9%BA%E9%97%B4%EF%BC%8C%E4%BD%8F%E5%AE%85%EF%BC%8C%E7%BB%86%E8%85%BB%E7%9A%84%E3%80%81%E7%9C%8B%E4%BC%BC%E6%B2%A1%E6%9C%89%E7%A7%A9%E5%BA%8F%E7%9A%84%E7%AC%94%E8%A7%A6%E5%9C%A8%E7%94%BB%E5%B8%83%E4%B8%8A%E5%91%88%E7%8E%B0%E7%9D%80%E7%8E%B0%E5%AE%9E%E6%99%AF%E8%B1%A1%E7%9A%84%E5%8F%A6%E4%B8%80%E7%A7%8D%E8%A7%82%E7%9C%8B%E6%96%B9%E5%BC%8F%EF%BC%8C%E5%AE%83%E4%BB%AC%E5%A6%82%E8%A2%AB%E8%92%99%E4%B8%8A%E4%B8%80%E5%B1%82%E4%B8%8D%E6%96%AD%E5%8F%98%E5%8C%96%E7%9A%84%E6%83%85%E7%BB%AA%EF%BC%8C%E9%9D%99%E6%AD%A2%E7%9A%84%E4%BA%8B%E7%89%A9%E4%BE%BF%E5%83%8F%E8%A2%AB%E8%B5%8B%E4%BA%88%E7%94%9F%E5%91%BD%E4%B8%80%E8%88%AC%EF%BC%8C%E5%9C%A8%E7%83%AD%E9%97%B9%E8%80%8C%E5%AE%89%E9%9D%99%E7%9A%84%E8%A7%92%E8%90%BD%EF%BC%8C%E8%B7%B3%E8%B7%83%E7%9D%80%E8%87%AA%E5%B7%B1%E7%9A%84%E8%84%9A%E6%AD%A5%E3%80%82&amp;pics=https%3A%2F%2Fcdn.ywart.com%2Fyw%2F20171106132355226c63d5096.jpg%40300h_300w_0e_1l.src" target="_blank"></a><a class="social-share-icon icon-wechat" href="javascript:"><div class="wechat-qrcode"><h4>微信扫一扫：分享</h4><div class="qrcode" title="https://www.ywart.com/artworks/1qvw7d"><canvas width="100" height="100" style="display: none;"></canvas><img alt="Scan me!" src="data:image/png;base64,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" style="display: block;"></div><div class="help"><p>微信里点“发现”，扫一下</p><p>二维码便可将本文分享至朋友圈。</p></div></div></a></div>
-                        <a class="sharebtn" v=""></a>
-                    </div>
-                <a href="javascript:void(0);" class="like" v="">
-                    <div class="active" alt="like"></div>
-                </a>
-            </section>
-
             <img class="scroll_top" src="../artNet/img/scrolldown.gif" style="position: absolute; width: 46px; bottom: 20px; left: 50%; margin-left: -23px; opacity: 0.5; display: none;">
         </section>
         <section id="lifescenes" class="abs100">
             <img draggable="false" class="work" src="../artNet/img/20171106132355226c63d5096.jpg@800h_800w_0e_1l.src">
             <div class="ls_chooseframe _hidden">
                 <div class="morebtn">画框装裱</div>
-                <div class="choosebox" style="height: 85px;">
-                    <div class="framestylebox">
-                        <div class="upmorebtn _hidden"><p></p></div>
-                        <div class="downmorebtn _hidden"><p></p></div>
-                        <div class="framestylebox2">
-                            <span class="framestyle active">无框</span>
-                        </div>
-                    </div>
-                    <div class="paddingstylebox">
-                    </div>
                 </div>
             </div>
-            <div class="morescenes">
-                <div class="morebtn">更多场景</div>
-                <div class="owl-carouselbox">
-                    <div class="img">
-                        <img draggable="false" class="Interior" src="https://www.ywart.com/artworks/1qvw7d">
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section id="topbtns" class="abs100 _hidden" style="display: block; background: rgba(255, 255, 255, 0.2);">
-            <div id="msg" class="active topbtn t_c">美术馆</div>
-            <div id="shcj" class="topbtn t_c">生活场景</div>
         </section>
         <section id="model2" oncontextmenu="return false" onselectstart="return false" style="overflow: hidden; display: none;"></section>
     </section>
     <nav class="daohang">
-        <a href="/">鸟布鲸</a> › <a href="https://www.ywart.com/buy?category=%E6%B2%B9%E7%94%BB">油画</a> › <a href="https://www.ywart.com/artist/1350dd">刘川</a> › <a>角落</a>
+        <a href="https://www.ywart.com/artist/1350dd">刘川</a> › <a>角落</a>
     </nav>
     <section class="workInformation clearfix">
         <div class="workHeader "><span class="spanActive">艺术评析</span><span>艺术品信息</span></div>
@@ -425,9 +350,6 @@
     </section>
 
     <div style="height:1px; width:98%;background: #eeeeee;margin:0 auto"></div>
-    <section id="commentsection" class="comment clearfix"><div class="commentheader"><p id="pinglun">评论</p> <textarea id="comment" name="comment" placeholder="请畅所欲言...（最多500个字符）"></textarea> <button id="commentbtn" class="fabiao">发　表</button></div>  <!----></section>
-
-
     <section class="detail_bottom clearfix">
         <section class="arterOther clearfix">
             <div class="arter">
@@ -687,28 +609,4 @@
             <button class="getcoupe pc"><img src="../artNet/img/adclose.png"></button>
             <div class="getcoupe pc"></div>
     </div>
-</section>
-    <script type="text/javascript">
-        (function (m, ei, q, i, a, j, s) {
-            m[i] = m[i] || function () {
-                (m[i].a = m[i].a || []).push(arguments)
-            };
-            j = ei.createElement(q),
-                s = ei.getElementsByTagName(q)[0];
-            j.async = true;
-            j.charset = 'UTF-8';
-            j.src = 'https://static.meiqia.com/dist/meiqia.js?_=t';
-            s.parentNode.insertBefore(j, s);
-        })(window, document, 'script', '_MEIQIA');
-        _MEIQIA('entId', 24012);
-        _MEIQIA('allSet', function () {
-            document.getElementById("MEIQIA-BTN-TEXT").innerHTML = "联系客服"
-        });
-    </script>
-
-<script>
-    ga('send', 'pageview');
-</script>
-
-
-<div id="MEIQIA-PANEL-HOLDER"><iframe id="MEIQIA-IFRAME" src="../artNet/img/desktop-fiesta.html" frameborder="0" scrolling="no" allowtransparency="true"></iframe> </div><div id="MEIQIA-BTN-HOLDER" style="display: block;"><div id="MEIQIA-BTN"> <span id="MEIQIA-BTN-ICON" class="MEIQIA-ICON MEIQIA-ICON-CHAT1"></span> <span id="MEIQIA-BTN-LINE"></span> <span id="MEIQIA-BTN-TEXT">联系客服</span> <span id="MEIQIA-CIRCLE"></span> <div id="MEIQIA-BUBBLE"> <span id="MEIQIA-BUBBLE-ARROW1"></span> <span id="MEIQIA-BUBBLE-ARROW2"></span> <span id="MEIQIA-BUBBLE-CLOSE" class="MEIQIA-ICON"></span> <div id="MEIQIA-BUBBLE-INSIDE"> <img id="MEIQIA-BUBBLE-AVATAR"> <span id="MEIQIA-BUBBLE-NAME"></span> <div id="MEIQIA-BUBBLE-MSG"></div> </div> </div> </div></div><div id="MEIQIA-INVITE"><span id="MEIQIA-INVITE-CLOSE" class="MEIQIA-ICON"></span> <div id="MEIQIA-INVITE-INSIDE">您好，当前有专业客服人员在线，让我们来帮助您吧。</div> <span id="MEIQIA-INVITE-ARROW1"></span> <span id="MEIQIA-INVITE-ARROW2"></span></div><script src="../artNet/js/clue-api.min.js" type="text/javascript"></script><script src="../artNet/img/getbid"></script></body></html>
+</body></html>
