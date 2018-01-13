@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<!-- saved from url=(0037)https://www.ywart.com/artworks/1qvw7d -->
 <html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <title>鸟布鲸</title>
     
@@ -97,87 +96,11 @@
                         <div class="staff imgLine imgWidthLine" style="display: none; margin-left: -185px; margin-top: -187px; transition: width 1s; width: 370px;"><div></div><div></div><span>1.20m</span></div>
                         <div class="staff imgLine imgHeightLine" style="display: none; margin-left: -218px; margin-top: -154px; transition: height 1s; height: 308px;"><div></div><div></div><span>1.00m</span></div>
                         <div class="imgScale">
-                            <img src="../artNet/img/20171106132355226c63d5096.jpg@800h_800w_0e_1l.src" alt="角落" oncontextmenu="return false" onselectstart="return false" style="height: 308px; width: 370px;">
+                            <img src="../artNet/img/20171106132355226c63d5096.jpg@800h_800w_0e_1l.src" alt="角落" oncontextmenu="return false" onselectstart="return false" style="height: 408px; width: 670px;">
                         </div>
                     </section>
                 </div></section>
             <section class="goodsInfo">
-                
-                <div class="buyInfo" style="display: none;">
-                    <p class="pirce clearfix">
-                                <span class="discount_price" style="vertical-align:middle;font-size:20px;">
-                                    ¥26,932.50
-                                    <span class="_price delete" style="vertical-align:text-bottom;font-size:13px;line-height:20px;font-weight:normal;color:#999">¥28,350</span>
-                                </span>
-                                                    <span class="nosell">
-                                未售
-                            </span>
-                        <span class="DealTime _hidden"></span>
-                    </p>
-                        <div class="mz">
-                            <p class="mz_text">
-                                <a href="https://www.ywart.com/topic/Xmas2017">
-                                    <span><img src="../artNet/img/2017122213400432568440362.png" alt=""></span> <i>双节来袭，艺术必买爆款限时抢购！</i>
-                                </a>
-                            </p>
-                        </div>
-                    <div class="classify">
-                        <ul>
-                                <li class="yuanchuang">
-                                    <img src="../artNet/img/svg_file(3)" alt=""> 原创
-                                </li>
-                                                            <li class="zhuangbiao">
-                                    <img src="../artNet/img/svg_file(3)" alt=""> 无装裱
-                                </li>
-                                                            <li>
-                                    <img src="../artNet/img/svg_file(3)" alt=""> 艺术家签名
-                                </li>
-                        </ul>
-                    </div>
-                        <div id="tabindex" class="_hidden">
-                            <span show="chooseframe" style="display:none">画框装裱</span>
-                        </div>
-                                        <div id="chooseframe" class="_hidden">
-                        <div class="stylebox">
-                            <div class="frametip _hidden" style="color:red;font-size:14px;height:20px;line-height:20px;">请先选择画框装裱样式</div>
-                            <div class="framestylebox clearfix">
-                                <span class="framestyle active">无框</span>
-                            </div>
-                            <div class="paddingstylebox">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="buyagainbox _hidden">
-                        <section class="BAnologin">
-                            <p class="timing">距离出价截止时间还有<span></span></p>
-                            <a href="javascript:void(0);" class="buyagainbtn">出价</a>
-                            <div class="buyagaininfo">
-                                作品已经出售，如果你有意购买该作品，<br>
-                                我们将帮您联系该作品的藏家。<a href="https://www.ywart.com/artworks/1qvw7d" target="_blank">了解更多</a>
-                            </div>
-                        </section>
-                        <section class="BAlogined _hidden">
-                            <p class="timing">距离出价截止时间还有<span></span></p>
-                            <p class="noBA">还没有人出价</p>
-                            <p class="hasBA _hidden">
-                                <span class="BAhistorybtn">已有次出价</span><br>
-                                最高价：¥<span class="newprice"></span>
-                            </p>
-                            <div class="inputandbtn">
-                                <input type="number" placeholder=""><a href="javascript:void(0);" class="buyagainbtn">出价</a>
-                                <div class="tip"></div>
-                            </div>
-                            <div class="BAhistorynew _hidden">
-                                您已于2016-09-23 12:30:23 出价<br>
-                                ¥250,000
-                            </div>
-                            <div class="buyagaininfo">
-                                作品已经出售，如果你有意购买该作品，<br>
-                                我们将帮您联系该作品的藏家。<a href="https://pages.ywart.com/aboutbid" target="_blank">了解更多</a>
-                            </div>
-                        </section>
-                    </div>
-                </div>
                 <div class="detail">
                     <div class="baseInfo">
                         <p class="name">
@@ -217,7 +140,7 @@
         <a href="https://www.ywart.com/artist/1350dd">刘川</a> › <a>角落</a>
     </nav>
     <section class="workInformation clearfix">
-        <div class="workHeader "><span class="spanActive">艺术评析</span><span>艺术品信息</span></div>
+        <div class="workHeader "><span class="spanActive">艺术评析</span></div>
         <div class="workDes" style="display: block;">
             <span class="yinhao yinhaoleft">“</span>
             <span class="yinhao yinhaoright">”</span>
@@ -246,107 +169,6 @@
                         <p>艺术家签名、创作日期。</p>
                     </div>
                 </div>
-        </div>
-        <div class="workInf clearfix" style="display: none">
-            <ul class="productsInformation">
-                <li><span>作品名称:</span><h1>角落</h1></li>
-                <li><span>作品类型:</span>油画</li>
-                <li><span>艺 术 家:<span class="justify_fix"></span></span>刘川</li>
-                <li><span>风  格:</span>具象表现</li>
-                <li><span>材  质:</span>布面丙烯</li>
-                <li><span>题  材:</span>风景</li>
-                <li>
-                    <span>尺  寸:</span>
-                    <ul class="SizeDes">
-                        <li>120x100cm</li>
-                    </ul>
-                </li>
-                    <li><span>摆放空间:</span>商业空间，住宅</li>
-                <li><span>创作时间:</span>2017</li>
-            </ul>
-            
-            
-
-            <div class="smallRemind">
-                <i class="fa fa-bookmark"></i><span>black winds,black words</span>
-                <div class="ywtixings">
-                    <div class="ywtixing">
-                        <p>绘画作品</p>
-                        <div>
-                            <h3>存放</h3>
-                            <ul>
-                                <li>
-                                    <p>放置画作的理想环境为室温14℃-18℃，相对湿度50%-60%；</p>
-                                </li>
-                                <li>
-                                    <p>避光、防潮请避免阳光长期直射画面，保持画作放置处的空气流通，并远离厨卫等湿气较重的地方，避免灰尘、油烟损害画作；</p>
-                                </li>
-                                <li>
-                                    <p>防风请勿在空调口、暖气扇旁放置画作，避免风力过大造成画作受损；</p>
-                                </li>
-                                <li>
-                                    <p>防损请勿过于频繁地搬动画作，并避免任何腐蚀性材料（如化学药剂、清洁剂等）接触画面；观赏画作时，请尽量避免肢体与画作的直接接触。</p>
-                                </li>
-                            </ul>
-                            <h3>清洁与保养</h3>
-                            <h4>油画</h4>
-                            <ul>
-                                <li>
-                                    <p>请使用干净、柔软的材料（擦布或黑貂豪笔）轻轻擦拭画上的灰尘；避免清洁剂、海绵或吸尘器接触画面；</p>
-                                </li>
-                                <li>
-                                    <p>若受潮，请先用净布吸去水渍，再进行阴干，切忌暴晒；</p>
-                                </li>
-                                <li>
-                                    <p>切勿将两张油画对贴放置，一旦画面粘连，会导致油彩脱坏。</p>
-                                </li>
-                            </ul>
-                            <h4>中国画</h4>
-                            <ul>
-                                <li>
-                                    <p>请使用软质毛刷（如拂尘、羽毛掸子）清除灰尘，勿使用布类，并保证动作轻柔，避免损伤画纸；</p>
-                                </li>
-                                <li>
-                                    <p>若受潮，请用干布或纸巾吸水，再进行阴干，切忌暴晒；</p>
-                                </li>
-                            </ul>
-                            <h4>版画</h4>
-                            <ul>
-                                <li>
-                                    <p>未装裱的版画，请平铺放于干燥处或卷入画筒内；若多张叠放，请在画作之间用软质白纸进行分隔；</p>
-                                </li>
-                                <li>
-                                    <p>已装裱的版画，定期用擦布或纸巾清洁画框即可。</p>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="ywtixing">
-                        <p>雕塑作品</p>
-                        <div class="单个小贴士内容，将来是markdown生成的html">
-                            <h3>存放</h3>
-                            <ul>
-                                <li>
-                                    <p>放置雕塑品的理想温度为18℃-24℃，相对湿度为40%-50%。请勿将作品放于过高或过低的温度和湿度下，易引起作品变形损坏；</p>
-                                </li>
-                                <li>
-                                    <p>防损请将雕塑品放于平稳处，避免碰撞、叠压作品造成物理损伤。</p>
-                                </li>
-                            </ul>
-                            <h3>清洁与保养</h3>
-                            <ul>
-                                <li>
-                                    <p>请用柔软的干布或软毛刷清洁雕塑品表面，切勿用湿布或化学试剂擦拭作品，避免作品受到腐蚀；</p>
-                                </li>
-                                <li>
-                                    <p>接触作品时，请尽量保持动作轻柔，避免损害作品。</p>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
     </section>
 
     <div style="height:1px; width:98%;background: #eeeeee;margin:0 auto"></div>
