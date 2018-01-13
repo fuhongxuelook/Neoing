@@ -78,25 +78,22 @@
 <link href="../artNet/css/Header.min.css" rel="stylesheet">
 <div class="nav">
 <br>
-<br>
-<br>     
-
 </div>
 
 <section id="detail_index" class="clearfix">
     <section id="container" style="height: 741px; background-image: url(&quot;/content/image/WallPaper/wall_bg.jpg&quot;);">
         <nav class="daohang">
-            <a href="/">鸟布鲸</a> › <a href="https://www.ywart.com/buy?category=%E6%B2%B9%E7%94%BB">油画</a> › <a href="https://www.ywart.com/artist/1350dd">刘川</a> › <a>角落</a>
+            <a href="{{$header[0]['url']}}">{{$header[0]['name']}}</a> › <a href="{{$header[0]['url']}}">{{$header[1]['name']}}</a> › <a href="{{$header[1]['url']}}">{{$header[2]['name']}}</a> › <a>{{$header[3]['name']}}</a>
         </nav>
         <section class="msgowl abs100">
             <section class="works abs100 owl-carousel" style="display: block;"><div class="work" biaoshifu="1">
                     <section class="abs100 model1">
-                        <div class="staff widthLine" style="width: 735px; display: none;"><div></div><div></div><span>2.4m</span></div>
+                        <div class="staff widthLine" style="width: 635px; display: none;"><div></div><div></div><span>2.4m</span></div>
                         <div class="staff heightLine" style="display: none;"><div></div><span>2.0m</span></div>
                         <div class="staff imgLine imgWidthLine" style="display: none; margin-left: -185px; margin-top: -187px; transition: width 1s; width: 370px;"><div></div><div></div><span>1.20m</span></div>
                         <div class="staff imgLine imgHeightLine" style="display: none; margin-left: -218px; margin-top: -154px; transition: height 1s; height: 308px;"><div></div><div></div><span>1.00m</span></div>
                         <div class="imgScale">
-                            <img src="../artNet/img/20171106132355226c63d5096.jpg@800h_800w_0e_1l.src" alt="角落" oncontextmenu="return false" onselectstart="return false" style="height: 408px; width: 670px;">
+                            <img src="{{$jelly['src']}}" alt="{{$jelly['name']}}" oncontextmenu="return false" onselectstart="return false" style="height: 408px; width: 670px;">
                         </div>
                     </section>
                 </div></section>
