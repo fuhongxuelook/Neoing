@@ -12,13 +12,13 @@
     <link rel="shortcut icon" href="soulieren.ico">
     
 
-<link media="all" href="../css/index.css" type="text/css" rel="stylesheet">
+<link media="all" href="{{asset('css/index.css')}}" type="text/css" rel="stylesheet">
 </head>
-<body><iframe style="position: fixed; display: none; opacity: 0;" src="../ext/index_1.html" frameborder="0"></iframe><div class="jiathis_style" style="position: absolute; z-index: 1000000000; display: none; top: 50%; left: 50%; overflow: auto;"></div><div class="jiathis_style" style="position: absolute; z-index: 1000000000; display: none; overflow: auto;"></div><iframe style="display: none;" src="../ext/index_2.html" frameborder="0"></iframe>
+<body><iframe style="position: fixed; display: none; opacity: 0;" src="{{asset('ext/index_1.html')}}" frameborder="0"></iframe><div class="jiathis_style" style="position: absolute; z-index: 1000000000; display: none; top: 50%; left: 50%; overflow: auto;"></div><div class="jiathis_style" style="position: absolute; z-index: 1000000000; display: none; overflow: auto;"></div><iframe style="display: none;" src="{{asset('ext/index_2.html')}}" frameborder="0"></iframe>
         
-    <script src="../js/push.js"></script><script src="../js/hm.js"></script><script src="../js/jquery-1.7.2.js"></script>
-    <script type="text/javascript" src="../js/reg.js"></script>
-    <script type="text/javascript" src="../js/lgandrg.js"></script>
+    <script src="{{asset('js/push.js')}}"></script><script src="{{asset('js/hm.js')}}"></script><script src="{{asset('js/jquery-1.7.2.js')}}"></script>
+    <script type="text/javascript" src="{{asset('js/reg.js')}}"></script>
+    <script type="text/javascript" src="{{asset('js/lgandrg.js')}}"></script>
     
     <script>
         var _hmt = _hmt || [];
@@ -46,7 +46,7 @@
 <div id="full_navigation">
     <header>
         <div class="header_bar">
-            <div class="logo"><a href="{{$route['jump']}}"><img src="../images/list/logo.png"></a></div>
+            <div class="logo"><a href="{{$route['jump']}}"><img src="{{asset('images/list/logo.png')}}"></a></div>
             <!--div class="search_bar">
                 <form action="http://soulieren.com/index.php/Home/Search/search" method="post">
                     <input name="name" placeholder="你在寻找什么？" value="" type="text">
@@ -54,7 +54,7 @@
                 </form>
             </div-->
             <div class="operation">
-                <span><a href="{{$route['sale']}}">鸟布鲸上出售</a></span>                <span><a id="register">注册</a></span>                <span><a class="loginBtn" id="login">登录</a></span>                                                <span class="car"><a href="http://soulieren.com/index.php/Home/carts/index.html"><img src="../images/list/shopping@20cart.png"></a></span>
+                <span><a href="{{$route['sale']}}">鸟布鲸上出售</a></span>                <span><a id="register">注册</a></span>                <span><a class="loginBtn" id="login">登录</a></span>                                                <span class="car"><a href="http://soulieren.com/index.php/Home/carts/index.html"><img src="{{asset('images/list/shopping@20cart.png')}}"></a></span>
             </div>
         </div>
     </header>
@@ -95,7 +95,7 @@
                         <p>验证码</p>
                         <input id="randCode" name="randCode" maxlength="4" placeholder="图片验证码" value="" type="text">
                         <div class="kd">
-                            <img src="../ext/createcode" id="kd" onclick="this.src='/index.php/Home/Mobile/createCode/id/'+Math.random()">
+                            <img src="{{asset('ext/createcode')}}" id="kd" onclick="this.src='/index.php/Home/Mobile/createCode/id/'+Math.random()">
                         </div>
                         <span class="randCode_span"></span>
                         <p>手机验证码</p>
@@ -277,7 +277,7 @@
         });
     </script>
 
-    <img src="../images/list/benner.jpg" width="100%">
+    <img src="{{asset('images/list/benner.jpg')}}" width="100%">
 
     <section class="allGoods">
         <div class="allGoods-hd">
@@ -293,7 +293,7 @@
                 <li>
                         <a href="{{$list['href']}}">
                             <div class="goodCard">
-                                <div class="goodCard-img"><img src="{{$list['src']}}" data-original="{{$list['dataOriginal']}}" class="thumb" alt="" style="display: inline;" width="100%"></div>
+                                <div class="goodCard-img"><img src="{{asset($list['src'])}}"  class="thumb" alt="" style="display: inline;" width="100%"></div>
                                 <div class="goodCard-info">
                                     <p>{{$list['name']}}</p>
                                     <p><span class="good-title">{{$list['author']}}</span><span class="price">{{$list['price']}}</span></p>
@@ -374,10 +374,10 @@
             hideMore: false
         }
     </script>
-    <script type="text/javascript" src="../js/jia.js" charset="utf-8"></script><script type="text/javascript" src="../js/plugin.client.js" charset="utf-8"></script>
+    <script type="text/javascript" src="{{asset('js/jia.js')}}" charset="utf-8"></script><script type="text/javascript" src="{{asset('js/plugin.client.js')}}" charset="utf-8"></script>
 
 
-    <script src="../js/jquery.lazyload.js"></script>
+    <script src="{{asset('js/jquery.lazyload.js')}}"></script>
     <script>
         $(function () {
             $("img").lazyload({

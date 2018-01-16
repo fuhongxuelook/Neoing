@@ -27,9 +27,7 @@ Route::group(['namespace' => 'Home'],function() {
 });
 
 Route::group(['namespace' => 'Module'],function() {
-    Route::group(['prefix' => 'module'],function() {
-        Route::get('index/{category}/{module}',['as' => 'index','uses'=> 'RestfulController@index']);
-    });
+    Route::get('module/{category}/{module}',['as' => 'index','uses'=> 'RestfulController@index']);
 });
 
 Route::group(['namespace' => 'Jelly'],function() {

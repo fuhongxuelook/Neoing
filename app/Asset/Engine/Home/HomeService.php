@@ -72,28 +72,28 @@ class HomeService  {
             array(
                 array(
                     'href' => '/market/jelly',
-                    'src' => '../pic/5915a69d6ef54.png',
+                    'src' => 'pic/5915a69d6ef54.png',
                     'name' => '卷卷公主坐姿公仔',
                     'author' => '卷卷',
                     'price' => '39.00',
                 ),
                 array(
                     'href' => '/market/jelly',
-                    'src' => '../pic/5915a6c3a8c78.png',
+                    'src' => 'pic/5915a6c3a8c78.png',
                     'name' => 'D型竹柄手拎小包',
                     'author' => '张果冻',
                     'price' => '123.00',
                 ),
                 array(
                     'href' => '/market/jelly',
-                    'src' => '../pic/5915a6e5efd44.png',
+                    'src' => 'pic/5915a6e5efd44.png',
                     'name' => '小胖看世界',
                     'author' => '钱总',
                     'price' => '139.00',
                 ),
                 array(
                     'href' => '/market/jelly',
-                    'src' => '../pic/5915a6fd6ec32.png',
+                    'src' => 'pic/5915a6fd6ec32.png',
                     'name' => '孙悟空去哪了',
                     'author' => '诺一',
                     'price' => '299.00',
@@ -101,28 +101,28 @@ class HomeService  {
             ),array(
                 array(
                     'href' => '/market/jelly',
-                    'src' => '../pic/5915a69d6ef54.png',
+                    'src' => 'pic/5915a69d6ef54.png',
                     'name' => '卷卷公主坐姿公仔',
                     'author' => '卷卷',
                     'price' => '39.00',
                 ),
                 array(
                     'href' => '/market/jelly',
-                    'src' => '../pic/5915a6c3a8c78.png',
+                    'src' => 'pic/5915a6c3a8c78.png',
                     'name' => 'D型竹柄手拎小包',
                     'author' => '张果冻',
                     'price' => '123.00',
                 ),
                 array(
                     'href' => '/market/jelly',
-                    'src' => '../pic/5915a6e5efd44.png',
+                    'src' => 'pic/5915a6e5efd44.png',
                     'name' => '小胖看世界',
                     'author' => '钱总',
                     'price' => '139.00',
                 ),
                 array(
                     'href' => '/market/jelly',
-                    'src' => '../pic/5915a6fd6ec32.png',
+                    'src' => 'pic/5915a6fd6ec32.png',
                     'name' => '孙悟空去哪了',
                     'author' => '诺一',
                     'price' => '299.00',
@@ -130,28 +130,28 @@ class HomeService  {
             ),array(
                 array(
                     'href' => '/market/jelly',
-                    'src' => '../pic/5915a69d6ef54.png',
+                    'src' => 'pic/5915a69d6ef54.png',
                     'name' => '卷卷公主坐姿公仔',
                     'author' => '卷卷',
                     'price' => '39.00',
                 ),
                 array(
                     'href' => '/market/jelly',
-                    'src' => '../pic/5915a6c3a8c78.png',
+                    'src' => 'pic/5915a6c3a8c78.png',
                     'name' => 'D型竹柄手拎小包',
                     'author' => '张果冻',
                     'price' => '123.00',
                 ),
                 array(
                     'href' => '/market/jelly',
-                    'src' => '../pic/5915a6e5efd44.png',
+                    'src' => 'pic/5915a6e5efd44.png',
                     'name' => '小胖看世界',
                     'author' => '钱总',
                     'price' => '139.00',
                 ),
                 array(
                     'href' => '/market/jelly',
-                    'src' => '../pic/5915a6fd6ec32.png',
+                    'src' => 'pic/5915a6fd6ec32.png',
                     'name' => '孙悟空去哪了',
                     'author' => '诺一',
                     'price' => '299.00',
@@ -165,21 +165,21 @@ class HomeService  {
         $newWork = array(
                 array(
                     'href' => '/market/jelly',
-                    'src' => '../pic/h5129210609812175915aa6a1bc7a.png',
+                    'src' => 'pic/h5129210609812175915aa6a1bc7a.png',
                     'name' => '皮皮',
                     'author' => '陳建周',
                     'price' => '39.00',
                 ),
                 array(
                     'href' => '/market/jelly',
-                    'src' => '../pic/h5129207088328705915aa46d7a56.png',
+                    'src' => 'pic/h5129207088328705915aa46d7a56.png',
                     'name' => 'D型竹柄手拎小包',
                     'author' => '张果冻',
                     'price' => '123.00',
                 ),
                 array(
                     'href' => '/market/jelly',
-                    'src' => '../pic/h5129202995327155915aa1de8bba.png',
+                    'src' => 'pic/h5129202995327155915aa1de8bba.png',
                     'name' => '小胖看世界',
                     'author' => '钱总',
                     'price' => '139.00',
@@ -190,7 +190,7 @@ class HomeService  {
 
     public function route() {
         $route = array(
-            'jump' => '/module/index/',
+            'jump' => '/module/',
             'sale' => '/upload/index/',
         );
         return $route;
@@ -200,21 +200,21 @@ class HomeService  {
         $artist = array(
                 array(
                     'href' => '/market/jelly',
-                    'src' => '../pic/h5129162874834335915a88cba85e.jpg',
+                    'src' => 'pic/h5129162874834335915a88cba85e.jpg',
                     'name' => '陳建周',
                     'author' => '陳建周',
                     'price' => '39.00',
                 ),
                 array(
                     'href' => '/market/jelly',
-                    'src' => '../pic/h5129159567864555915a86ba5af4.jpg',
+                    'src' => 'pic/h5129159567864555915a86ba5af4.jpg',
                     'name' => 'aa',
                     'author' => '张果冻',
                     'price' => '123.00',
                 ),
                 array(
                     'href' => '/market/jelly',
-                    'src' => '../pic/h5129153398612775915a82e006f6.jpg',
+                    'src' => 'pic/h5129153398612775915a82e006f6.jpg',
                     'name' => '啦啦',
                     'author' => '钱总',
                     'price' => '139.00',

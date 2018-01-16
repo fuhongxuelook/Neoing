@@ -53,7 +53,7 @@ class IndexService  {
         $lists = array(
             array(
                 'href' => '/market/jelly',
-                'src' => '../images/list/1494421129.png',
+                'src' => 'images/list/1494421129.png',
                 'dataOriginal' => '/./Upload/Goods/smallImg/2017-05-10/1494421129.png',
                 'name' => '西游系列',
                 'author' => '诺一',
@@ -61,7 +61,7 @@ class IndexService  {
             ),
             array(
                 'href' => '/market/jelly',
-                'src' => '../images/list/1494421159.png',
+                'src' => 'images/list/1494421159.png',
                 'dataOriginal' => '/./Upload/Goods/smallImg/2017-05-10/1494421159.png',
                 'name' => '西游系列',
                 'author' => '诺一',
@@ -69,7 +69,7 @@ class IndexService  {
             ),
             array(
                 'href' => '/market/jelly',
-                'src' => '../images/list/1494420933.png',
+                'src' => 'images/list/1494420933.png',
                 'dataOriginal' => '/./Upload/Goods/smallImg/2017-05-10/1494420933.png',
                 'name' => '西游系列',
                 'author' => '诺一',
@@ -77,7 +77,7 @@ class IndexService  {
             ),
             array(
                 'href' => '/market/jelly',
-                'src' => '../images/list/1494420910.png',
+                'src' => 'images/list/1494420910.png',
                 'dataOriginal' => '/./Upload/Goods/smallImg/2017-05-10/1494420910.png',
                 'name' => '西游系列',
                 'author' => '诺一',
@@ -85,7 +85,7 @@ class IndexService  {
             ),
             array(
                 'href' => '/market/jelly',
-                'src' => '../images/list/1494420889.png',
+                'src' => 'images/list/1494420889.png',
                 'dataOriginal' => '/./Upload/Goods/smallImg/2017-05-10/1494420889.png',
                 'name' => '西游系列',
                 'author' => '诺一',

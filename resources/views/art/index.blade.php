@@ -9,20 +9,20 @@
     <title>Neo</title>
     
     <!--分享-->
-    <script src="../pic/push.js"></script><script src="../pic/hm.js"></script><script src="../pic/wb.js" type="text/javascript" charset="utf-8"></script>
+    <script src="{{asset('pic/push.js')}}"></script><script src="../pic/hm.js"></script><script src="{{asset('pic/wb.js')}}" type="text/javascript" charset="utf-8"></script>
     <!--分享结束-->
-    <script type="text/javascript" src="../pic/jquery.js"></script>
-    <script src="../pic/add.js"></script>
+    <script type="text/javascript" src="{{asset('pic/jquery.js')}}"></script>
+    <script src="{{asset('pic/add.js')}}"></script>
     
     
 
-<link media="all" href="../pic/index.css" type="text/css" rel="stylesheet">
+<link media="all" href="{{asset('pic/index.css')}}" type="text/css" rel="stylesheet">
 </head>
 <body style="overflow-x: hidden; background-color: rgb(250, 249, 245);"><iframe style="position: fixed; display: none; opacity: 0;" src="../pic/index_1.html" frameborder="0"></iframe><div class="jiathis_style" style="position: absolute; z-index: 1000000000; display: none; top: 50%; left: 50%; overflow: auto;"></div><div class="jiathis_style" style="position: absolute; z-index: 1000000000; display: none; overflow: auto;"></div><iframe style="display: none;" src="../pic/index_2.html" frameborder="0"></iframe>
         
-    <script src="../pic/jquery-1.7.2.js"></script>
-    <script type="text/javascript" src="../pic/reg.js"></script>
-    <script type="text/javascript" src="../pic/lgandrg.js"></script>
+    <script src="{{asset('pic/jquery-1.7.2.js')}}"></script>
+    <script type="text/javascript" src="{{asset('pic/reg.js')}}"></script>
+    <script type="text/javascript" src="{{asset('pic/lgandrg.js')}}"></script>
     
     <script>
         var _hmt = _hmt || [];
@@ -50,13 +50,13 @@
 <div id="full_navigation">
     <header>
         <div class="header_bar">
-            <div class="logo"><a href="{{$route['jump']}}"><img src="../pic/logo.png"></a></div>
+            <div class="logo"><a href="{{$route['jump']}}"><img src="{{asset('pic/logo.png')}}"></a></div>
             <div class="operation">
                 <span>
                     <a href="{{$route['sale']}}">鸟布鲸上出售</a>
                 </span>                
                 <span><a id="register">注册</a></span>                <span><a class="loginBtn" id="login">登录</a></span>           
-                <span class="car"><a href="http://niao.com"><img src="../pic/shopping@20cart.png"></a></span>
+                <span class="car"><a href="http://niao.com"><img src="{{asset('pic/shopping@20cart.png')}}"></a></span>
             </div>
         </div>
     </header>
@@ -70,8 +70,8 @@
                     @foreach($cate as $k => $ca)
                     <li>
                         <div class="move">
-                            <a class="changeA" href="{{$route['jump'].$cates.'/'.$k}}">{{$ca}}</a>
-                            <a href="{{$route['jump'].$cates.'/'.$k}}">{{$ca}}</a>
+                            <a class="changeA" href="{{$route['jump'].$cates.'/'.$ca}}">{{$ca}}</a>
+                            <a href="{{$route['jump'].$cates.'/'.$ca}}">{{$ca}}</a>
                         </div>
                     </li> 
                     @endforeach     
@@ -288,7 +288,7 @@
             ad +=1;
             if (ad==1){
                 url="/art";
-                banner="../pic/01.jpg";
+                banner="{{asset('/pic/01.jpg')}}";
                 width="1920";
                 height="360";
                 alr=""
@@ -296,7 +296,7 @@
 
             if (ad==2) {
                 url="/art";
-                banner="../pic/04.jpg";
+                banner="{{asset('/pic/04.jpg')}}";
                 width="1920";
                 height="360";
                 alr=""
@@ -304,7 +304,7 @@
 
             if (ad==3) {
                 url="/art";
-                banner="../pic/05.jpg";
+                banner="{{asset('/pic/05.jpg')}}";
                 width="1920";
                 height="360";
                 alr=""
@@ -312,7 +312,7 @@
 
             if (ad==4) {
                 url="/art";
-                banner="../pic/03.jpg";
+                banner="{{asset('/pic/03.jpg')}}";
                 width="1920";
                 alr="";
                 height="360";
@@ -366,7 +366,7 @@
                         <div class="block-grid-item">
                             <a href="{{$li['href']}}">
                                     <div class="list_img">
-                                        <img src="{{$li['src']}}">
+                                        <img src="{{asset($li['src'])}}">
                                     </div>
                                     <div class="box-info">
                                         <p class="goods-name">{{$li['name']}}</p>
@@ -420,7 +420,7 @@
                             <div class="block-grid-item">
                                 <a href="{{$list['href']}}">
                                     <div class="list_img">
-                                        <img src="{{$list['src']}}">
+                                        <img src="{{asset($list['src'])}}">
                                     </div>
                                     <div class="box-info">
                                         <p class="goods-name">{{$list['name']}}</p>
@@ -457,7 +457,7 @@
                             <div class="block-grid-item">
                                 <a href="{{$list['href']}}" target="_top">
                                     <div class="list_img">
-                                        <img src="{{$list['src']}}">
+                                        <img src="{{asset($list['src'])}}">
                                     </div>
                                     <div class="box-info">
                                         <p class="goods-name">{{$list['name']}}</p>
