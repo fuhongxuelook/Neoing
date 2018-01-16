@@ -6,9 +6,9 @@
     <meta name="description" content="鸟布鲸 世界">
     <meta name="renderer" content="webkit">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <link href="../artNet/css/font-awesome.min.css" rel="stylesheet">
-    <link href="../artNet/css/Common.min.css" rel="stylesheet">
-    <link href="../artNet/css/Auth.Login.min.css" rel="stylesheet">
+    <link href="{{asset('artNet/css/font-awesome.min.css')}}" rel="stylesheet">
+    <link href="{{asset('artNet/css/Common.min.css')}}" rel="stylesheet">
+    <link href="{{asset('artNet/css/Auth.Login.min.css')}}" rel="stylesheet">
 
   
     <script>
@@ -19,10 +19,10 @@
         @*/
     </script>
     
-    <link href="../artNet/css/Goods.Detail.min.css" rel="stylesheet">
-    <link href="../artNet/css/owl.carousel.css" rel="stylesheet">
-    <link href="../artNet/css/cvszoom.css" rel="stylesheet">
-    <link href="../artNet/css/share.min.css" rel="stylesheet">
+    <link href="{{asset('artNet/css/Goods.Detail.min.css')}}" rel="stylesheet">
+    <link href="{{asset('artNet/css/owl.carousel.css')}}" rel="stylesheet">
+    <link href="{{asset('artNet/css/cvszoom.css')}}" rel="stylesheet">
+    <link href="{{asset('artNet/css/share.min.css')}}" rel="stylesheet">
             <script>
             (function (i, s, o, g, r, a, m) {
                 i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
@@ -68,7 +68,7 @@
         })();
     </script>
 
-<script type="text/javascript" charset="utf-8" async="" data-requirecontext="_"  src="../artNet/js/Header.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="/dist/script/page/Goods.Detail.min.js?v=2033311112" src="../artNet/js/Goods.Detail.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jquery" src="../artNet/js/jquery-2.2.3.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="bus" src="../artNet/js/bus.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="arttemplate" src="../artNet/js/template-native.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="vue" src="../artNet/js/vue.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="carousel" src="../artNet/js/owl.carousel.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="dotdotdot" src="../artNet/js/jquery.dotdotdot.min.umd.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="lazyload" src="../artNet/js/jquery.lazyload.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="cvszoom" src="../artNet/js/cvszoom.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="common" src="../artNet/js/common.min.js"></script><style type="text/css" id="MEIQIA-ICON-STYLE">.MEIQIA-ICON { background-size: 40px auto !important; background-repeat: no-repeat !important; background-image: url("https://static.meiqia.com/dist/images/icon-mq.png?v=snhazzmydbxfxbt9") !important; } @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2/1), only screen and (min-device-pixel-ratio: 2) { .MEIQIA-ICON { background-image: url("https://static.meiqia.com/dist/images/icon-mq@2x.png?v=snhazzmydbxfxbt9") !important; } } .MEIQIA-ICON-CHAT1 { background-position: 0 0 !important; } .MEIQIA-ICON-CHAT2 { background-position: 0 -20px !important; } .MEIQIA-ICON-CHAT3 { background-position: 0 -40px !important; } .MEIQIA-ICON-CHAT4 { background-position: 0 -60px !important; } .MEIQIA-ICON-CHAT5 { background-position: 0 -80px !important; } .MEIQIA-ICON-CHAT6 { background-position: 0 -100px !important; } .MEIQIA-ICON-CHAT7 { background-position: 0 -120px !important; } .MEIQIA-ICON-CHAT8 { background-position: 0 -140px !important; } .MEIQIA-ICON-CHAT9 { background-position: 0 -160px !important; } .MEIQIA-ICON-CHAT10 { background-position: 0 -180px !important; } .MEIQIA-ICON-CHAT11 { background-position: 0 -200px !important; } .MEIQIA-ICON-CHAT12 { background-position: 0 -220px !important; } .MEIQIA-ICON-TICKET1 { background-position: -20px 0 !important; } .MEIQIA-ICON-TICKET2 { background-position: -20px -20px !important; } .MEIQIA-ICON-TICKET3 { background-position: -20px -40px !important; } .MEIQIA-ICON-TICKET4 { background-position: -20px -60px !important; } .MEIQIA-ICON-TICKET5 { background-position: -20px -80px !important; } .MEIQIA-ICON-TICKET6 { background-position: -20px -100px !important; } .MEIQIA-ICON-TICKET7 { background-position: -20px -120px !important; } .MEIQIA-ICON-TICKET8 { background-position: -20px -140px !important; } .MEIQIA-ICON-TICKET9 { background-position: -20px -160px !important; } .MEIQIA-ICON-TICKET10 { background-position: -20px -180px !important; } .MEIQIA-ICON-TICKET11 { background-position: -20px -200px !important; } .MEIQIA-ICON-TICKET12 { background-position: -20px -220px !important; } </style><style type="text/css" id="MEIQIA-PANEL-STYLE">#MEIQIA-PANEL-HOLDER { position: fixed; bottom: 0;  right: 40px;  z-index: -1; width: 320px; height: 480px; padding: 0; margin: 0; overflow: hidden; visibility: hidden; background-color: transparent; box-shadow: 0 0 20px 0 rgba(0, 0, 0, .15); border: 1px solid #eee\0; *border: 1px solid #eee; } #MEIQIA-IFRAME { position: absolute; top: 0; right: 0; bottom: 0; left: 0; display: none; width: 100% !important; height: 100% !important; border: 0; padding: 0; margin: 0; float: none; background: none; } </style><style type="text/css" id="MEIQIA-BTN-STYLE">#MEIQIA-BTN-HOLDER { display: none; position: fixed; bottom: 20px;  right: 0;  z-index: 2147483647; width: auto; height: auto; padding: 0; margin: 0; border: 0; font-family: 'Helvetica Neue', Helvetica, Arial, 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif; background-color: transparent; } #MEIQIA-BTN, #MEIQIA-BTN span, #MEIQIA-BTN div, #MEIQIA-BTN img { float: none; width: auto; height: auto; padding: 0; margin: 0; border: 0; background: none; } #MEIQIA-BTN { display: block; width: 40px; height: auto; padding: 10px 0; font-size: 16px; color: #fff; text-align: center; border-top: 1px solid rgba(0, 0, 0, .1); border-bottom: 1px solid rgba(0, 0, 0, .1); box-shadow: 0 0 14px 0 rgba(0, 0, 0, .16); cursor: pointer; text-decoration: none; background-color: #3c948b; } #MEIQIA-BTN #MEIQIA-BTN-ICON { display: block; width: 20px; height: 20px; margin: 0 10px 10px; } #MEIQIA-BTN #MEIQIA-BTN-LINE { display: block; width: 100%; height: 1px; background-color: rgba(0, 0, 0, .08); background-color: #000\9; opacity: .1\9; filter: alpha(opacity=10)\9; vertical-align: middle; } #MEIQIA-BTN #MEIQIA-BTN-TEXT { display: block; box-sizing: content-box; width: 40px; padding: 0 10px; margin-top: 10px; text-align: center; overflow-x: hidden; line-height: 1.428571429; font-size: 16px; color: #fff; word-break: break-all; word-wrap: break-word; letter-spacing: 24px; *width: 16px; *letter-spacing: 5px; } #MEIQIA-BTN #MEIQIA-CIRCLE { position: absolute; display: none; width: 26px; height: 26px; text-align: center; line-height: 26px; font-size: 14px; color: #fff; border-radius: 15px; background-color: #ff3b30; } #MEIQIA-BTN #MEIQIA-BUBBLE { position: absolute; bottom: 40%; display: none; width: 260px; border: 1px solid #f7f7f7; border-radius: 4px; color: #000; text-align: left; box-shadow: 0 0 14px 0 rgba(0, 0, 0, .16); line-height: 1.428571429; background-color: #fff; } #MEIQIA-BTN #MEIQIA-BUBBLE-ARROW1 { position: absolute; z-index: 2; font-size: 0; line-height: 0; } #MEIQIA-BTN #MEIQIA-BUBBLE-ARROW2 { position: absolute; z-index: 1; font-size: 0; line-height: 0; }  #MEIQIA-BTN { border-left: 1px solid rgba(0, 0, 0, .1); } #MEIQIA-BTN #MEIQIA-CIRCLE { top: -13px; left: -13px; } #MEIQIA-BTN #MEIQIA-BUBBLE { right: 60px; } #MEIQIA-BTN #MEIQIA-BUBBLE-ARROW1 { right: -8px; top: 20px; border-top: 7px solid transparent; border-bottom: 7px solid transparent; border-left: 8px solid #fff; } #MEIQIA-BTN #MEIQIA-BUBBLE-ARROW2 { right: -10px; top: 19px; border-top: 8px solid transparent; border-bottom: 8px solid transparent; border-left: 9px solid #f7f7f7; }  #MEIQIA-BTN #MEIQIA-BUBBLE-CLOSE { position: absolute; display: none; top: 12px; right: 12px; width: 10px; height: 10px; background-position: -5px -245px; cursor: pointer; } #MEIQIA-BTN #MEIQIA-BUBBLE:hover #MEIQIA-BUBBLE-CLOSE { display: block; } #MEIQIA-BTN #MEIQIA-BUBBLE-INSIDE { margin: 12px 18px; } #MEIQIA-BTN #MEIQIA-BUBBLE-AVATAR { width: 26px; height: 26px; border-radius: 13px; margin-right: 6px; vertical-align: top; box-shadow: 0 0 8px 0 rgba(0, 0, 0, .15); } #MEIQIA-BTN #MEIQIA-BUBBLE-NAME { display: inline-block; margin-top: 3px; font-size: 16px; color: #000; } #MEIQIA-BTN #MEIQIA-BUBBLE-MSG { *height: 40px; max-height: 40px; margin-top: 5px; font-size: 14px; overflow: hidden; color: #000; } #MEIQIA-BTN #MEIQIA-BUBBLE-MSG img { width: 16px; height: 16px; } </style><style type="text/css" id="MEIQIA-INVITE-STYLE">#MEIQIA-INVITE, #MEIQIA-INVITE div, #MEIQIA-INVITE span { float: none; width: auto; height: auto; padding: 0; margin: 0; border: 0; background: none; } #MEIQIA-INVITE { position: fixed; z-index: 2147483647; display: none; width: 340px; height: 130px; margin-bottom: 64px; border: 1px solid #f7f7f7; border-radius: 4px; box-shadow: 0 0 14px 0 rgba(0, 0, 0, .16); text-align: left; cursor: pointer; color: #000; line-height: 1.428571429; background-color: #fff; } #MEIQIA-INVITE #MEIQIA-INVITE-ARROW1, #MEIQIA-INVITE #MEIQIA-INVITE-ARROW2 { position: absolute; font-size: 0; line-height: 0; } #MEIQIA-INVITE #MEIQIA-INVITE-ARROW1 { z-index: 2; } #MEIQIA-INVITE #MEIQIA-INVITE-ARROW2 { z-index: 1; }   #MEIQIA-INVITE { right: 60px; bottom: 20px; } #MEIQIA-INVITE #MEIQIA-INVITE-ARROW1 { right: -8px; top: 60px; border-top: 7px solid transparent; border-bottom: 7px solid transparent; border-left: 8px solid #fff; } #MEIQIA-INVITE #MEIQIA-INVITE-ARROW2 { right: -9px; top: 59px; border-top: 8px solid transparent; border-bottom: 8px solid transparent; border-left: 9px solid #f7f7f7; }     #MEIQIA-INVITE #MEIQIA-INVITE-CLOSE { position: absolute; right: -20px; top: -20px; width: 40px; height: 40px; cursor: pointer;  background-position: 0 -260px;  } #MEIQIA-INVITE #MEIQIA-INVITE-CLOSE:hover {  background-position: 0 -300px;  } #MEIQIA-INVITE #MEIQIA-INVITE-INSIDE { width: 300px; height: 44px; margin: 46px 20px 0; text-align: left; font-size: 14px; line-height: 22px; overflow: hidden; color: #000; /*word-break: break-all;*/ } </style></head>
+<script type="text/javascript" charset="utf-8" async="" data-requirecontext="_"  src="{{asset('artNet/js/Header.js')}}"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="/dist/script/page/Goods.Detail.min.js?v=2033311112" src="{{asset('artNet/js/Goods.Detail.min.js')}}"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jquery" src="{{asset('artNet/js/jquery-2.2.3.min.js')}}"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="bus" src="{{asset('artNet/js/bus.min.js')}}"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="arttemplate" src="{{asset('artNet/js/template-native.js')}}"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="vue" src="{{asset('artNet/js/vue.min.js')}}"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="carousel" src="{{asset('artNet/js/owl.carousel.min.js')}}"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="dotdotdot" src="{{asset('artNet/js/jquery.dotdotdot.min.umd.js')}}"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="lazyload" src="{{asset('artNet/js/jquery.lazyload.min.js')}}"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="cvszoom" src="{{asset('artNet/js/cvszoom.min.js')}}"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="common" src="{{asset('artNet/js/common.min.js')}}"></script><style type="text/css" id="MEIQIA-ICON-STYLE">.MEIQIA-ICON { background-size: 40px auto !important; background-repeat: no-repeat !important; background-image: url("https://static.meiqia.com/dist/images/icon-mq.png?v=snhazzmydbxfxbt9") !important; } @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2/1), only screen and (min-device-pixel-ratio: 2) { .MEIQIA-ICON { background-image: url("https://static.meiqia.com/dist/images/icon-mq@2x.png?v=snhazzmydbxfxbt9") !important; } } .MEIQIA-ICON-CHAT1 { background-position: 0 0 !important; } .MEIQIA-ICON-CHAT2 { background-position: 0 -20px !important; } .MEIQIA-ICON-CHAT3 { background-position: 0 -40px !important; } .MEIQIA-ICON-CHAT4 { background-position: 0 -60px !important; } .MEIQIA-ICON-CHAT5 { background-position: 0 -80px !important; } .MEIQIA-ICON-CHAT6 { background-position: 0 -100px !important; } .MEIQIA-ICON-CHAT7 { background-position: 0 -120px !important; } .MEIQIA-ICON-CHAT8 { background-position: 0 -140px !important; } .MEIQIA-ICON-CHAT9 { background-position: 0 -160px !important; } .MEIQIA-ICON-CHAT10 { background-position: 0 -180px !important; } .MEIQIA-ICON-CHAT11 { background-position: 0 -200px !important; } .MEIQIA-ICON-CHAT12 { background-position: 0 -220px !important; } .MEIQIA-ICON-TICKET1 { background-position: -20px 0 !important; } .MEIQIA-ICON-TICKET2 { background-position: -20px -20px !important; } .MEIQIA-ICON-TICKET3 { background-position: -20px -40px !important; } .MEIQIA-ICON-TICKET4 { background-position: -20px -60px !important; } .MEIQIA-ICON-TICKET5 { background-position: -20px -80px !important; } .MEIQIA-ICON-TICKET6 { background-position: -20px -100px !important; } .MEIQIA-ICON-TICKET7 { background-position: -20px -120px !important; } .MEIQIA-ICON-TICKET8 { background-position: -20px -140px !important; } .MEIQIA-ICON-TICKET9 { background-position: -20px -160px !important; } .MEIQIA-ICON-TICKET10 { background-position: -20px -180px !important; } .MEIQIA-ICON-TICKET11 { background-position: -20px -200px !important; } .MEIQIA-ICON-TICKET12 { background-position: -20px -220px !important; } </style><style type="text/css" id="MEIQIA-PANEL-STYLE">#MEIQIA-PANEL-HOLDER { position: fixed; bottom: 0;  right: 40px;  z-index: -1; width: 320px; height: 480px; padding: 0; margin: 0; overflow: hidden; visibility: hidden; background-color: transparent; box-shadow: 0 0 20px 0 rgba(0, 0, 0, .15); border: 1px solid #eee\0; *border: 1px solid #eee; } #MEIQIA-IFRAME { position: absolute; top: 0; right: 0; bottom: 0; left: 0; display: none; width: 100% !important; height: 100% !important; border: 0; padding: 0; margin: 0; float: none; background: none; } </style><style type="text/css" id="MEIQIA-BTN-STYLE">#MEIQIA-BTN-HOLDER { display: none; position: fixed; bottom: 20px;  right: 0;  z-index: 2147483647; width: auto; height: auto; padding: 0; margin: 0; border: 0; font-family: 'Helvetica Neue', Helvetica, Arial, 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif; background-color: transparent; } #MEIQIA-BTN, #MEIQIA-BTN span, #MEIQIA-BTN div, #MEIQIA-BTN img { float: none; width: auto; height: auto; padding: 0; margin: 0; border: 0; background: none; } #MEIQIA-BTN { display: block; width: 40px; height: auto; padding: 10px 0; font-size: 16px; color: #fff; text-align: center; border-top: 1px solid rgba(0, 0, 0, .1); border-bottom: 1px solid rgba(0, 0, 0, .1); box-shadow: 0 0 14px 0 rgba(0, 0, 0, .16); cursor: pointer; text-decoration: none; background-color: #3c948b; } #MEIQIA-BTN #MEIQIA-BTN-ICON { display: block; width: 20px; height: 20px; margin: 0 10px 10px; } #MEIQIA-BTN #MEIQIA-BTN-LINE { display: block; width: 100%; height: 1px; background-color: rgba(0, 0, 0, .08); background-color: #000\9; opacity: .1\9; filter: alpha(opacity=10)\9; vertical-align: middle; } #MEIQIA-BTN #MEIQIA-BTN-TEXT { display: block; box-sizing: content-box; width: 40px; padding: 0 10px; margin-top: 10px; text-align: center; overflow-x: hidden; line-height: 1.428571429; font-size: 16px; color: #fff; word-break: break-all; word-wrap: break-word; letter-spacing: 24px; *width: 16px; *letter-spacing: 5px; } #MEIQIA-BTN #MEIQIA-CIRCLE { position: absolute; display: none; width: 26px; height: 26px; text-align: center; line-height: 26px; font-size: 14px; color: #fff; border-radius: 15px; background-color: #ff3b30; } #MEIQIA-BTN #MEIQIA-BUBBLE { position: absolute; bottom: 40%; display: none; width: 260px; border: 1px solid #f7f7f7; border-radius: 4px; color: #000; text-align: left; box-shadow: 0 0 14px 0 rgba(0, 0, 0, .16); line-height: 1.428571429; background-color: #fff; } #MEIQIA-BTN #MEIQIA-BUBBLE-ARROW1 { position: absolute; z-index: 2; font-size: 0; line-height: 0; } #MEIQIA-BTN #MEIQIA-BUBBLE-ARROW2 { position: absolute; z-index: 1; font-size: 0; line-height: 0; }  #MEIQIA-BTN { border-left: 1px solid rgba(0, 0, 0, .1); } #MEIQIA-BTN #MEIQIA-CIRCLE { top: -13px; left: -13px; } #MEIQIA-BTN #MEIQIA-BUBBLE { right: 60px; } #MEIQIA-BTN #MEIQIA-BUBBLE-ARROW1 { right: -8px; top: 20px; border-top: 7px solid transparent; border-bottom: 7px solid transparent; border-left: 8px solid #fff; } #MEIQIA-BTN #MEIQIA-BUBBLE-ARROW2 { right: -10px; top: 19px; border-top: 8px solid transparent; border-bottom: 8px solid transparent; border-left: 9px solid #f7f7f7; }  #MEIQIA-BTN #MEIQIA-BUBBLE-CLOSE { position: absolute; display: none; top: 12px; right: 12px; width: 10px; height: 10px; background-position: -5px -245px; cursor: pointer; } #MEIQIA-BTN #MEIQIA-BUBBLE:hover #MEIQIA-BUBBLE-CLOSE { display: block; } #MEIQIA-BTN #MEIQIA-BUBBLE-INSIDE { margin: 12px 18px; } #MEIQIA-BTN #MEIQIA-BUBBLE-AVATAR { width: 26px; height: 26px; border-radius: 13px; margin-right: 6px; vertical-align: top; box-shadow: 0 0 8px 0 rgba(0, 0, 0, .15); } #MEIQIA-BTN #MEIQIA-BUBBLE-NAME { display: inline-block; margin-top: 3px; font-size: 16px; color: #000; } #MEIQIA-BTN #MEIQIA-BUBBLE-MSG { *height: 40px; max-height: 40px; margin-top: 5px; font-size: 14px; overflow: hidden; color: #000; } #MEIQIA-BTN #MEIQIA-BUBBLE-MSG img { width: 16px; height: 16px; } </style><style type="text/css" id="MEIQIA-INVITE-STYLE">#MEIQIA-INVITE, #MEIQIA-INVITE div, #MEIQIA-INVITE span { float: none; width: auto; height: auto; padding: 0; margin: 0; border: 0; background: none; } #MEIQIA-INVITE { position: fixed; z-index: 2147483647; display: none; width: 340px; height: 130px; margin-bottom: 64px; border: 1px solid #f7f7f7; border-radius: 4px; box-shadow: 0 0 14px 0 rgba(0, 0, 0, .16); text-align: left; cursor: pointer; color: #000; line-height: 1.428571429; background-color: #fff; } #MEIQIA-INVITE #MEIQIA-INVITE-ARROW1, #MEIQIA-INVITE #MEIQIA-INVITE-ARROW2 { position: absolute; font-size: 0; line-height: 0; } #MEIQIA-INVITE #MEIQIA-INVITE-ARROW1 { z-index: 2; } #MEIQIA-INVITE #MEIQIA-INVITE-ARROW2 { z-index: 1; }   #MEIQIA-INVITE { right: 60px; bottom: 20px; } #MEIQIA-INVITE #MEIQIA-INVITE-ARROW1 { right: -8px; top: 60px; border-top: 7px solid transparent; border-bottom: 7px solid transparent; border-left: 8px solid #fff; } #MEIQIA-INVITE #MEIQIA-INVITE-ARROW2 { right: -9px; top: 59px; border-top: 8px solid transparent; border-bottom: 8px solid transparent; border-left: 9px solid #f7f7f7; }     #MEIQIA-INVITE #MEIQIA-INVITE-CLOSE { position: absolute; right: -20px; top: -20px; width: 40px; height: 40px; cursor: pointer;  background-position: 0 -260px;  } #MEIQIA-INVITE #MEIQIA-INVITE-CLOSE:hover {  background-position: 0 -300px;  } #MEIQIA-INVITE #MEIQIA-INVITE-INSIDE { width: 300px; height: 44px; margin: 46px 20px 0; text-align: left; font-size: 14px; line-height: 22px; overflow: hidden; color: #000; /*word-break: break-all;*/ } </style></head>
 <body>
     <!-- Google Tag Manager (noscript) -->
     <noscript>
@@ -93,7 +93,7 @@
                         <div class="staff imgLine imgWidthLine" style="display: none; margin-left: -185px; margin-top: -187px; transition: width 1s; width: 370px;"><div></div><div></div><span>1.20m</span></div>
                         <div class="staff imgLine imgHeightLine" style="display: none; margin-left: -218px; margin-top: -154px; transition: height 1s; height: 308px;"><div></div><div></div><span>1.00m</span></div>
                         <div class="imgScale">
-                            <img src="{{$jelly['src']}}" alt="{{$jelly['name']}}" oncontextmenu="return false" onselectstart="return false" style="height: 408px; width: 670px;">
+                            <img src="{{asset($jelly['src'])}}" alt="{{$jelly['name']}}" oncontextmenu="return false" onselectstart="return false" style="height: 408px; width: 670px;">
                         </div>
                     </section>
                 </div></section>
@@ -122,10 +122,10 @@
                     </div>
                 </div>
             </section>
-            <img class="scroll_top" src="../artNet/img/scrolldown.gif" style="position: absolute; width: 46px; bottom: 20px; left: 50%; margin-left: -23px; opacity: 0.5; display: none;">
+            <img class="scroll_top" src="{{asset('artNet/img/scrolldown.gif')}}" style="position: absolute; width: 46px; bottom: 20px; left: 50%; margin-left: -23px; opacity: 0.5; display: none;">
         </section>
         <section id="lifescenes" class="abs100">
-            <img draggable="false" class="work" src="../artNet/img/20171106132355226c63d5096.jpg@800h_800w_0e_1l.src">
+            <img draggable="false" class="work" src="{{asset('artNet/img/20171106132355226c63d5096.jpg@800h_800w_0e_1l.src')}}">
             <div class="ls_chooseframe _hidden">
                 <div class="morebtn">画框装裱</div>
                 </div>
@@ -149,19 +149,19 @@
                 </span>
             </i>
                 <div class="onePingxi">
-                    <img class="lazy" data-original="https://cdn.ywart.com/artworkanalysis/20171106132400898d02b6bca.jpg@1e_1c_0o_0l_90Q_600h_600w.src" src="../artNet/img/20171106132400898d02b6bca.jpg@1e_1c_0o_0l_90Q_600h_600w.src" alt="角落 局部图" style="display: block;">
+                    <img class="lazy" data-original="https://cdn.ywart.com/artworkanalysis/20171106132400898d02b6bca.jpg@1e_1c_0o_0l_90Q_600h_600w.src" src="{{asset('artNet/img/20171106132400898d02b6bca.jpg@1e_1c_0o_0l_90Q_600h_600w.src')}}" alt="角落 局部图" style="display: block;">
                     <div class="textDes">
                         <p>刘川作品中的人群面目模糊，身体僵硬，被挤压在狭小的空间中不知所措。通过这些作品，刘川探讨了现代生活方式对人的巨大影响。——雅昌画廊</p>
                     </div>
                 </div>
                 <div class="onePingxi">
-                    <img class="lazy" data-original="https://cdn.ywart.com/artworkanalysis/20171106132400930d7681766.jpg@1e_1c_0o_0l_90Q_600h_600w.src" src="../artNet/img/20171106132400930d7681766.jpg@1e_1c_0o_0l_90Q_600h_600w.src" alt="角落 局部图" style="display: block;">
+                    <img class="lazy" data-original="https://cdn.ywart.com/artworkanalysis/20171106132400930d7681766.jpg@1e_1c_0o_0l_90Q_600h_600w.src" src="{{asset('artNet/img/20171106132400930d7681766.jpg@1e_1c_0o_0l_90Q_600h_600w.src')}}" alt="角落 局部图" style="display: block;">
                     <div class="textDes">
                         <p>他略带怜悯地嘲讽了身不由己的人们的状态，并且不怀好意地让他们互相攻击，而刘川则在一旁静静地观赏，并且自得其乐。他之所以这么做，也许只是想让这些表情镇定，内心却已打得头破血流的现代人们明白赛南古的那句话：“人并不绝非需要一座都城”。——雅昌画廊</p>
                     </div>
                 </div>
                 <div class="onePingxi">
-                    <img class="lazy" data-original="https://cdn.ywart.com/artworkanalysis/201711061324009767d4de458.jpg@1e_1c_0o_0l_90Q_600h_600w.src" src="../artNet/img/201711061324009767d4de458.jpg@1e_1c_0o_0l_90Q_600h_600w.src" alt="角落 局部图" style="display: block;">
+                    <img class="lazy" data-original="https://cdn.ywart.com/artworkanalysis/201711061324009767d4de458.jpg@1e_1c_0o_0l_90Q_600h_600w.src" src="{{asset('artNet/img/201711061324009767d4de458.jpg@1e_1c_0o_0l_90Q_600h_600w.src')}}" alt="角落 局部图" style="display: block;">
                     <div class="textDes">
                         <p>艺术家签名、创作日期。</p>
                     </div>
@@ -174,7 +174,7 @@
             <div class="arter">
                 <div class="imgbox">
                     <a href="https://www.ywart.com/artist/1350dd" target="_blank">
-                        <img class="lazy" src="../artNet/img/152327814TstHLARFOZwNCIpJ.jpg_small01" data-original="https://cdn.ywart.com/ysj/152327814TstHLARFOZwNCIpJ.jpg_small01" alt="刘川" style="display: block;">
+                        <img class="lazy" src="{{asset('artNet/img/152327814TstHLARFOZwNCIpJ.jpg_small01')}}" data-original="https://cdn.ywart.com/ysj/152327814TstHLARFOZwNCIpJ.jpg_small01" alt="刘川" style="display: block;">
                     </a>
                 </div>
                 <p class="name">
@@ -186,7 +186,7 @@
                 <div class="artWorks">
                     <a href="https://www.ywart.com/artworks/1reekp">
                         <div class="imgbox">
-                            <img class="lazy" src="../artNet/img/20160526154445336db48dd26.jpg@460h_576w_1e_1c_1wh_1pr" data-original="https://cdn.ywart.com/yw/20160526154445336db48dd26.jpg@460h_576w_1e_1c_1wh_1pr" alt="无题 1" style="display: inline;">
+                            <img class="lazy" src="{{asset('artNet/img/20160526154445336db48dd26.jpg@460h_576w_1e_1c_1wh_1pr')}}" data-original="https://cdn.ywart.com/yw/20160526154445336db48dd26.jpg@460h_576w_1e_1c_1wh_1pr" alt="无题 1" style="display: inline;">
                         </div>
                     </a>
                     <div class="otherDes">
@@ -205,7 +205,7 @@
                 <div class="artWorks">
                     <a href="https://www.ywart.com/artworks/11vjm2">
                         <div class="imgbox">
-                            <img class="lazy" src="../artNet/img/2017110613232246195991847.jpg@460h_576w_1e_1c_1wh_1pr" data-original="https://cdn.ywart.com/yw/2017110613232246195991847.jpg@460h_576w_1e_1c_1wh_1pr" alt="赏石" style="display: inline;">
+                            <img class="lazy" src="{{asset('artNet/img/2017110613232246195991847.jpg@460h_576w_1e_1c_1wh_1pr')}}" data-original="https://cdn.ywart.com/yw/2017110613232246195991847.jpg@460h_576w_1e_1c_1wh_1pr" alt="赏石" style="display: inline;">
                         </div>
                     </a>
                     <div class="otherDes">
@@ -224,7 +224,7 @@
                 <div class="artWorks">
                     <a href="https://www.ywart.com/artworks/1p7818">
                         <div class="imgbox">
-                            <img class="lazy" src="../artNet/img/20171106132426164d3ee9e1d.jpg@460h_576w_1e_1c_1wh_1pr" data-original="https://cdn.ywart.com/yw/20171106132426164d3ee9e1d.jpg@460h_576w_1e_1c_1wh_1pr" alt="无题" style="display: inline;">
+                            <img class="lazy" src="{{asset('artNet/img/20171106132426164d3ee9e1d.jpg@460h_576w_1e_1c_1wh_1pr')}}" data-original="https://cdn.ywart.com/yw/20171106132426164d3ee9e1d.jpg@460h_576w_1e_1c_1wh_1pr" alt="无题" style="display: inline;">
                         </div>
                     </a>
                     <div class="otherDes">
@@ -244,15 +244,15 @@
         <section class="anotherWorks clearfix">
             <p class="maybeLike">可能你也喜欢</p>
             <div>
-                    <a href="https://www.ywart.com/artworks/1kdjxn" target="_blank"><img class="lazy" src="../artNet/img/2016042516240267358752462.jpg_small01" data-original="https://cdn.ywart.com/yw/2016042516240267358752462.jpg_small01" alt="乙未雲山系列" style="width: 970.616px; display: inline;"></a>
-                    <a href="https://www.ywart.com/artworks/1xdy06" target="_blank"><img class="lazy" src="../artNet/img/20160425161124960dc47949b.jpg_small01" data-original="https://cdn.ywart.com/yw/20160425161124960dc47949b.jpg_small01" alt="甲子．光明净心" style="width: 167.096px; display: inline;"></a>
-                    <a href="https://www.ywart.com/artworks/16lm1j" target="_blank"><img class="lazy" src="../artNet/img/201607141720096578910c17c.jpg_small01" data-original="https://cdn.ywart.com/yw/201607141720096578910c17c.jpg_small01" alt="无题5" style="width: 220.424px; display: inline;"></a>
-                    <a href="https://www.ywart.com/artworks/1x77m6" target="_blank"><img class="lazy" src="../artNet/img/loadingdetailimg.gif" data-original="https://cdn.ywart.com/yw/20161111171734413e79c9b0c.jpg_small01" alt="清气" style="width: 522.149px;"></a>
-                    <a href="https://www.ywart.com/artworks/1877ge" target="_blank"><img class="lazy" src="../artNet/img/loadingdetailimg.gif" data-original="https://cdn.ywart.com/yw/20170104132108518a3ae13af.png_small01" alt="大花篮" style="width: 387.729px;"></a>
-                    <a href="https://www.ywart.com/artworks/1g1keq" target="_blank"><img class="lazy" src="../artNet/img/loadingdetailimg.gif" data-original="https://cdn.ywart.com/yw/201704181257477685fea77b3.jpg_small01" alt="保罗书信" style="width: 313.456px;"></a>
-                    <a href="https://www.ywart.com/artworks/12nxo7" target="_blank"><img class="lazy" src="../artNet/img/loadingdetailimg.gif" data-original="https://cdn.ywart.com/yw/2017050412593494087731ca5.jpg_small01" alt="滇土之四" style="width: 347.757px;"></a>
-                    <a href="https://www.ywart.com/artworks/12nxo7" target="_blank"><img class="lazy" src="../artNet/img/loadingdetailimg.gif" data-original="https://cdn.ywart.com/yw/2017050412593494087731ca5.jpg_small01" alt="滇土之四" style="width: 347.757px;"></a>
-                    <a href="https://www.ywart.com/artworks/19vpwx" target="_blank"><img class="lazy" src="../artNet/img/loadingdetailimg.gif" data-original="https://cdn.ywart.com/yw/20170904183056845f21b5c26.jpg_small01" alt="束河小景四" style="width: 264.813px;"></a>
+                    <a href="https://www.ywart.com/artworks/1kdjxn" target="_blank"><img class="lazy" src="{{asset('artNet/img/2016042516240267358752462.jpg_small01')}}" data-original="https://cdn.ywart.com/yw/2016042516240267358752462.jpg_small01" alt="乙未雲山系列" style="width: 970.616px; display: inline;"></a>
+                    <a href="https://www.ywart.com/artworks/1xdy06" target="_blank"><img class="lazy" src="{{asset('artNet/img/20160425161124960dc47949b.jpg_small01')}}" data-original="https://cdn.ywart.com/yw/20160425161124960dc47949b.jpg_small01" alt="甲子．光明净心" style="width: 167.096px; display: inline;"></a>
+                    <a href="https://www.ywart.com/artworks/16lm1j" target="_blank"><img class="lazy" src="{{asset('artNet/img/201607141720096578910c17c.jpg_small01')}}" data-original="https://cdn.ywart.com/yw/201607141720096578910c17c.jpg_small01" alt="无题5" style="width: 220.424px; display: inline;"></a>
+                    <a href="https://www.ywart.com/artworks/1x77m6" target="_blank"><img class="lazy" src="{{asset('artNet/img/loadingdetailimg.gif')}}" data-original="https://cdn.ywart.com/yw/20161111171734413e79c9b0c.jpg_small01" alt="清气" style="width: 522.149px;"></a>
+                    <a href="https://www.ywart.com/artworks/1877ge" target="_blank"><img class="lazy" src="{{asset('artNet/img/loadingdetailimg.gif')}}" data-original="https://cdn.ywart.com/yw/20170104132108518a3ae13af.png_small01" alt="大花篮" style="width: 387.729px;"></a>
+                    <a href="https://www.ywart.com/artworks/1g1keq" target="_blank"><img class="lazy" src="{{asset('artNet/img/loadingdetailimg.gif')}}" data-original="https://cdn.ywart.com/yw/201704181257477685fea77b3.jpg_small01" alt="保罗书信" style="width: 313.456px;"></a>
+                    <a href="https://www.ywart.com/artworks/12nxo7" target="_blank"><img class="lazy" src="{{asset('artNet/img/loadingdetailimg.gif')}}" data-original="https://cdn.ywart.com/yw/2017050412593494087731ca5.jpg_small01" alt="滇土之四" style="width: 347.757px;"></a>
+                    <a href="https://www.ywart.com/artworks/12nxo7" target="_blank"><img class="lazy" src="{{asset('artNet/img/loadingdetailimg.gif')}}" data-original="https://cdn.ywart.com/yw/2017050412593494087731ca5.jpg_small01" alt="滇土之四" style="width: 347.757px;"></a>
+                    <a href="https://www.ywart.com/artworks/19vpwx" target="_blank"><img class="lazy" src="{{asset('artNet/img/loadingdetailimg.gif')}}" data-original="https://cdn.ywart.com/yw/20170904183056845f21b5c26.jpg_small01" alt="束河小景四" style="width: 264.813px;"></a>
             </div>
         </section>
     </section>
@@ -280,10 +280,10 @@
         <div class="page_login_make"></div>
         <div class="page_login_box">
             <div class="page_login_logo">
-                <img onclick="location.href = &#39;/&#39;;" src="../artNet/img/logoAndText.svg">
+                <img onclick="location.href = &#39;/&#39;;" src="{{asset('artNet/img/logoAndText.svg')}}">
             </div>
             <div class="page_login_dialog">
-                <div class="closelogin" style="position:absolute;width:20px;height:20px;top:5px;right:5px"><img src="../artNet/img/closeInput.svg"></div>
+                <div class="closelogin" style="position:absolute;width:20px;height:20px;top:5px;right:5px"><img src="{{asset('artNet/img/closeInput.svg')}}"></div>
                 <section class="login_dialog">
                     <div class="account inputdiv">
                         <p>请输入手机或邮箱</p>
@@ -394,12 +394,12 @@
  
     //require(['/content/script/page/Goods.Detail.js']);
     </script>
-    <script type="text/javascript" src="../artNet/js/social-share.min.js"></script>
+    <script type="text/javascript" src="{{asset('artNet/js/social-share.min.js')}}"></script>
     <script>
     socialShare('#sharejs', {image:"https://cdn.ywart.com/yw/20171106132355226c63d5096.jpg@300h_300w_0e_1l.src",sites: [ 'weibo','qzone', 'qq','wechat']});
     </script>
 
-    <script id="authloginjs" src="../artNet/js/Auth.Login.min.js"></script>
+    <script id="authloginjs" src="{{asset('artNet/js/Auth.Login.min.js')}}"></script>
     <section id="vipdialog" style="position:fixed;width:100%;height:100%;top:0;left:0;display:none">
     <div class="abs100 blackmark" style="background-color:rgba(0, 0, 0, 0.7);z-index:1"></div>
     <div id="vipbox" style="width: 710px; height: 360px; background-image:url(https://cdn.ywart.com/material/view1/collect/VIP1.jpg);background-size:100% 100%;position:absolute;z-index:2;left:50%;top:50%;margin-left:-355px;margin-top:-180px" ;="">
@@ -407,7 +407,7 @@
         <div class="howVipbtn" style="width: 82px; height: 20px;position:absolute;left:50%;margin-left:-41px;top:52%;cursor:pointer;font-size: 14px;font-weight: 500;  color: #3c948b;">如何成为VIP</div>
         <input id="invitecode" name="invitecode" type="text" placeholder="请输入VIP邀请码" style="position:absolute;top:60%;left:50%;width:150px;margin-left:-75px;font-size: 20px;border:0;padding:0;background-color:transparent;outline:none;">
         <button id="vipcodecheck" style="position:absolute;top: 77.3%;background-color: transparent;left:50%;width:120px;height:40px;margin-left:-60px;outline:none;border:0;padding:0;cursor:pointer"></button>
-        <img style="display:none" src="../artNet/img/VIP2.jpg">
+        <img style="display:none" src="{{asset('artNet/img/VIP2.jpg')}}">
     </div>
     <div id="howvipbox" class="_hidden" style="width: 710px; height: 360px; background-image:url(https://cdn.ywart.com/material/view1/collect/vipbg.jpg);background-size:100% 100%;position:absolute;z-index:2;left:50%;top:50%;margin-left:-355px;margin-top:-180px" ;="">
         <div class="closeJoinVIP" style="color:#ccb892;-webkit-transform: rotate(-45deg);transform: rotate(-45deg);width:20px;height:20px;padding:10px;cursor:pointer;position:absolute;top:7px;right:25px;font-size:32px;">+</div>
@@ -424,8 +424,8 @@
 
     <section id="firstAD" class="_hidden" isshow="-1">
     <div>
-            <img src="../artNet/img/pc1123ad.png">
-            <button class="getcoupe pc"><img src="../artNet/img/adclose.png"></button>
+            <img src="{{asset('artNet/img/pc1123ad.png')}}">
+            <button class="getcoupe pc"><img src="{{asset('artNet/img/adclose.png')}}"></button>
             <div class="getcoupe pc"></div>
     </div>
 </body></html>

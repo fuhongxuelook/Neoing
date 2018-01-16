@@ -23,7 +23,7 @@ class JellyService  {
 
     public function jelly() {
         $jelly = array(
-            'src' => '../artNet/img/20171106132355226c63d5096.jpg@800h_800w_0e_1l.src',
+            'src' => 'artNet/img/20171106132355226c63d5096.jpg@800h_800w_0e_1l.src',
             'name' => '角落'
         );
         return $jelly;
