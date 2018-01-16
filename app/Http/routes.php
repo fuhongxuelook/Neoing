@@ -28,7 +28,7 @@ Route::group(['namespace' => 'Home'],function() {
 
 Route::group(['namespace' => 'Module'],function() {
     Route::group(['prefix' => 'module'],function() {
-        Route::get('index', 'RestfulController@index');
+        Route::get('index/{category}/{module}',['as' => 'index','uses'=> 'RestfulController@index']);
     });
 });
 

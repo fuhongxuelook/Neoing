@@ -67,11 +67,11 @@
                 {{$cates}}
                 <a class="move" href="javascript:;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{$cates}}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
                 <ul class="nav-menu">
-                    @foreach($cate as $ca)
+                    @foreach($cate as $k => $ca)
                     <li>
                         <div class="move">
-                            <a class="changeA" href="{{$route['jump']}}">{{$ca}}</a>
-                            <a href="{{$route['jump']}}">{{$ca}}</a>
+                            <a class="changeA" href="{{$route['jump'].$cates.'/'.$k}}">{{$ca}}</a>
+                            <a href="{{$route['jump'].$cates.'/'.$k}}">{{$ca}}</a>
                         </div>
                     </li> 
                     @endforeach     

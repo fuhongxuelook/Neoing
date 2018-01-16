@@ -15,10 +15,10 @@ class RestfulController extends Controller{
 		$this->service = $service;
 	}
 
-	public function index() {
+	public function index($cate,$module) {
 		$category = $this->service->category(); //分类
 		$route = $this->service->route();		//首页跳转路由
-		$position = $this->service->position();
+		$position = $this->service->position($cate,$module);
 		$lists = $this->service->lists();
     	return view('art/list',compact('category','route','position','lists'));
 	}

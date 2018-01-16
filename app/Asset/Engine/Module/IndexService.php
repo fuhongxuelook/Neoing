@@ -15,35 +15,35 @@ class IndexService  {
 	public function category() {
 		$category = array(
             '鸟布鲸' => array (
-                '写生风景',
-                '人物画',
-                '平凡的生活',
-                '街景'
+                'view' => '写生风景',
+                'character' => '人物画',
+                'life' => '平凡的生活',
+                'street' => '街景'
             ),
             '画风' => array(
-                '古典主义',
-                '巴洛克艺术',
-                '印象主义',
-                '表现主义'
+                'classic' => '古典主义',
+                'baroque' => '巴洛克艺术',
+                'impressionism' => '印象主义',
+                'exprisseonism' => '表现主义'
             ),
             '学院派' => array(
-                '中央美术学院',
-                '中国美术学院',
-                '鲁迅美术学院',
-                '四川美术学院',
-                '其他美院',
+                'cafa' => '中央美术学院',
+                'caa'  => '中国美术学院',
+                'lafa' => '鲁迅美术学院',
+                'sfai' => '四川美术学院',
+                'other' => '其他美院',
             ),
             '流浪的艺术' => array(
-                '北风',
-                '南风',
-                '大彩',
-                '漂',
+                'north' => '北风',
+                'south' => '南风',
+                'color' => '大彩',
+                'float' => '漂',
             ),
             '异域风采' => array(
-                '欧美风情',
-                '地中海艺术',
-                '拉丁美洲',
-                '龟兹文化'
+                'EA' => '欧美风情',
+                'mediterranean'  => '地中海艺术',
+                'latin' => '拉丁美洲',
+                'qiuci' => '龟兹文化'
             ),
         );
         return $category;
@@ -97,17 +97,17 @@ class IndexService  {
 
     public function route() {
         $route = array(
-            'jump' => '/market/jelly',
-            'sale' => '/upload/index',
+            'jump' => '/market/jelly/',
+            'sale' => '/upload/index/',
         );
         return $route;
     }
 
-    public function position() {
+    public function position($cate,$module) {
         $position = array(
             '首页',
-            '学院派',
-            '川美作品'
+            $cate,
+            $module,
         );
         return $position;
     }
