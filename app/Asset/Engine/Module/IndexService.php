@@ -97,7 +97,7 @@ class IndexService  {
 
     public function route() {
         $route = array(
-            'jump' => '/market/jelly/',
+            'jump' => '/module/',
             'sale' => '/upload/index/',
         );
         return $route;

@@ -2,24 +2,18 @@
 <html lang="en">
 <head>
 <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
-
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="keywords" content="鸟布鲸">
     <meta name="description" content="我们的世界">
     <title>学院派</title>
-    <link rel="shortcut icon" href="soulieren.ico">
-    
-
-<link media="all" href="{{asset('css/index.css')}}" type="text/css" rel="stylesheet">
+    <link media="all" href="{{asset('css/index.css')}}" type="text/css" rel="stylesheet">
 </head>
 <body><iframe style="position: fixed; display: none; opacity: 0;" src="{{asset('ext/index_1.html')}}" frameborder="0"></iframe><div class="jiathis_style" style="position: absolute; z-index: 1000000000; display: none; top: 50%; left: 50%; overflow: auto;"></div><div class="jiathis_style" style="position: absolute; z-index: 1000000000; display: none; overflow: auto;"></div><iframe style="display: none;" src="{{asset('ext/index_2.html')}}" frameborder="0"></iframe>
-        
     <script src="{{asset('js/push.js')}}"></script><script src="{{asset('js/hm.js')}}"></script><script src="{{asset('js/jquery-1.7.2.js')}}"></script>
     <script type="text/javascript" src="{{asset('js/reg.js')}}"></script>
     <script type="text/javascript" src="{{asset('js/lgandrg.js')}}"></script>
-    
     <script>
         var _hmt = _hmt || [];
         (function () {
@@ -46,7 +40,8 @@
 <div id="full_navigation">
     <header>
         <div class="header_bar">
-            <div class="logo"><a href="{{$route['jump']}}"><img src="{{asset('images/list/logo.png')}}"></a></div>
+            <div class="logo"><a href="{{$route['jump']}}"><img src="{{asset('images/list/logo.png')}}"></a>
+            </div>
             <!--div class="search_bar">
                 <form action="http://soulieren.com/index.php/Home/Search/search" method="post">
                     <input name="name" placeholder="你在寻找什么？" value="" type="text">
@@ -62,14 +57,13 @@
         <ul class="navBar">
             @foreach ($category as $cates => $cate) 
             <li>
-                {{$cates}}
                 <a class="move" href="javascript:;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{$cates}}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
                 <ul class="nav-menu">
                     @foreach($cate as $ca)
                     <li>
                         <div class="move">
-                            <a class="changeA" href="{{$route['jump']}}">{{$ca}}</a>
-                            <a href="{{$route['jump']}}">{{$ca}}</a>
+                            <a class="changeA" href="{{$route['jump'].$cates.'/'.$ca}}">{{$ca}}</a>
+                            <a href="{{$route['jump'].$cates.'/'.$ca}}">{{$ca}}</a>
                         </div>
                     </li> 
                     @endforeach     

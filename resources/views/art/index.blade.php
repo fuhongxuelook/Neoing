@@ -2,28 +2,20 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
-
-    
     <meta name="keywords" content="鸟布鲸">
     <meta name="description" content="我们的世界">
     <title>Neo</title>
-    
     <!--分享-->
     <script src="{{asset('pic/push.js')}}"></script><script src="../pic/hm.js"></script><script src="{{asset('pic/wb.js')}}" type="text/javascript" charset="utf-8"></script>
     <!--分享结束-->
     <script type="text/javascript" src="{{asset('pic/jquery.js')}}"></script>
     <script src="{{asset('pic/add.js')}}"></script>
-    
-    
-
-<link media="all" href="{{asset('pic/index.css')}}" type="text/css" rel="stylesheet">
+    <link media="all" href="{{asset('pic/index.css')}}" type="text/css" rel="stylesheet">
 </head>
 <body style="overflow-x: hidden; background-color: rgb(250, 249, 245);"><iframe style="position: fixed; display: none; opacity: 0;" src="../pic/index_1.html" frameborder="0"></iframe><div class="jiathis_style" style="position: absolute; z-index: 1000000000; display: none; top: 50%; left: 50%; overflow: auto;"></div><div class="jiathis_style" style="position: absolute; z-index: 1000000000; display: none; overflow: auto;"></div><iframe style="display: none;" src="../pic/index_2.html" frameborder="0"></iframe>
-        
     <script src="{{asset('pic/jquery-1.7.2.js')}}"></script>
     <script type="text/javascript" src="{{asset('pic/reg.js')}}"></script>
     <script type="text/javascript" src="{{asset('pic/lgandrg.js')}}"></script>
-    
     <script>
         var _hmt = _hmt || [];
         (function () {
@@ -50,7 +42,8 @@
 <div id="full_navigation">
     <header>
         <div class="header_bar">
-            <div class="logo"><a href="{{$route['jump']}}"><img src="{{asset('pic/logo.png')}}"></a></div>
+            <div class="logo"><a href="{{$route['jump']}}"><img src="{{asset('pic/logo.png')}}"></a>
+            </div>
             <div class="operation">
                 <span>
                     <a href="{{$route['sale']}}">鸟布鲸上出售</a>
@@ -64,7 +57,6 @@
         <ul class="navBar">
            @foreach ($category as $cates => $cate) 
            <li>
-                {{$cates}}
                 <a class="move" href="javascript:;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{$cates}}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
                 <ul class="nav-menu">
                     @foreach($cate as $k => $ca)
