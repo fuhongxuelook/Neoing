@@ -38,11 +38,11 @@
     <body>
         <div class="container">
             <div class="content">
-                <div class="title">🐦 {{$title}}</div>
+                <a href="{{$url}}"><img src="{{asset('images/index/neo.png')}}"></a>
+                <br><br>
+                <div class="title"> {{$title}}</div>
                 <br>
                 <label>{{$copyright}}</label>
-                <br><br><br>
-                 <a href="{{$url}}" class="button button-tiny">Go</a>
             </div>
         </div>
     </body>
