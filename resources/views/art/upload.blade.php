@@ -25,6 +25,26 @@
           </div>
     </div>
     <div class="control-group">
+          <label class="control-label">大类</label>
+          <div class="controls">
+            <select class="input-xlarge" name="category">
+                <option>鸟布鲸</option>
+                <option>画风</option>
+                <option>学院派</option>
+                <option>流浪的艺术</option>
+                <option>异域风采</option>
+            </select>
+          </div>
+    </div>
+    <div class="control-group">
+          <!-- Text input-->
+          <label class="control-label" for="input01">小类</label>
+          <div class="controls">
+            <input type="text" placeholder="小类" name="class" class="input-xlarge">
+            <p class="help-block"></p>
+          </div>
+    </div>
+    <div class="control-group">
           <!-- Text input-->
           <label class="control-label" for="input01">价格</label>
           <div class="controls">

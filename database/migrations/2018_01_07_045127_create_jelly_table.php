@@ -16,9 +16,9 @@ class CreateJellyTable extends Migration
             $table->increments('id');
             $table->char('uid',15)->comment('用户ID');
             $table->string('name')->comment('作品名称');
-            $table->string('category')->comment('大类');
-            $table->string('class')->comment('类');
-            $table->string('type')->comment('类型');
+            $table->string('category_id')->comment('大类');
+            $table->string('class_id')->comment('类');
+            $table->string('type_id')->comment('类型');
             $table->string('style')->comment('风格');
             $table->float('price', 8, 2)->comment('价格');
             $table->string('label')->comment('标签');
