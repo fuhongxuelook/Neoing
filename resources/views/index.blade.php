@@ -38,9 +38,9 @@
     <body>
         <div class="container">
             <div class="content">
-                <a href="{{$url}}"><img src="{{asset('images/index/neo.png')}}"></a>
+                
                 <br><br>
-                <div class="title"> {{$title}}</div>
+                <div class="title"> {{$title}}<a href="{{$url}}">  <img src="{{asset('images/index/neo.png')}}"></a></div>
                 <br>
                 <label>{{$copyright}}</label>
             </div>
