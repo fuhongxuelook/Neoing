@@ -13,6 +13,9 @@ class ProjectService  {
 	}
 
 	public function buildProject(ProjectBean $been) {
+        if(! $bean) {
+            return false;
+        }
 		$file = $been->getFile();
 		$path = $this->mvUploadFile($file);
 		if(! $path ) {

@@ -24,10 +24,13 @@ class ProjectRequest {
     	}
 		$this->bean->setFile($file);
 		$this->bean->setName($this->request->input('name'));
+		$this->bean->setCategory($this->request->input('category'));
+		$this->bean->setClass($this->request->input('class'));
 		$this->bean->setPrice($this->request->input('price'));
 		$this->bean->setStyle($this->request->input('style'));
 		$this->bean->setLabel($this->request->input('label'));
 		$this->bean->setContent($this->request->input('content'));
+		dd($this->bean);
 		return $this->bean;
 	}
 }
