@@ -666,32 +666,32 @@
 
                      <div class="item_block">
                         <div class="item_bg image"
-                             style="background-image:url(/Pctpl/Home/Public/images/Index/20180114banner02.jpg)"><a href="/Home/GoodsInfo/2647/4034"></a></div>
+                             style="background-image:url(/Pctpl/Home/Public/images/Index/20180114banner02.jpg)"><a href="/home/page"></a></div>
                     </div>
                       <div class="item_block">
                         <div class="item_bg image"
-                             style="background-image:url(/Pctpl/Home/Public/images/Index/20180114banner01.jpg)"><a href="/Home/GoodsInfo/1598/2920"></a></div>
+                             style="background-image:url(/Pctpl/Home/Public/images/Index/20180114banner01.jpg)"><a href="/home/page"></a></div>
                     </div>
 
 
 
                     <div class="item_block">
                         <div class="item_bg image"
-                             style="background-image:url(/Pctpl/Home/Public/images/pc/1211banner04.jpg)"><a href="/Home/GoodsInfo/2549/3931"></a></div>
+                             style="background-image:url(/Pctpl/Home/Public/images/pc/1211banner04.jpg)"><a href="/home/page"></a></div>
                     </div>
 
                     <div class="item_block">
                         <div class="item_bg image"
-                             style="background-image:url(/Pctpl/Home/Public/images/pc/1490685075590.jpg)"><a href="/Home/GoodsInfo/696/1826"></a></div>
+                             style="background-image:url(/Pctpl/Home/Public/images/pc/1490685075590.jpg)"><a href="/home/page"></a></div>
                     </div>
                      <div class="item_block">
                         <div class="item_bg image"
-                             style="background-image:url(/Pctpl/Home/Public/images/pc/1211banner01.jpg)"><a href="/Home/GoodsInfo/2355/3737"></a></div>
+                             style="background-image:url(/Pctpl/Home/Public/images/pc/1211banner01.jpg)"><a href="/home/page"></a></div>
                     </div>
 
                        <div class="item_block">
                         <div class="item_bg image"
-                             style="background-image:url(/Pctpl/Home/Public/images/pc/1211banner03.jpg)"><a href="/Home/GoodsInfo/649/1769"></a></div>
+                             style="background-image:url(/Pctpl/Home/Public/images/pc/1211banner03.jpg)"><a href="/home/page"></a></div>
                     </div>
                 </div>
                 <div class="sliderArrow">
@@ -809,17 +809,18 @@
                         <div class="tab_button">
                             <div class="content_list">
                                 <div id="service_item_0" class="item_block wow" style="animation-delay:.0s">
-                                    <a href="javascript:;" class="item_link">
+                                    <a href="www.baidu.com" class="item_link">
                                         <div class="item_wrapper">
                                             <div class="item_img"><img src="/Pctpl/Home/Public/images/pc/1490077085525.png"/></div>
-                                            <div class="item_info"><p class="nums">01 /</p>
-                                                <p class="title ellipsis">IP&nbsp;展示</p>
-                                                <p class="subtitle ellipsis">Exhibition</p></div>
+                                            <div class="item_info">
+                                                <!--p class="nums">class</p-->
+                                                <p class="title ellipsis">鸟&nbsp;布鲸</p>
+                                                <p class="subtitle ellipsis">Neoing</p></div>
                                         </div>
                                     </a>
                                 </div>
                                 <div id="service_item_1" class="item_block wow" style="animation-delay:.1s">
-                                    <a href="javascript:;" class="item_link">
+                                    <a href="www.baidu.com" class="item_link">
                                         <div class="item_wrapper">
                                             <div class="item_img"><img src="/Pctpl/Home/Public/images/pc/1490075922783.png"/></div>
                                             <div class="item_info"><p class="nums">02 /</p>
@@ -829,7 +830,7 @@
                                     </a>
                                 </div>
                                 <div id="service_item_2" class="item_block wow" style="animation-delay:.2s">
-                                    <a href="javascript:;" class="item_link">
+                                    <a href="www.baidu.com" class="item_link">
                                         <div class="item_wrapper">
                                             <div class="item_img"><img src="/Pctpl/Home/Public/images/pc/1490076036776.png"/></div>
                                             <div class="item_info"><p class="nums">03 /</p>
@@ -839,7 +840,7 @@
                                     </a>
                                 </div>
                                 <div id="service_item_3" class="item_block wow" style="animation-delay:.3s">
-                                    <a  href="javascript:;" class="item_link">
+                                    <a  href="www.baidu.com" class="item_link">
                                         <div class="item_wrapper">
                                             <div class="item_img"><img src="/Pctpl/Home/Public/images/pc/1490076244647.png"/></div>
                                             <div class="item_info"><p class="nums">04 /</p>
@@ -849,7 +850,7 @@
                                     </a>
                                 </div>
                                 <div id="service_item_4" class="item_block wow" style="animation-delay:.0s">
-                                    <a href="javascript:;" class="item_link">
+                                    <a href="www.baidu.com" class="item_link">
                                         <div class="item_wrapper">
                                             <div class="item_img"><img src="/Pctpl/Home/Public/images/pc/1490076286323.png"/></div>
                                             <div class="item_info"><p class="nums">05 /</p>
@@ -859,7 +860,7 @@
                                     </a>
                                 </div>
                                 <div id="service_item_5" class="item_block wow" style="animation-delay:.1s">
-                                    <a href="javascript:;" class="item_link">
+                                    <a href="www.baidu.com" class="item_link">
                                         <div class="item_wrapper">
                                             <div class="item_img"><img src="/Pctpl/Home/Public/images/pc/1490076330843.png"/></div>
                                             <div class="item_info"><p class="nums">06 /</p>

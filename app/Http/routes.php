@@ -12,7 +12,7 @@
 */
 
 Route::get('/', function () {
-    return view('index',['title' => '鸟布鲸文化','url' => '/home/index','copyright' => 'Copyright © 2018-2038']);
+    return view('index',['title' => '鸟布鲸文化','url' => '/home/page','copyright' => 'Copyright © 2018-2038']);
 });
 
 
@@ -22,7 +22,7 @@ Route::get('/ajax', function () {
 
 Route::group(['namespace' => 'Home'],function() {
     Route::group(['prefix' => 'home'],function() {
-        Route::get('index', 'RestfulController@index');
+        Route::get('page', 'RestfulController@index');
     });
 });
 
