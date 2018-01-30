@@ -9,14 +9,14 @@
     <meta  name="keywords" content="鸟布鲸 我们的世界" />
     <title>鸟布鲸</title>
 
-    <link rel="stylesheet" href="/Pctpl/Public/css/nav.css">
-    <link type="text/css" href="/Pctpl/Home/Public/css/pc/lib2.css" rel="stylesheet"/>
-    <link type="text/css" href="/Pctpl/Home/Public/css/pc/style.2041.css" rel="stylesheet"/>
-    <link type="text/css" href="/Pctpl/Home/Public/css/pc/bwhite.css" rel="stylesheet"/>
-    <link type="text/css" href="/Pctpl/Home/Public/css/pc/2323.css" rel="stylesheet"/>
-    <script type="text/javascript" src="/Pctpl/Home/Public/js/pc/jquery.min.js"></script>
-    <script type="text/javascript" src="/Pctpl/Home/Public/js/pc/jquery.list.js"></script>
-    <script type="text/javascript" src="/Pctpl/Home/Public/js/pc/org.1494058893.js" data-main="indexMain"></script>
+    <link rel="stylesheet" href="{{asset('Pctpl/Public/css/nav.css')}}">
+    <link type="text/css" href="{{asset('Pctpl/Home/Public/css/pc/lib2.css')}}" rel="stylesheet"/>
+    <link type="text/css" href="{{asset('Pctpl/Home/Public/css/pc/style.2041.css')}}" rel="stylesheet"/>
+    <link type="text/css" href="{{asset('Pctpl/Home/Public/css/pc/bwhite.css')}}" rel="stylesheet"/>
+    <link type="text/css" href="{{asset('Pctpl/Home/Public/css/pc/2323.css')}}" rel="stylesheet"/>
+    <script type="text/javascript" src="{{asset('Pctpl/Home/Public/js/pc/jquery.min.js')}}"></script>
+    <script type="text/javascript" src="{{asset('Pctpl/Home/Public/js/pc/jquery.list.js')}}"></script>
+    <script type="text/javascript" src="{{asset('Pctpl/Home/Public/js/pc/org.1494058893.js')}}" data-main="indexMain"></script>
     <style>
         .fixed{display: none}
          .pop_activity_div{
