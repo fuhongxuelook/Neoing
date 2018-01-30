@@ -280,7 +280,7 @@
         <div class="page_login_make"></div>
         <div class="page_login_box">
             <div class="page_login_logo">
-                <img onclick="location.href = &#39;/&#39;;" src="{{asset('artNet/img/logoAndText.svg')}}">
+                <img onclick="location.href = &#39;/&#39;;" src="/Pctpl/Public/images/logo_n.png">
             </div>
             <div class="page_login_dialog">
                 <div class="closelogin" style="position:absolute;width:20px;height:20px;top:5px;right:5px"><img src="{{asset('artNet/img/closeInput.svg')}}"></div>

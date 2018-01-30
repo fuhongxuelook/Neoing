@@ -42,7 +42,7 @@
 <div id="full_navigation">
     <header>
         <div class="header_bar">
-            <div class="logo"><a href="{{$route['jump']}}"><img src="{{asset('images/neo.png')}}"></a>
+            <div class="logo"><a href="{{$route['jump']}}"><img src="/Pctpl/Public/images/logo_n.png"></a>
             </div>
             <div class="operation">
                 <span>
