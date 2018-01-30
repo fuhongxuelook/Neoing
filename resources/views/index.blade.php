@@ -448,7 +448,7 @@
     <div class="content clearfix">
         <br>
         <div class='logo'>
-            <a href="/home/page"><img src="{{asset('Pctpl/Public/images/logo_n.png')}}" alt="logo"></a>
+            <a href="/home/page"><img src="{{asset('pctpl/public/images/logo_n.png')}}" alt="logo"></a>
         </div>
         <!--ul id="menu" class="menu">
             <li data-menuanchor="page1" class="menu_li active">
