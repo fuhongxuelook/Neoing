@@ -19,6 +19,7 @@ class RestfulController extends Controller{
 		$themes = $this->service->theme();
 		$category = $this->service->category();
 		$recommends = $this->service->recommend();
-    	return view('index',compact('themes','category','recommends'));
+		$info = $this->service->aboutUS();
+    	return view('index',compact('themes','category','recommends','info'));
 	}
 }

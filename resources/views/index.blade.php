@@ -448,7 +448,7 @@
     <div class="content clearfix">
         <br>
         <div class='logo'>
-            <a href="/home/page"><img src="/Pctpl/Public/images/logo_n.png" alt="logo"></a>
+            <a href="/home/page"><img src="{{asset('Pctpl/Public/images/logo_n.png')}}" alt="logo"></a>
         </div>
         <!--ul id="menu" class="menu">
             <li data-menuanchor="page1" class="menu_li active">
@@ -1006,19 +1006,19 @@
                             <div class="description wow">
                                 <p style="text-align: center;">
                                     <span style="font-size: 14px;">
-                                        鸟布鲸 专注油画服务,为全世界提供种类繁多,性价比高的油画作品。
+                                        {{$info['content']}}
                                     </span>
                                 </p>
                                 <p><span style="font-size: 14px;"><br/></span></p>
                                 <p style="text-align: center;">
-                                    <a class="more" href="/Home/Service/cooperation.html" target="_blank">MORE</a>
+                                    <a class="more" href="{{$info['url']}}" target="_blank">MORE</a>
                                 </p>
                             </div>
                         </div>
                     </div>
                     <div class="mediabody wow">
                         <a target="_popup">
-                            <div class="image" style="background-image:url(/Pctpl/Home/Public/images/pc/149007689617.jpg)"></div>
+                            <div class="image" style="background-image:url({{$info['src']}})"></div>
                             <div class="mask"></div>
                             <div class="link_icon"><i class="fa fa-link" aria-hidden="true"></i></div>
                         </a>

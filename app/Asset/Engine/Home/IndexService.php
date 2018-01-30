@@ -122,7 +122,13 @@ class IndexService  {
         return $recommends;
     }
 
-    public function newWork() {
+    public function aboutUS() {
+        $info = array(
+            'content' => '鸟布鲸 专注油画服务,为全世界提供种类繁多,性价比高的油画作品',
+            'url' => 'home/page',
+            'src' => '/Pctpl/Home/Public/images/pc/149007689617.jpg',
+        );
+        return $info;
     }
 
     public function route() {
