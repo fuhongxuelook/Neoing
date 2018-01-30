@@ -1,0 +1,667 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="keywords" content="搜猎人,原创,艺术,原创精神,艺术家,设计师,手工艺人,原创者,迟首飞,版画,油画,艺术品,艺术品电商,原创艺术品购物平台,科罗德文化有限公司">
+    <meta name="description" content="搜猎人一个民族的原创品牌、一家原创者自己的平台，以“平台化整合创新”为理念、
+    打造高品质电子商务平台。经营一切具有原创精神的产品，汇集艺术家、设计师、手工业者、创新独立品牌。成立于 2015 年，
+    旗下北京搜猎人电子商务有限公司、北京搜猎人文化发展有限公司、宁波搜猎人科技有限公司。办公场地位于北京、香港、深圳、
+    昆明、宁波。">
+    <link rel="shortcut icon" href="http://www.soulieren.com/favicon.ico"/>
+    <link rel="stylesheet" href="/PcTpl/Public/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/PcTpl/Public/common/font/iconfont.css">
+    <link rel="stylesheet" href="/PcTpl/Public/css/cropper.css">
+    <link rel="stylesheet" href="/PcTpl/Public/css/swiper.min.css">
+    <link rel="stylesheet" href="/PcTpl/Home/Public/css/goods/goodsList.css">
+    <script src="/PcTpl/Public/js/jquery-3.0.0.min.js"></script>
+    <title>搜猎人/科罗德文化有限公司个人主页</title>
+</head>
+<body>
+<div class="div_random_bj"></div>
+<div class="div_random">
+    <div class="div_form_ation"><img src="/PcTpl/Home/Public/images/Goods/img123.png"/> 填写申请信息</div>
+    <div class="div_error" ><img src="/PcTpl/Home/Public/images/Goods/img1234.png" style="margin: 10px;"/> </div>
+    <div class="block_level">
+        <div style="margin-right: 78px;">
+            <input type="text" placeholder="姓名" class="customer_name">
+            <input type="text" placeholder="手机" class="customer_phone">
+             <select class="industry">
+                 <option value="">所属行业</option>
+                 <option value="服装">服装</option>
+                 <option value="家电">家电</option>
+                 <option value="文具">文具</option>
+                 <option value="婴童">婴童</option>
+                 <option value="玩具">玩具</option>
+                 <option value="工业设计">工业设计</option>
+                 <option value="动漫">动漫</option>
+                 <option value="影视">影视</option>
+                 <option value="旅游">旅游</option>
+                 <option value="食品">食品</option>
+                 <option value="出版">出版</option>
+                 <option value="3C数码">3C数码</option>
+                 <option value="其他">其他</option>
+             </select>
+        </div>
+
+        <input value="2" class="category1">
+        <input value="364" class="all_ids">
+        <div>
+            <input type="text" placeholder="公司" class="customer_company">
+            <input type="text" placeholder="邮箱" class="customer_mail">
+        </div>
+
+    </div>
+    <div class="submit_application">
+        提交
+    </div>
+</div>
+<div class="main">
+    <div class="aside-bar">
+        <div class="fixed-btn">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <ul class="menu">
+            <li><a href="/Home/index/pc.html"><span class="iconfont icon-shouyeshouye1"></span>首页</a></li>
+            <li><a class="gerenzhongxin"><span class="iconfont icon-gerenzhongxin"></span>个人中心</a></li>
+                        <li><a href="/Home/carts/index.html"><span class="iconfont icon-gouwuche1"></span>我的购物车</a></li>
+                    </ul>
+
+        <div class="main-menu">
+            <div class="menu-hd active">墙面装饰与收藏</div>
+            <ul class="sub-menu">
+                <li><a href="/Home/category/6">版画</a></li>
+                <li><a href="/Home/category/7">油画</a></li>
+                <li><a href="/Home/category/11">水彩(粉)</a></li>
+                <li><a href="/Home/category/12">国画</a></li>
+                <li><a href="/Home/category/13">朝鲜画</a></li>
+            </ul>
+            <div class="menu-hd">服装和配饰</div>
+            <ul class="sub-menu">
+                <li><a href="/Home/category/14">包和钱包</a></li>
+                <li><a href="/Home/category/15">服装</a></li>
+                <li><a href="/Home/category/16">腰带</a></li>
+            </ul>
+            <div class="menu-hd">家庭和生活</div>
+            <ul class="sub-menu">
+                <li><a href="/Home/category/9">雕塑和摆件</a></li>
+                <li><a href="/Home/category/31">家具家装</a></li>
+                <li><a href="/Home/category/63438">手机数码</a></li>
+            </ul>
+            <div class="menu-hd">文化用品</div>
+            <ul class="sub-menu">
+                <li><a href="/Home/category/4">书</a></li>
+                <li><a href="/Home/category/8">明星片</a></li>
+                <li><a href="/Home/category/10">手账本</a></li>
+                <li><a href="/Home/category/33">砚台</a></li>
+            </ul>
+            <div class="menu-hd">珠宝</div>
+            <ul class="sub-menu">
+                <li><a href="/Home/category/28">耳饰</a></li>
+                <li><a href="/Home/category/29">项链</a></li>
+                <li><a href="/Home/category/30">戒指</a></li>
+                <li><a href="/Home/category/63437">银条</a></li>
+            </ul>
+        </div>
+    </div>
+    <input style="display: none" value="" id="session">
+    <div class="aside-content">
+        <div class="mark-bg"></div>
+        <div class="shop-box container-fluid" id="crop-avatar">
+            <img class="img-bg" src="/./Upload/Home/shop/banner/2017-12-26/1514280217.jpeg" alt="">
+            <!--Cropping modal -->
+            <div class="modal fade" id="avatar-modal" aria-hidden="true" aria-labelledby="avatar-modal-label"
+                 role="dialog"
+                 tabindex="-1">
+                <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                        <form class="avatar-form">
+                            <div class="modal-header">
+                                <button class="close" data-dismiss="modal" type="button">&times;</button>
+                                <h4 class="modal-title" id="avatar-modal-label">Change Avatar</h4>
+                            </div>
+                            <div class="modal-body">
+                                <div class="avatar-body">
+                                    <!-- Upload image and data -->
+                                    <div class="avatar-upload">
+                                        <label for="avatarInput">Local upload</label>
+                                        <input class="avatar-input" id="avatarInput" name="file" type="file">
+                                    </div>
+
+                                    <!-- Crop and preview -->
+                                    <div class="row">
+                                        <div class="col-md-9">
+                                            <div class="avatar-wrapper">
+                                                <img src="" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <div class="avatar-preview preview-lg"></div>
+                                            <div class="avatar-preview preview-md"></div>
+                                            <div class="avatar-preview preview-sm"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" id="save" class="btn btn-primary" data-dismiss="modal">Save
+                                    changes
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div><!-- /.modal -->
+                                    <div class="canvas-box" style="display: none"></div>
+            <div class="inner"></div>
+            <div class="content">
+                <div class="shop-infos">
+                    <div class="shop-content">
+                        <div class="shop_name">科罗德文化有限公司</div>
+                        <div class="shop-con" style="font-size: 14px;">人民生活衍生创意礼品为主导的品牌服务</div>
+                        <div class="arrow-down"><a href="javascript:;"><img
+                                src="/PcTpl/Home/Public/images/storeList/arrow_down.png" alt=""></a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main-con">
+
+            <div class="shop-info">
+                <div class="shop-img">
+                                            <a href="">
+                                                            <img src="/./Upload/image/2017-12-26/1514278607.jpeg"/>                        </a>                </div>
+                <div class="shop-content">
+                    <div class="shop_name">科罗德文化有限公司</div>
+                                        <div class="follow">关&nbsp;注</div>
+                        
+                    <input type="hidden" name="shop_id" value="364" id="shop_id">
+                    <div class="shop-con">
+                        <span class="shop-text">9件作品</span><span class="line">|</span><span
+                            class="shop-text">82位关注TA</span>
+                    </div>
+                    <div class="shop-con" style="padding: 7px 0px 6px;">
+                        <span class="address iconfont icon-location"></span><span>北京</span>
+                    </div>
+                    <div class="div_application">
+                        <div class="application">申请作品IP</div>
+                        <div class="div_explain"><a href="/Home/Service/authorization.html"  class="">IP授权说明</a></div>
+                    </div>
+                </div>
+            </div>
+            <div class="title-con clear">
+                <div class="main-page active">主页</div>
+                <div class="video-page">视频</div>
+                <div class="article-page">文章</div>
+            </div>
+            <div class="include-box">
+                <div class="main-item" style="display: block">
+                    <div class="main-item1"></div>
+                    <!--推介商品-->
+
+<div class="wrapper">
+    <h2>推荐 / RECOMMEND</h2>
+    <div class="wrapper-con">
+        <ul class="wrapper-ul clearfix">
+                    </ul>
+        <!--<div class="my-progress">
+            <div class="progress-react"></div>
+        </div>-->
+    </div>
+    <div class="btn prev-btn"><</div>
+    <div class="btn next-btn">></div>
+</div>
+
+<div class="banner">
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+                    </div>
+        <!-- 如果需要分页器 -->
+        <div class="swiper-pagination"></div>
+    </div>
+</div>
+
+<!--商品分类-->
+<div class="category clear">
+    <div class="category-item">
+            <h2>纸本水墨系列</h2>
+            <div class="item-list clear">
+
+                                    <div class="img_box">
+                        <a href="/Home/goodsInfo/2582/3969">
+                            <img src="/./Upload/Goods/smallImg/2017-12-26/small_img/1514279510.jpeg" data-loadSrc="/./Upload/Goods/smallImg/2017-12-26/1514279510.jpeg"/>
+                        </a>
+                        <div class="img_info">
+                            <p>
+                                <span class="img_name">海市蜃楼</span>
+                                <span class="collect">
+                                                                                                               <span class="heart iconfont icon-dianzan" data-state="1"></span><span
+                                                class="text">收藏</span>
+                                                                            <input type="hidden" name="goods_id" value="2582" class="goods_list_id"
+                                           id="goods_list_id">
+                                </span>
+                            </p>
+                            <p class="price">￥-1.00</p>
+                        </div>
+                    </div>                    <div class="img_box">
+                        <a href="/Home/goodsInfo/2583/3970">
+                            <img src="/./Upload/Goods/smallImg/2017-12-26/small_img/1514279576.jpeg" data-loadSrc="/./Upload/Goods/smallImg/2017-12-26/1514279576.jpeg"/>
+                        </a>
+                        <div class="img_info">
+                            <p>
+                                <span class="img_name">奥菲娅与流动的云</span>
+                                <span class="collect">
+                                                                                                               <span class="heart iconfont icon-dianzan" data-state="1"></span><span
+                                                class="text">收藏</span>
+                                                                            <input type="hidden" name="goods_id" value="2583" class="goods_list_id"
+                                           id="goods_list_id">
+                                </span>
+                            </p>
+                            <p class="price">￥-1.00</p>
+                        </div>
+                    </div>                    <div class="img_box">
+                        <a href="/Home/goodsInfo/2584/3971">
+                            <img src="/./Upload/Goods/smallImg/2017-12-26/small_img/1514279674.jpeg" data-loadSrc="/./Upload/Goods/smallImg/2017-12-26/1514279674.jpeg"/>
+                        </a>
+                        <div class="img_info">
+                            <p>
+                                <span class="img_name">跳伞的科罗德</span>
+                                <span class="collect">
+                                                                                                               <span class="heart iconfont icon-dianzan" data-state="1"></span><span
+                                                class="text">收藏</span>
+                                                                            <input type="hidden" name="goods_id" value="2584" class="goods_list_id"
+                                           id="goods_list_id">
+                                </span>
+                            </p>
+                            <p class="price">￥-1.00</p>
+                        </div>
+                    </div>                    <div class="img_box">
+                        <a href="/Home/goodsInfo/2585/3972">
+                            <img src="/./Upload/Goods/smallImg/2017-12-26/small_img/1514279740.jpeg" data-loadSrc="/./Upload/Goods/smallImg/2017-12-26/1514279740.jpeg"/>
+                        </a>
+                        <div class="img_info">
+                            <p>
+                                <span class="img_name">舞狮子的科罗德</span>
+                                <span class="collect">
+                                                                                                               <span class="heart iconfont icon-dianzan" data-state="1"></span><span
+                                                class="text">收藏</span>
+                                                                            <input type="hidden" name="goods_id" value="2585" class="goods_list_id"
+                                           id="goods_list_id">
+                                </span>
+                            </p>
+                            <p class="price">￥-1.00</p>
+                        </div>
+                    </div>                    <div class="img_box">
+                        <a href="/Home/goodsInfo/2586/3973">
+                            <img src="/./Upload/Goods/smallImg/2017-12-26/small_img/1514279796.jpeg" data-loadSrc="/./Upload/Goods/smallImg/2017-12-26/1514279796.jpeg"/>
+                        </a>
+                        <div class="img_info">
+                            <p>
+                                <span class="img_name">科罗德的鲸鱼之梦</span>
+                                <span class="collect">
+                                                                                                               <span class="heart iconfont icon-dianzan" data-state="1"></span><span
+                                                class="text">收藏</span>
+                                                                            <input type="hidden" name="goods_id" value="2586" class="goods_list_id"
+                                           id="goods_list_id">
+                                </span>
+                            </p>
+                            <p class="price">￥-4.00</p>
+                        </div>
+                    </div>                    <div class="img_box">
+                        <a href="/Home/goodsInfo/2587/3974">
+                            <img src="/./Upload/Goods/smallImg/2017-12-26/small_img/1514279899.jpeg" data-loadSrc="/./Upload/Goods/smallImg/2017-12-26/1514279899.jpeg"/>
+                        </a>
+                        <div class="img_info">
+                            <p>
+                                <span class="img_name">科罗德与蝶</span>
+                                <span class="collect">
+                                                                                                               <span class="heart iconfont icon-dianzan" data-state="1"></span><span
+                                                class="text">收藏</span>
+                                                                            <input type="hidden" name="goods_id" value="2587" class="goods_list_id"
+                                           id="goods_list_id">
+                                </span>
+                            </p>
+                            <p class="price">￥-4.00</p>
+                        </div>
+                    </div>                    <div class="img_box">
+                        <a href="/Home/goodsInfo/2588/3975">
+                            <img src="/./Upload/Goods/smallImg/2017-12-26/small_img/1514279956.jpeg" data-loadSrc="/./Upload/Goods/smallImg/2017-12-26/1514279956.jpeg"/>
+                        </a>
+                        <div class="img_info">
+                            <p>
+                                <span class="img_name">科罗德奔驰时代</span>
+                                <span class="collect">
+                                                                                                               <span class="heart iconfont icon-dianzan" data-state="1"></span><span
+                                                class="text">收藏</span>
+                                                                            <input type="hidden" name="goods_id" value="2588" class="goods_list_id"
+                                           id="goods_list_id">
+                                </span>
+                            </p>
+                            <p class="price">￥-4.00</p>
+                        </div>
+                    </div>                    <div class="img_box">
+                        <a href="/Home/goodsInfo/2589/3976">
+                            <img src="/./Upload/Goods/smallImg/2017-12-26/small_img/1514280003.jpeg" data-loadSrc="/./Upload/Goods/smallImg/2017-12-26/1514280003.jpeg"/>
+                        </a>
+                        <div class="img_info">
+                            <p>
+                                <span class="img_name">科罗德的追逐游戏</span>
+                                <span class="collect">
+                                                                                                               <span class="heart iconfont icon-dianzan" data-state="1"></span><span
+                                                class="text">收藏</span>
+                                                                            <input type="hidden" name="goods_id" value="2589" class="goods_list_id"
+                                           id="goods_list_id">
+                                </span>
+                            </p>
+                            <p class="price">￥-4.00</p>
+                        </div>
+                    </div>                    <div class="img_box">
+                        <a href="/Home/goodsInfo/2590/3977">
+                            <img src="/./Upload/Goods/smallImg/2017-12-26/small_img/1514280060.jpeg" data-loadSrc="/./Upload/Goods/smallImg/2017-12-26/1514280060.jpeg"/>
+                        </a>
+                        <div class="img_info">
+                            <p>
+                                <span class="img_name">科罗德与雏鸟</span>
+                                <span class="collect">
+                                                                                                               <span class="heart iconfont icon-dianzan" data-state="1"></span><span
+                                                class="text">收藏</span>
+                                                                            <input type="hidden" name="goods_id" value="2590" class="goods_list_id"
+                                           id="goods_list_id">
+                                </span>
+                            </p>
+                            <p class="price">￥-4.00</p>
+                        </div>
+                    </div>            </div>
+            <a href="javascript:;" class="more-btn">查看更多>></a>
+        </div></div>
+
+
+<div class="introduce"><p>及优秀的创意作品销售与趣味产业化接近当代人民生活衍生创意礼品为主导的品牌服务让有品质高内涵的艺术品走进千家万户</p></div>
+
+                </div>
+                <div class="video-item">
+                    <!--视频-->
+<div class="video clear">
+    </div>
+                </div>
+                <div class="article-item">
+                    
+<!--文章-->
+<div class="article clear">
+    </div>
+                </div>
+            </div>
+            
+    <style>
+        footer{
+            margin-top: 100px;
+            width: 100%;
+        }
+        .footer_list{
+            max-width: 1340px;
+            min-width: 980px;
+            margin: 0 auto;
+            overflow: hidden;
+            display: flex;
+            justify-content: space-around;
+        }
+        .footer_list>ul{
+            list-style: none;
+        }
+        .footer_list>ul li a{
+            text-decoration: none;
+            font-size: 12px;
+            color: #000000;
+            text-decoration: none;
+            display: inline-block;
+            margin-top: 14px;
+            line-height: 20px;
+        }
+        .footer_list>ul li a.open{
+            background-color: #34a8c4;
+            color: #FFFFFF;
+            border-radius: 4px;
+            padding: 8px;
+        }
+        .footer_info{
+            max-width: 1340px;
+            min-width: 980px;
+            box-sizing: border-box;
+            padding: 0 60px;
+            margin: 60px auto 30px;
+        }
+        .footer_info::after{
+            content: '';
+            display: block;
+            clear: both;
+        }
+        .footer_info p{
+            border: 1px solid #dddddc;
+            padding: 5px;
+            display: inline-block;
+            font-size: 13px;
+        }
+        .footer_info p:last-child{
+            float: right;
+        }
+
+        .footer_list .last_list li a{
+            /*width: 22px;*/
+            margin: 0;
+        }
+        .sidle_bar{
+            position: fixed;
+            width: 100px;
+            bottom: 50px;
+        }
+        .sidle_bar>a{
+            font-size: 12px;
+            display: inline-block;
+            margin-bottom: 15px;
+        }
+
+        .jiathis_style_32x32 {
+            /*width: 15px;*/
+        }
+        .jiathis_style_32x32 .jtico_cqq{
+            background:url(/PcTpl/Home/Public/images/Index/aa3.png) no-repeat;
+            background-position: 0px 0px;
+            background-size:22px 22px;
+            margin-left: 2px;
+        }
+        .jiathis_style_32x32 .jtico_tsina{
+            background:url(/PcTpl/Home/Public/images/Index/aa2.png) no-repeat;
+            background-position: 0px 0px;
+            background-size:22px 22px;
+            margin-left: 2px;
+        }
+        .jiathis_style_32x32 .jtico_weixin{
+            background:url(/PcTpl/Home/Public/images/Index/aa1.png) no-repeat;
+            background-position: 0px 0px;
+            background-size:22px 22px;
+            margin-left: 2px;
+        }
+    </style>
+
+
+
+    <footer>
+        <div class="footer_list">
+            <ul>
+                <li><a><strong>把你的激情融入企业</strong></a></li>
+                <li><a class="open" href="/Home/shop/211316">打开一个商店</a></li>
+                <li><a href="/Home/Service/seek.html">在搜猎人出售</a></li>
+                <li><a href="/Home/Index/specifications.html">我们的规则</a></li>
+                <!--<li><a href="javascript:return false;">使用条款</a></li>-->
+                <!--<li><a href="javascript:return false;">隐私条款</a></li>-->
+            </ul>
+            <ul>
+                <li><a><strong>关于</strong></a></li>
+                <li><a href="/Home/index/read.html">关于我们</a></li>
+                <li><a href="/Home/Service/cooperation.html">联系我们</a></li>
+            </ul>
+            <ul>
+                <li><a><strong>更多</strong></a></li>
+                <li><a href="javascript:;" class="weixin_s">微信</a></li>
+                <li><a href="http://weibo.com/soulieren?refer_flag=1001030102_">微博</a></li>
+                <li><a href="https://shop129576228.taobao.com/?spm=a230r.7195193.1997079397.2.s5bniH">淘宝</a></li>
+                <li><a href="http://v.qq.com/vplus/2f648c677c0dcb939fcf6a40cd1fae90">原创视频</a></li>
+            </ul>
+            <ul>
+                <li><a><strong>政策</strong></a></li>
+                <li><a href="/Home/Index/buyer_policy.html">买家政策 </a></li>
+                <li><a href="/Home/Index/seller_policy.html">卖家政策 </a></li>
+                <li><a href="/Home/Index/trademark_policy.html">商标政策 </a></li>
+            </ul>
+            <ul>
+                <li><a><strong>商务合作</strong></a></li>
+                <li><a href="/Home/BusinessCooperation/index.html#page2">线上渠道</a></li>
+                <li><a href="/Home/BusinessCooperation/index.html#page3">线下渠道</a></li>
+                <li><a href="/Home/BusinessCooperation/index.html#page4">视频定制</a></li>
+            </ul>
+            <ul class="last_list">
+                <li><a href="javascript:;" style="margin:12px 0"><strong>分享</strong></a></li>
+                <li class="jiathis_style_32x32"><a class="jiathis_button_weixin"></a></li>
+                <li class="jiathis_style_32x32"><a class="jiathis_button_cqq"></a></li>
+                <li class="jiathis_style_32x32"><a class="jiathis_button_tsina"></a></li>
+            </ul>
+        </div>
+        <div class="footer_info">
+            <p>版权所有&nbsp;京ICP备15012603号—1</p>
+            <p>Tel:010-57794643&nbsp;周日-周五9:00-19:00</p>
+        </div>
+    </footer>
+
+    <script type="text/javascript">
+        var jiathis_config = {
+            summary: "",
+            shortUrl: false,
+            hideMore: false
+        }
+    </script>
+    <script type="text/javascript" src="http://v3.jiathis.com/code/jia.js" charset="utf-8"></script>
+    <script>
+        $('.weixin_s').click(function () {
+            $('.weiX-box').show();
+        });
+        $('.weiX-box').click(function () {
+            $('.weiX-box').hide();
+        })
+    </script>
+
+            <div class="top"></div>
+        </div>
+    </div>
+</div>
+
+
+
+<script src="/PcTpl/Public/js/bootstrap.min.js"></script>
+<script src="/PcTpl/Public/js/cropper.js"></script>
+<script src="/PcTpl/Public/js/swiper.min.js"></script>
+<script src="/PcTpl/Home/Public/js/goods/goodsList.js"></script>
+<script src="/PcTpl/Public/js/ImgLoad.js"></script>
+<script>
+    $('.submit_application').click(function () {
+       var data ={
+           customer_name:$('.customer_name').val(),
+           category:$('.category1').val(),
+           customer_company:$('.customer_company').val(),
+           customer_phone:$('.customer_phone').val(),
+           customer_mail:$('.customer_mail').val(),
+           industry:$('.industry').val(),
+           all_ids:$('.all_ids').val()
+       };
+        $.ajax({
+            type: "POST",
+            url: "../copyright/shopAuthorization",
+            data: data,
+            dataType: 'json',
+            success: function (data) {
+                if (data.status == -10086) {
+                    alert(data.msg);
+                    return false;
+                }else if (data.status == -1) {
+                    alert(data.msg);
+                    return false;
+                } else if (data.status == 1) {
+                    alert("申请成功，稍后有搜猎人工作人员联系您！");
+                    location.reload();
+                    return true;
+                }
+            }
+        })
+    });
+    $('.div_error').click(function () {
+         $('.div_random_bj').hide();
+         $('.div_random').hide();
+    });
+    $('.application').click(function () {
+         $('.div_random_bj').show();
+         $('.div_random').show();
+    });
+
+    var price = $('.price');
+    $.each(price,function (index,dom) {
+        var ee =$(dom).html();
+        if(ee=='￥-1.00'){
+            $(dom).empty();
+            $(dom).html('议价');
+        }else if(ee=='￥-2.00'){
+            $(dom).empty();
+            $(dom).html('非卖品');
+        }else if(ee=='￥-3.00'){
+            $(dom).empty();
+            $(dom).html('已售');
+        }else if(ee=='￥-4.00'){
+            $(dom).empty();
+            $(dom).html('展示');
+        }
+    });
+</script>
+<script>
+    var session = $('#session').val();
+    $('.gerenzhongxin').click(function () {
+        if (session == '') {
+            alert("请登录");
+        } else {
+            window.location.href = "/Home/Personal/order.html";
+        }
+    });
+    $('.dianpu').click(function () {
+        if (session == '') {
+            alert("请登录");
+        } else {
+            window.location.href = "/Home/SellerCenter/index.html";
+        }
+    });
+    $('.woguanlidedianpu').click(function () {
+        if (session == '') {
+            alert("请登录");
+        } else {
+            window.location.href = "/Home/shop/";
+        }
+    });
+    var swiper = new Swiper('.swiper-container', {
+        pagination: '.swiper-pagination',
+        paginationClickable: '.swiper-pagination',
+        spaceBetween: 30,
+        autoplay: 3500,
+        autoplayDisableOnInteraction: false
+//            loop:true
+    });
+    var $banner = $('.banner'),
+        $bImgLen = $banner.find('img').length;
+    if ($bImgLen == 0) {
+        $banner.remove();
+    } else if ($bImgLen == 1) {
+        $banner.find('.swiper-pagination').hide();
+    }
+</script>
+</body>
+</html>

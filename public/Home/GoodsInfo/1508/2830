@@ -1,0 +1,1803 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="keywords" content="搜猎人,原创,艺术,原创精神,艺术家,设计师,手工艺人,原创者,迟首飞,版画,油画,艺术品,艺术品电商,原创艺术品购物平台,花园爵士曲掠过海边">
+    <meta name="description" content="搜猎人——一个民族的原创品牌、一家原创者自己的平台，以“平台化整合创新”为理念、
+    打造高品质电子商务平台。经营一切具有原创精神的产品，汇集艺术家、设计师、手工业者、创新独立品牌。成立于 2015 年，
+    旗下北京搜猎人电子商务有限公司、北京搜猎人文化发展有限公司、宁波搜猎人科技有限公司。办公场地位于北京、香港、深圳、
+    昆明、宁波。">
+    <title>花园爵士曲掠过海边</title>
+    <style type="text/css">
+        i {
+            font-style: normal;
+            text-align: center;
+            font-size: 12px;
+            color: #fff;
+            width: 18px;
+            height: 18px;
+            border-radius: 9px;
+            line-height: 18px;
+        }
+
+        body {
+            height: 100%;
+            width: 100%;
+            position: relative;
+        }
+
+        body .ask {
+            margin: 0px auto;
+            width: 100%;
+        }
+
+        .shop_ask {
+            color: #666;
+            font-size: 14px;
+            padding-left: 15px;
+            background-color: #f7f7f7;
+            border: 1px solid #eee;
+            height: 30px;
+            line-height: 30px;
+        }
+
+        .bj {
+            height: 75px;
+            background-color: #dddddc;
+            text-align: center;
+            color: #333;
+            font-size: 16px;
+        }
+
+        /*.bj p{*/
+        /*width: 75px;*/
+        /*height: 75px;*/
+        /*background-color: antiquewhite;*/
+        /*display: inline-block;*/
+        /*}*/
+        .bj span {
+            height: 75px;
+            font-size: 16px;
+            display: inline-block;
+            vertical-align: top;
+            line-height: 75px;
+        }
+
+        .bj a {
+            font-size: 14px;
+            display: inline-block;
+            color: #34a8c4;
+            border: 1px solid #34a8c4;
+            padding: 0px 15px;
+            border-radius: 15px;
+            vertical-align: top;
+            margin-top: 23px;
+        }
+
+        .bj a:hover {
+            background-color: #34a8c4;
+            color: #fff;
+        }
+
+        .askAnswer-item {
+            padding-bottom: 10px;
+            border-bottom: 1px solid #dddddc;
+        }
+
+        .askAnswer-item .list, .askAnswer-item .list1 {
+            display: flex;
+            width: 100%;
+            position: relative;
+            margin: 15px auto;
+        }
+
+        .askAnswer-item .list i {
+            background-color: #f91;
+        }
+
+        .askAnswer-item .list1 i {
+            background-color: #9b1;
+        }
+
+        .askAnswer-item .list_p {
+            line-height: 18px;
+            color: #333;
+            margin-left: 10px;
+            font-size: 14px;
+            max-width: 290px;
+            word-wrap: break-word;
+            word-break: normal;
+        }
+
+        .questions {
+            cursor: pointer;
+        }
+
+        .list_right {
+            line-height: 18px;
+            position: absolute;
+            right: 0;
+            color: #999;
+            font-size: 14px;
+            display: flex;
+        }
+
+        .ui-dialog {
+            width: 390px;
+            height: 199px;
+            position: fixed;
+            background-color: #fff;
+            z-index: 5582;
+            left: 50%;
+            top: 50%;
+            margin-left: -185px;
+            margin-top: -115px;
+        }
+
+        .ui-mask {
+            width: 100%;
+            height: 100%;
+            background-color: rgb(0, 0, 0);
+            position: absolute;
+            opacity: 0.15;
+            z-index: 5555;
+        }
+
+        .ui-mask, .ui-dialog {
+            display: none;
+        }
+
+        .ui-dialog-title {
+            width: 100%;
+            background-color: #f3f3f3;
+            height: 30px;
+            line-height: 30px;
+        }
+
+        .ui-dialog-title_p {
+            float: left;
+            padding-left: 10px;
+            font-size: 14px;
+
+        }
+
+        .ui-dialog-title_p1 {
+            float: right;
+            padding-right: 10px;
+            font-size: 20px;
+            cursor: pointer;
+        }
+
+        .ui-dialog-content {
+            width: 100%;
+            margin-top: 20px;
+            padding-left: 10px;
+            box-sizing: border-box;
+        }
+
+        .ui-dialog-content > p {
+            font-size: 14px;
+            line-height: 30px;
+            color: #999
+        }
+
+        .ui-dialog-content textarea {
+            width: 369px;
+            height: 51px;
+            resize: none;
+            line-height: 17px;
+            padding: 0px 5px;
+            box-sizing: border-box;
+            margin-top: 6px;
+        }
+
+        .ui-dialog-button {
+            width: 78px;
+            height: 30px;
+            line-height: 30px;
+            text-align: center;
+            display: inline-block;
+            border-radius: 5px;
+            font-size: 14px;
+            margin-left: 10px;
+        }
+
+        .ui-dialog-cancel {
+            background: #999;
+            border-color: #ddd;
+            color: #fff;
+        }
+
+        .ui-dialog-submit {
+            background-color: #34a8c4;
+            color: #fff;
+        }
+
+        .wenti input {
+            margin-top: 10px;
+            display: inline-block;
+            position: absolute;
+            margin-left: -15px;
+        }
+
+        .wenti {
+            margin-left: 147px;
+            margin-top: 18px;
+            font-size: 12px;
+            box-sizing: border-box;
+        }
+
+        .wenti a {
+            cursor: pointer;
+        }
+
+        .hover a:hover {
+            text-decoration: underline;
+        }
+
+        body .jiathis_style_32x32 .jtico_cqq {
+            background: url(/PcTpl/Home/Public/images/Index/aa3.png) no-repeat;
+            background-position: 0px 0px;
+            background-size: 22px 22px;
+            margin-left: 3px;
+        }
+
+        body .jiathis_style_32x32 .jtico_tsina {
+            background: url(/PcTpl/Home/Public/images/Index/aa2.png) no-repeat;
+            background-position: 0px 0px;
+            background-size: 22px 22px;
+            margin-left: 3px;
+        }
+
+        body .jiathis_style_32x32 .jtico_weixin {
+            background: url(/PcTpl/Home/Public/images/Index/aa1.png) no-repeat;
+            background-position: 0px 0px;
+            background-size: 22px 22px;
+            margin-left: 3px;
+        }
+
+        body #jiathis_weixin_tip {
+            display: none;
+        }
+
+        .tab .div_head .all_comment {
+            width: 100%;
+            height: 120px;
+            border-bottom: 1px solid #dddddc;
+            margin-top: 15px;
+        }
+
+        .all_comment_left {
+            width: 160px;
+            float: left;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        .tab .div_head .all_comment_left img {
+            width: 70px;
+            height: 70px;
+            border-radius: 50%;
+        }
+
+        .all_comment_right {
+            width: 400px;
+            float: left;
+            font-size: 14px;
+            color: #686868;
+        }
+
+        .sj {
+            margin-top: -30px;
+            float: right;
+        }
+
+        .star .star-item {
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            margin-right: -1px;
+            background-repeat: no-repeat;
+            background-size: 20px 20px;
+        }
+
+        .star .star-item:last-child {
+            margin-right: 0
+        }
+
+        .star .on {
+            background: url("/PcTpl/Home/Public/images/Goods/star24_on@2x.png");
+        }
+
+        .star .half {
+            background: url("/PcTpl/Home/Public/images/Goods/star24_half@2x.png");
+        }
+
+        .star .off {
+            background: url("/PcTpl/Home/Public/images/Goods/star24_off@2x.png");
+        }
+
+        .big_pic li:first-of-type {
+            z-index: 19;
+        }
+
+        .thanked_number {
+            margin-top: -29px;
+            float: left;
+            margin-left: 77px;
+            font-size: 15px;
+        }
+
+        .contact {
+            position: absolute;
+            border: 1px solid #dcdcdc;
+            width: 140px;
+            top: 0;
+            display: none;
+            left: -140px;
+            z-index: 999;
+            background-color: #ffffff;
+        }
+
+        .contact .ma {
+            width: 100px;
+            height: 100px;
+            margin: 20px auto 10px;
+        }
+
+        .contact p {
+            font-size: 12px;
+            text-align: center;
+            line-height: 20px;
+            color: #000;
+            margin-bottom: 10px;
+        }
+
+        .contact .iconfont {
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            margin-right: 5px;
+        }
+
+        .server {
+            position: fixed;
+            border: 1px solid #dcdcdc;
+            width: 50px;
+            height: 70px;
+            font-size: 14px;
+            top: 400px;
+            right: 90px;
+            z-index: 999;
+            text-align: center;
+            background-color: #ffffff;
+            cursor: pointer;
+        }
+
+        .server .icon-weixin {
+            display: inline-block;
+            font-size: 24px;
+            text-align: center;
+            color: #1AFA29;
+            width: 40px;
+            height: 32px;
+            margin: 5px;
+        }
+
+        .server:hover .contact {
+            display: block;
+        }
+
+        .recommends a {
+            float: right;
+            font-size: 13px;
+            margin: 0px;
+            display: flex;
+            width: 78px;
+            height: 78px;
+            text-align: center;
+            background-color: #fff;
+            overflow: hidden;
+        }
+
+        .recommends span img {
+            width: 100%;
+            height: auto;
+            margin: auto;
+        }
+
+    </style>
+    <link rel="stylesheet" href="/PcTpl/Home/Public/css/goods/tuodong.css"/>
+    <link href="/PcTpl/Home/Public/css/goods/Page.css" rel="stylesheet">
+    <link rel="stylesheet" href="/PcTpl/Public/common/font/iconfont.css">
+    <!--分享-->
+    <!--分享结束-->
+    <script src="/PcTpl/Public/js/jquery-1.7.2.js"></script>
+    <script src="/PcTpl/Home/Public/js/goods/move.js"></script>
+    <script src="/PcTpl/Home/Public/js/carts/add.js"></script>
+    <script src="/PcTpl/Public/js/customer_collection.js"></script>
+    <script src="/PcTpl/Public/js/thanked.js"></script>
+
+</head>
+<style>
+    .haese a {
+
+        width: 100px;
+        font-size: 14px;
+        height: 24px;
+        letter-spacing: 2px;
+    }
+</style>
+<body>
+
+<div class="server">
+    <span class="iconfont icon-weixin"></span>
+    <p>客服</p>
+    <div class="contact">
+        <div class="ma"><img src="/PcTpl/Public/images/qrcode.jpg" alt=""></div>
+        <p>立即扫码咨询</p>
+        <p><span class="iconfont icon-dianhua2"></span>010-57794643</p>
+        <p><span class="iconfont icon-shizhong"></span>9:00——19:00</p>
+    </div>
+</div>
+<div class="ui-mask"></div>
+<div style="width: 100%; background-color: #fff">
+    ﻿    <link rel="stylesheet" href="/PcTpl/Home/Public/css/index/navigation.css">
+    <script src="/PcTpl/Public/js/jquery-1.7.2.js"></script>
+    <script type="text/javascript" src="/PcTpl/Public/js/reg.js"></script>
+    <script type="text/javascript" src="/PcTpl/Home/Public/js/lgandrg.js"></script>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+        }
+        #full_navigation{
+            margin-top: -20px;
+        }
+        #full_navigation .tabs{
+            width: 580px;
+            margin: 0 auto;
+            position: fixed;
+            background-color: #f5f5f1;
+            padding-top: 20px;
+            left: 50%;
+            margin-left: -290px;
+            z-index: 10990;
+            top: 50%;
+            margin-top: -240px;
+
+        }
+        #full_navigation .nav .nav-menu li .move .changeA {
+            background-color: #ff873e;
+            color: #FFFFFF;
+        }
+        #full_navigation .nav  .nav-menu li a {
+            text-align: left;
+            display: block;
+            padding-left: 14px;
+            text-decoration: none;
+        }
+        .header_bar span a{
+            font-size: 16px;
+        }
+        #full_navigation .ul1s{
+            list-style: none;
+            display: flex;
+            margin: 0;
+            padding: 0;
+            align-items: center;
+            margin-left: 51px;
+        }
+        #full_navigation .ul1s li{
+            font-size: 13px;
+            background-color: #f3f3f3;
+            border: 1px #dddddc solid;
+            width: 50px;
+            height: 30px;
+            text-align: center;
+            line-height: 29px;
+            cursor: pointer;
+        }
+        #full_navigation .ul1s li:nth-child(1){
+            border-right:none ;
+        }
+        #full_navigation .ul1s li.active{
+            background:#fff;
+            border-bottom: none;
+            height: 30px;
+            color: #ff873e;
+        }
+        #full_navigation .tabs div{
+            background-color: #fff;
+        }
+
+        #full_navigation .tabs .boxs>div{
+            line-height: 28px;
+            padding-top: 0px;
+            z-index: -1;
+            border-top: 1px #dddddc solid;
+            display: none;  margin-top: -1px;
+        }
+        #full_navigation  .all_div{
+            display: none;
+            position: absolute;
+            z-index: 100;
+            text-align: center;
+            margin: 0 auto;
+            width: 100%;
+            margin-top: -134px;
+            height: 100%;
+        }
+        body .all_div .tabs  .boxs {
+            width: 100%;
+            height: auto;
+        }
+        #full_navigation .all_div_bj{
+            position: fixed;
+            top: 0px;
+            left: 0px;
+            width: 100%;
+            height: 100%;
+            z-index: 999;
+            display: block;
+            opacity: 0.8;
+            background-color: rgb(221, 221, 221);
+        }
+
+        body #full_navigation .boxs input{
+
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+            font-family: inherit;
+            width: 232px;
+            line-height: 20px;
+            color: #333;
+            font-size: 12px;
+            margin: 0 0 0.2em 0;
+            padding: 6px;
+            border: 1px solid #c2c2c2;
+            border-right: 1px solid #e6e6e6;
+            border-bottom: 1px solid #e6e6e6;
+            display: block;
+        }
+        #full_navigation .register p{
+            font-size: 12px;
+            margin-top: 8px;
+            margin-bottom: 4px;
+        }
+        #full_navigation .register{
+            padding: 20px 53px;
+            text-align: left;
+        }
+        #full_navigation .boxs  .checkbox{
+            width: 13px;
+        }
+        #full_navigation .boxs .register span{
+            color: red;
+            position: absolute;
+            margin: -34px 0px 0px 256px;
+            font-size: 12px;
+        }
+        #full_navigation .boxs .login span{
+              color: red;
+              position: absolute;
+              margin: -34px 0px 0px 256px;
+              font-size: 12px;
+          }
+        #full_navigation .boxs .register hr{
+            background-color: #e1e1df;
+            color: #e1e1df;
+            border: 0;
+            height: 1px;
+            margin: 19px 0 11px;
+            clear: both;
+        }
+        #full_navigation  .register .submit-button{
+            background-color: #3cb1cb;
+            border-color: rgba(0, 0, 0, 0.2);
+            box-sizing: border-box;
+            border-radius:3px;
+            color: #fff;
+            margin: 10px 0px;
+        }
+        #full_navigation .login .submit-button{
+
+            font-size: 14px;
+            line-height: inherit;
+            background-color: #3cb1cb;
+            border-color: rgba(0, 0, 0, 0.2);
+            box-sizing: border-box;
+            border-radius:3px;
+            color: #fff;
+            border: none;
+            margin: 10px 0;
+        }
+        #full_navigation .login p{
+            font-size: 12px;
+            margin-top: 8px;
+            margin-bottom: 4px;
+        }
+        #full_navigation .login{
+            padding: 20px 53px;
+            text-align: left;
+        }
+        #full_navigation .boxs .login hr{
+            background-color: #e1e1df;
+            color: #e1e1df;
+            border: 0;
+            height: 1px;
+            margin: 19px 0 11px;
+            clear: both;
+        }
+
+        #full_navigation #kd{    width: 82px;
+            position: absolute;
+            height: 34px;
+            border: 1px solid #dddddc;
+            border-left: none;
+            margin-top: -36px;
+            margin-left: 150px;
+        }
+        #full_navigation #kds{    width: 82px;
+                position: absolute;
+                height: 34px;
+                border: 1px solid #dddddc;
+                border-left: none;
+                margin-top: -36px;
+                margin-left: 150px;
+            }
+        #full_navigation img {
+            vertical-align: middle;
+        }
+        #full_navigation .boxs #mobilecode{
+            width: 150px;
+        }
+        #full_navigation #btnSendCode{
+            width: 82px;
+            height: 34px;
+            font-size: 11px;
+            background-color: #ff873e;
+            color: #fff;
+            margin-top: -36px;
+            margin-left: 150px;    display: -webkit-box;
+            border: none;
+        }
+        #full_navigation #btnSendCodes{
+            width: 82px;
+            height: 34px;
+            font-size: 11px;
+            background-color: #ff873e;
+            color: #fff;
+            margin-top: -36px;
+            margin-left: 150px;    display: -webkit-box;
+            border: none;
+        }
+        #full_navigation .boxs .register .input_text{
+            font-size: 12px;
+            margin: -23px 22px 0px;
+            color: #000;
+        }
+        #full_navigation .boxs .login .input_text{
+            font-size: 12px;
+            margin: -23px 22px 0px;
+            color: #000;
+        }
+        #full_navigation #randCode{
+            width: 150px;
+        }
+        #full_navigation  .button-login {
+            background-color: #34A8C4;
+            width: 232px;
+            margin-top: 10px;
+            border: none;
+            font-size: 14px;
+            line-height: inherit;
+            border-radius:3px;
+            color: #fff;
+        }
+        #full_navigation  .phone-button {
+            background-color: #34A8C4;
+            width: 232px;
+            margin-top: 10px;
+            border: none;
+            font-size: 14px;
+            line-height: inherit;
+            border-radius:3px;
+            color: #fff;
+        }
+        #full_navigation .submit-button{
+            width: 232px;
+            border-radius: 3px;
+        }
+        #full_navigation #randCode1{
+            width: 150px;
+        }
+        #full_navigation .lgs .kuaijie{
+            margin-top: 10px;
+            margin-bottom: 20px;
+        }
+        #full_navigation .lgs .kuaijie a{
+            padding: 6px 22px;
+            color: #fff;
+            background-color: #34A8C4;
+            border-radius: 3px;
+        }
+        .boxs a{
+            color: #34A8C4;
+            text-decoration: none;
+            font-size: 12px;
+
+        }
+    
+        #register,.loginBtn,.operation span{
+            cursor: pointer;
+        }
+        #full_navigation .tabs .ul1s .close{
+            font-size: 24px;
+            float:right;
+            background-color: #f5f5f1;
+            cursor: pointer;
+            margin-left: 383px;
+            width: 31px;
+            height: 27px;
+            line-height: 27px;
+            color: #666;
+            opacity: 1;
+        }
+        .weChats{
+            width: 100%; height: auto ;display: none;    margin: 0 auto;text-align: center;
+        }
+        body #full_navigation .boxs .shoujidls input,body #full_navigation .boxs .mingzidls input{
+            margin: 22px 0px;
+        }
+        .weiX-box{
+            position: fixed;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0,0,0,.7);
+            z-index: 9;
+            display: none;
+            margin-top: -20px;
+        }
+        .weiX-box img{
+            position: absolute;
+            top:50%;
+            left: 50%;
+            margin-top:-125px ;
+            margin-left:-125px ;
+        }
+    </style>
+    <script>
+        var _hmt = _hmt || [];
+        (function () {
+            var hm = document.createElement("script");
+            hm.src = "https://hm.baidu.com/hm.js?9a11dd5949cc7fabe8b1613247bce4ee";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(hm, s);
+        })();
+    </script>
+    <script>
+        (function(){
+            var bp = document.createElement('script');
+            var curProtocol = window.location.protocol.split(':')[0];
+            if (curProtocol === 'https') {
+                bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+            }
+            else {
+                bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+            }
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(bp, s);
+        })();
+    </script>
+    <div class="weiX-box">
+        <img src="/PcTpl/Public/images/weixin.jpg" alt="" width="250px">
+    </div>
+<div id="full_navigation">
+    <header>
+        <div class="header_bar">
+            <input style="display: none" value="" id="session">
+            <div class="logo"><a href="/Home/Index/index.html"><img src="/PcTpl/Home/Public/images/Index/logo2.png"/></a></div>
+            <div class="search_bar">
+                <form action="/Home/Search/search" method="post">
+                    <input type="text" name="name" placeholder="你在寻找什么？"/>
+                    <input type="submit" value="搜索"/>
+                </form>
+            </div>
+            <div class="operation">
+                <span><a href="/Home/service/seek.html">搜猎人上出售</a></span>                <span><a id="register">注册</a></span>                <span><a class="loginBtn" id="login">登录</a></span>                                                <span class="car"><a href="/Home/carts/index.html"><img src="/PcTpl/Home/Public/images/Index/Shopping Cart.png"/></a></span>
+            </div>
+        </div>
+    </header>
+    <div class="nav">
+
+        <ul class="navBar">
+            <li><a href="/Home/Index/pc.html">商城首页</a></li>
+            <li class="current-line">
+                <a class="move" href="javascript:;">墙面装饰与收藏</a>
+                <ul class="nav-menu">
+                    <li>
+                            <div class="move">
+                                <a class="changeA" href="/Home/category/6">版画</a>
+                                <a href="/Home/category/6">版画</a>
+                            </div>
+                        </li><li>
+                            <div class="move">
+                                <a class="changeA" href="/Home/category/7">油画</a>
+                                <a href="/Home/category/7">油画</a>
+                            </div>
+                        </li><li>
+                            <div class="move">
+                                <a class="changeA" href="/Home/category/11">水彩(粉)</a>
+                                <a href="/Home/category/11">水彩(粉)</a>
+                            </div>
+                        </li><li>
+                            <div class="move">
+                                <a class="changeA" href="/Home/category/12">国画</a>
+                                <a href="/Home/category/12">国画</a>
+                            </div>
+                        </li><li>
+                            <div class="move">
+                                <a class="changeA" href="/Home/category/13">朝鲜画</a>
+                                <a href="/Home/category/13">朝鲜画</a>
+                            </div>
+                        </li><li>
+                            <div class="move">
+                                <a class="changeA" href="/Home/category/63439">素描</a>
+                                <a href="/Home/category/63439">素描</a>
+                            </div>
+                        </li><li>
+                            <div class="move">
+                                <a class="changeA" href="/Home/category/63440">绘画</a>
+                                <a href="/Home/category/63440">绘画</a>
+                            </div>
+                        </li><li>
+                            <div class="move">
+                                <a class="changeA" href="/Home/category/63442">综合材料</a>
+                                <a href="/Home/category/63442">综合材料</a>
+                            </div>
+                        </li>                </ul>
+            </li>
+            <li>
+                <a class="move" href="javascript:;">服装和配饰</a>
+                <ul class="nav-menu">
+                    <li>
+                            <div class="move">
+                                <a class="changeA" href="/Home/category/14">箱包</a>
+                                <a href="/Home/category/14">箱包</a>
+                            </div>
+                        </li><li>
+                            <div class="move">
+                                <a class="changeA" href="/Home/category/15">男/女装</a>
+                                <a href="/Home/category/15">男/女装</a>
+                            </div>
+                        </li><li>
+                            <div class="move">
+                                <a class="changeA" href="/Home/category/16">腰带</a>
+                                <a href="/Home/category/16">腰带</a>
+                            </div>
+                        </li>                </ul>
+            </li>
+                <li>
+                <a class="move" href="javascript:;">珠宝</a>
+                <ul class="nav-menu">
+                    <li>
+                            <div class="move">
+                                <a class="changeA" href="/Home/Goods/allgoodsList/id/28.html">耳饰</a>
+                                <a href="/Home/Goods/allgoodsList/id/28.html">耳饰</a>
+                            </div>
+                        </li><li>
+                            <div class="move">
+                                <a class="changeA" href="/Home/Goods/allgoodsList/id/29.html">项链</a>
+                                <a href="/Home/Goods/allgoodsList/id/29.html">项链</a>
+                            </div>
+                        </li><li>
+                            <div class="move">
+                                <a class="changeA" href="/Home/Goods/allgoodsList/id/30.html">戒指</a>
+                                <a href="/Home/Goods/allgoodsList/id/30.html">戒指</a>
+                            </div>
+                        </li><li>
+                            <div class="move">
+                                <a class="changeA" href="/Home/Goods/allgoodsList/id/63437.html">银条</a>
+                                <a href="/Home/Goods/allgoodsList/id/63437.html">银条</a>
+                            </div>
+                        </li>                </ul>
+            </li>
+            <li>
+                <a class="move" href="javascript:;">家庭和生活</a>
+                <ul class="nav-menu">
+                    <li>
+                            <div class="move">
+                                <a class="changeA" href="/Home/category/9">雕塑</a>
+                                <a href="/Home/category/9">雕塑</a>
+                            </div>
+                        </li><li>
+                            <div class="move">
+                                <a class="changeA" href="/Home/category/31">家居家装</a>
+                                <a href="/Home/category/31">家居家装</a>
+                            </div>
+                        </li><li>
+                            <div class="move">
+                                <a class="changeA" href="/Home/category/63438">手机数码</a>
+                                <a href="/Home/category/63438">手机数码</a>
+                            </div>
+                        </li><li>
+                            <div class="move">
+                                <a class="changeA" href="/Home/category/63443">酒</a>
+                                <a href="/Home/category/63443">酒</a>
+                            </div>
+                        </li>                </ul>
+            </li>
+            <li>
+                <a class="move" href="javascript:;">文化用品</a>
+                <ul class="nav-menu">
+                    <li>
+                            <div class="move">
+                                <a class="changeA" href="/Home/category/4">书刊</a>
+                                <a href="/Home/category/4">书刊</a>
+                            </div>
+                        </li><li>
+                            <div class="move">
+                                <a class="changeA" href="/Home/category/8">明信片</a>
+                                <a href="/Home/category/8">明信片</a>
+                            </div>
+                        </li><li>
+                            <div class="move">
+                                <a class="changeA" href="/Home/category/10">手帐本</a>
+                                <a href="/Home/category/10">手帐本</a>
+                            </div>
+                        </li><li>
+                            <div class="move">
+                                <a class="changeA" href="/Home/category/63441">茶叶</a>
+                                <a href="/Home/category/63441">茶叶</a>
+                            </div>
+                        </li>                </ul>
+            </li>
+          <!--   <li>
+                <a class="move" href="/Home/Article/articlelist.html">原创故事</a>
+            </li> -->
+        </ul>
+    </div>
+    <div class="mark_bg"></div>
+    <div class="all_div">
+        <div class="all_div_bj"></div>
+        <div class="tabs">
+            <ul class="ul1s">
+                <li class="rg active">注册</li>
+                <li class="lg">登录</li>
+                <div  class="close">×</div>
+            </ul>
+            <div class="boxs">
+                <div style="width: 100%; height: auto" class="rgs box1">
+                    <form class="register sms-form" id="sms-form" method="post"  name="form-sub">
+                        <p>手机号码</p>
+                        <input type="text" id="phone" name="username"  class="phone" maxlength="11" placeholder="11位手机号码" >
+                        <span class="phone_span"></span>
+                        <p>验证码</p>
+                        <input  type="text" id="randCode" name="randCode" maxlength="4" placeholder="图片验证码"  >
+                        <div class="kd">
+                            <img src="/Home/Mobile/createCode" id="kd"
+                                 onclick="this.src='/Home/Mobile/createCode/id/'+Math.random()">
+                        </div>
+                        <span class="randCode_span"></span>
+                        <p>手机验证码</p>
+                        <input type="text" id="mobilecode" name="mobilecode" class="input-sty padding-r" maxlength="6" placeholder="手机验证码" >
+                        <button id="btnSendCode" class="phoneCode" type="submit">发送验证码</button>
+
+                        <span class="mobilecode_span"></span>
+                        <p>密码</p>
+                        <input  type="password" name="pwd" class="pwd" id="password" maxlength="16"  placeholder="6-16位字符，须包含字母、数字" >
+                        <span class="password_span"></span>
+                        <p>确认密码</p>
+                        <input  type="password" name="rpwd" class="rpwd" id="rpassword" maxlength="16" placeholder="确认密码" >
+                        <span class="rpassword_span"></span>
+                        <hr/>
+                        <div>
+                            <input type="checkbox" class="checkbox" checked="checked"  /><span class="input_text">请确认已阅读并同意搜猎人<a href="/Home/Index/use_clause.html " target="_black">使用条款</a>和<a href="/Home/Index/privacy_clause.html" target="_black" >隐私条款</a></span>
+                        </div>
+                        <button type="button" class=" button-login registerBtn" >立即注册</button><span class="zhuce_span"style=" margin: 8px 30px;"></span>
+                    </form>
+                </div>
+                <div style="width: 100%; height: auto" class="lgs box1">
+                    <div  class="login">
+                        <div class="kuaijie">
+                            <a href="javascript:;" class="mingzidl" style="background-color:#189ce0">用户名</a>
+                            <a href="javascript:;" class="shoujidl">手机号</a>
+                            <a href="javascript:;" class="weixindl">微信</a>
+                        </div>
+                        <hr style=" margin-top: 5px;margin-bottom: 0px;"/>
+                        <!--用户名登录-->
+                            <div class="mingzidls">
+                                <input type="text" id="username" name="username"  class="phone" placeholder="用户名" >
+                                <span class="phone1_span" style="margin-top: -53px;"></span>
+                                <input type="password"  name="pwd"  class="password" id="password1"  maxlength="16"  placeholder="密码" >
+                                <span class="password1_span" style="margin-top: -53px;"></span>
+                                <hr />
+                                <div>
+                                    <a href="/Home/Password/index.html">忘记密码了吗？</a>
+                                </div>
+                                <button type="button" value="登录" class="submit-button"  >登录</button>
+                            </div>
+                        <!--手机号码登录-->
+                            <div class="shoujidls" style="display: none">
+                                <form class=" sms-forms" id="sms-forms" method="post"  name="form-sub">
+                                    <input type="text" id="usernames" name="username"  class="username" maxlength="11" placeholder="手机号码" >
+                                    <span class="phone1_span" style="margin-top: -53px;"></span>
+                                    <input type="text" id="mobilecodes" name="mobilecode" class="input-sty padding-r" maxlength="6" placeholder="验证码" >
+                                    <button id="btnSendCodes" class="phoneCode" type="submit" style="margin-top: -56px;">发送验证码</button>
+                                    <span class="mobilecodes_span"></span>
+                                    <hr />
+                                    <div>
+                                        <a href="/Home/Password/index.html">忘记密码了吗？</a>
+                                    </div>
+                                    <button type="button" value="登录" class="phone-button"  onclick="">登录</button>
+                                </form>
+                            </div>
+                        <!--微信内嵌登录-->
+                            <div class="weChats box1" >
+                                <div id="weChat"></div>
+                                <script src="http://res.wx.qq.com/connect/zh_CN/htmledition/js/wxLogin.js"></script>
+                                <script>
+                                    var obj = new WxLogin({
+                                        id:"weChat",
+                                        appid: "wx8d8646fc4b1dcca4",
+                                        scope: "snsapi_login",
+                                        redirect_uri: "http%3A%2F%2Fwww.soulieren.com%2Findex.php%2Fhome%2FThirdLogin%2Fcallback",
+                                        state: "",
+                                        style: "black",
+                                        href: ""
+                                    });
+                                </script>
+                            </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+</div>
+
+<img src="/PcTpl/Public/images/benner.jpg" width="100%"/>
+<div class="whole">
+
+
+    <div class="whole_head">
+        <form method="post">
+            <a href="/Home/shop/213022"><img
+                    src="/./Upload/image/2017-09-14/1505396095.jpeg"></a>
+            <span class="hover"><a href="/Home/shop/213022">李仁渤的超级游戏</a></span>
+            <div class="whole_head_text">
+                <div class="heart" rel="like"></div>
+                                    <div id="likeCount"></div>
+                <input type="text" style="display: none" value="312" name="shop_id"
+                       id="shop_id"/>
+                <input type="button" id="shop_collection" value="收藏本店"/>
+            </div>
+        </form>
+        <div class="whole_right">
+       		<span style="    border: 1px solid #dddddc;">
+            <a href="/Home/shop/213022"><p>32件</p></a>
+            商品
+           	</span>
+            <div style="float: right" class="recommends">
+                <span style="margin-right: 20px;">
+                    <a href="/Home/goodsInfo/1495/2817"><img
+                            src="/./Upload/Goods/smallImg/2017-09-15/1505448442.jpeg"></a>
+                </span><span style="margin-right: 20px;">
+                    <a href="/Home/goodsInfo/1496/2818"><img
+                            src="/./Upload/Goods/smallImg/2017-09-15/1505448514.jpeg"></a>
+                </span><span style="margin-right: 20px;">
+                    <a href="/Home/goodsInfo/1502/2824"><img
+                            src="/./Upload/Goods/smallImg/2017-09-15/1505453148.jpeg"></a>
+                </span><span style="margin-right: 20px;">
+                    <a href="/Home/goodsInfo/1503/2825"><img
+                            src="/./Upload/Goods/smallImg/2017-09-15/1505454096.jpeg"></a>
+                </span>            </div>
+        </div>
+    </div>
+    <div class="inside">
+        <div class="inside_in">
+            <div class="inside_left">
+                <div class="inside_left_text">
+                    <form method="post">
+                        <div>
+                            <input type="text" style="display: none" name="goods_id" id="goods_id"
+                                   value="1508"/>
+
+                            <div id="shangpin">
+                                <div class="heart1" rel="like"></div>
+                                    
+                                <input type="button" id="goods_collection" value="添加到收藏夹"/></div>
+                            <div style="float: left;  margin-top: 14px;line-height: 24px;">
+                                <p style="color: #010101">喜欢这件商品吗？</p>
+                                <p style="color: #68686a;font-size: 15px;">喜欢就将它添加到您的收藏夹吧！</p>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div>
+                    <!-- 轮播-->
+                    <div>
+                        <div id="playimages" class="play">
+                            <ul class="big_pic">
+                                <div class="prev"></div>
+                                <div class="next"></div>
+                                <a class="mark_left" href="javascript:;"></a>
+                                <a class="mark_right" href="javascript:;"></a>
+                                <div class="bg"></div>
+                                                                    <li>
+                                        <div class="tb-pic tb-s40 imgs_img">
+                                            <a>
+                                                <img src="/./Upload/Goods/imgs/2017-09-15/small_img/59bb69cad8715.jpg" data-loadSrc="/./Upload/Goods/imgs/2017-09-15/59bb69cad8715.jpg"/>
+                                            </a>
+                                        </div>
+                                    </li>                            </ul>
+
+                            <div id="small_pic" class="small_pic">
+                                <ul style="width:575px;">
+                                    <li>
+                                            <div class="tb-pic tb-s40">
+                                                <a>
+                                                    <img src="/./Upload/Goods/imgs/2017-09-15/59bb69cad8715.jpg">
+                                                </a>
+                                            </div>
+                                        </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="send_img1">
+                        <img src="/./Upload/image/2017-09-14/1505396095.jpeg">
+                    </div>
+
+                    <div class="send_img">
+                        <div class="send">如果您有更多需求，请联系我们为您私人订制。
+                            <div class="arrow"></div>
+                        </div>
+                    </div>
+
+                    <!-- 轮播结束-->
+                    <!-- 点击切换-->
+
+                    <div class="tab">
+                        <ul class="ul1">
+                            <li class="active">商品信息</li>
+                            <li>温馨提示</li>
+                            <li>提问/评价</li>
+                        </ul>
+
+                        <div class="box">
+                            <div class="div_head" id="imgCon">
+                                <!--<p style=" word-wrap:break-word; word-break:normal; "> </p>-->
+                                <!--<br/>-->
+                                <p style=" word-wrap:break-word; word-break:normal;  width: 575px">
+                                                                        <p><img src="/ueditor/php/upload/image/20170915/1505454536710971.jpg!100_150.png" style="max-width:100%"></p>                                </p>
+                            </div>
+                            <!--温馨提示-->
+                            <div class="div_head">
+                                <div id="con_one_2_left">
+                                    <p>正品保障</p>
+                                    <p style="margin-top: 72px;">关于色差</p>
+                                    <p style="margin-top: 95px;">关于尺寸 </p>
+                                    <p style="margin-top: 66px;">关于配送 </p>
+                                    <p style="margin-top: 71px;">发货通知 </p>
+                                    <p style="margin-top: 291px">关于退换货 </p>
+                                </div>
+                                <div id="con_one_2_right">
+                                    <p style="margin-bottom: 15px;">
+                                        本店所售产品均为全新正品，每款版画及部分艺术衍生品都拥有独立限量编号。匠心工艺，质量保证。</p>
+                                    <hr/>
+                                    <p style="margin-bottom: 15px; margin-top: 25px;">
+                                        由于亮度以及显示设备的不同，商品拍摄时也可能受到光线、参照物等环境因素影响，可能与实物存在细微的差异，实际颜色请以您收到的商品。</p>
+                                    <hr/>
+                                    <p style="margin-bottom: 15px;margin-top: 25px;">
+                                        测量均为手工测量，可能会出现0.5~1cm的误差，误差符合国家规定，并非质量问题。 </p>
+                                    <hr/>
+                                    <p style="margin-bottom: 15px;margin-top: 25px;">
+                                        全场版画均由手工工艺装裱，珠宝、服饰将会有对应包装。我们用心追求品质，只为让您放心、满意。</p>
+                                    <hr/>
+                                    <p style="margin-bottom: 15px;margin-top: 25px;">
+                                        为确保您获得愉快的购物<br/>
+                                        一、在您支付成功后，艺术品及其衍生品将在7天内为您发货，预售商品将在15天内为您发货，请耐心等待。发货周期较长，急性子的买家请谨慎出手。<br/>
+                                        二、所有商品均使用专业物流配送机构发货。签收时请当面拆包装验货，如果发现包装有破损，请拒收，并第一时间联系客服。<br/>
+                                        三、部分艺术品及其衍生品使用的包装材料会产生些许的气味，为了让商品更好地呈现在您的面前，请在拆开包装后，将艺术品放于通风处半天左右即可。<br/>
+
+                                    </p>
+                                    <hr/>
+                                    <p style="margin-bottom: 15px;margin-top: 25px;">
+                                        以下情况不提供退换货服务：<br/>
+                                        1.商品因人为原因造成的损坏；<br/>
+                                        2.未经过检验就签收而导致的商品破损；<br/>
+                                        3.非质量问题已更换过一次商品；<br/>
+                                        4.与客服人员取得联系后，明确告知不属于售后范畴的商品；<br/>
+                                        5.因个人主观原因提出的色差及其他问题。<br/>
+
+                                    </p>
+                                    <hr/>
+                                </div>
+                            </div>
+                            <!--商品评价-->
+                            <div class="div_head">
+                                <div class="ask">
+                                    <div class="shop_ask">
+                                        <p>商品咨询</p>
+                                    </div>
+                                    <div class="bj">
+                                        <p></p>
+                                        <span>心中有疑惑那就快问问店家吧~</span>
+                                        <a class="questions">我要提问</a>
+                                    </div>
+                                                                    </div>
+                                <div class="ui-dialog">
+                                    <div class="ui-dialog-title">
+                                        <p class="ui-dialog-title_p">提问</p>
+                                        <p class="ui-dialog-title_p1">×</p>
+                                    </div>
+                                    <div class="ui-dialog-content">
+                                        <p>您的问题将推送给已购用户，TA们会帮您解答</p>
+                                        <textarea placeholder="请输入您的问题吧~" class="div_textarea"
+                                                  onchange="this.value=this.value.substring(0, 100)"
+                                                  onkeydown="this.value=this.value.substring(0, 100)"
+                                                  onkeyup="this.value=this.value.substring(0, 100)"></textarea>
+                                        <div class="wenti">
+                                                                                        <input value="1508" class="gid" style="display: none"/>
+                                            <input value="312" class="shop_id" style="display: none"/>
+                                            <input type="checkbox" class="anonymous" checked="checked">匿名提问<a
+                                                class="ui-dialog-submit ui-dialog-button">提交</a><a
+                                                class="ui-dialog-cancel ui-dialog-button">取消</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                                                <script>
+
+                                    function Star(starScore, starParent) {
+                                        this.starScore = starScore;
+                                        this.starParent = starParent;
+                                        this.maxLength = 5;
+                                        this.result = [];
+                                        this.itemClasses();
+                                    }
+                                    Star.prototype.itemClasses = function () {
+                                        var score = Math.floor((this.starScore * 2)) / 2;
+                                        var hasDecimal = score % 1 !== 0;
+                                        var integer = Math.floor(score);
+                                        for (var i = 0; i < integer; i++) {
+                                            this.result.push('on');
+                                        }
+                                        if (hasDecimal) {
+                                            this.result.push('half');
+                                        }
+                                        while (this.result.length < this.maxLength) {
+                                            this.result.push('off')
+                                        }
+                                    };
+                                    Star.prototype.addStarClass = function () {
+                                        for (var i = 0; i < this.result.length; i++) {
+                                            this.starParent.children('.star-item').eq(i).addClass(this.result[i]);
+                                        }
+                                    };
+                                    var com = $('.all_comment');
+                                    var arr = [];
+                                    for (var i = 0; i < com.length; i++) {
+                                        arr.push(com.eq(i).find('input').val());
+                                    }
+                                    console.log(arr);
+                                    var obj;
+                                    for (var j = 0; j < com.length; j++) {
+                                        obj = new Star(arr[j], com.eq(j).find('.star'));
+                                        obj.addStarClass();
+                                    }
+                                </script>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="inside_right">
+            <form method="post" class="buy_form" id="buy_form">
+                <input style="display: none" name="small_img" value="./Upload/Goods/smallImg/2017-09-15/1505454555.jpeg"/>
+                <input style="display: none" name="gid" class="gid" value="1508"/>
+                <input style="display: none" name="id" value="2830"/>
+                <form class="inside_right_top">
+                    <div class="text">
+                        <p style=" margin-top: -16px;">花园爵士曲掠过海边</p>
+                        <p>
+                        <p class="goodes_data_p">￥1100.00</p><input style="display: none"
+                                                                                     value="1100.00"
+                                                                                     class="goods_data_price"></p>
+                        <script>
+                            var goods_data_price = $('.goods_data_price').val();
+                            if (goods_data_price == '-1.00') {
+                                $('.goodes_data_p').empty();
+                                $('.goodes_data_p').html('议价')
+                            } else if (goods_data_price == '-2.00') {
+                                $('.goodes_data_p').empty();
+                                $('.goodes_data_p').html('非卖品')
+                            } else if (goods_data_price == '-3.00') {
+                                $('.goodes_data_p').empty();
+                                $('.goodes_data_p').html('已售')
+                            } else if (goods_data_price == '-4.00') {
+                                $('.goodes_data_p').empty();
+                                $('.goodes_data_p').html('展示')
+                            }
+                        </script>
+                        <p style="color: #ff783e;font-size: 16px;">
+                                                                今天下单于2018-02-05日前发货
+                                <br/>
+                            </p>                    </div>
+                    <!--发货时间提示-->
+                    <div class="text_yangshi">
+                        <p><span class="details1Name">规格</span>：&nbsp;
+                            <select id="type_details1">
+                                <option value="默认" selected>默认</option>
+                                                                    </select>
+                        </p>
+                                            </div>
+                    <div class="text_yangshi">
+                        <p>数量：&nbsp;
+                                                                    <select name="num" style="width: 50px;">
+                                        <!--按库存遍历-->
+                                        <option value=1>1</option><option value=2>2</option><option value=3>3</option><option value=4>4</option><option value=5>5</option><option value=6>6</option><option value=7>7</option><option value=8>8</option><option value=9>9</option><option value=10>10</option><option value=11>11</option><option value=12>12</option><option value=13>13</option><option value=14>14</option><option value=15>15</option><option value=16>16</option><option value=17>17</option><option value=18>18</option><option value=19>19</option><option value=20>20</option><option value=21>21</option><option value=22>22</option><option value=23>23</option><option value=24>24</option><option value=25>25</option><option value=26>26</option><option value=27>27</option><option value=28>28</option><option value=29>29</option><option value=30>30</option><option value=31>31</option><option value=32>32</option><option value=33>33</option><option value=34>34</option><option value=35>35</option><option value=36>36</option><option value=37>37</option><option value=38>38</option><option value=39>39</option><option value=40>40</option><option value=41>41</option><option value=42>42</option><option value=43>43</option><option value=44>44</option><option value=45>45</option><option value=46>46</option><option value=47>47</option><option value=48>48</option><option value=49>49</option><option value=50>50</option><option value=51>51</option><option value=52>52</option><option value=53>53</option><option value=54>54</option><option value=55>55</option><option value=56>56</option><option value=57>57</option><option value=58>58</option><option value=59>59</option><option value=60>60</option><option value=61>61</option><option value=62>62</option><option value=63>63</option><option value=64>64</option><option value=65>65</option><option value=66>66</option><option value=67>67</option><option value=68>68</option><option value=69>69</option><option value=70>70</option><option value=71>71</option><option value=72>72</option><option value=73>73</option><option value=74>74</option><option value=75>75</option><option value=76>76</option><option value=77>77</option><option value=78>78</option><option value=79>79</option><option value=80>80</option><option value=81>81</option><option value=82>82</option><option value=83>83</option><option value=84>84</option><option value=85>85</option><option value=86>86</option><option value=87>87</option><option value=88>88</option><option value=89>89</option><option value=90>90</option><option value=91>91</option><option value=92>92</option><option value=93>93</option><option value=94>94</option><option value=95>95</option><option value=96>96</option><option value=97>97</option><option value=98>98</option><option value=99>99</option>                                    </select>                            </p>
+                    </div>
+
+                    <div class="purchase">
+                        <a id="" onclick="addAjaxqwe(0)">加入购物车</a>
+                        <a onclick="addAjaxqwe(1)">立即购买</a>
+                    </div>
+                                    </form>
+                <hr/>
+                <div class="text_date">
+                    <p style=" font-size: 16px;"> 概述</p>
+
+                    <!--作品类型：-->
+                    <div style="margin-left: 20px;line-height: 28px;">
+                        <div class="data_text"> ●&nbsp;商品类型：<span>版画</span>
+                        </div>
+                        <!--创作年代：-->
+                        <div class="data_text"> ●&nbsp;创作年代：<span>2017 </span></div>
+                        <!--作品尺寸：-->
+                        <div class="data_text aaa"> ●&nbsp;商品尺寸：<span class="data-size">49 *</span> <span
+                                class="kuan">56</span>
+                                                        CM
+                        </div>
+                        <div class="data_text">
+                            <!--作品版式：-->
+                            ●&nbsp;商品工艺：<span>喷绘 </span></div>
+
+                        <div class="data_text"> ●&nbsp;商品店铺：<span>李仁渤的超级游戏 </span></div>
+
+                        <!--拜访空间：-->
+
+                        <!--拜访空间：-->
+                    </div>
+
+                </div>
+                <hr style="width:362px;"/>
+                <div style="margin: 15px 0px 20px;font-size: 16px;">
+                    <form method="post">
+                        <div>
+                            <div style="float: left;    margin-top: 6px;">点赞</div>
+                            <input type="text" style="display: none" id="good_id" value="1508"/>
+                            <div class="div_img" rel="like"></div>
+                                                        </div>
+                    </form>
+                    <span class="thanked_number">50</span>
+                    分享
+                    <div class="jiathis_style_32x32" style="float: right;  margin-right: 231px;">
+                        <a class="jiathis_button_weixin"></a>
+                        <a class="jiathis_button_cqq"></a>
+                        <a class="jiathis_button_tsina"></a>
+                    </div>
+                    <script type="text/javascript">
+                        var jiathis_config = {
+                            summary: "",
+                            shortUrl: false,
+                            hideMore: false
+                        }
+                    </script>
+                    <script type="text/javascript" src="http://v3.jiathis.com/code/jia.js" charset="utf-8"></script>
+                    <!---->
+                    <!--点赞-->
+
+                </div>
+
+                <hr/>
+                <div class="shop">
+                    <img src="/./Upload/image/2017-09-14/1505396095.jpeg" style=" width:50px; height:50px;">
+                    <p> 李仁渤的超级游戏</p>
+                    <div>
+
+
+                        <div class="shop_img">
+                                <div class="shop_img_a">
+                                    <a href="/Home/goodsInfo/1518/2840"><img
+                                            src="/./Upload/Goods/smallImg/2017-09-15/1505455513.jpeg">
+                                        <h1 style="color: #ff783e;"></h1></a>
+                                </div>
+                                <p>语言化学动力5时空</p>
+                                <span class="price">1300.00</span>
+                            </div><div class="shop_img">
+                                <div class="shop_img_a">
+                                    <a href="/Home/goodsInfo/1517/2839"><img
+                                            src="/./Upload/Goods/smallImg/2017-09-15/1505455457.jpeg">
+                                        <h1 style="color: #ff783e;"></h1></a>
+                                </div>
+                                <p>音乐之巅的乐园移幻</p>
+                                <span class="price">1300.00</span>
+                            </div><div class="shop_img">
+                                <div class="shop_img_a">
+                                    <a href="/Home/goodsInfo/1516/2838"><img
+                                            src="/./Upload/Goods/smallImg/2017-09-15/1505455378.jpeg">
+                                        <h1 style="color: #ff783e;"></h1></a>
+                                </div>
+                                <p>心与房子在二维交流</p>
+                                <span class="price">1200.00</span>
+                            </div><div class="shop_img">
+                                <div class="shop_img_a">
+                                    <a href="/Home/goodsInfo/1515/2837"><img
+                                            src="/./Upload/Goods/smallImg/2017-09-15/1505455293.jpeg">
+                                        <h1 style="color: #ff783e;"></h1></a>
+                                </div>
+                                <p>王者的荣耀</p>
+                                <span class="price">1100.00</span>
+                            </div><div class="shop_img">
+                                <div class="shop_img_a">
+                                    <a href="/Home/goodsInfo/1514/2836"><img
+                                            src="/./Upload/Goods/smallImg/2017-09-15/1505455217.jpeg">
+                                        <h1 style="color: #ff783e;"></h1></a>
+                                </div>
+                                <p>天外飞城</p>
+                                <span class="price">1200.00</span>
+                            </div><div class="shop_img">
+                                <div class="shop_img_a">
+                                    <a href="/Home/goodsInfo/1513/2835"><img
+                                            src="/./Upload/Goods/smallImg/2017-09-15/1505455157.jpeg">
+                                        <h1 style="color: #ff783e;"></h1></a>
+                                </div>
+                                <p>堂吉诃德式拯救天赋石</p>
+                                <span class="price">1200.00</span>
+                            </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+    <style>
+        footer{
+            margin-top: 100px;
+            width: 100%;
+        }
+        .footer_list{
+            max-width: 1340px;
+            min-width: 980px;
+            margin: 0 auto;
+            overflow: hidden;
+            display: flex;
+            justify-content: space-around;
+        }
+        .footer_list>ul{
+            list-style: none;
+        }
+        .footer_list>ul li a{
+            text-decoration: none;
+            font-size: 12px;
+            color: #000000;
+            text-decoration: none;
+            display: inline-block;
+            margin-top: 14px;
+            line-height: 20px;
+        }
+        .footer_list>ul li a.open{
+            background-color: #34a8c4;
+            color: #FFFFFF;
+            border-radius: 4px;
+            padding: 8px;
+        }
+        .footer_info{
+            max-width: 1340px;
+            min-width: 980px;
+            box-sizing: border-box;
+            padding: 0 60px;
+            margin: 60px auto 30px;
+        }
+        .footer_info::after{
+            content: '';
+            display: block;
+            clear: both;
+        }
+        .footer_info p{
+            border: 1px solid #dddddc;
+            padding: 5px;
+            display: inline-block;
+            font-size: 13px;
+        }
+        .footer_info p:last-child{
+            float: right;
+        }
+
+        .footer_list .last_list li a{
+            /*width: 22px;*/
+            margin: 0;
+        }
+        .sidle_bar{
+            position: fixed;
+            width: 100px;
+            bottom: 50px;
+        }
+        .sidle_bar>a{
+            font-size: 12px;
+            display: inline-block;
+            margin-bottom: 15px;
+        }
+
+        .jiathis_style_32x32 {
+            /*width: 15px;*/
+        }
+        .jiathis_style_32x32 .jtico_cqq{
+            background:url(/PcTpl/Home/Public/images/Index/aa3.png) no-repeat;
+            background-position: 0px 0px;
+            background-size:22px 22px;
+            margin-left: 2px;
+        }
+        .jiathis_style_32x32 .jtico_tsina{
+            background:url(/PcTpl/Home/Public/images/Index/aa2.png) no-repeat;
+            background-position: 0px 0px;
+            background-size:22px 22px;
+            margin-left: 2px;
+        }
+        .jiathis_style_32x32 .jtico_weixin{
+            background:url(/PcTpl/Home/Public/images/Index/aa1.png) no-repeat;
+            background-position: 0px 0px;
+            background-size:22px 22px;
+            margin-left: 2px;
+        }
+    </style>
+
+
+
+    <footer>
+        <div class="footer_list">
+            <ul>
+                <li><a><strong>把你的激情融入企业</strong></a></li>
+                <li><a class="open" href="/Home/shop/211316">打开一个商店</a></li>
+                <li><a href="/Home/Service/seek.html">在搜猎人出售</a></li>
+                <li><a href="/Home/Index/specifications.html">我们的规则</a></li>
+                <!--<li><a href="javascript:return false;">使用条款</a></li>-->
+                <!--<li><a href="javascript:return false;">隐私条款</a></li>-->
+            </ul>
+            <ul>
+                <li><a><strong>关于</strong></a></li>
+                <li><a href="/Home/index/read.html">关于我们</a></li>
+                <li><a href="/Home/Service/cooperation.html">联系我们</a></li>
+            </ul>
+            <ul>
+                <li><a><strong>更多</strong></a></li>
+                <li><a href="javascript:;" class="weixin_s">微信</a></li>
+                <li><a href="http://weibo.com/soulieren?refer_flag=1001030102_">微博</a></li>
+                <li><a href="https://shop129576228.taobao.com/?spm=a230r.7195193.1997079397.2.s5bniH">淘宝</a></li>
+                <li><a href="http://v.qq.com/vplus/2f648c677c0dcb939fcf6a40cd1fae90">原创视频</a></li>
+            </ul>
+            <ul>
+                <li><a><strong>政策</strong></a></li>
+                <li><a href="/Home/Index/buyer_policy.html">买家政策 </a></li>
+                <li><a href="/Home/Index/seller_policy.html">卖家政策 </a></li>
+                <li><a href="/Home/Index/trademark_policy.html">商标政策 </a></li>
+            </ul>
+            <ul>
+                <li><a><strong>商务合作</strong></a></li>
+                <li><a href="/Home/BusinessCooperation/index.html#page2">线上渠道</a></li>
+                <li><a href="/Home/BusinessCooperation/index.html#page3">线下渠道</a></li>
+                <li><a href="/Home/BusinessCooperation/index.html#page4">视频定制</a></li>
+            </ul>
+            <ul class="last_list">
+                <li><a href="javascript:;" style="margin:12px 0"><strong>分享</strong></a></li>
+                <li class="jiathis_style_32x32"><a class="jiathis_button_weixin"></a></li>
+                <li class="jiathis_style_32x32"><a class="jiathis_button_cqq"></a></li>
+                <li class="jiathis_style_32x32"><a class="jiathis_button_tsina"></a></li>
+            </ul>
+        </div>
+        <div class="footer_info">
+            <p>版权所有&nbsp;京ICP备15012603号—1</p>
+            <p>Tel:010-57794643&nbsp;周日-周五9:00-19:00</p>
+        </div>
+    </footer>
+
+    <script type="text/javascript">
+        var jiathis_config = {
+            summary: "",
+            shortUrl: false,
+            hideMore: false
+        }
+    </script>
+    <script type="text/javascript" src="http://v3.jiathis.com/code/jia.js" charset="utf-8"></script>
+    <script>
+        $('.weixin_s').click(function () {
+            $('.weiX-box').show();
+        });
+        $('.weiX-box').click(function () {
+            $('.weiX-box').hide();
+        })
+    </script>
+
+
+<script>
+    var price = $('.price');
+    $.each(price, function (index, dom) {
+        var ee = $(dom).html();
+        if (ee == '-1.00') {
+            $(dom).empty();
+            $(dom).html('议价');
+        } else if (ee == '-2.00') {
+            $(dom).empty();
+            $(dom).html('非卖品');
+        } else if (ee == '-3.00') {
+            $(dom).empty();
+            $(dom).html('已售');
+        } else if (ee == '-4.00') {
+            $(dom).empty();
+            $(dom).html('展示');
+        }
+    });
+    $(function () {
+        var askAnswer_item = $('.askAnswer-item');
+        for (var i = 0; i < askAnswer_item.length; i++) {
+            var ss;
+            var is_anonymous = $('.is_anonymous').eq(i).val();
+            if (is_anonymous == 1) {
+                var anonymous = $('.is_anonymous').eq(i).siblings('.anonymous_name').html();
+                var aaaa = anonymous.length - 2;
+                var eee = anonymous.substring(2, aaaa);
+                ss = anonymous.replace(eee, '');
+                $('.is_anonymous').eq(i).siblings('.anonymous_name').html(ss);
+            }
+        }
+
+    });
+    $('.ui-dialog-submit').click(function () {
+        var anony;
+        var anonymous = $('.anonymous').attr("checked");
+        if (anonymous) {
+            anony = 1;
+        } else {
+
+        }
+        var div_textarea = $(".div_textarea").val();
+        var gid = $(".gid").val();
+        var shop_id = $(".shop_id").val();
+        $.ajax({
+            url: '../../customer/informationAdvice',
+            type: 'POST',
+            data: {content: div_textarea, is_anonymous: anony, gid: gid, shop_id: shop_id},
+            dataType: 'json',
+            success: function (data) {
+                if (data.status = 1) {
+                    alert(data.msg);
+                    $(".ui-dialog").hide();
+                    $(".ui-mask").hide();
+                } else {
+                    alert(data.msg);
+                    return false;
+                }
+
+            }
+        })
+    });
+    $('.questions').click(function () {
+        $(".ui-dialog").show(100);
+        $(".ui-mask").show(100);
+    });
+    $('.ui-dialog-cancel,.ui-dialog-title_p1').click(function () {
+        $(".ui-dialog").hide();
+        $(".ui-mask").hide();
+    });
+
+    $(function () {
+        var imgItem = $('#imgCon').find('img');
+        var loadImg = function () {
+            var imgObj = document.getElementsByTagName('img'),
+                imgCount = imgObj.length;
+            return {
+                loadImgLoop: function loadImgLoop() {
+                    var _loop = function _loop(i) {
+                        var img = new Image();
+                        var loadSrc = imgObj[i].getAttribute('data-loadSrc');
+
+                        if (loadSrc != null) {
+                            img.src = loadSrc;
+                            img.onload = function () {
+                                imgObj[i].src = this.src;
+                            };
+                        }
+                    };
+
+                    for (var i = 0; i < imgCount; i++) {
+                        _loop(i);
+                    }
+                }
+            };
+        }();
+        $.each(imgItem, function (index, ele) {
+            var src = $(ele).attr('src'),
+                count = src.indexOf('!');
+            var loadSrc = src.substring(0, count);
+            $(ele).attr('data-loadSrc', loadSrc);
+        })
+
+        loadImg.loadImgLoop();
+    })
+</script>
+<!-- 规格选择 -->
+<script>
+
+    var details1Name = $('.details1Name').html();
+    var size = $('.data-size').html();
+    var kuan = $('.kuan').html();
+    if (size == ' *') {
+        $('.data-size').hide()
+    }
+    if (kuan == '') {
+        $('.aaa').hide();
+    }
+    if (details1Name == '') {
+        $('.details1Name').parent('p').hide();
+    }
+    $('#type_details2').on('change', function () {
+        var type_details2 = $("#type_details2").val();
+        var gid = $(".gid").val();
+        $.ajax({
+            type: "POST",
+            url: '/Home/Goods/goodsinfo',
+            data: {type_details2: type_details2, gid: gid},
+            success: function (data) {
+                var jsonText = JSON.parse(data);
+                if (jsonText.status == 1) {
+                    var url = jsonText.msg;
+                    window.location.href = url;
+                } else {
+
+                }
+            },
+        });
+    });
+
+    $('.box .div_head').eq(0).show();
+    $('.ul1 li').click(function () {
+        var index = $(this).index();
+        $(this).addClass('active').siblings().removeClass('active');
+        $('.box .div_head').eq(index).show().siblings().hide();
+    });
+    $('#type_details1').on('change', function () {
+        var type_details1 = $("#type_details1").val();
+        var gid = $(".gid").val();
+        $.ajax({
+            type: "POST",
+            url: '/Home/Goods/goodsinfo',
+            data: {type_details1: type_details1, gid: gid},
+            success: function (data) {
+                var jsonText = JSON.parse(data);
+                if (jsonText.status == 1) {
+                    var url = jsonText.msg;
+                    window.location.href = url;
+                } else {
+
+                }
+            }
+        });
+    })
+</script>
+
+<!--END-->
+
+</body>
+</html>

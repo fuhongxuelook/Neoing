@@ -1,0 +1,581 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta  name="keywords" content="搜猎人,原创,艺术,原创精神,艺术家,设计师,手工艺人,原创者,迟首飞,IP 内容开发,IP 衍生品内容设计,打造中国人自己的IP,IP开发与应用,IP 产业落地,艺术理念+互联网思维,原创艺术品消费平台,原创艺术品购物平台,艺术互联网,艺术产业" />
+<title>找回密码</title>
+<link type="text/css" href="/PcTpl/Home/Public/css/Password/css.css" rel="stylesheet" />
+</head>
+
+<body>
+
+﻿    <link rel="stylesheet" href="/PcTpl/Home/Public/css/index/navigation.css">
+    <script src="/PcTpl/Public/js/jquery-1.7.2.js"></script>
+    <script type="text/javascript" src="/PcTpl/Public/js/reg.js"></script>
+    <script type="text/javascript" src="/PcTpl/Home/Public/js/lgandrg.js"></script>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+        }
+        #full_navigation{
+            margin-top: -20px;
+        }
+        #full_navigation .tabs{
+            width: 580px;
+            margin: 0 auto;
+            position: fixed;
+            background-color: #f5f5f1;
+            padding-top: 20px;
+            left: 50%;
+            margin-left: -290px;
+            z-index: 10990;
+            top: 50%;
+            margin-top: -240px;
+
+        }
+        #full_navigation .nav .nav-menu li .move .changeA {
+            background-color: #ff873e;
+            color: #FFFFFF;
+        }
+        #full_navigation .nav  .nav-menu li a {
+            text-align: left;
+            display: block;
+            padding-left: 14px;
+            text-decoration: none;
+        }
+        .header_bar span a{
+            font-size: 16px;
+        }
+        #full_navigation .ul1s{
+            list-style: none;
+            display: flex;
+            margin: 0;
+            padding: 0;
+            align-items: center;
+            margin-left: 51px;
+        }
+        #full_navigation .ul1s li{
+            font-size: 13px;
+            background-color: #f3f3f3;
+            border: 1px #dddddc solid;
+            width: 50px;
+            height: 30px;
+            text-align: center;
+            line-height: 29px;
+            cursor: pointer;
+        }
+        #full_navigation .ul1s li:nth-child(1){
+            border-right:none ;
+        }
+        #full_navigation .ul1s li.active{
+            background:#fff;
+            border-bottom: none;
+            height: 30px;
+            color: #ff873e;
+        }
+        #full_navigation .tabs div{
+            background-color: #fff;
+        }
+
+        #full_navigation .tabs .boxs>div{
+            line-height: 28px;
+            padding-top: 0px;
+            z-index: -1;
+            border-top: 1px #dddddc solid;
+            display: none;  margin-top: -1px;
+        }
+        #full_navigation  .all_div{
+            display: none;
+            position: absolute;
+            z-index: 100;
+            text-align: center;
+            margin: 0 auto;
+            width: 100%;
+            margin-top: -134px;
+            height: 100%;
+        }
+        body .all_div .tabs  .boxs {
+            width: 100%;
+            height: auto;
+        }
+        #full_navigation .all_div_bj{
+            position: fixed;
+            top: 0px;
+            left: 0px;
+            width: 100%;
+            height: 100%;
+            z-index: 999;
+            display: block;
+            opacity: 0.8;
+            background-color: rgb(221, 221, 221);
+        }
+
+        body #full_navigation .boxs input{
+
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+            font-family: inherit;
+            width: 232px;
+            line-height: 20px;
+            color: #333;
+            font-size: 12px;
+            margin: 0 0 0.2em 0;
+            padding: 6px;
+            border: 1px solid #c2c2c2;
+            border-right: 1px solid #e6e6e6;
+            border-bottom: 1px solid #e6e6e6;
+            display: block;
+        }
+        #full_navigation .register p{
+            font-size: 12px;
+            margin-top: 8px;
+            margin-bottom: 4px;
+        }
+        #full_navigation .register{
+            padding: 20px 53px;
+            text-align: left;
+        }
+        #full_navigation .boxs  .checkbox{
+            width: 13px;
+        }
+        #full_navigation .boxs .register span{
+            color: red;
+            position: absolute;
+            margin: -34px 0px 0px 256px;
+            font-size: 12px;
+        }
+        #full_navigation .boxs .login span{
+              color: red;
+              position: absolute;
+              margin: -34px 0px 0px 256px;
+              font-size: 12px;
+          }
+        #full_navigation .boxs .register hr{
+            background-color: #e1e1df;
+            color: #e1e1df;
+            border: 0;
+            height: 1px;
+            margin: 19px 0 11px;
+            clear: both;
+        }
+        #full_navigation  .register .submit-button{
+            background-color: #3cb1cb;
+            border-color: rgba(0, 0, 0, 0.2);
+            box-sizing: border-box;
+            border-radius:3px;
+            color: #fff;
+            margin: 10px 0px;
+        }
+        #full_navigation .login .submit-button{
+
+            font-size: 14px;
+            line-height: inherit;
+            background-color: #3cb1cb;
+            border-color: rgba(0, 0, 0, 0.2);
+            box-sizing: border-box;
+            border-radius:3px;
+            color: #fff;
+            border: none;
+            margin: 10px 0;
+        }
+        #full_navigation .login p{
+            font-size: 12px;
+            margin-top: 8px;
+            margin-bottom: 4px;
+        }
+        #full_navigation .login{
+            padding: 20px 53px;
+            text-align: left;
+        }
+        #full_navigation .boxs .login hr{
+            background-color: #e1e1df;
+            color: #e1e1df;
+            border: 0;
+            height: 1px;
+            margin: 19px 0 11px;
+            clear: both;
+        }
+
+        #full_navigation #kd{    width: 82px;
+            position: absolute;
+            height: 34px;
+            border: 1px solid #dddddc;
+            border-left: none;
+            margin-top: -36px;
+            margin-left: 150px;
+        }
+        #full_navigation #kds{    width: 82px;
+                position: absolute;
+                height: 34px;
+                border: 1px solid #dddddc;
+                border-left: none;
+                margin-top: -36px;
+                margin-left: 150px;
+            }
+        #full_navigation img {
+            vertical-align: middle;
+        }
+        #full_navigation .boxs #mobilecode{
+            width: 150px;
+        }
+        #full_navigation #btnSendCode{
+            width: 82px;
+            height: 34px;
+            font-size: 11px;
+            background-color: #ff873e;
+            color: #fff;
+            margin-top: -36px;
+            margin-left: 150px;    display: -webkit-box;
+            border: none;
+        }
+        #full_navigation #btnSendCodes{
+            width: 82px;
+            height: 34px;
+            font-size: 11px;
+            background-color: #ff873e;
+            color: #fff;
+            margin-top: -36px;
+            margin-left: 150px;    display: -webkit-box;
+            border: none;
+        }
+        #full_navigation .boxs .register .input_text{
+            font-size: 12px;
+            margin: -23px 22px 0px;
+            color: #000;
+        }
+        #full_navigation .boxs .login .input_text{
+            font-size: 12px;
+            margin: -23px 22px 0px;
+            color: #000;
+        }
+        #full_navigation #randCode{
+            width: 150px;
+        }
+        #full_navigation  .button-login {
+            background-color: #34A8C4;
+            width: 232px;
+            margin-top: 10px;
+            border: none;
+            font-size: 14px;
+            line-height: inherit;
+            border-radius:3px;
+            color: #fff;
+        }
+        #full_navigation  .phone-button {
+            background-color: #34A8C4;
+            width: 232px;
+            margin-top: 10px;
+            border: none;
+            font-size: 14px;
+            line-height: inherit;
+            border-radius:3px;
+            color: #fff;
+        }
+        #full_navigation .submit-button{
+            width: 232px;
+            border-radius: 3px;
+        }
+        #full_navigation #randCode1{
+            width: 150px;
+        }
+        #full_navigation .lgs .kuaijie{
+            margin-top: 10px;
+            margin-bottom: 20px;
+        }
+        #full_navigation .lgs .kuaijie a{
+            padding: 6px 22px;
+            color: #fff;
+            background-color: #34A8C4;
+            border-radius: 3px;
+        }
+        .boxs a{
+            color: #34A8C4;
+            text-decoration: none;
+            font-size: 12px;
+
+        }
+    
+        #register,.loginBtn,.operation span{
+            cursor: pointer;
+        }
+        #full_navigation .tabs .ul1s .close{
+            font-size: 24px;
+            float:right;
+            background-color: #f5f5f1;
+            cursor: pointer;
+            margin-left: 383px;
+            width: 31px;
+            height: 27px;
+            line-height: 27px;
+            color: #666;
+            opacity: 1;
+        }
+        .weChats{
+            width: 100%; height: auto ;display: none;    margin: 0 auto;text-align: center;
+        }
+        body #full_navigation .boxs .shoujidls input,body #full_navigation .boxs .mingzidls input{
+            margin: 22px 0px;
+        }
+        .weiX-box{
+            position: fixed;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0,0,0,.7);
+            z-index: 9;
+            display: none;
+            margin-top: -20px;
+        }
+        .weiX-box img{
+            position: absolute;
+            top:50%;
+            left: 50%;
+            margin-top:-125px ;
+            margin-left:-125px ;
+        }
+    </style>
+    <script>
+        var _hmt = _hmt || [];
+        (function () {
+            var hm = document.createElement("script");
+            hm.src = "https://hm.baidu.com/hm.js?9a11dd5949cc7fabe8b1613247bce4ee";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(hm, s);
+        })();
+    </script>
+    <script>
+        (function(){
+            var bp = document.createElement('script');
+            var curProtocol = window.location.protocol.split(':')[0];
+            if (curProtocol === 'https') {
+                bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+            }
+            else {
+                bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+            }
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(bp, s);
+        })();
+    </script>
+    <div class="weiX-box">
+        <img src="/PcTpl/Public/images/weixin.jpg" alt="" width="250px">
+    </div>
+<div id="full_navigation">
+    <header>
+        <div class="header_bar">
+            <input style="display: none" value="" id="session">
+            <div class="logo"><a href="/Home/Index/index.html"><img src="/PcTpl/Home/Public/images/Index/logo2.png"/></a></div>
+            <div class="search_bar">
+                <form action="/Home/Search/search" method="post">
+                    <input type="text" name="name" placeholder="你在寻找什么？"/>
+                    <input type="submit" value="搜索"/>
+                </form>
+            </div>
+            <div class="operation">
+                <span><a href="/Home/service/seek.html">搜猎人上出售</a></span>                <span><a id="register">注册</a></span>                <span><a class="loginBtn" id="login">登录</a></span>                                                <span class="car"><a href="/Home/carts/index.html"><img src="/PcTpl/Home/Public/images/Index/Shopping Cart.png"/></a></span>
+            </div>
+        </div>
+    </header>
+    <div class="nav">
+
+        <ul class="navBar">
+            <li><a href="/Home/Index/pc.html">商城首页</a></li>
+            <li class="current-line">
+                <a class="move" href="javascript:;">墙面装饰与收藏</a>
+                <ul class="nav-menu">
+                                    </ul>
+            </li>
+            <li>
+                <a class="move" href="javascript:;">服装和配饰</a>
+                <ul class="nav-menu">
+                                    </ul>
+            </li>
+                <li>
+                <a class="move" href="javascript:;">珠宝</a>
+                <ul class="nav-menu">
+                                    </ul>
+            </li>
+            <li>
+                <a class="move" href="javascript:;">家庭和生活</a>
+                <ul class="nav-menu">
+                                    </ul>
+            </li>
+            <li>
+                <a class="move" href="javascript:;">文化用品</a>
+                <ul class="nav-menu">
+                                    </ul>
+            </li>
+          <!--   <li>
+                <a class="move" href="/Home/Article/articlelist.html">原创故事</a>
+            </li> -->
+        </ul>
+    </div>
+    <div class="mark_bg"></div>
+    <div class="all_div">
+        <div class="all_div_bj"></div>
+        <div class="tabs">
+            <ul class="ul1s">
+                <li class="rg active">注册</li>
+                <li class="lg">登录</li>
+                <div  class="close">×</div>
+            </ul>
+            <div class="boxs">
+                <div style="width: 100%; height: auto" class="rgs box1">
+                    <form class="register sms-form" id="sms-form" method="post"  name="form-sub">
+                        <p>手机号码</p>
+                        <input type="text" id="phone" name="username"  class="phone" maxlength="11" placeholder="11位手机号码" >
+                        <span class="phone_span"></span>
+                        <p>验证码</p>
+                        <input  type="text" id="randCode" name="randCode" maxlength="4" placeholder="图片验证码"  >
+                        <div class="kd">
+                            <img src="/Home/Mobile/createCode" id="kd"
+                                 onclick="this.src='/Home/Mobile/createCode/id/'+Math.random()">
+                        </div>
+                        <span class="randCode_span"></span>
+                        <p>手机验证码</p>
+                        <input type="text" id="mobilecode" name="mobilecode" class="input-sty padding-r" maxlength="6" placeholder="手机验证码" >
+                        <button id="btnSendCode" class="phoneCode" type="submit">发送验证码</button>
+
+                        <span class="mobilecode_span"></span>
+                        <p>密码</p>
+                        <input  type="password" name="pwd" class="pwd" id="password" maxlength="16"  placeholder="6-16位字符，须包含字母、数字" >
+                        <span class="password_span"></span>
+                        <p>确认密码</p>
+                        <input  type="password" name="rpwd" class="rpwd" id="rpassword" maxlength="16" placeholder="确认密码" >
+                        <span class="rpassword_span"></span>
+                        <hr/>
+                        <div>
+                            <input type="checkbox" class="checkbox" checked="checked"  /><span class="input_text">请确认已阅读并同意搜猎人<a href="/Home/Index/use_clause.html " target="_black">使用条款</a>和<a href="/Home/Index/privacy_clause.html" target="_black" >隐私条款</a></span>
+                        </div>
+                        <button type="button" class=" button-login registerBtn" >立即注册</button><span class="zhuce_span"style=" margin: 8px 30px;"></span>
+                    </form>
+                </div>
+                <div style="width: 100%; height: auto" class="lgs box1">
+                    <div  class="login">
+                        <div class="kuaijie">
+                            <a href="javascript:;" class="mingzidl" style="background-color:#189ce0">用户名</a>
+                            <a href="javascript:;" class="shoujidl">手机号</a>
+                            <a href="javascript:;" class="weixindl">微信</a>
+                        </div>
+                        <hr style=" margin-top: 5px;margin-bottom: 0px;"/>
+                        <!--用户名登录-->
+                            <div class="mingzidls">
+                                <input type="text" id="username" name="username"  class="phone" placeholder="用户名" >
+                                <span class="phone1_span" style="margin-top: -53px;"></span>
+                                <input type="password"  name="pwd"  class="password" id="password1"  maxlength="16"  placeholder="密码" >
+                                <span class="password1_span" style="margin-top: -53px;"></span>
+                                <hr />
+                                <div>
+                                    <a href="/Home/Password/index.html">忘记密码了吗？</a>
+                                </div>
+                                <button type="button" value="登录" class="submit-button"  >登录</button>
+                            </div>
+                        <!--手机号码登录-->
+                            <div class="shoujidls" style="display: none">
+                                <form class=" sms-forms" id="sms-forms" method="post"  name="form-sub">
+                                    <input type="text" id="usernames" name="username"  class="username" maxlength="11" placeholder="手机号码" >
+                                    <span class="phone1_span" style="margin-top: -53px;"></span>
+                                    <input type="text" id="mobilecodes" name="mobilecode" class="input-sty padding-r" maxlength="6" placeholder="验证码" >
+                                    <button id="btnSendCodes" class="phoneCode" type="submit" style="margin-top: -56px;">发送验证码</button>
+                                    <span class="mobilecodes_span"></span>
+                                    <hr />
+                                    <div>
+                                        <a href="/Home/Password/index.html">忘记密码了吗？</a>
+                                    </div>
+                                    <button type="button" value="登录" class="phone-button"  onclick="">登录</button>
+                                </form>
+                            </div>
+                        <!--微信内嵌登录-->
+                            <div class="weChats box1" >
+                                <div id="weChat"></div>
+                                <script src="http://res.wx.qq.com/connect/zh_CN/htmledition/js/wxLogin.js"></script>
+                                <script>
+                                    var obj = new WxLogin({
+                                        id:"weChat",
+                                        appid: "wx8d8646fc4b1dcca4",
+                                        scope: "snsapi_login",
+                                        redirect_uri: "http%3A%2F%2Fwww.soulieren.com%2Findex.php%2Fhome%2FThirdLogin%2Fcallback",
+                                        state: "",
+                                        style: "black",
+                                        href: ""
+                                    });
+                                </script>
+                            </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<br /><br /><br /><br />
+  <div class="content">
+   <div class="web-width">
+     <div class="for-liucheng">
+      <div class="liulist for-cur"></div>
+      <div class="liulist"></div>
+      <div class="liulist"></div>
+      <div class="liutextbox">
+       <div class="liutext for-cur"><em>1</em><br /><strong >填写手机号</strong></div>
+       <div class="liutext"><em>2</em><br /><strong >设置新密码</strong></div>
+       <div class="liutext"><em>3</em><br /><strong >完成</strong></div>
+      </div>
+     </div><!--for-liucheng/-->
+     <br /><br />
+     <form action="/Home/Password/message" method="post" class="forget-pwd"   autocomplete="off">
+       <dl>
+        <dt>手机号：</dt>
+        <dd><input type="text"placeholder="手机号"  name="phone"   id="phone" onblur="cname()" /></dd>
+        <!--<div class="clears"></div>-->
+           <span id="msg_email" style="display: inline-block;    margin-left: 390px; margin-top: -25px" ></span>
+           <div class="clears"></div>
+       </dl> <br />
+       <dl>
+        <dt>验证码：</dt>
+        <dd>
+            <div class="form-group">
+                <input type="text" name="code"  placeholder="请输入验证码" style="width: 100px" >
+                <div class=" kd " >
+                    <img src="/Home/customer/createCode"
+                         onclick="this.src='/Home/customer/createCode/id/'+Math.random()">
+
+                </div>
+            </div>
+        </dd><br />
+
+       </dl>
+       <div class="subtijiao">
+           <div style=" width: 85px;height: 32px;background: #f60; margin-left: -58px ;text-align: center">
+               <a href="/Home/Index/index.html"  style="color: #fff; font-size: 15px;  padding-top: 6px;display: -webkit-inline-box;">返回首页</a>
+           </div>
+           <input type="submit" value="提交" style="margin-left: 61px; margin-top: -32px" /></div>
+
+      </form>
+   </div><!--web-width/-->
+
+  </div>
+
+</body>
+<script>
+    function cname() {
+        var one=0;
+        var two=0;
+            var yhm = document.getElementById("phone").value;
+            var reg=/^1[3|4|5|8][0-9]\d{4,8}$/i;//验证手机正则(输入前7位至11位)
+            if (reg.test(yhm) == false) {
+                document.getElementById("msg_email").innerHTML = "<p color='red' size='-1'>请输入正确的手机号";
+            }else{
+                document.getElementById("msg_email").innerHTML = "<p color='#424242' size='-1'>输入正确";
+                one =1;
+            }
+
+        }
+
+</script>
+
+</html>

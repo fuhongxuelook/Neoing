@@ -1,0 +1,34 @@
+body header{
+}
+.banner img{
+    width: 100%;
+}
+
+.content_all{
+    width: 1200px;
+    margin: 80px auto 120px;
+}
+.img{
+    display: flex;
+    margin-bottom: 10px;
+}
+.img a:nth-child(2){
+    margin-left: 40px;
+}
+.img a{
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

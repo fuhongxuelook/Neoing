@@ -1,0 +1,71 @@
+body header{
+    position: static;
+}
+.media_bg{
+    width: 100%;
+    min-width: 1200px;
+}
+
+.report{
+    width: 100%;
+    min-width: 1200px;
+}
+
+.report .title{
+    text-align: center;
+    font-size: 24px;
+    font-weight: normal;
+    padding: 50px 0;
+}
+.report .report_list{
+    font-size: 16px;
+    letter-spacing: 2px;
+    color: #666666;
+    width: 100%;
+    padding: 10px 0;
+    height: 140px;
+}
+.report .report_list .media_logo{
+    float: left;
+    position: relative;
+    width: 280px;
+    height: 140px;
+}
+.report .report_list .media_logo a{
+    display: inline-block;
+    width: 160px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-top: -37px;
+    margin-left: -80px;
+}
+.report .report_list .media_logo a img{
+    width: 100%;
+    vertical-align: top;
+}
+
+.report .report_list .media_info{
+    float: left;
+    display: table;
+    width: 640px;
+    height: 140px;
+}
+
+.report .report_list .media_info p{
+    line-height: 30px;
+    vertical-align:middle;
+    display:table-cell;
+}
+.report .report_list .media_time{
+    float: left;
+    display: table;
+    width: 280px;
+    height: 140px;
+}
+.report .report_list .media_time p{
+    letter-spacing: 1px;
+    text-align: center;
+    vertical-align:middle;
+    display:table-cell;
+}

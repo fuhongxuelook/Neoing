@@ -1,0 +1,996 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>隐私条款</title>
+    <link rel="stylesheet" type="text/css"  href="/PcTpl/Public/css/bootstrap.css">
+    <style>
+        body{
+            font-family: "微软雅黑";
+            background-color: #faf9f5;
+        }
+        a{
+            text-decoration: none;
+        }
+        .banner img{
+            width: 100%;
+            margin-top: -1px;
+            height: 97px;
+        }
+        .banner{
+            width: 100%;
+            position: relative;
+            margin-bottom: 30px;
+        }
+        .banner_text{
+            margin-left: 50px;
+            position: absolute;
+            top: 0px;
+            color: #fff;
+        }
+        .banner_text p{
+            font-size: 16px;
+        }
+        .text{
+            max-width: 907px;
+            margin: 0 auto;
+        }
+        h3{
+            font-size: 26px;
+        }
+        .color_text{
+            color:#0192B5;
+        }
+        .h1-display{
+            font-size: 42px;
+            margin-top: -9px;
+        }
+        .article{
+            padding: 24px 0px;
+            border-bottom: 1px solid #dddddc;
+            border-top: 1px solid #dddddc;
+        }
+        .article p{
+            font-size: 18px;
+            margin: 0;
+        }
+        .policy{
+            padding-top: 36px;
+        }
+        .policy p{
+            font-size: 16px;
+            padding-bottom: 3px;
+        }
+        .policy_p{
+            line-height: 24px;
+            font-size: 16px;
+            padding-bottom: 6px;
+        }
+        .policy_a{
+            color: #0192B5;
+        }
+
+        .bottomarrow{
+            border-top: 8px solid #dddddc;
+            border-left: 6px solid transparent;
+            border-right: 6px solid transparent;
+            margin-top: 4px;
+            margin-left: 5px;
+            display: inline-block;
+            width: 0;
+            height: 0;
+        }
+        .dropdown-body{
+            display: none;
+            border: 1px solid #dddddc;
+            margin-top: -5px;
+            padding-top: 12px;
+            padding-bottom: 12px;
+            text-align: left;
+            z-index: 90;
+            border-radius: 3px;
+            background-color: #FFF;
+            font-size: 14px;
+            min-width: 169px;
+            max-width: 180px;
+            position: absolute;
+        }
+        .list-nav-item{
+            text-decoration: none;
+            display: block;
+            margin: 0;
+            padding: 3px 18px;
+            position: relative;
+            text-align: left;
+        }
+        .lists{
+            background-color: #f3f3f3;
+        }
+        .dropdown-body ul li{
+            list-style-type: none;
+        }
+        .dropdown-body ul li a{
+            text-decoration: none;
+        }
+        .dropdown-body ul li:hover{
+            background-color: #f3f3f3;
+        }
+        .row{
+            background-color: #fff;
+        }
+        .color_text .policy_a {
+            text-decoration: none;
+        }
+        .dropdown-body ul{
+            padding: 0px;
+        }
+        ul{
+             padding: 0px;
+         }
+    </style>
+</head>
+<body>
+﻿    <link rel="stylesheet" href="/PcTpl/Home/Public/css/index/navigation.css">
+    <script src="/PcTpl/Public/js/jquery-1.7.2.js"></script>
+    <script type="text/javascript" src="/PcTpl/Public/js/reg.js"></script>
+    <script type="text/javascript" src="/PcTpl/Home/Public/js/lgandrg.js"></script>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+        }
+        #full_navigation{
+            margin-top: -20px;
+        }
+        #full_navigation .tabs{
+            width: 580px;
+            margin: 0 auto;
+            position: fixed;
+            background-color: #f5f5f1;
+            padding-top: 20px;
+            left: 50%;
+            margin-left: -290px;
+            z-index: 10990;
+            top: 50%;
+            margin-top: -240px;
+
+        }
+        #full_navigation .nav .nav-menu li .move .changeA {
+            background-color: #ff873e;
+            color: #FFFFFF;
+        }
+        #full_navigation .nav  .nav-menu li a {
+            text-align: left;
+            display: block;
+            padding-left: 14px;
+            text-decoration: none;
+        }
+        .header_bar span a{
+            font-size: 16px;
+        }
+        #full_navigation .ul1s{
+            list-style: none;
+            display: flex;
+            margin: 0;
+            padding: 0;
+            align-items: center;
+            margin-left: 51px;
+        }
+        #full_navigation .ul1s li{
+            font-size: 13px;
+            background-color: #f3f3f3;
+            border: 1px #dddddc solid;
+            width: 50px;
+            height: 30px;
+            text-align: center;
+            line-height: 29px;
+            cursor: pointer;
+        }
+        #full_navigation .ul1s li:nth-child(1){
+            border-right:none ;
+        }
+        #full_navigation .ul1s li.active{
+            background:#fff;
+            border-bottom: none;
+            height: 30px;
+            color: #ff873e;
+        }
+        #full_navigation .tabs div{
+            background-color: #fff;
+        }
+
+        #full_navigation .tabs .boxs>div{
+            line-height: 28px;
+            padding-top: 0px;
+            z-index: -1;
+            border-top: 1px #dddddc solid;
+            display: none;  margin-top: -1px;
+        }
+        #full_navigation  .all_div{
+            display: none;
+            position: absolute;
+            z-index: 100;
+            text-align: center;
+            margin: 0 auto;
+            width: 100%;
+            margin-top: -134px;
+            height: 100%;
+        }
+        body .all_div .tabs  .boxs {
+            width: 100%;
+            height: auto;
+        }
+        #full_navigation .all_div_bj{
+            position: fixed;
+            top: 0px;
+            left: 0px;
+            width: 100%;
+            height: 100%;
+            z-index: 999;
+            display: block;
+            opacity: 0.8;
+            background-color: rgb(221, 221, 221);
+        }
+
+        body #full_navigation .boxs input{
+
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+            font-family: inherit;
+            width: 232px;
+            line-height: 20px;
+            color: #333;
+            font-size: 12px;
+            margin: 0 0 0.2em 0;
+            padding: 6px;
+            border: 1px solid #c2c2c2;
+            border-right: 1px solid #e6e6e6;
+            border-bottom: 1px solid #e6e6e6;
+            display: block;
+        }
+        #full_navigation .register p{
+            font-size: 12px;
+            margin-top: 8px;
+            margin-bottom: 4px;
+        }
+        #full_navigation .register{
+            padding: 20px 53px;
+            text-align: left;
+        }
+        #full_navigation .boxs  .checkbox{
+            width: 13px;
+        }
+        #full_navigation .boxs .register span{
+            color: red;
+            position: absolute;
+            margin: -34px 0px 0px 256px;
+            font-size: 12px;
+        }
+        #full_navigation .boxs .login span{
+              color: red;
+              position: absolute;
+              margin: -34px 0px 0px 256px;
+              font-size: 12px;
+          }
+        #full_navigation .boxs .register hr{
+            background-color: #e1e1df;
+            color: #e1e1df;
+            border: 0;
+            height: 1px;
+            margin: 19px 0 11px;
+            clear: both;
+        }
+        #full_navigation  .register .submit-button{
+            background-color: #3cb1cb;
+            border-color: rgba(0, 0, 0, 0.2);
+            box-sizing: border-box;
+            border-radius:3px;
+            color: #fff;
+            margin: 10px 0px;
+        }
+        #full_navigation .login .submit-button{
+
+            font-size: 14px;
+            line-height: inherit;
+            background-color: #3cb1cb;
+            border-color: rgba(0, 0, 0, 0.2);
+            box-sizing: border-box;
+            border-radius:3px;
+            color: #fff;
+            border: none;
+            margin: 10px 0;
+        }
+        #full_navigation .login p{
+            font-size: 12px;
+            margin-top: 8px;
+            margin-bottom: 4px;
+        }
+        #full_navigation .login{
+            padding: 20px 53px;
+            text-align: left;
+        }
+        #full_navigation .boxs .login hr{
+            background-color: #e1e1df;
+            color: #e1e1df;
+            border: 0;
+            height: 1px;
+            margin: 19px 0 11px;
+            clear: both;
+        }
+
+        #full_navigation #kd{    width: 82px;
+            position: absolute;
+            height: 34px;
+            border: 1px solid #dddddc;
+            border-left: none;
+            margin-top: -36px;
+            margin-left: 150px;
+        }
+        #full_navigation #kds{    width: 82px;
+                position: absolute;
+                height: 34px;
+                border: 1px solid #dddddc;
+                border-left: none;
+                margin-top: -36px;
+                margin-left: 150px;
+            }
+        #full_navigation img {
+            vertical-align: middle;
+        }
+        #full_navigation .boxs #mobilecode{
+            width: 150px;
+        }
+        #full_navigation #btnSendCode{
+            width: 82px;
+            height: 34px;
+            font-size: 11px;
+            background-color: #ff873e;
+            color: #fff;
+            margin-top: -36px;
+            margin-left: 150px;    display: -webkit-box;
+            border: none;
+        }
+        #full_navigation #btnSendCodes{
+            width: 82px;
+            height: 34px;
+            font-size: 11px;
+            background-color: #ff873e;
+            color: #fff;
+            margin-top: -36px;
+            margin-left: 150px;    display: -webkit-box;
+            border: none;
+        }
+        #full_navigation .boxs .register .input_text{
+            font-size: 12px;
+            margin: -23px 22px 0px;
+            color: #000;
+        }
+        #full_navigation .boxs .login .input_text{
+            font-size: 12px;
+            margin: -23px 22px 0px;
+            color: #000;
+        }
+        #full_navigation #randCode{
+            width: 150px;
+        }
+        #full_navigation  .button-login {
+            background-color: #34A8C4;
+            width: 232px;
+            margin-top: 10px;
+            border: none;
+            font-size: 14px;
+            line-height: inherit;
+            border-radius:3px;
+            color: #fff;
+        }
+        #full_navigation  .phone-button {
+            background-color: #34A8C4;
+            width: 232px;
+            margin-top: 10px;
+            border: none;
+            font-size: 14px;
+            line-height: inherit;
+            border-radius:3px;
+            color: #fff;
+        }
+        #full_navigation .submit-button{
+            width: 232px;
+            border-radius: 3px;
+        }
+        #full_navigation #randCode1{
+            width: 150px;
+        }
+        #full_navigation .lgs .kuaijie{
+            margin-top: 10px;
+            margin-bottom: 20px;
+        }
+        #full_navigation .lgs .kuaijie a{
+            padding: 6px 22px;
+            color: #fff;
+            background-color: #34A8C4;
+            border-radius: 3px;
+        }
+        .boxs a{
+            color: #34A8C4;
+            text-decoration: none;
+            font-size: 12px;
+
+        }
+    
+        #register,.loginBtn,.operation span{
+            cursor: pointer;
+        }
+        #full_navigation .tabs .ul1s .close{
+            font-size: 24px;
+            float:right;
+            background-color: #f5f5f1;
+            cursor: pointer;
+            margin-left: 383px;
+            width: 31px;
+            height: 27px;
+            line-height: 27px;
+            color: #666;
+            opacity: 1;
+        }
+        .weChats{
+            width: 100%; height: auto ;display: none;    margin: 0 auto;text-align: center;
+        }
+        body #full_navigation .boxs .shoujidls input,body #full_navigation .boxs .mingzidls input{
+            margin: 22px 0px;
+        }
+        .weiX-box{
+            position: fixed;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0,0,0,.7);
+            z-index: 9;
+            display: none;
+            margin-top: -20px;
+        }
+        .weiX-box img{
+            position: absolute;
+            top:50%;
+            left: 50%;
+            margin-top:-125px ;
+            margin-left:-125px ;
+        }
+    </style>
+    <script>
+        var _hmt = _hmt || [];
+        (function () {
+            var hm = document.createElement("script");
+            hm.src = "https://hm.baidu.com/hm.js?9a11dd5949cc7fabe8b1613247bce4ee";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(hm, s);
+        })();
+    </script>
+    <script>
+        (function(){
+            var bp = document.createElement('script');
+            var curProtocol = window.location.protocol.split(':')[0];
+            if (curProtocol === 'https') {
+                bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+            }
+            else {
+                bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+            }
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(bp, s);
+        })();
+    </script>
+    <div class="weiX-box">
+        <img src="/PcTpl/Public/images/weixin.jpg" alt="" width="250px">
+    </div>
+<div id="full_navigation">
+    <header>
+        <div class="header_bar">
+            <input style="display: none" value="" id="session">
+            <div class="logo"><a href="/Home/Index/index.html"><img src="/PcTpl/Home/Public/images/Index/logo2.png"/></a></div>
+            <div class="search_bar">
+                <form action="/Home/Search/search" method="post">
+                    <input type="text" name="name" placeholder="你在寻找什么？"/>
+                    <input type="submit" value="搜索"/>
+                </form>
+            </div>
+            <div class="operation">
+                <span><a href="/Home/service/seek.html">搜猎人上出售</a></span>                <span><a id="register">注册</a></span>                <span><a class="loginBtn" id="login">登录</a></span>                                                <span class="car"><a href="/Home/carts/index.html"><img src="/PcTpl/Home/Public/images/Index/Shopping Cart.png"/></a></span>
+            </div>
+        </div>
+    </header>
+    <div class="nav">
+
+        <ul class="navBar">
+            <li><a href="/Home/Index/pc.html">商城首页</a></li>
+            <li class="current-line">
+                <a class="move" href="javascript:;">墙面装饰与收藏</a>
+                <ul class="nav-menu">
+                    <li>
+                            <div class="move">
+                                <a class="changeA" href="/Home/category/6">版画</a>
+                                <a href="/Home/category/6">版画</a>
+                            </div>
+                        </li><li>
+                            <div class="move">
+                                <a class="changeA" href="/Home/category/7">油画</a>
+                                <a href="/Home/category/7">油画</a>
+                            </div>
+                        </li><li>
+                            <div class="move">
+                                <a class="changeA" href="/Home/category/11">水彩(粉)</a>
+                                <a href="/Home/category/11">水彩(粉)</a>
+                            </div>
+                        </li><li>
+                            <div class="move">
+                                <a class="changeA" href="/Home/category/12">国画</a>
+                                <a href="/Home/category/12">国画</a>
+                            </div>
+                        </li><li>
+                            <div class="move">
+                                <a class="changeA" href="/Home/category/13">朝鲜画</a>
+                                <a href="/Home/category/13">朝鲜画</a>
+                            </div>
+                        </li><li>
+                            <div class="move">
+                                <a class="changeA" href="/Home/category/63439">素描</a>
+                                <a href="/Home/category/63439">素描</a>
+                            </div>
+                        </li><li>
+                            <div class="move">
+                                <a class="changeA" href="/Home/category/63440">绘画</a>
+                                <a href="/Home/category/63440">绘画</a>
+                            </div>
+                        </li><li>
+                            <div class="move">
+                                <a class="changeA" href="/Home/category/63442">综合材料</a>
+                                <a href="/Home/category/63442">综合材料</a>
+                            </div>
+                        </li>                </ul>
+            </li>
+            <li>
+                <a class="move" href="javascript:;">服装和配饰</a>
+                <ul class="nav-menu">
+                    <li>
+                            <div class="move">
+                                <a class="changeA" href="/Home/category/14">箱包</a>
+                                <a href="/Home/category/14">箱包</a>
+                            </div>
+                        </li><li>
+                            <div class="move">
+                                <a class="changeA" href="/Home/category/15">男/女装</a>
+                                <a href="/Home/category/15">男/女装</a>
+                            </div>
+                        </li><li>
+                            <div class="move">
+                                <a class="changeA" href="/Home/category/16">腰带</a>
+                                <a href="/Home/category/16">腰带</a>
+                            </div>
+                        </li>                </ul>
+            </li>
+                <li>
+                <a class="move" href="javascript:;">珠宝</a>
+                <ul class="nav-menu">
+                    <li>
+                            <div class="move">
+                                <a class="changeA" href="/Home/Goods/allgoodsList/id/28.html">耳饰</a>
+                                <a href="/Home/Goods/allgoodsList/id/28.html">耳饰</a>
+                            </div>
+                        </li><li>
+                            <div class="move">
+                                <a class="changeA" href="/Home/Goods/allgoodsList/id/29.html">项链</a>
+                                <a href="/Home/Goods/allgoodsList/id/29.html">项链</a>
+                            </div>
+                        </li><li>
+                            <div class="move">
+                                <a class="changeA" href="/Home/Goods/allgoodsList/id/30.html">戒指</a>
+                                <a href="/Home/Goods/allgoodsList/id/30.html">戒指</a>
+                            </div>
+                        </li><li>
+                            <div class="move">
+                                <a class="changeA" href="/Home/Goods/allgoodsList/id/63437.html">银条</a>
+                                <a href="/Home/Goods/allgoodsList/id/63437.html">银条</a>
+                            </div>
+                        </li>                </ul>
+            </li>
+            <li>
+                <a class="move" href="javascript:;">家庭和生活</a>
+                <ul class="nav-menu">
+                    <li>
+                            <div class="move">
+                                <a class="changeA" href="/Home/category/9">雕塑</a>
+                                <a href="/Home/category/9">雕塑</a>
+                            </div>
+                        </li><li>
+                            <div class="move">
+                                <a class="changeA" href="/Home/category/31">家居家装</a>
+                                <a href="/Home/category/31">家居家装</a>
+                            </div>
+                        </li><li>
+                            <div class="move">
+                                <a class="changeA" href="/Home/category/63438">手机数码</a>
+                                <a href="/Home/category/63438">手机数码</a>
+                            </div>
+                        </li><li>
+                            <div class="move">
+                                <a class="changeA" href="/Home/category/63443">酒</a>
+                                <a href="/Home/category/63443">酒</a>
+                            </div>
+                        </li>                </ul>
+            </li>
+            <li>
+                <a class="move" href="javascript:;">文化用品</a>
+                <ul class="nav-menu">
+                    <li>
+                            <div class="move">
+                                <a class="changeA" href="/Home/category/4">书刊</a>
+                                <a href="/Home/category/4">书刊</a>
+                            </div>
+                        </li><li>
+                            <div class="move">
+                                <a class="changeA" href="/Home/category/8">明信片</a>
+                                <a href="/Home/category/8">明信片</a>
+                            </div>
+                        </li><li>
+                            <div class="move">
+                                <a class="changeA" href="/Home/category/10">手帐本</a>
+                                <a href="/Home/category/10">手帐本</a>
+                            </div>
+                        </li><li>
+                            <div class="move">
+                                <a class="changeA" href="/Home/category/63441">茶叶</a>
+                                <a href="/Home/category/63441">茶叶</a>
+                            </div>
+                        </li>                </ul>
+            </li>
+          <!--   <li>
+                <a class="move" href="/Home/Article/articlelist.html">原创故事</a>
+            </li> -->
+        </ul>
+    </div>
+    <div class="mark_bg"></div>
+    <div class="all_div">
+        <div class="all_div_bj"></div>
+        <div class="tabs">
+            <ul class="ul1s">
+                <li class="rg active">注册</li>
+                <li class="lg">登录</li>
+                <div  class="close">×</div>
+            </ul>
+            <div class="boxs">
+                <div style="width: 100%; height: auto" class="rgs box1">
+                    <form class="register sms-form" id="sms-form" method="post"  name="form-sub">
+                        <p>手机号码</p>
+                        <input type="text" id="phone" name="username"  class="phone" maxlength="11" placeholder="11位手机号码" >
+                        <span class="phone_span"></span>
+                        <p>验证码</p>
+                        <input  type="text" id="randCode" name="randCode" maxlength="4" placeholder="图片验证码"  >
+                        <div class="kd">
+                            <img src="/Home/Mobile/createCode" id="kd"
+                                 onclick="this.src='/Home/Mobile/createCode/id/'+Math.random()">
+                        </div>
+                        <span class="randCode_span"></span>
+                        <p>手机验证码</p>
+                        <input type="text" id="mobilecode" name="mobilecode" class="input-sty padding-r" maxlength="6" placeholder="手机验证码" >
+                        <button id="btnSendCode" class="phoneCode" type="submit">发送验证码</button>
+
+                        <span class="mobilecode_span"></span>
+                        <p>密码</p>
+                        <input  type="password" name="pwd" class="pwd" id="password" maxlength="16"  placeholder="6-16位字符，须包含字母、数字" >
+                        <span class="password_span"></span>
+                        <p>确认密码</p>
+                        <input  type="password" name="rpwd" class="rpwd" id="rpassword" maxlength="16" placeholder="确认密码" >
+                        <span class="rpassword_span"></span>
+                        <hr/>
+                        <div>
+                            <input type="checkbox" class="checkbox" checked="checked"  /><span class="input_text">请确认已阅读并同意搜猎人<a href="/Home/Index/use_clause.html " target="_black">使用条款</a>和<a href="/Home/Index/privacy_clause.html" target="_black" >隐私条款</a></span>
+                        </div>
+                        <button type="button" class=" button-login registerBtn" >立即注册</button><span class="zhuce_span"style=" margin: 8px 30px;"></span>
+                    </form>
+                </div>
+                <div style="width: 100%; height: auto" class="lgs box1">
+                    <div  class="login">
+                        <div class="kuaijie">
+                            <a href="javascript:;" class="mingzidl" style="background-color:#189ce0">用户名</a>
+                            <a href="javascript:;" class="shoujidl">手机号</a>
+                            <a href="javascript:;" class="weixindl">微信</a>
+                        </div>
+                        <hr style=" margin-top: 5px;margin-bottom: 0px;"/>
+                        <!--用户名登录-->
+                            <div class="mingzidls">
+                                <input type="text" id="username" name="username"  class="phone" placeholder="用户名" >
+                                <span class="phone1_span" style="margin-top: -53px;"></span>
+                                <input type="password"  name="pwd"  class="password" id="password1"  maxlength="16"  placeholder="密码" >
+                                <span class="password1_span" style="margin-top: -53px;"></span>
+                                <hr />
+                                <div>
+                                    <a href="/Home/Password/index.html">忘记密码了吗？</a>
+                                </div>
+                                <button type="button" value="登录" class="submit-button"  >登录</button>
+                            </div>
+                        <!--手机号码登录-->
+                            <div class="shoujidls" style="display: none">
+                                <form class=" sms-forms" id="sms-forms" method="post"  name="form-sub">
+                                    <input type="text" id="usernames" name="username"  class="username" maxlength="11" placeholder="手机号码" >
+                                    <span class="phone1_span" style="margin-top: -53px;"></span>
+                                    <input type="text" id="mobilecodes" name="mobilecode" class="input-sty padding-r" maxlength="6" placeholder="验证码" >
+                                    <button id="btnSendCodes" class="phoneCode" type="submit" style="margin-top: -56px;">发送验证码</button>
+                                    <span class="mobilecodes_span"></span>
+                                    <hr />
+                                    <div>
+                                        <a href="/Home/Password/index.html">忘记密码了吗？</a>
+                                    </div>
+                                    <button type="button" value="登录" class="phone-button"  onclick="">登录</button>
+                                </form>
+                            </div>
+                        <!--微信内嵌登录-->
+                            <div class="weChats box1" >
+                                <div id="weChat"></div>
+                                <script src="http://res.wx.qq.com/connect/zh_CN/htmledition/js/wxLogin.js"></script>
+                                <script>
+                                    var obj = new WxLogin({
+                                        id:"weChat",
+                                        appid: "wx8d8646fc4b1dcca4",
+                                        scope: "snsapi_login",
+                                        redirect_uri: "http%3A%2F%2Fwww.soulieren.com%2Findex.php%2Fhome%2FThirdLogin%2Fcallback",
+                                        state: "",
+                                        style: "black",
+                                        href: ""
+                                    });
+                                </script>
+                            </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid ">
+    <div class="row ">
+        <div class="banner">
+            <img src="/PcTpl/Home/Public/images/Index/clause.jpg" />
+            <div class="banner_text">
+                <h3>我们的规则</h3>
+                <p>了解搜猎人的法律条款和政策</p>
+            </div>
+        </div>
+        <div style="margin: 0 auto;max-width: 907px;">
+            <div class="text col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <p><span class="color_text"><a href="/Home/Index/specifications.html" class="policy_a">我们的规则</a> </span>/ <a class="color_text" id="drop-down" style=" cursor: pointer; text-decoration: none">隐私条款<span class="bottomarrow"></span></a></p>
+                <div class="dropdown-body">
+                    <ul class="list-nav">
+                        <li><a href="/Home/Index/use_clause.html" class="list-nav-item" >使用条款</a></li>
+                        <li><a href="/Home/Index/privacy_clause.html" class="list-nav-item lists">隐私条款</a></li>
+                        <li><a href="/Home/Index/buyer_policy.html" class="list-nav-item">买家</a></li>
+                        <li><a href="/Home/Index/seller_policy.html" class="list-nav-item ">卖家</a></li>
+                        <li><a href="/Home/Index/trademark_policy.html" class="list-nav-item">商标</a></li>
+                    </ul>
+                </div>
+                <p class="h1-display">隐私条款</p>
+                <div class="article">
+                    <p>搜猎人网尊重并保护所有使用搜猎人网服务用户的个人隐私权。为了给您提供更准确、更有个性化的服务，搜猎人网会按照本隐私权政策的规定使用和披露您的个人信息。但搜猎人网将以高度的勤勉、审慎义务对待这些信息。除本隐私权政策另有规定外， 在未征得您事先许可的情况下，搜猎人网不会将这些信息对外披露或向第三方提供。搜猎人网会不时更新本隐私权政策。</p>
+                </div>
+                <div class="policy">
+                    <p >您在同意搜猎人网服务协议之时，即视为您已经同意本隐私权政策全部内容。本隐私权政策属于搜猎人网服务协议不可分割的一部分。</p>
+                    <p class="policy_p"><strong>适用范围</strong></p>
+                    <p >这一政策是我们使用条款的一部分。通过访问网站或使用应用程序，您同意我们的收集、传输、处理、存储有关信息。这个政策只适用于搜猎人的网站、应用和提供的任意服务，我们不对用户上传并发布的内容或我们任何用户的隐私负责。</p>
+                    <p >搜猎人网的使用条款要求所有用户至少年满18周岁(或许在父母或法定监护人的陪同下使用)，因此，这一政策不适用于使用未成年人使用我们的网站及应用程序。</p>
+                    <p class="policy_p"><strong>选择</strong></p>
+                    <p >您可以在帐户设置中查看和更改信息，并且可以删除某些可选信息。</p>
+                    <p class="policy_p"><strong>主动联系</strong></p>
+                    <p >有时，搜猎人网会主动联系您。这些消息主要是由电子邮件或通过推送通知，并且每一个账户需要保持有效的电子邮件地址来接收消息。如果您向我们电话提供了电话，搜猎人网可能会通过电话与您联系，以提供会员支持或了解交易相关信息。此外，搜猎人可能会给您发送短信或实体邮件，以便为您提供客户支持或向您提供您可能感兴趣的产品、功能等信息。您可以在帐户设置里更新联系人首选项。</p>
+                    <p >一些来自搜猎人网的消息始于服务相关，并且用户必需的。服务相关信息的示例，包括您注册账户时的电子邮件地址确认/欢迎电子邮件，订单通知和搜猎人网支持团队发送的信件。 除非您关闭帐户，否则您不能选择停止接收来自搜猎人网的服务相关消息。</p>
+                    <p class="policy_p"><strong>信息的使用</strong></p>
+                    <p >使用我们的平台，您将需要提供一个有效的电子邮件地址，并且您可以选择用户名。根据您选择的服务，我们可能会收集其他信息，例如:私人信息，如站内消息、账单或支付信息、电话号码和实际地址。请注意，出于安全与性能的缘故，这些内容可能会被搜猎人网工作人员，不定期地访问。</p>
+                    <p >您的用户名是公开展示，并且会连接到您在网站和应用程序上。其他人可能会看到您加入的日期；您购买或出售商品的评级、评论和相关照片；您的个人信息；您上架的商品；您的店铺页面和自拟的商店政策与条款；您的收藏、订阅者和您关注的；出售的商品集和销售的商品数；您在我们的社群内发布的评论。您可以选择提供并公开显示您的全名及其他个人信息(如生日、性别和位置等)。</p>
+                    <p class="policy_p"><strong>使用与共享</strong></p>
+                    <p >我们使用多种方式收集您的信息。例如，您购买了商品，我们将为卖方分享您的送货信息；我们使用数据分析并与某些第三方服务提供商合作，进行有针对性的线上和线下营销；当然，我们也使用您的电子邮件地址与您沟通。我们还与服务提供商和其他第三方合作，收集、使用、推广和分析信息搜猎人网的用户和游客。</p>
+                    <p >未经您的许可，搜猎人不会出售或向第三方透露您的个人信息，除非我们的隐私政策另有规定。</p>
+                    <p class="policy_p"><strong>信息披露</strong></p>
+                    <p >在如下情况下，搜猎人网将依据您的个人意愿或法律的规定全部或部分的披露您的个人信息：</p>
+                    <p >经您事先同意；
+                    <p >1.如您是适格的知识产权投诉人并已提起投诉，应被投诉人要求，向被投诉人披露，以便双方处理可能的权利纠纷；</p>
+                    <p >2.根据法律的有关规定，或者行政或司法机构的要求，向第三方或者行政、司法机构披露；</p>
+                    <p >3.如您出现违反中国有关法律、法规或者搜猎人网服务协议或相关规则的情况，需要向第三方披露；</p>
+                    <p >4.为提供您所要求的产品和服务，而必须和第三方分享您的个人信息；</p>
+                    <p >5.在搜猎人网上创建的某一交易中，如交易任何一方履行或部分履行了交易义务并提出信息披露请求的，搜猎人网有权决定向该用户提供其交易对方的联络方式等必要信息，以促成交易的完成或纠纷的解决。</p>
+                    <p >6.其它搜猎人网根据法律、法规或者网站政策认为合适的披露。</p>
+                    <p class="policy_p"><strong>安全</strong></p>
+                    <p >我们非常重视您的个人信息的安全。搜猎人网的账户信息是受密码保护的。请务必谨慎选择密码，并确保密码和计算机安全，例如在使用我们的服务后退出，以防止未经授权访问您的帐户和信息。</p>
+                    <p class="policy_p"><strong>数据保留</strong></p>
+                    <p >只要您已注册/开通帐户，搜猎人网将根据您的需要且在满足本政策所述的情况下，为您保留信息。如果您不再使用搜猎人网提供给您的信息保留服务，您可以关闭您的帐户。搜猎人网将遵守我们的法律义务，在一定程度上保留和使用您的信息，以解决争端。请注意，关闭您的帐户可能不释放您的电子邮件地址、用户名或商店名称，以避免新账户注册时重复使用。</p>
+                    <p >您可以向我们提出有关您个人数据更改的请求，并根据适用的数据保护法律，我们可能会相应更新或删除您的个人数据，并且我们会在合适的时间给出合理解释，回复您的请求。</p>
+                    <p class="policy_p"><strong>您的权利</strong></p>
+                    <p >如果您是一个搜猎人网的用户，您可以通过访问您的帐户设置访问、更正、更改和删除与您的帐户相关联的某些个人信息。如果您需要进一步的帮助，您可以<a class="policy_a">联系我们</a> </p>
+                    <p class="policy_p"><strong>隐私政策的变化</strong></p>
+                    <p >我们可能会不时更新政策，如果我们认为这些更改是重要的，我们一定会通过执行以下一项（或多项）来告诉您：</p>
+                    <p >（1）在网站和应用上发布更改；</p>
+                    <p >（2）向您发送电子邮件或消息更改；</p>
+                    <p >这样，您可以决定是否要继续使用网站或应用程序。新政策将在发布更改时生效，您有责任审核并熟悉任何更改且在更改后，您已经使用本网站或应用程序即表示您接受更新的政策。</p>
+                    <p class="policy_p"><strong>搜猎人联系</strong></p>
+                    <p >如果您对个人信息有任何疑问或建议，请及时与我们联系。</p>
+                    <p >电子邮箱：soulieren@163.com</p>
+
+
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+    <style>
+        footer{
+            margin-top: 100px;
+            width: 100%;
+        }
+        .footer_list{
+            max-width: 1340px;
+            min-width: 980px;
+            margin: 0 auto;
+            overflow: hidden;
+            display: flex;
+            justify-content: space-around;
+        }
+        .footer_list>ul{
+            list-style: none;
+        }
+        .footer_list>ul li a{
+            text-decoration: none;
+            font-size: 12px;
+            color: #000000;
+            text-decoration: none;
+            display: inline-block;
+            margin-top: 14px;
+            line-height: 20px;
+        }
+        .footer_list>ul li a.open{
+            background-color: #34a8c4;
+            color: #FFFFFF;
+            border-radius: 4px;
+            padding: 8px;
+        }
+        .footer_info{
+            max-width: 1340px;
+            min-width: 980px;
+            box-sizing: border-box;
+            padding: 0 60px;
+            margin: 60px auto 30px;
+        }
+        .footer_info::after{
+            content: '';
+            display: block;
+            clear: both;
+        }
+        .footer_info p{
+            border: 1px solid #dddddc;
+            padding: 5px;
+            display: inline-block;
+            font-size: 13px;
+        }
+        .footer_info p:last-child{
+            float: right;
+        }
+
+        .footer_list .last_list li a{
+            /*width: 22px;*/
+            margin: 0;
+        }
+        .sidle_bar{
+            position: fixed;
+            width: 100px;
+            bottom: 50px;
+        }
+        .sidle_bar>a{
+            font-size: 12px;
+            display: inline-block;
+            margin-bottom: 15px;
+        }
+
+        .jiathis_style_32x32 {
+            /*width: 15px;*/
+        }
+        .jiathis_style_32x32 .jtico_cqq{
+            background:url(/PcTpl/Home/Public/images/Index/aa3.png) no-repeat;
+            background-position: 0px 0px;
+            background-size:22px 22px;
+            margin-left: 2px;
+        }
+        .jiathis_style_32x32 .jtico_tsina{
+            background:url(/PcTpl/Home/Public/images/Index/aa2.png) no-repeat;
+            background-position: 0px 0px;
+            background-size:22px 22px;
+            margin-left: 2px;
+        }
+        .jiathis_style_32x32 .jtico_weixin{
+            background:url(/PcTpl/Home/Public/images/Index/aa1.png) no-repeat;
+            background-position: 0px 0px;
+            background-size:22px 22px;
+            margin-left: 2px;
+        }
+    </style>
+
+
+
+    <footer>
+        <div class="footer_list">
+            <ul>
+                <li><a><strong>把你的激情融入企业</strong></a></li>
+                <li><a class="open" href="/Home/shop/211316">打开一个商店</a></li>
+                <li><a href="/Home/Service/seek.html">在搜猎人出售</a></li>
+                <li><a href="/Home/Index/specifications.html">我们的规则</a></li>
+                <!--<li><a href="javascript:return false;">使用条款</a></li>-->
+                <!--<li><a href="javascript:return false;">隐私条款</a></li>-->
+            </ul>
+            <ul>
+                <li><a><strong>关于</strong></a></li>
+                <li><a href="/Home/index/read.html">关于我们</a></li>
+                <li><a href="/Home/Service/cooperation.html">联系我们</a></li>
+            </ul>
+            <ul>
+                <li><a><strong>更多</strong></a></li>
+                <li><a href="javascript:;" class="weixin_s">微信</a></li>
+                <li><a href="http://weibo.com/soulieren?refer_flag=1001030102_">微博</a></li>
+                <li><a href="https://shop129576228.taobao.com/?spm=a230r.7195193.1997079397.2.s5bniH">淘宝</a></li>
+                <li><a href="http://v.qq.com/vplus/2f648c677c0dcb939fcf6a40cd1fae90">原创视频</a></li>
+            </ul>
+            <ul>
+                <li><a><strong>政策</strong></a></li>
+                <li><a href="/Home/Index/buyer_policy.html">买家政策 </a></li>
+                <li><a href="/Home/Index/seller_policy.html">卖家政策 </a></li>
+                <li><a href="/Home/Index/trademark_policy.html">商标政策 </a></li>
+            </ul>
+            <ul>
+                <li><a><strong>商务合作</strong></a></li>
+                <li><a href="/Home/BusinessCooperation/index.html#page2">线上渠道</a></li>
+                <li><a href="/Home/BusinessCooperation/index.html#page3">线下渠道</a></li>
+                <li><a href="/Home/BusinessCooperation/index.html#page4">视频定制</a></li>
+            </ul>
+            <ul class="last_list">
+                <li><a href="javascript:;" style="margin:12px 0"><strong>分享</strong></a></li>
+                <li class="jiathis_style_32x32"><a class="jiathis_button_weixin"></a></li>
+                <li class="jiathis_style_32x32"><a class="jiathis_button_cqq"></a></li>
+                <li class="jiathis_style_32x32"><a class="jiathis_button_tsina"></a></li>
+            </ul>
+        </div>
+        <div class="footer_info">
+            <p>版权所有&nbsp;京ICP备15012603号—1</p>
+            <p>Tel:010-57794643&nbsp;周日-周五9:00-19:00</p>
+        </div>
+    </footer>
+
+    <script type="text/javascript">
+        var jiathis_config = {
+            summary: "",
+            shortUrl: false,
+            hideMore: false
+        }
+    </script>
+    <script type="text/javascript" src="http://v3.jiathis.com/code/jia.js" charset="utf-8"></script>
+    <script>
+        $('.weixin_s').click(function () {
+            $('.weiX-box').show();
+        });
+        $('.weiX-box').click(function () {
+            $('.weiX-box').hide();
+        })
+    </script>
+
+    <script>
+        $('#drop-down').click(function (e) {
+            $('.dropdown-body').fadeIn();
+            return false;
+        });
+        $(document).click(function () {
+            $('.dropdown-body').fadeOut();
+        });
+
+    </script>
+</div>
+</body>
+</html>

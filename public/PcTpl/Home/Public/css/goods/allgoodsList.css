@@ -1,0 +1,225 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*257*221*/
+.allGoods{
+    max-width: 1180px;
+    min-width: 1180px;
+    margin: 0 auto;
+    padding: 10px;
+}
+.allGoods-hd{
+    width: 100%;
+    height: 30px;
+}
+.allGoods-hd p{
+    padding-left: 15px;
+    color: #777777;
+    font-size: 0;
+    margin: 5px 0;
+}
+.allGoods-hd p span{
+    display: inline-block;
+    font-size: 14px;
+    height: 20px;
+    line-height: 20px;
+}
+.arrow{
+    font-weight: bold;
+    padding: 0 3px;
+}
+
+.allGoodsList{
+    width: 100%;
+    /*background-color: pink;*/
+}
+.allGoodsList ul{
+    width: 100%;
+    list-style: none;
+    font-size: 0;
+}
+.allGoodsList ul li{
+    display: inline-block;
+    box-sizing: border-box;
+    position: relative;
+    padding: 15px;
+    font-size: 16px;
+    width: 287px;
+}
+.allGoodsList ul li a{
+    display: block;
+    width: 100%;
+}
+.goodCard{
+    width: 100%;
+    background-color: #FFFFFF;
+    overflow: hidden;
+    border-radius: 3px;
+    position: relative;
+    border: 1px solid #E1E3DF;
+    border-bottom-color: #CBCCC9;
+}
+.goodCard-img{
+    width: 100%;
+    height: 170px;
+    overflow: hidden;
+}
+/*.goodCard-img img{*/
+    /*vertical-align: top;*/
+    /*width: 100%;*/
+    /*transition: all 1s linear;*/
+/*}*/
+/*.goodCard-img img:hover{transform: scale(1.2);}*/
+.goodCard-info{
+    margin: 6px;
+}
+.goodCard-info p{
+    font-size: 14px;
+    margin-bottom: 3px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.goodCard-info p:last-child span{
+    display: inline-block;
+    font-size: 12px;
+}
+.good-title{
+    color: #9A9A9A;
+    width: 150px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.price{
+    float: right;
+    color: #ff783e;
+}
+
+/*悬浮*/
+.allGoodsList ul li .bubble{
+    position: absolute;
+    top:20px;
+    right: 20px;
+    font-size: 0;
+}
+.favorite,.pup{
+    cursor: pointer;
+}
+.favorite:hover,.pup:hover{
+    background-color: #F8F8F6;
+}
+.bubble{
+    display: none;
+}
+.bubble>div{
+    display: inline-block;
+    line-height: 23px;
+    height: 23px;
+    background-color: #FFF;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    color: #444;
+    border-radius: 2px;
+}
+.bubble .favorite{
+    width: 24px;
+    position: relative;
+}
+.bubble .pup{
+    width: 32px;
+    margin-left: 2px;
+    padding-top: 6px;
+    position: relative;
+}
+.bubble .pup span{
+    width: 14px;
+    height: 2px;
+    background-color: #BAB5B2;
+    display: block;
+    border-radius: 2px;
+    margin-left: 4px;
+    margin-bottom: 2px;
+    box-shadow: inset 0 0 1px #96928D;
+}
+.bubble .pup .arrow_b{
+    position: absolute;
+    width: 0;
+    height: 0;
+    top:10px;
+    right: 3px;
+    border: 4px solid transparent;
+    border-top-color: #BAB5B2;
+    box-shadow: inset 0 0 1px #96928D;
+}
+
+/*桃心*/
+.heart-shape{
+    position: absolute;
+    left: 8px;
+    top:9px;
+    width: 8px;
+    height: 8px;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+    background-color: rgba(186,181,178,1);
+    z-index: 10;
+}
+.heart-shape:before,
+.heart-shape:after{
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    content: '';
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    background-color: rgba(186,181,178,1);
+}
+
+.heart-shape:before{
+    bottom: 0;
+    left: -5px;
+}
+.heart-shape:after{
+    top: -5px;
+    right: 0;
+}
+/*改变桃心*/
+.heart-change{
+    position: absolute;
+    left: 8px;
+    top:9px;
+    width: 8px;
+    height: 8px;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+    background-color: red;
+    z-index: 10;
+}
+
+.heart-change:before,
+.heart-change:after{
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    content: '';
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    background-color: red;
+}
+.heart-change:before{
+    bottom: 0;
+    left: -5px;
+}
+.heart-change:after{
+    top: -5px;
+    right: 0;
+}

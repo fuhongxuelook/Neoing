@@ -1,0 +1,57 @@
+body header{
+    position: static;
+}
+.banner img{
+    width: 100%;
+}
+
+.text_p{
+    font-size: 20px;
+    color: #000;
+    text-align: center;
+    margin: 60px auto 20px;
+    line-height: 30px;
+}
+.text_span{
+    text-align: center;
+    display: block;
+    font-size: 14px;
+    color: #d2d2d2;
+}
+.flaot{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    margin: 50px auto;
+}
+hr{
+    height: 1px;
+    width: 100%;
+    background-color: #dddddc;
+}
+.flaot .text_p{
+    margin-top: 30px;
+}
+.flaot .text_p,.flaot .text_span{
+    text-align: right;
+}
+.flaot div .flaot_text_h1{
+    font-size: 16px;
+    line-height: 60px;
+}
+.flaot div .flaot_text_p{
+    font-size: 14px;
+    color: #666;
+    line-height: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+

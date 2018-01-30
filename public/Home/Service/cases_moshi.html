@@ -1,0 +1,888 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta  name="keywords" content="搜猎人,原创,艺术,原创精神,艺术家,设计师,手工艺人,原创者,迟首飞,IP 内容开发,IP 衍生品内容设计,打造中国人自己的IP,IP开发与应用,IP 产业落地,艺术理念+互联网思维,原创艺术品消费平台,原创艺术品购物平台,艺术互联网,艺术产业" />
+    <title>MOSHIMOSHI展示</title>
+    <link rel="stylesheet" href="/PcTpl/Public/css/reset.css">
+    <link rel="stylesheet" href="/PcTpl/Public/css/nav.css">
+    <link rel="stylesheet" href="/PcTpl/Home/Public/css/Static/case.css">
+    <link rel="stylesheet" href="/PcTpl/Public/css/footer.css">
+       <script type="text/javascript" src="/PcTpl/Home/Public/js/pc/jquery.min.js"></script>
+    <script src="http://www.ijquery.cn/frame/v2/v2.js"></script>
+    <script type="text/javascript" src="http://player.youku.com/jsapi"></script>
+    <script type="text/javascript" src="http://qzs.qq.com/tencentvideo_v1/js/tvp/tvp.player.js" charset='utf-8'></script>
+</head>
+<style>
+    *{
+        font-family: '微软雅黑';
+    }
+    .banner{
+        width: 100%;
+    }
+    .banner img{
+        width: 100%;
+    }
+    .moshi_text{
+        width: 1200px;
+        margin: 70px auto;
+    }
+    .text_p{
+        font-size: 20px;
+        color: #000;
+        text-align: center;
+        margin: 60px auto 20px;
+        line-height: 30px;
+    }
+    .text_span{
+        text-align: center;
+        display: block;
+        font-size: 14px;
+        color: #d2d2d2;
+    }
+    .dispaly_div{
+        display: flex;
+    }
+    .dispaly_div>div{
+        width: 50%;
+    }
+    .dispaly_div div:nth-child(1){
+        text-align: center;
+    }
+    .all hr{
+        height: 1px;
+        width: 100%;
+        background-color: #dddddc;
+    }
+    .all .div_text_p{
+        width: 382px;
+        line-height: 43px;
+        font-size: 14px;
+        text-align: justify;
+    }
+    .all .text_img{
+        margin-top: 70px;
+        text-align: center;
+        background-color: #f4f4f4;
+        width: 100%;
+        padding: 40px 0px 50px;
+    }
+    body .all .text_div_img_p{
+        margin-top: 0px;
+        text-align: justify;
+        justify-content: center;
+        display: flex;
+        padding: 0px 0px 50px;
+    }
+    body .all .text_div_img_p>p{
+        width: 285px;
+        font-size: 14px;
+        text-align: center;
+    }
+    .button_div{
+        width: 285px;
+        height: 70px;
+        line-height: 70px;
+        text-align: center;
+        border: 1px solid #000;
+        color: #000;
+        margin: 0 auto;
+        cursor: pointer;
+    }
+    .button_div1{
+        width: 285px;
+        height: 70px;
+        line-height: 70px;
+        text-align: center;
+        background-color: #ff883f;
+        color: #fff;
+        border: 1px solid #ff883f;
+        margin: 0 auto;
+
+        cursor: pointer;
+    }
+
+</style>
+<body>
+<header>
+
+    <script type="text/javascript" src="/PcTpl/Public/js/reg.js"></script>
+    <script type="text/javascript" src="/PcTpl/Home/Public/js/lgandrg.js"></script>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        #full_navigation {
+        }
+        header{
+            max-width: 1000px;
+            position: relative;
+            /*background-color: #333333;*/
+            background-color: #ffffff;
+            min-width: 1000px;
+            z-index: 999;
+            margin: 0 auto;
+            /*border-bottom: 1px solid #bababa;*/
+        }
+        #full_navigation .tabs {
+            width: 580px;
+            margin: 0 auto;
+            position: fixed;
+            background-color: #f5f5f1;
+            padding-top: 20px;
+            left: 50%;
+            margin-left: -290px;
+            z-index: 10990;
+            top: 40%;
+            margin-top: -280px;
+        }
+
+        #full_navigation .nav .nav-menu li .move .changeA {
+            background-color: #ff873e;
+            color: #FFFFFF;
+        }
+
+        #full_navigation .nav .nav-menu li a {
+            text-align: left;
+            display: block;
+            padding-left: 14px;
+            text-decoration: none;
+        }
+
+        .header_bar span a {
+            font-size: 16px;
+        }
+
+        #full_navigation .ul1s {
+            list-style: none;
+            display: flex;
+            margin: 0;
+            padding: 0;
+            align-items: center;
+            margin-left: 51px;
+        }
+
+        #full_navigation .ul1s li {
+            font-size: 13px;
+            background-color: #f3f3f3;
+            border: 1px #dddddc solid;
+            width: 50px;
+            height: 30px;
+            text-align: center;
+            line-height: 29px;
+            cursor: pointer;
+        }
+
+        #full_navigation .ul1s li:nth-child(1) {
+            border-right: none;
+        }
+
+        #full_navigation .ul1s li.active {
+            background: #fff;
+            border-bottom: none;
+            height: 31px;
+            color: #ff873e;
+        }
+
+        #full_navigation .tabs div {
+            background-color: #fff;
+        }
+
+        #full_navigation .tabs .boxs > div {
+            line-height: 28px;
+            padding-top: 0px;
+            z-index: -1;
+            border-top: 1px #dddddc solid;
+            display: none;
+            margin-top: -1px;
+        }
+
+        #full_navigation .all_div {
+            display: none;
+            position: absolute;
+            z-index: 100;
+            text-align: center;
+            margin: 0 auto;
+            width: 100%;
+            margin-top: -134px;
+            height: 100%;
+        }
+
+        body .all_div .tabs .boxs {
+            width: 100%;
+            height: auto;
+        }
+
+        #full_navigation .all_div_bj {
+            position: fixed;
+            top: 0px;
+            left: 0px;
+            width: 100%;
+            height: 100%;
+            z-index: 999;
+            display: block;
+            opacity: 0.8;
+            background-color: rgb(221, 221, 221);
+        }
+
+        body #full_navigation .boxs input {
+
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+            font-family: inherit;
+            width: 232px;
+            line-height: 20px;
+            color: #333;
+            font-size: 12px;
+            margin: 0 0 0.2em 0;
+            padding: 6px;
+            border: 1px solid #c2c2c2;
+            border-right: 1px solid #e6e6e6;
+            border-bottom: 1px solid #e6e6e6;
+            display: block;
+        }
+
+        #full_navigation .register p {
+            font-size: 12px;
+            margin-top: 8px;
+            margin-bottom: 4px;
+        }
+
+        #full_navigation .register {
+            padding: 20px 53px;
+            text-align: left;
+        }
+
+        #full_navigation .boxs .checkbox {
+            width: 13px;
+        }
+
+        #full_navigation .boxs .register span {
+            color: red;
+            position: absolute;
+            margin: -34px 0px 0px 256px;
+            font-size: 12px;
+        }
+
+        #full_navigation .boxs .login span {
+            color: red;
+            position: absolute;
+            margin: -34px 0px 0px 256px;
+            font-size: 12px;
+        }
+
+        #full_navigation .boxs .register hr {
+            background-color: #e1e1df;
+            color: #e1e1df;
+            border: 0;
+            height: 1px;
+            margin: 19px 0 11px;
+            clear: both;
+        }
+
+        #full_navigation .register .submit-button {
+            background-color: #3cb1cb;
+            border-color: rgba(0, 0, 0, 0.2);
+            box-sizing: border-box;
+            border-radius: 3px;
+            color: #fff;
+            margin: 10px 0px;
+        }
+
+        #full_navigation .boxs .login span {
+            font-size: 12px;
+            color: red;
+            position: absolute;
+            margin: -34px 0px 0px 256px;
+        }
+
+        #full_navigation .login .submit-button {
+
+            font-size: 14px;
+            line-height: inherit;
+            background-color: #3cb1cb;
+            border-color: rgba(0, 0, 0, 0.2);
+            box-sizing: border-box;
+            border-radius: 3px;
+            color: #fff;
+            border: none;
+            margin: 10px 0;
+        }
+
+        #full_navigation .login p {
+            font-size: 12px;
+            margin-top: 8px;
+            margin-bottom: 4px;
+        }
+
+        #full_navigation .login {
+            padding: 20px 53px;
+            text-align: left;
+        }
+
+        #full_navigation .boxs .login hr {
+            background-color: #e1e1df;
+            color: #e1e1df;
+            border: 0;
+            height: 1px;
+            margin: 19px 0 11px;
+            clear: both;
+        }
+
+        #full_navigation #kd {
+            width: 82px;
+            position: absolute;
+            height: 32px;
+            border: 1px solid #dddddc;
+            border-left: none;
+            margin-top: -36px;
+            margin-left: 150px;
+        }
+
+        #full_navigation #kds {
+            width: 82px;
+            position: absolute;
+            height: 32px;
+            border: 1px solid #dddddc;
+            border-left: none;
+            margin-top: -37px;
+            margin-left: 150px;
+        }
+
+        #full_navigation img {
+            vertical-align: middle;
+        }
+
+        #full_navigation .boxs #mobilecode {
+            width: 150px;
+        }
+
+        #full_navigation #btnSendCode {
+            width: 82px;
+            height: 34px;
+            font-size: 11px;
+            background-color: #ff873e;
+            color: #fff;
+            margin-top: -37px;
+            margin-left: 150px;
+            display: -webkit-box;
+            border: none;
+        }
+
+        #full_navigation .boxs .register .input_text {
+            font-size: 12px;
+            margin: -23px 22px 0px;
+            color: #000;
+        }
+
+        #full_navigation .boxs .login .input_text {
+            font-size: 12px;
+            margin: -23px 22px 0px;
+            color: #000;
+        }
+
+        #full_navigation #randCode {
+            width: 150px;
+        }
+
+        #full_navigation .button-login {
+            background-color: #34A8C4;
+            width: 232px;
+            margin-top: 10px;
+            border: none;
+            font-size: 14px;
+            line-height: inherit;
+            border-radius: 3px;
+            color: #fff;
+        }
+
+        #full_navigation  .phone-button {
+            background-color: #34A8C4;
+            width: 232px;
+            margin-top: 10px;
+            border: none;
+            font-size: 14px;
+            line-height: inherit;
+            border-radius:3px;
+            color: #fff;
+        }
+        #full_navigation .submit-button {
+            width: 232px;
+            border-radius: 3px;
+        }
+
+        #full_navigation #randCode1 {
+            width: 150px;
+        }
+
+        #full_navigation .lgs .kuaijie{
+            margin-top: 10px;
+            margin-bottom: 20px;
+        }
+        #full_navigation .lgs .kuaijie a{
+            padding: 6px 22px;
+            color: #fff;
+            background-color: #34A8C4;
+            border-radius: 3px;
+        }
+        .boxs a {
+            color: #34A8C4;
+            text-decoration: none;
+            font-size: 12px;
+
+        }
+
+        .zhuces a {
+            padding: 9px 16px;
+            cursor: pointer;
+        }
+
+        #login {
+            /*color: #b4b4b4;*/
+            color: #7F7F7F;
+        }
+
+        #full_navigation .tabs .ul1s .close {
+            font-size: 24px;
+            float: right;
+            background-color: #f5f5f1;
+            cursor: pointer;
+            margin-left: 383px;
+            width: 31px;
+            height: 31px;
+            line-height: 31px;
+            color: #666;
+        }
+        .weChats{
+            width: 100%; height: auto ;display: none;    margin: 0 auto;text-align: center;
+        }
+        body #full_navigation .boxs .shoujidls input,body #full_navigation .boxs .mingzidls input{
+            margin: 22px 0px;
+        }
+        #full_navigation #btnSendCodes{
+            width: 82px;
+            height: 34px;
+            font-size: 11px;
+            background-color: #ff873e;
+            color: #fff;
+            margin-top: -36px;
+            margin-left: 150px;    display: -webkit-box;
+            border: none;
+        }
+
+    </style>
+
+
+    <div class="content clearfix">
+        <div class="logo"><a href="/Home/index/index.html"><img src="/PcTpl/Public/images/logo_h.png" alt="logo"></a>
+        </div>
+        <ul id="menu" class="menu">
+            <li data-menuanchor="page1" class="menu_li active">
+                <a href="/Home/index/index.html">首页</a>
+            </li>
+            <li data-menuanchor="page2" class="menu_li">
+                <a href="/Home/Service/copyright.html">版权</a>
+
+            </li>
+            <li data-menuanchor="page3" class="menu_li">
+                <a href="/Home/Service/cases.html">IP展示</a>
+            </li>
+            <li data-menuanchor="page4" class="menu_li">
+                <a href="/Home/Service/authorization.html">IP授权</a>
+               
+            </li>
+            <li data-menuanchor="page5" class="menu_li">
+                <a href="/Home/Service/make.html">IP订制</a>
+            </li>
+            <li data-menuanchor="page6" class="menu_li">
+                <a href="#">IP产业化</a>
+                <ul class="sub_menu">
+                    <li>
+                        <div class="sub-con">
+                            <a href="/Home/Service/clouds.html">云朵童画</a>
+                            <a href="/Home/Service/clouds.html">云朵童画</a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="sub-con">
+                            <a href="/Home/Service/develop.html">衍生品开发</a>
+                            <a href="/Home/Service/develop.html">衍生品开发</a>
+                        </div>
+                    </li>
+                </ul>
+            </li>
+
+            <li data-menuanchor="page7" class="menu_li">
+                <a href="#">造客</a>
+                <ul class="sub_menu">
+                    <li>
+                        <div class="sub-con">
+                            <a href="/Home/Article/ArticleList.html">原创故事</a>
+                            <a href="/Home/Article/ArticleList.html">原创故事</a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="sub-con">
+                            <a href="/Home/Service/activity.html">精品活动</a>
+                            <a href="/Home/Service/activity.html">精品活动</a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="sub-con">
+                            <a href="/Home/Service/media.html">媒体报道</a>
+                            <a href="/Home/Service/media.html">媒体报道</a>
+                        </div>
+                    </li>
+                </ul>
+            </li>
+            <li data-menuanchor="page8" class="menu_li">
+                <a href="#">关于</a>
+                <ul class="sub_menu">
+                    <li>
+                        <div class="sub-con">
+                            <a href="/Home/Service/hunterCollection.html">猎人集锦</a>
+                            <a href="/Home/Service/hunterCollection.html">猎人集锦</a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="sub-con">
+                            <a href="/Home/Service/seek.html">寻找原创者</a>
+                            <a href="/Home/Service/seek.html">寻找原创者</a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="sub-con">
+                            <a href="/Home/Service/cooperation.html">关于我们</a>
+                            <a href="/Home/Service/cooperation.html">关于我们</a>
+                        </div>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+        <div class="nav-right">
+            <div class="goShop"><a href="/Home/index/pc.html" target="_blank">商城</a></div>
+            <div class="zhuces">
+                <span><a class="loginBtn" id="login">登录</a></span>                                                <input style="display: none" value="" id="session">
+            </div>
+        </div>
+
+    </div>
+    <div id="full_navigation">
+        <div class="mark_bg"></div>
+
+        <div class="all_div">
+            <div class="all_div_bj"></div>
+            <div class="tabs">
+                <ul class="ul1s">
+                    <li class="rg active">注册</li>
+                    <li class="lg">登录</li>
+                    <div  class="close">×</div>
+                </ul>
+                <div class="boxs">
+                    <div style="width: 100%; height: auto" class="rgs box1">
+                        <form class="register sms-form" id="sms-form" method="post"  name="form-sub">
+                            <p>手机号码</p>
+                            <input type="text" id="phone" name="username"  class="phone" maxlength="11" placeholder="11位手机号码" >
+                            <span class="phone_span"></span>
+                            <p>验证码</p>
+                            <input  type="text" id="randCode" name="randCode" maxlength="4" placeholder="图片验证码"  >
+                            <div class="kd">
+                                <img src="/Home/Mobile/createCode" id="kd"
+                                     onclick="this.src='/Home/Mobile/createCode/id/'+Math.random()">
+                            </div>
+                            <span class="randCode_span"></span>
+                            <p>手机验证码</p>
+                            <input type="text" id="mobilecode" name="mobilecode" class="input-sty padding-r" maxlength="6" placeholder="手机验证码" >
+                            <button id="btnSendCode" class="phoneCode" type="submit">发送验证码</button>
+
+                            <span class="mobilecode_span"></span>
+                            <p>密码</p>
+                            <input  type="password" name="pwd" class="pwd" id="password" maxlength="16"  placeholder="6-16位字符，须包含字母、数字" >
+                            <span class="password_span"></span>
+                            <p>确认密码</p>
+                            <input  type="password" name="rpwd" class="rpwd" id="rpassword" maxlength="16" placeholder="确认密码" >
+                            <span class="rpassword_span"></span>
+                            <hr/>
+                            <div>
+                                <input type="checkbox" class="checkbox" checked="checked"  /><span class="input_text">请确认已阅读并同意搜猎人<a href="/Home/Index/use_clause.html " target="_black">使用条款</a>和<a href="/Home/Index/privacy_clause.html" target="_black" >隐私条款</a></span>
+                            </div>
+                            <button type="button" class=" button-login registerBtn" >立即注册</button><span class="zhuce_span"style=" margin: 8px 30px;"></span>
+                        </form>
+                    </div>
+                    <div style="width: 100%; height: auto" class="lgs box1">
+                        <div  class="login">
+                            <div class="kuaijie">
+                                <a href="javascript:;" class="mingzidl" style="background-color:#189ce0">用户名</a>
+                                <a href="javascript:;" class="shoujidl">手机号</a>
+                                <a href="javascript:;" class="weixindl">微信</a>
+                            </div>
+                            <hr style=" margin-top: 5px;margin-bottom: 0px;"/>
+                            <!--用户名登录-->
+                            <div class="mingzidls">
+                                <input type="text" id="username" name="username"  class="phone" placeholder="用户名" >
+                                <span class="phone1_span" style="margin-top: -53px;"></span>
+                                <input type="password"  name="pwd"  class="password" id="password1"  maxlength="16"  placeholder="密码" >
+                                <span class="password1_span" style="margin-top: -53px;"></span>
+                                <hr />
+                                <div>
+                                    <a href="/Home/Password/index.html">忘记密码了吗？</a>
+                                </div>
+                                <button type="button" value="登录" class="submit-button"  >登录</button>
+                            </div>
+                            <!--手机号码登录-->
+                            <div class="shoujidls" style="display: none">
+                                <form class=" sms-forms" id="sms-forms" method="post"  name="form-sub">
+                                    <input type="text" id="usernames" name="username"  class="username" maxlength="11" placeholder="手机号码" >
+                                    <span class="phone1_span" style="margin-top: -53px;"></span>
+                                    <input type="text" id="mobilecodes" name="mobilecode" class="input-sty padding-r" maxlength="6" placeholder="验证码" >
+                                    <button id="btnSendCodes" class="phoneCode" type="submit" style="margin-top: -56px;">发送验证码</button>
+                                    <span class="mobilecodes_span"></span>
+                                    <hr />
+                                    <div>
+                                        <a href="/Home/Password/index.html">忘记密码了吗？</a>
+                                    </div>
+                                    <button type="button" value="登录" class="phone-button"  onclick="">登录</button>
+                                </form>
+                            </div>
+                            <!--微信内嵌登录-->
+                            <div class="weChats box1" >
+                                <div id="weChat"></div>
+                                <script src="http://res.wx.qq.com/connect/zh_CN/htmledition/js/wxLogin.js"></script>
+                                <script>
+                                    var obj = new WxLogin({
+                                        id:"weChat",
+                                        appid: "wx8d8646fc4b1dcca4",
+                                        scope: "snsapi_login",
+                                        redirect_uri: "http%3A%2F%2Fwww.soulieren.com%2Findex.php%2Fhome%2FThirdLogin%2Fcallback",
+                                        state: "",
+                                        style: "black",
+                                        href: ""
+                                    });
+                                </script>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+</header>
+
+<script>
+    $(function () {
+        $('.sub_menu li').mouseenter(function () {
+            $(this).find('.sub-con').stop().animate({'top': 0}, 500, 'linear');
+        }).mouseleave(function () {
+            $(this).find('.sub-con').stop().animate({'top': -53}, 500, 'linear');
+        })
+    })
+</script>
+<div class="all">
+    <div class="banner">
+        <img src="/PcTpl/Home/Public/images/Static/cases_moshi_7.png" />
+    </div>
+    <p class="text_p">关于KON JACK</p>
+    <span class="text_span"> moshi authorization</span>
+    <div class="moshi_text dispaly_div">
+        <div>
+            <img src="/PcTpl/Home/Public/images/Static/cases_moshi_9.png" />
+        </div>
+        <div>
+            <p class="div_text_p">MOSHI MOSHI是由搜猎人原创 IP《Kon Jack》授权代言，云南壹恒食品有限公司和西草药业研究多年推出，由中国医学科学院药用植物研究所机构权威认证的魔芋为主料的新一代纤体代餐产品。Kon Jack作为MOSHI  MOSHI的非真人形式的代言人，从项目沟通开始，到 IP内容库开发，再到IP全案推广，耗时半年。</p>
+        </div>
+    </div>
+    <hr>
+    <div class="moshi_text" >
+        <p class="text_p">logo设计</p>
+        <span class="text_span">  logo design</span>
+        <img src="/PcTpl/Home/Public/images/Static/cases_moshi_13.png" style="margin-top: 70px"/>
+    </div>
+    <hr>
+    <div class="moshi_text" >
+         <p class="text_p">人物设计</p>
+        <span class="text_span">character design</span>
+        <div class="text_img">
+            <img src="/PcTpl/Home/Public/images/Static/cases_moshi_10.png" />
+            <img src="/PcTpl/Home/Public/images/Static/cases_moshi_11.png" style="margin: 0px 80px;"/>
+            <img src="/PcTpl/Home/Public/images/Static/cases_moshi_12.png" />
+        </div>
+        <div class="text_img text_div_img_p" >
+            <p>正视图</p>
+            <p style="margin: 0px 80px;">侧视图</p>
+            <p>后视图</p>
+        </div>
+        <div>
+            <img src="/PcTpl/Home/Public/images/Static/cases_moshi_1.png" style="margin: 10px 0px 30px;"/>
+        </div>
+        <div>
+            <p style="text-align: center;font-weight: bold;font-size: 16px;">表情图</p>
+        </div>
+    </div>
+    <hr>
+    <div class="moshi_text">
+        <p class="text_p">插画设计</p>
+        <span class="text_span">Illustration design</span>
+        <div style="margin-top: 45px;" class="dispaly_div">
+            <div>
+                <img src="/PcTpl/Home/Public/images/Static/cases_moshi_2.png" />
+            </div>
+            <div>
+                <img src="/PcTpl/Home/Public/images/Static/cases_moshi_3.png" />
+            </div>
+        </div>
+        <div style="margin-top: 45px;">
+            <img src="/PcTpl/Home/Public/images/Static/cases_moshi_4.png" />
+        </div>
+    </div>
+    <hr>
+    <div class="moshi_text" >
+        <p class="text_p">动画设计</p>
+        <span class="text_span"> animation design</span>
+        <div  class="video" style="margin-top: 70px">
+            <fieldset style="width:1200px;height:600px;margin: 0 auto;  ">
+                <div id="youkuplayer" style="width:1200px;height:600px;">
+                </div>
+            </fieldset>
+        </div>
+    </div>
+    <hr>
+    <div class="moshi_text" >
+        <p class="text_p">IP应用展示</p>
+        <span class="text_span">IP  Exhibition</span>
+        <img src="/PcTpl/Home/Public/images/Static/cases_moshi_5.png" style="margin-top: 70px"/>
+        <img src="/PcTpl/Home/Public/images/Static/cases_moshi_6.png" style="margin-top: 20px"/>
+        <img src="/PcTpl/Home/Public/images/Static/cases_moshi_8.png" style="margin-top: 20px"/>
+    </div>
+    <div class="moshi_text"  style="display: flex;font-size: 16px; width: 900px;">
+        <div style="width: 50%;">
+            <div class="button_div">
+                申请Kon Jack授权
+            </div>
+        </div>
+       <div style="width: 50%; ">
+           <div class="button_div1">
+               查看其它IP设计
+           </div>
+       </div>
+    </div>
+
+</div>
+<style>
+
+    .jiathis_style_32x32 .jtico_cqq{
+        background:url(/PcTpl/Public/images/qq1.png) no-repeat;
+        background-position: 0px 0px;
+        background-size:28px 28px;
+        margin-left: 2px;
+    }
+    .jiathis_style_32x32 .jtico_tsina{
+        background:url(/PcTpl/Public/images/wb1.png) no-repeat;
+        background-position: 0px 0px;
+        background-size:28px 28px;
+        margin-left: 2px;
+    }
+    .jiathis_style_32x32 .jtico_weixin{
+        background:url(/PcTpl/Public/images/wx1.png) no-repeat;
+        background-position: 0px 0px;
+        background-size:28px 28px;
+        margin-left: 2px;
+    }
+</style>
+<footer>
+
+
+    <div class="content">
+        <div style="margin: 0px auto 20px;text-align: center">
+            <img src="/PcTpl/Public/images/sou_logo.png" style="width: 80px; "/>
+        </div>
+        <div class="footer_list">
+            <ul>
+                <li><a><strong>把你的激情融入企业</strong></a></li>
+                <li><a class="open" href="/Home/shop/211316">打开一个商店</a></li>
+                <li><a href="/Home/Service/seek.html">在搜猎人出售</a></li>
+                <li><a href="/Home/Index/specifications.html">我们的规则</a></li>
+                <!--<li><a href="javascript:return false;">使用条款</a></li>-->
+                <!--<li><a href="javascript:return false;">隐私条款</a></li>-->
+            </ul>
+            <ul>
+                <li><a><strong>关于</strong></a></li>
+                <li><a href="/Home/index/read.html">关于我们</a></li>
+                <li><a href="/Home/index/read.html">加入我们</a></li>
+                <li><a href="/Home/index/read.html">联系我们</a></li>
+            </ul>
+            <ul>
+                <li><a><strong>更多</strong></a></li>
+                <li><a href="javascript:;" class="weixin_s">微信</a></li>
+                <li><a href="http://weibo.com/soulieren?refer_flag=1001030102_">微博</a></li>
+                <li><a href="https://shop129576228.taobao.com/?spm=a230r.7195193.1997079397.2.s5bniH">淘宝</a></li>
+                <li><a href="http://v.qq.com/vplus/2f648c677c0dcb939fcf6a40cd1fae90">原创视频</a></li>
+            </ul>
+            <ul>
+                <li><a><strong>政策</strong></a></li>
+                <li><a href="/Home/Index/buyer_policy.html">买家政策 </a></li>
+                <li><a href="/Home/Index/seller_policy.html">卖家政策 </a></li>
+                <li><a href="/Home/Index/trademark_policy.html">商标政策 </a></li>
+            </ul>
+            <ul>
+                <li><a><strong>商务合作</strong></a></li>
+                <li><a href="/Home/BusinessCooperation/index.html#page2">线上渠道</a></li>
+                <li><a href="/Home/BusinessCooperation/index.html#page3">线下渠道</a></li>
+                <li><a href="/Home/BusinessCooperation/index.html#page4">视频定制</a></li>
+            </ul>
+            <ul class="last_list">
+                <li><a href="javascript:;" style="margin:12px 3px 12px;"><strong>分享</strong></a></li>
+                <li class="jiathis_style_32x32"><a class="jiathis_button_weixin"></a></li>
+                <li class="jiathis_style_32x32"><a class="jiathis_button_cqq"></a></li>
+                <li class="jiathis_style_32x32"><a class="jiathis_button_tsina"></a></li>
+            </ul>
+        </div>
+
+    </div>
+    <div class="soulieren">
+        <hr>
+        <div class="footer_info">
+            <p>版权所有&nbsp;京ICP备15012603号—1</p>
+        </div>
+    </div>
+    <script type="text/javascript">
+        var jiathis_config = {
+            summary: "",
+            shortUrl: false,
+            hideMore: false
+        }
+    </script>
+    <script type="text/javascript" src="http://v3.jiathis.com/code/jia.js" charset="utf-8"></script>
+    <script>
+        $('.weixin_s').click(function () {
+            $('.weiX-box').show();
+        });
+        $('.weiX-box').click(function () {
+            $('.weiX-box').hide();
+        })
+    </script>
+
+</footer>
+<script src="/PcTpl/Public/js/jquery-1.8.3.min.js"></script>
+<script>
+
+    $(document).ready(function () {
+        player = new YKU.Player('youkuplayer', {
+            styleid: '0',
+            client_id: 'YOUR YOUKUOPENAPI CLIENT_ID',
+            vid: "XMjc5Nzk5MzkxMg",
+            newPlayer: true,
+            show_related: false,
+            autoplay: false
+        });
+    })
+</script>
+</body>
+</html>

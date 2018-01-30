@@ -1,0 +1,2887 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="keywords" content="搜猎人商城,家庭和生活,雕塑">
+    <meta name="description" content="搜猎人——一个民族的原创品牌、一家原创者自己的平台，以“平台化整合创新”为理念、
+    打造高品质电子商务平台。经营一切具有原创精神的产品，汇集艺术家、设计师、手工业者、创新独立品牌。成立于 2015 年，
+    旗下北京搜猎人电子商务有限公司、北京搜猎人文化发展有限公司、宁波搜猎人科技有限公司。办公场地位于北京、香港、深圳、
+    昆明、宁波。">
+    <title>家庭和生活>雕塑</title>
+    <link rel="shortcut icon" href="http://www.soulieren.com/favicon.ico"/>
+    <link rel="stylesheet" href="/PcTpl/Home/Public/css/goods/allgoodsList.css">
+</head>
+<body>
+﻿    <link rel="stylesheet" href="/PcTpl/Home/Public/css/index/navigation.css">
+    <script src="/PcTpl/Public/js/jquery-1.7.2.js"></script>
+    <script type="text/javascript" src="/PcTpl/Public/js/reg.js"></script>
+    <script type="text/javascript" src="/PcTpl/Home/Public/js/lgandrg.js"></script>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+        }
+        #full_navigation{
+            margin-top: -20px;
+        }
+        #full_navigation .tabs{
+            width: 580px;
+            margin: 0 auto;
+            position: fixed;
+            background-color: #f5f5f1;
+            padding-top: 20px;
+            left: 50%;
+            margin-left: -290px;
+            z-index: 10990;
+            top: 50%;
+            margin-top: -240px;
+
+        }
+        #full_navigation .nav .nav-menu li .move .changeA {
+            background-color: #ff873e;
+            color: #FFFFFF;
+        }
+        #full_navigation .nav  .nav-menu li a {
+            text-align: left;
+            display: block;
+            padding-left: 14px;
+            text-decoration: none;
+        }
+        .header_bar span a{
+            font-size: 16px;
+        }
+        #full_navigation .ul1s{
+            list-style: none;
+            display: flex;
+            margin: 0;
+            padding: 0;
+            align-items: center;
+            margin-left: 51px;
+        }
+        #full_navigation .ul1s li{
+            font-size: 13px;
+            background-color: #f3f3f3;
+            border: 1px #dddddc solid;
+            width: 50px;
+            height: 30px;
+            text-align: center;
+            line-height: 29px;
+            cursor: pointer;
+        }
+        #full_navigation .ul1s li:nth-child(1){
+            border-right:none ;
+        }
+        #full_navigation .ul1s li.active{
+            background:#fff;
+            border-bottom: none;
+            height: 30px;
+            color: #ff873e;
+        }
+        #full_navigation .tabs div{
+            background-color: #fff;
+        }
+
+        #full_navigation .tabs .boxs>div{
+            line-height: 28px;
+            padding-top: 0px;
+            z-index: -1;
+            border-top: 1px #dddddc solid;
+            display: none;  margin-top: -1px;
+        }
+        #full_navigation  .all_div{
+            display: none;
+            position: absolute;
+            z-index: 100;
+            text-align: center;
+            margin: 0 auto;
+            width: 100%;
+            margin-top: -134px;
+            height: 100%;
+        }
+        body .all_div .tabs  .boxs {
+            width: 100%;
+            height: auto;
+        }
+        #full_navigation .all_div_bj{
+            position: fixed;
+            top: 0px;
+            left: 0px;
+            width: 100%;
+            height: 100%;
+            z-index: 999;
+            display: block;
+            opacity: 0.8;
+            background-color: rgb(221, 221, 221);
+        }
+
+        body #full_navigation .boxs input{
+
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+            font-family: inherit;
+            width: 232px;
+            line-height: 20px;
+            color: #333;
+            font-size: 12px;
+            margin: 0 0 0.2em 0;
+            padding: 6px;
+            border: 1px solid #c2c2c2;
+            border-right: 1px solid #e6e6e6;
+            border-bottom: 1px solid #e6e6e6;
+            display: block;
+        }
+        #full_navigation .register p{
+            font-size: 12px;
+            margin-top: 8px;
+            margin-bottom: 4px;
+        }
+        #full_navigation .register{
+            padding: 20px 53px;
+            text-align: left;
+        }
+        #full_navigation .boxs  .checkbox{
+            width: 13px;
+        }
+        #full_navigation .boxs .register span{
+            color: red;
+            position: absolute;
+            margin: -34px 0px 0px 256px;
+            font-size: 12px;
+        }
+        #full_navigation .boxs .login span{
+              color: red;
+              position: absolute;
+              margin: -34px 0px 0px 256px;
+              font-size: 12px;
+          }
+        #full_navigation .boxs .register hr{
+            background-color: #e1e1df;
+            color: #e1e1df;
+            border: 0;
+            height: 1px;
+            margin: 19px 0 11px;
+            clear: both;
+        }
+        #full_navigation  .register .submit-button{
+            background-color: #3cb1cb;
+            border-color: rgba(0, 0, 0, 0.2);
+            box-sizing: border-box;
+            border-radius:3px;
+            color: #fff;
+            margin: 10px 0px;
+        }
+        #full_navigation .login .submit-button{
+
+            font-size: 14px;
+            line-height: inherit;
+            background-color: #3cb1cb;
+            border-color: rgba(0, 0, 0, 0.2);
+            box-sizing: border-box;
+            border-radius:3px;
+            color: #fff;
+            border: none;
+            margin: 10px 0;
+        }
+        #full_navigation .login p{
+            font-size: 12px;
+            margin-top: 8px;
+            margin-bottom: 4px;
+        }
+        #full_navigation .login{
+            padding: 20px 53px;
+            text-align: left;
+        }
+        #full_navigation .boxs .login hr{
+            background-color: #e1e1df;
+            color: #e1e1df;
+            border: 0;
+            height: 1px;
+            margin: 19px 0 11px;
+            clear: both;
+        }
+
+        #full_navigation #kd{    width: 82px;
+            position: absolute;
+            height: 34px;
+            border: 1px solid #dddddc;
+            border-left: none;
+            margin-top: -36px;
+            margin-left: 150px;
+        }
+        #full_navigation #kds{    width: 82px;
+                position: absolute;
+                height: 34px;
+                border: 1px solid #dddddc;
+                border-left: none;
+                margin-top: -36px;
+                margin-left: 150px;
+            }
+        #full_navigation img {
+            vertical-align: middle;
+        }
+        #full_navigation .boxs #mobilecode{
+            width: 150px;
+        }
+        #full_navigation #btnSendCode{
+            width: 82px;
+            height: 34px;
+            font-size: 11px;
+            background-color: #ff873e;
+            color: #fff;
+            margin-top: -36px;
+            margin-left: 150px;    display: -webkit-box;
+            border: none;
+        }
+        #full_navigation #btnSendCodes{
+            width: 82px;
+            height: 34px;
+            font-size: 11px;
+            background-color: #ff873e;
+            color: #fff;
+            margin-top: -36px;
+            margin-left: 150px;    display: -webkit-box;
+            border: none;
+        }
+        #full_navigation .boxs .register .input_text{
+            font-size: 12px;
+            margin: -23px 22px 0px;
+            color: #000;
+        }
+        #full_navigation .boxs .login .input_text{
+            font-size: 12px;
+            margin: -23px 22px 0px;
+            color: #000;
+        }
+        #full_navigation #randCode{
+            width: 150px;
+        }
+        #full_navigation  .button-login {
+            background-color: #34A8C4;
+            width: 232px;
+            margin-top: 10px;
+            border: none;
+            font-size: 14px;
+            line-height: inherit;
+            border-radius:3px;
+            color: #fff;
+        }
+        #full_navigation  .phone-button {
+            background-color: #34A8C4;
+            width: 232px;
+            margin-top: 10px;
+            border: none;
+            font-size: 14px;
+            line-height: inherit;
+            border-radius:3px;
+            color: #fff;
+        }
+        #full_navigation .submit-button{
+            width: 232px;
+            border-radius: 3px;
+        }
+        #full_navigation #randCode1{
+            width: 150px;
+        }
+        #full_navigation .lgs .kuaijie{
+            margin-top: 10px;
+            margin-bottom: 20px;
+        }
+        #full_navigation .lgs .kuaijie a{
+            padding: 6px 22px;
+            color: #fff;
+            background-color: #34A8C4;
+            border-radius: 3px;
+        }
+        .boxs a{
+            color: #34A8C4;
+            text-decoration: none;
+            font-size: 12px;
+
+        }
+    
+        #register,.loginBtn,.operation span{
+            cursor: pointer;
+        }
+        #full_navigation .tabs .ul1s .close{
+            font-size: 24px;
+            float:right;
+            background-color: #f5f5f1;
+            cursor: pointer;
+            margin-left: 383px;
+            width: 31px;
+            height: 27px;
+            line-height: 27px;
+            color: #666;
+            opacity: 1;
+        }
+        .weChats{
+            width: 100%; height: auto ;display: none;    margin: 0 auto;text-align: center;
+        }
+        body #full_navigation .boxs .shoujidls input,body #full_navigation .boxs .mingzidls input{
+            margin: 22px 0px;
+        }
+        .weiX-box{
+            position: fixed;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0,0,0,.7);
+            z-index: 9;
+            display: none;
+            margin-top: -20px;
+        }
+        .weiX-box img{
+            position: absolute;
+            top:50%;
+            left: 50%;
+            margin-top:-125px ;
+            margin-left:-125px ;
+        }
+    </style>
+    <script>
+        var _hmt = _hmt || [];
+        (function () {
+            var hm = document.createElement("script");
+            hm.src = "https://hm.baidu.com/hm.js?9a11dd5949cc7fabe8b1613247bce4ee";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(hm, s);
+        })();
+    </script>
+    <script>
+        (function(){
+            var bp = document.createElement('script');
+            var curProtocol = window.location.protocol.split(':')[0];
+            if (curProtocol === 'https') {
+                bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+            }
+            else {
+                bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+            }
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(bp, s);
+        })();
+    </script>
+    <div class="weiX-box">
+        <img src="/PcTpl/Public/images/weixin.jpg" alt="" width="250px">
+    </div>
+<div id="full_navigation">
+    <header>
+        <div class="header_bar">
+            <input style="display: none" value="" id="session">
+            <div class="logo"><a href="/Home/Index/index.html"><img src="/PcTpl/Home/Public/images/Index/logo2.png"/></a></div>
+            <div class="search_bar">
+                <form action="/Home/Search/search" method="post">
+                    <input type="text" name="name" placeholder="你在寻找什么？"/>
+                    <input type="submit" value="搜索"/>
+                </form>
+            </div>
+            <div class="operation">
+                <span><a href="/Home/service/seek.html">搜猎人上出售</a></span>                <span><a id="register">注册</a></span>                <span><a class="loginBtn" id="login">登录</a></span>                                                <span class="car"><a href="/Home/carts/index.html"><img src="/PcTpl/Home/Public/images/Index/Shopping Cart.png"/></a></span>
+            </div>
+        </div>
+    </header>
+    <div class="nav">
+
+        <ul class="navBar">
+            <li><a href="/Home/Index/pc.html">商城首页</a></li>
+            <li class="current-line">
+                <a class="move" href="javascript:;">墙面装饰与收藏</a>
+                <ul class="nav-menu">
+                    <li>
+                            <div class="move">
+                                <a class="changeA" href="/Home/category/6">版画</a>
+                                <a href="/Home/category/6">版画</a>
+                            </div>
+                        </li><li>
+                            <div class="move">
+                                <a class="changeA" href="/Home/category/7">油画</a>
+                                <a href="/Home/category/7">油画</a>
+                            </div>
+                        </li><li>
+                            <div class="move">
+                                <a class="changeA" href="/Home/category/11">水彩(粉)</a>
+                                <a href="/Home/category/11">水彩(粉)</a>
+                            </div>
+                        </li><li>
+                            <div class="move">
+                                <a class="changeA" href="/Home/category/12">国画</a>
+                                <a href="/Home/category/12">国画</a>
+                            </div>
+                        </li><li>
+                            <div class="move">
+                                <a class="changeA" href="/Home/category/13">朝鲜画</a>
+                                <a href="/Home/category/13">朝鲜画</a>
+                            </div>
+                        </li><li>
+                            <div class="move">
+                                <a class="changeA" href="/Home/category/63439">素描</a>
+                                <a href="/Home/category/63439">素描</a>
+                            </div>
+                        </li><li>
+                            <div class="move">
+                                <a class="changeA" href="/Home/category/63440">绘画</a>
+                                <a href="/Home/category/63440">绘画</a>
+                            </div>
+                        </li><li>
+                            <div class="move">
+                                <a class="changeA" href="/Home/category/63442">综合材料</a>
+                                <a href="/Home/category/63442">综合材料</a>
+                            </div>
+                        </li>                </ul>
+            </li>
+            <li>
+                <a class="move" href="javascript:;">服装和配饰</a>
+                <ul class="nav-menu">
+                    <li>
+                            <div class="move">
+                                <a class="changeA" href="/Home/category/14">箱包</a>
+                                <a href="/Home/category/14">箱包</a>
+                            </div>
+                        </li><li>
+                            <div class="move">
+                                <a class="changeA" href="/Home/category/15">男/女装</a>
+                                <a href="/Home/category/15">男/女装</a>
+                            </div>
+                        </li><li>
+                            <div class="move">
+                                <a class="changeA" href="/Home/category/16">腰带</a>
+                                <a href="/Home/category/16">腰带</a>
+                            </div>
+                        </li>                </ul>
+            </li>
+                <li>
+                <a class="move" href="javascript:;">珠宝</a>
+                <ul class="nav-menu">
+                    <li>
+                            <div class="move">
+                                <a class="changeA" href="/Home/Goods/allgoodsList/id/28.html">耳饰</a>
+                                <a href="/Home/Goods/allgoodsList/id/28.html">耳饰</a>
+                            </div>
+                        </li><li>
+                            <div class="move">
+                                <a class="changeA" href="/Home/Goods/allgoodsList/id/29.html">项链</a>
+                                <a href="/Home/Goods/allgoodsList/id/29.html">项链</a>
+                            </div>
+                        </li><li>
+                            <div class="move">
+                                <a class="changeA" href="/Home/Goods/allgoodsList/id/30.html">戒指</a>
+                                <a href="/Home/Goods/allgoodsList/id/30.html">戒指</a>
+                            </div>
+                        </li><li>
+                            <div class="move">
+                                <a class="changeA" href="/Home/Goods/allgoodsList/id/63437.html">银条</a>
+                                <a href="/Home/Goods/allgoodsList/id/63437.html">银条</a>
+                            </div>
+                        </li>                </ul>
+            </li>
+            <li>
+                <a class="move" href="javascript:;">家庭和生活</a>
+                <ul class="nav-menu">
+                    <li>
+                            <div class="move">
+                                <a class="changeA" href="/Home/category/9">雕塑</a>
+                                <a href="/Home/category/9">雕塑</a>
+                            </div>
+                        </li><li>
+                            <div class="move">
+                                <a class="changeA" href="/Home/category/31">家居家装</a>
+                                <a href="/Home/category/31">家居家装</a>
+                            </div>
+                        </li><li>
+                            <div class="move">
+                                <a class="changeA" href="/Home/category/63438">手机数码</a>
+                                <a href="/Home/category/63438">手机数码</a>
+                            </div>
+                        </li><li>
+                            <div class="move">
+                                <a class="changeA" href="/Home/category/63443">酒</a>
+                                <a href="/Home/category/63443">酒</a>
+                            </div>
+                        </li>                </ul>
+            </li>
+            <li>
+                <a class="move" href="javascript:;">文化用品</a>
+                <ul class="nav-menu">
+                    <li>
+                            <div class="move">
+                                <a class="changeA" href="/Home/category/4">书刊</a>
+                                <a href="/Home/category/4">书刊</a>
+                            </div>
+                        </li><li>
+                            <div class="move">
+                                <a class="changeA" href="/Home/category/8">明信片</a>
+                                <a href="/Home/category/8">明信片</a>
+                            </div>
+                        </li><li>
+                            <div class="move">
+                                <a class="changeA" href="/Home/category/10">手帐本</a>
+                                <a href="/Home/category/10">手帐本</a>
+                            </div>
+                        </li><li>
+                            <div class="move">
+                                <a class="changeA" href="/Home/category/63441">茶叶</a>
+                                <a href="/Home/category/63441">茶叶</a>
+                            </div>
+                        </li>                </ul>
+            </li>
+          <!--   <li>
+                <a class="move" href="/Home/Article/articlelist.html">原创故事</a>
+            </li> -->
+        </ul>
+    </div>
+    <div class="mark_bg"></div>
+    <div class="all_div">
+        <div class="all_div_bj"></div>
+        <div class="tabs">
+            <ul class="ul1s">
+                <li class="rg active">注册</li>
+                <li class="lg">登录</li>
+                <div  class="close">×</div>
+            </ul>
+            <div class="boxs">
+                <div style="width: 100%; height: auto" class="rgs box1">
+                    <form class="register sms-form" id="sms-form" method="post"  name="form-sub">
+                        <p>手机号码</p>
+                        <input type="text" id="phone" name="username"  class="phone" maxlength="11" placeholder="11位手机号码" >
+                        <span class="phone_span"></span>
+                        <p>验证码</p>
+                        <input  type="text" id="randCode" name="randCode" maxlength="4" placeholder="图片验证码"  >
+                        <div class="kd">
+                            <img src="/Home/Mobile/createCode" id="kd"
+                                 onclick="this.src='/Home/Mobile/createCode/id/'+Math.random()">
+                        </div>
+                        <span class="randCode_span"></span>
+                        <p>手机验证码</p>
+                        <input type="text" id="mobilecode" name="mobilecode" class="input-sty padding-r" maxlength="6" placeholder="手机验证码" >
+                        <button id="btnSendCode" class="phoneCode" type="submit">发送验证码</button>
+
+                        <span class="mobilecode_span"></span>
+                        <p>密码</p>
+                        <input  type="password" name="pwd" class="pwd" id="password" maxlength="16"  placeholder="6-16位字符，须包含字母、数字" >
+                        <span class="password_span"></span>
+                        <p>确认密码</p>
+                        <input  type="password" name="rpwd" class="rpwd" id="rpassword" maxlength="16" placeholder="确认密码" >
+                        <span class="rpassword_span"></span>
+                        <hr/>
+                        <div>
+                            <input type="checkbox" class="checkbox" checked="checked"  /><span class="input_text">请确认已阅读并同意搜猎人<a href="/Home/Index/use_clause.html " target="_black">使用条款</a>和<a href="/Home/Index/privacy_clause.html" target="_black" >隐私条款</a></span>
+                        </div>
+                        <button type="button" class=" button-login registerBtn" >立即注册</button><span class="zhuce_span"style=" margin: 8px 30px;"></span>
+                    </form>
+                </div>
+                <div style="width: 100%; height: auto" class="lgs box1">
+                    <div  class="login">
+                        <div class="kuaijie">
+                            <a href="javascript:;" class="mingzidl" style="background-color:#189ce0">用户名</a>
+                            <a href="javascript:;" class="shoujidl">手机号</a>
+                            <a href="javascript:;" class="weixindl">微信</a>
+                        </div>
+                        <hr style=" margin-top: 5px;margin-bottom: 0px;"/>
+                        <!--用户名登录-->
+                            <div class="mingzidls">
+                                <input type="text" id="username" name="username"  class="phone" placeholder="用户名" >
+                                <span class="phone1_span" style="margin-top: -53px;"></span>
+                                <input type="password"  name="pwd"  class="password" id="password1"  maxlength="16"  placeholder="密码" >
+                                <span class="password1_span" style="margin-top: -53px;"></span>
+                                <hr />
+                                <div>
+                                    <a href="/Home/Password/index.html">忘记密码了吗？</a>
+                                </div>
+                                <button type="button" value="登录" class="submit-button"  >登录</button>
+                            </div>
+                        <!--手机号码登录-->
+                            <div class="shoujidls" style="display: none">
+                                <form class=" sms-forms" id="sms-forms" method="post"  name="form-sub">
+                                    <input type="text" id="usernames" name="username"  class="username" maxlength="11" placeholder="手机号码" >
+                                    <span class="phone1_span" style="margin-top: -53px;"></span>
+                                    <input type="text" id="mobilecodes" name="mobilecode" class="input-sty padding-r" maxlength="6" placeholder="验证码" >
+                                    <button id="btnSendCodes" class="phoneCode" type="submit" style="margin-top: -56px;">发送验证码</button>
+                                    <span class="mobilecodes_span"></span>
+                                    <hr />
+                                    <div>
+                                        <a href="/Home/Password/index.html">忘记密码了吗？</a>
+                                    </div>
+                                    <button type="button" value="登录" class="phone-button"  onclick="">登录</button>
+                                </form>
+                            </div>
+                        <!--微信内嵌登录-->
+                            <div class="weChats box1" >
+                                <div id="weChat"></div>
+                                <script src="http://res.wx.qq.com/connect/zh_CN/htmledition/js/wxLogin.js"></script>
+                                <script>
+                                    var obj = new WxLogin({
+                                        id:"weChat",
+                                        appid: "wx8d8646fc4b1dcca4",
+                                        scope: "snsapi_login",
+                                        redirect_uri: "http%3A%2F%2Fwww.soulieren.com%2Findex.php%2Fhome%2FThirdLogin%2Fcallback",
+                                        state: "",
+                                        style: "black",
+                                        href: ""
+                                    });
+                                </script>
+                            </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<img src="/PcTpl/Public/images/benner.jpg" width="100%"/>
+
+<section class="allGoods">
+    <div class="allGoods-hd">
+        <p><span>首页</span><span class="arrow">></span><span>家庭和生活</span><span
+                class="arrow">></span><span>雕塑</span></p>
+    </div>
+    <div class="allGoodsList">
+        <ul>
+                            <li>
+                    <a href="/Home/goodsInfo/2780/4183" target="_blank">
+                        <div class="goodCard">
+                            <div class="goodCard-img">
+                                <img width="100%" src="/./Upload/Goods/smallImg/2018-01-29/small_img/1517190333.jpeg"  class="thumb" alt="">
+ <input style="display: none" value="/./Upload/Goods/smallImg/2018-01-29/1517190333.jpeg" class="s_img">
+                            </div>
+                            <div class="goodCard-info">
+                                <p>造客</p>
+                                <p><span class="good-title">1968年经典老夫子限量珍藏搪胶雕塑</span><span class="price">1280.00</span></p>
+                            </div>
+                        </div>
+                    </a>
+                    <div class="bubble">
+                        <div class="favorite">
+                            <div class="heart-shape"></div>
+                                                            <input style="display: none" value="4183" class="goods_id">
+                        </div>
+                        <div class="pup" style="display: none">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <div class="arrow_b"></div>
+                        </div>
+                    </div>
+                </li>                <li>
+                    <a href="/Home/goodsInfo/2779/4182" target="_blank">
+                        <div class="goodCard">
+                            <div class="goodCard-img">
+                                <img width="100%" src="/./Upload/Goods/smallImg/2018-01-29/small_img/1517190158.jpeg"  class="thumb" alt="">
+ <input style="display: none" value="/./Upload/Goods/smallImg/2018-01-29/1517190158.jpeg" class="s_img">
+                            </div>
+                            <div class="goodCard-info">
+                                <p>造客</p>
+                                <p><span class="good-title">1962年经典老夫子限量珍藏搪胶雕塑</span><span class="price">1280.00</span></p>
+                            </div>
+                        </div>
+                    </a>
+                    <div class="bubble">
+                        <div class="favorite">
+                            <div class="heart-shape"></div>
+                                                            <input style="display: none" value="4182" class="goods_id">
+                        </div>
+                        <div class="pup" style="display: none">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <div class="arrow_b"></div>
+                        </div>
+                    </div>
+                </li>                <li>
+                    <a href="/Home/goodsInfo/2778/4181" target="_blank">
+                        <div class="goodCard">
+                            <div class="goodCard-img">
+                                <img width="100%" src="/./Upload/Goods/smallImg/2018-01-29/small_img/1517190020.jpeg"  class="thumb" alt="">
+ <input style="display: none" value="/./Upload/Goods/smallImg/2018-01-29/1517190020.jpeg" class="s_img">
+                            </div>
+                            <div class="goodCard-info">
+                                <p>造客</p>
+                                <p><span class="good-title">1985年经典老夫子限量珍藏搪胶雕塑</span><span class="price">1280.00</span></p>
+                            </div>
+                        </div>
+                    </a>
+                    <div class="bubble">
+                        <div class="favorite">
+                            <div class="heart-shape"></div>
+                                                            <input style="display: none" value="4181" class="goods_id">
+                        </div>
+                        <div class="pup" style="display: none">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <div class="arrow_b"></div>
+                        </div>
+                    </div>
+                </li>                <li>
+                    <a href="/Home/goodsInfo/2766/4161" target="_blank">
+                        <div class="goodCard">
+                            <div class="goodCard-img">
+                                <img width="100%" src="/./Upload/Goods/smallImg/2018-01-25/small_img/1516864259.jpeg"  class="thumb" alt="">
+ <input style="display: none" value="/./Upload/Goods/smallImg/2018-01-25/1516864259.jpeg" class="s_img">
+                            </div>
+                            <div class="goodCard-info">
+                                <p>翰墨国粹艺术馆</p>
+                                <p><span class="good-title">腊肠陶瓷摆件</span><span class="price">78.00</span></p>
+                            </div>
+                        </div>
+                    </a>
+                    <div class="bubble">
+                        <div class="favorite">
+                            <div class="heart-shape"></div>
+                                                            <input style="display: none" value="4161" class="goods_id">
+                        </div>
+                        <div class="pup" style="display: none">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <div class="arrow_b"></div>
+                        </div>
+                    </div>
+                </li>                <li>
+                    <a href="/Home/goodsInfo/2707/4102" target="_blank">
+                        <div class="goodCard">
+                            <div class="goodCard-img">
+                                <img width="100%" src="/./Upload/Goods/smallImg/2018-01-21/small_img/1516545645.jpeg"  class="thumb" alt="">
+ <input style="display: none" value="/./Upload/Goods/smallImg/2018-01-21/1516545645.jpeg" class="s_img">
+                            </div>
+                            <div class="goodCard-info">
+                                <p>空石艺术</p>
+                                <p><span class="good-title">德玛西亚</span><span class="price">3000.00</span></p>
+                            </div>
+                        </div>
+                    </a>
+                    <div class="bubble">
+                        <div class="favorite">
+                            <div class="heart-shape"></div>
+                                                            <input style="display: none" value="4102" class="goods_id">
+                        </div>
+                        <div class="pup" style="display: none">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <div class="arrow_b"></div>
+                        </div>
+                    </div>
+                </li>                <li>
+                    <a href="/Home/goodsInfo/2706/4101" target="_blank">
+                        <div class="goodCard">
+                            <div class="goodCard-img">
+                                <img width="100%" src="/./Upload/Goods/smallImg/2018-01-21/small_img/1516544771.jpeg"  class="thumb" alt="">
+ <input style="display: none" value="/./Upload/Goods/smallImg/2018-01-21/1516544771.jpeg" class="s_img">
+                            </div>
+                            <div class="goodCard-info">
+                                <p>空石艺术</p>
+                                <p><span class="good-title">真石充电</span><span class="price">5000.00</span></p>
+                            </div>
+                        </div>
+                    </a>
+                    <div class="bubble">
+                        <div class="favorite">
+                            <div class="heart-shape"></div>
+                                                            <input style="display: none" value="4101" class="goods_id">
+                        </div>
+                        <div class="pup" style="display: none">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <div class="arrow_b"></div>
+                        </div>
+                    </div>
+                </li>                <li>
+                    <a href="/Home/goodsInfo/2705/4100" target="_blank">
+                        <div class="goodCard">
+                            <div class="goodCard-img">
+                                <img width="100%" src="/./Upload/Goods/smallImg/2018-01-21/small_img/1516544210.jpeg"  class="thumb" alt="">
+ <input style="display: none" value="/./Upload/Goods/smallImg/2018-01-21/1516544210.jpeg" class="s_img">
+                            </div>
+                            <div class="goodCard-info">
+                                <p>空石艺术</p>
+                                <p><span class="good-title">真石的鼠标</span><span class="price">2000.00</span></p>
+                            </div>
+                        </div>
+                    </a>
+                    <div class="bubble">
+                        <div class="favorite">
+                            <div class="heart-shape"></div>
+                                                            <input style="display: none" value="4100" class="goods_id">
+                        </div>
+                        <div class="pup" style="display: none">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <div class="arrow_b"></div>
+                        </div>
+                    </div>
+                </li>                <li>
+                    <a href="/Home/goodsInfo/2704/4099" target="_blank">
+                        <div class="goodCard">
+                            <div class="goodCard-img">
+                                <img width="100%" src="/./Upload/Goods/smallImg/2018-01-21/small_img/1516543833.jpeg"  class="thumb" alt="">
+ <input style="display: none" value="/./Upload/Goods/smallImg/2018-01-21/1516543833.jpeg" class="s_img">
+                            </div>
+                            <div class="goodCard-info">
+                                <p>空石艺术</p>
+                                <p><span class="good-title">真石的Zippo</span><span class="price">1000.00</span></p>
+                            </div>
+                        </div>
+                    </a>
+                    <div class="bubble">
+                        <div class="favorite">
+                            <div class="heart-shape"></div>
+                                                            <input style="display: none" value="4099" class="goods_id">
+                        </div>
+                        <div class="pup" style="display: none">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <div class="arrow_b"></div>
+                        </div>
+                    </div>
+                </li>                <li>
+                    <a href="/Home/goodsInfo/2662/4053" target="_blank">
+                        <div class="goodCard">
+                            <div class="goodCard-img">
+                                <img width="100%" src="/./Upload/Goods/smallImg/2018-01-15/small_img/1516003367.jpeg"  class="thumb" alt="">
+ <input style="display: none" value="/./Upload/Goods/smallImg/2018-01-15/1516003367.jpeg" class="s_img">
+                            </div>
+                            <div class="goodCard-info">
+                                <p>空石艺术</p>
+                                <p><span class="good-title">枪花</span><span class="price">1500.00</span></p>
+                            </div>
+                        </div>
+                    </a>
+                    <div class="bubble">
+                        <div class="favorite">
+                            <div class="heart-shape"></div>
+                                                            <input style="display: none" value="4053" class="goods_id">
+                        </div>
+                        <div class="pup" style="display: none">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <div class="arrow_b"></div>
+                        </div>
+                    </div>
+                </li>                <li>
+                    <a href="/Home/goodsInfo/2661/4052" target="_blank">
+                        <div class="goodCard">
+                            <div class="goodCard-img">
+                                <img width="100%" src="/./Upload/Goods/smallImg/2018-01-15/small_img/1516001704.jpeg"  class="thumb" alt="">
+ <input style="display: none" value="/./Upload/Goods/smallImg/2018-01-15/1516001704.jpeg" class="s_img">
+                            </div>
+                            <div class="goodCard-info">
+                                <p>空石艺术</p>
+                                <p><span class="good-title">《触·之二》</span><span class="price">10000.00</span></p>
+                            </div>
+                        </div>
+                    </a>
+                    <div class="bubble">
+                        <div class="favorite">
+                            <div class="heart-shape"></div>
+                                                            <input style="display: none" value="4052" class="goods_id">
+                        </div>
+                        <div class="pup" style="display: none">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <div class="arrow_b"></div>
+                        </div>
+                    </div>
+                </li>                <li>
+                    <a href="/Home/goodsInfo/2660/4051" target="_blank">
+                        <div class="goodCard">
+                            <div class="goodCard-img">
+                                <img width="100%" src="/./Upload/Goods/smallImg/2018-01-15/small_img/1516000903.jpeg"  class="thumb" alt="">
+ <input style="display: none" value="/./Upload/Goods/smallImg/2018-01-15/1516000903.jpeg" class="s_img">
+                            </div>
+                            <div class="goodCard-info">
+                                <p>空石艺术</p>
+                                <p><span class="good-title">《触》</span><span class="price">-4.00</span></p>
+                            </div>
+                        </div>
+                    </a>
+                    <div class="bubble">
+                        <div class="favorite">
+                            <div class="heart-shape"></div>
+                                                            <input style="display: none" value="4051" class="goods_id">
+                        </div>
+                        <div class="pup" style="display: none">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <div class="arrow_b"></div>
+                        </div>
+                    </div>
+                </li>                <li>
+                    <a href="/Home/goodsInfo/2659/4050" target="_blank">
+                        <div class="goodCard">
+                            <div class="goodCard-img">
+                                <img width="100%" src="/./Upload/Goods/smallImg/2018-01-15/small_img/1516000209.jpeg"  class="thumb" alt="">
+ <input style="display: none" value="/./Upload/Goods/smallImg/2018-01-15/1516000209.jpeg" class="s_img">
+                            </div>
+                            <div class="goodCard-info">
+                                <p>空石艺术</p>
+                                <p><span class="good-title">《新物种--起源》</span><span class="price">-4.00</span></p>
+                            </div>
+                        </div>
+                    </a>
+                    <div class="bubble">
+                        <div class="favorite">
+                            <div class="heart-shape"></div>
+                                                            <input style="display: none" value="4050" class="goods_id">
+                        </div>
+                        <div class="pup" style="display: none">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <div class="arrow_b"></div>
+                        </div>
+                    </div>
+                </li>                <li>
+                    <a href="/Home/goodsInfo/2658/4049" target="_blank">
+                        <div class="goodCard">
+                            <div class="goodCard-img">
+                                <img width="100%" src="/./Upload/Goods/smallImg/2018-01-15/small_img/1515999766.jpeg"  class="thumb" alt="">
+ <input style="display: none" value="/./Upload/Goods/smallImg/2018-01-15/1515999766.jpeg" class="s_img">
+                            </div>
+                            <div class="goodCard-info">
+                                <p>空石艺术</p>
+                                <p><span class="good-title">超脑</span><span class="price">-4.00</span></p>
+                            </div>
+                        </div>
+                    </a>
+                    <div class="bubble">
+                        <div class="favorite">
+                            <div class="heart-shape"></div>
+                                                            <input style="display: none" value="4049" class="goods_id">
+                        </div>
+                        <div class="pup" style="display: none">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <div class="arrow_b"></div>
+                        </div>
+                    </div>
+                </li>                <li>
+                    <a href="/Home/goodsInfo/2581/3968" target="_blank">
+                        <div class="goodCard">
+                            <div class="goodCard-img">
+                                <img width="100%" src="/./Upload/Goods/smallImg/2017-12-26/small_img/1514255810.jpeg"  class="thumb" alt="">
+ <input style="display: none" value="/./Upload/Goods/smallImg/2017-12-26/1514255810.jpeg" class="s_img">
+                            </div>
+                            <div class="goodCard-info">
+                                <p>张家玮的孤独园</p>
+                                <p><span class="good-title">良宵钟</span><span class="price">1200.00</span></p>
+                            </div>
+                        </div>
+                    </a>
+                    <div class="bubble">
+                        <div class="favorite">
+                            <div class="heart-shape"></div>
+                                                            <input style="display: none" value="3968" class="goods_id">
+                        </div>
+                        <div class="pup" style="display: none">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <div class="arrow_b"></div>
+                        </div>
+                    </div>
+                </li>                <li>
+                    <a href="/Home/goodsInfo/2580/3967" target="_blank">
+                        <div class="goodCard">
+                            <div class="goodCard-img">
+                                <img width="100%" src="/./Upload/Goods/smallImg/2017-12-26/small_img/1514255398.jpeg"  class="thumb" alt="">
+ <input style="display: none" value="/./Upload/Goods/smallImg/2017-12-26/1514255398.jpeg" class="s_img">
+                            </div>
+                            <div class="goodCard-info">
+                                <p>张家玮的孤独园</p>
+                                <p><span class="good-title">清凉山</span><span class="price">3800.00</span></p>
+                            </div>
+                        </div>
+                    </a>
+                    <div class="bubble">
+                        <div class="favorite">
+                            <div class="heart-shape"></div>
+                                                            <input style="display: none" value="3967" class="goods_id">
+                        </div>
+                        <div class="pup" style="display: none">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <div class="arrow_b"></div>
+                        </div>
+                    </div>
+                </li>                <li>
+                    <a href="/Home/goodsInfo/2549/3931" target="_blank">
+                        <div class="goodCard">
+                            <div class="goodCard-img">
+                                <img width="100%" src="/./Upload/Goods/smallImg/2017-12-14/small_img/1513219779.png"  class="thumb" alt="">
+ <input style="display: none" value="/./Upload/Goods/smallImg/2017-12-14/1513219779.png" class="s_img">
+                            </div>
+                            <div class="goodCard-info">
+                                <p>陳建周</p>
+                                <p><span class="good-title">哮天犬</span><span class="price">2600.00</span></p>
+                            </div>
+                        </div>
+                    </a>
+                    <div class="bubble">
+                        <div class="favorite">
+                            <div class="heart-shape"></div>
+                                                            <input style="display: none" value="3931" class="goods_id">
+                        </div>
+                        <div class="pup" style="display: none">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <div class="arrow_b"></div>
+                        </div>
+                    </div>
+                </li>                <li>
+                    <a href="/Home/goodsInfo/2355/3737" target="_blank">
+                        <div class="goodCard">
+                            <div class="goodCard-img">
+                                <img width="100%" src="/./Upload/Goods/smallImg/2017-12-08/small_img/1512700912.jpeg"  class="thumb" alt="">
+ <input style="display: none" value="/./Upload/Goods/smallImg/2017-12-08/1512700912.jpeg" class="s_img">
+                            </div>
+                            <div class="goodCard-info">
+                                <p>陳建周</p>
+                                <p><span class="good-title">静·悟空（全绿版）</span><span class="price">15000.00</span></p>
+                            </div>
+                        </div>
+                    </a>
+                    <div class="bubble">
+                        <div class="favorite">
+                            <div class="heart-shape"></div>
+                                                            <input style="display: none" value="3737" class="goods_id">
+                        </div>
+                        <div class="pup" style="display: none">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <div class="arrow_b"></div>
+                        </div>
+                    </div>
+                </li>                <li>
+                    <a href="/Home/goodsInfo/2277/3659" target="_blank">
+                        <div class="goodCard">
+                            <div class="goodCard-img">
+                                <img width="100%" src="/./Upload/Goods/smallImg/2017-11-30/small_img/1512024591.jpeg"  class="thumb" alt="">
+ <input style="display: none" value="/./Upload/Goods/smallImg/2017-11-30/1512024591.jpeg" class="s_img">
+                            </div>
+                            <div class="goodCard-info">
+                                <p>自龙</p>
+                                <p><span class="good-title">山水有相逢之二</span><span class="price">30000.00</span></p>
+                            </div>
+                        </div>
+                    </a>
+                    <div class="bubble">
+                        <div class="favorite">
+                            <div class="heart-shape"></div>
+                                                            <input style="display: none" value="3659" class="goods_id">
+                        </div>
+                        <div class="pup" style="display: none">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <div class="arrow_b"></div>
+                        </div>
+                    </div>
+                </li>                <li>
+                    <a href="/Home/goodsInfo/2276/3658" target="_blank">
+                        <div class="goodCard">
+                            <div class="goodCard-img">
+                                <img width="100%" src="/./Upload/Goods/smallImg/2017-11-30/small_img/1512024300.jpeg"  class="thumb" alt="">
+ <input style="display: none" value="/./Upload/Goods/smallImg/2017-11-30/1512024300.jpeg" class="s_img">
+                            </div>
+                            <div class="goodCard-info">
+                                <p>自龙</p>
+                                <p><span class="good-title">山水有相逢</span><span class="price">30000.00</span></p>
+                            </div>
+                        </div>
+                    </a>
+                    <div class="bubble">
+                        <div class="favorite">
+                            <div class="heart-shape"></div>
+                                                            <input style="display: none" value="3658" class="goods_id">
+                        </div>
+                        <div class="pup" style="display: none">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <div class="arrow_b"></div>
+                        </div>
+                    </div>
+                </li>                <li>
+                    <a href="/Home/goodsInfo/2275/3657" target="_blank">
+                        <div class="goodCard">
+                            <div class="goodCard-img">
+                                <img width="100%" src="/./Upload/Goods/smallImg/2017-11-30/small_img/1512023958.jpeg"  class="thumb" alt="">
+ <input style="display: none" value="/./Upload/Goods/smallImg/2017-11-30/1512023958.jpeg" class="s_img">
+                            </div>
+                            <div class="goodCard-info">
+                                <p>自龙</p>
+                                <p><span class="good-title">白马西来</span><span class="price">-4.00</span></p>
+                            </div>
+                        </div>
+                    </a>
+                    <div class="bubble">
+                        <div class="favorite">
+                            <div class="heart-shape"></div>
+                                                            <input style="display: none" value="3657" class="goods_id">
+                        </div>
+                        <div class="pup" style="display: none">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <div class="arrow_b"></div>
+                        </div>
+                    </div>
+                </li>                <li>
+                    <a href="/Home/goodsInfo/1730/3052" target="_blank">
+                        <div class="goodCard">
+                            <div class="goodCard-img">
+                                <img width="100%" src="/./Upload/Goods/smallImg/2017-10-19/small_img/1508395321.jpeg"  class="thumb" alt="">
+ <input style="display: none" value="/./Upload/Goods/smallImg/2017-10-19/1508395321.jpeg" class="s_img">
+                            </div>
+                            <div class="goodCard-info">
+                                <p>刘彦</p>
+                                <p><span class="good-title">莫比乌斯的礼物</span><span class="price">-4.00</span></p>
+                            </div>
+                        </div>
+                    </a>
+                    <div class="bubble">
+                        <div class="favorite">
+                            <div class="heart-shape"></div>
+                                                            <input style="display: none" value="3052" class="goods_id">
+                        </div>
+                        <div class="pup" style="display: none">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <div class="arrow_b"></div>
+                        </div>
+                    </div>
+                </li>                <li>
+                    <a href="/Home/goodsInfo/1729/3051" target="_blank">
+                        <div class="goodCard">
+                            <div class="goodCard-img">
+                                <img width="100%" src="/./Upload/Goods/smallImg/2017-10-19/small_img/1508395247.jpeg"  class="thumb" alt="">
+ <input style="display: none" value="/./Upload/Goods/smallImg/2017-10-19/1508395247.jpeg" class="s_img">
+                            </div>
+                            <div class="goodCard-info">
+                                <p>刘彦</p>
+                                <p><span class="good-title">时间简史</span><span class="price">-4.00</span></p>
+                            </div>
+                        </div>
+                    </a>
+                    <div class="bubble">
+                        <div class="favorite">
+                            <div class="heart-shape"></div>
+                                                            <input style="display: none" value="3051" class="goods_id">
+                        </div>
+                        <div class="pup" style="display: none">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <div class="arrow_b"></div>
+                        </div>
+                    </div>
+                </li>                <li>
+                    <a href="/Home/goodsInfo/1728/3050" target="_blank">
+                        <div class="goodCard">
+                            <div class="goodCard-img">
+                                <img width="100%" src="/./Upload/Goods/smallImg/2017-10-19/small_img/1508395194.jpeg"  class="thumb" alt="">
+ <input style="display: none" value="/./Upload/Goods/smallImg/2017-10-19/1508395194.jpeg" class="s_img">
+                            </div>
+                            <div class="goodCard-info">
+                                <p>刘彦</p>
+                                <p><span class="good-title">时间简史</span><span class="price">-4.00</span></p>
+                            </div>
+                        </div>
+                    </a>
+                    <div class="bubble">
+                        <div class="favorite">
+                            <div class="heart-shape"></div>
+                                                            <input style="display: none" value="3050" class="goods_id">
+                        </div>
+                        <div class="pup" style="display: none">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <div class="arrow_b"></div>
+                        </div>
+                    </div>
+                </li>                <li>
+                    <a href="/Home/goodsInfo/1727/3049" target="_blank">
+                        <div class="goodCard">
+                            <div class="goodCard-img">
+                                <img width="100%" src="/./Upload/Goods/smallImg/2017-10-19/small_img/1508395103.jpeg"  class="thumb" alt="">
+ <input style="display: none" value="/./Upload/Goods/smallImg/2017-10-19/1508395103.jpeg" class="s_img">
+                            </div>
+                            <div class="goodCard-info">
+                                <p>刘彦</p>
+                                <p><span class="good-title">莫比乌斯的礼物</span><span class="price">-4.00</span></p>
+                            </div>
+                        </div>
+                    </a>
+                    <div class="bubble">
+                        <div class="favorite">
+                            <div class="heart-shape"></div>
+                                                            <input style="display: none" value="3049" class="goods_id">
+                        </div>
+                        <div class="pup" style="display: none">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <div class="arrow_b"></div>
+                        </div>
+                    </div>
+                </li>                <li>
+                    <a href="/Home/goodsInfo/1726/3048" target="_blank">
+                        <div class="goodCard">
+                            <div class="goodCard-img">
+                                <img width="100%" src="/./Upload/Goods/smallImg/2017-10-19/small_img/1508395064.jpeg"  class="thumb" alt="">
+ <input style="display: none" value="/./Upload/Goods/smallImg/2017-10-19/1508395064.jpeg" class="s_img">
+                            </div>
+                            <div class="goodCard-info">
+                                <p>刘彦</p>
+                                <p><span class="good-title">莫比乌斯的礼物</span><span class="price">-4.00</span></p>
+                            </div>
+                        </div>
+                    </a>
+                    <div class="bubble">
+                        <div class="favorite">
+                            <div class="heart-shape"></div>
+                                                            <input style="display: none" value="3048" class="goods_id">
+                        </div>
+                        <div class="pup" style="display: none">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <div class="arrow_b"></div>
+                        </div>
+                    </div>
+                </li>                <li>
+                    <a href="/Home/goodsInfo/1725/3047" target="_blank">
+                        <div class="goodCard">
+                            <div class="goodCard-img">
+                                <img width="100%" src="/./Upload/Goods/smallImg/2017-10-19/small_img/1508395019.jpeg"  class="thumb" alt="">
+ <input style="display: none" value="/./Upload/Goods/smallImg/2017-10-19/1508395019.jpeg" class="s_img">
+                            </div>
+                            <div class="goodCard-info">
+                                <p>刘彦</p>
+                                <p><span class="good-title">魔仿(天然石头装置)</span><span class="price">-4.00</span></p>
+                            </div>
+                        </div>
+                    </a>
+                    <div class="bubble">
+                        <div class="favorite">
+                            <div class="heart-shape"></div>
+                                                            <input style="display: none" value="3047" class="goods_id">
+                        </div>
+                        <div class="pup" style="display: none">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <div class="arrow_b"></div>
+                        </div>
+                    </div>
+                </li>                <li>
+                    <a href="/Home/goodsInfo/1724/3046" target="_blank">
+                        <div class="goodCard">
+                            <div class="goodCard-img">
+                                <img width="100%" src="/./Upload/Goods/smallImg/2017-10-19/small_img/1508394976.jpeg"  class="thumb" alt="">
+ <input style="display: none" value="/./Upload/Goods/smallImg/2017-10-19/1508394976.jpeg" class="s_img">
+                            </div>
+                            <div class="goodCard-info">
+                                <p>刘彦</p>
+                                <p><span class="good-title">模仿系列(天然石头装置)</span><span class="price">-4.00</span></p>
+                            </div>
+                        </div>
+                    </a>
+                    <div class="bubble">
+                        <div class="favorite">
+                            <div class="heart-shape"></div>
+                                                            <input style="display: none" value="3046" class="goods_id">
+                        </div>
+                        <div class="pup" style="display: none">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <div class="arrow_b"></div>
+                        </div>
+                    </div>
+                </li>                <li>
+                    <a href="/Home/goodsInfo/1723/3045" target="_blank">
+                        <div class="goodCard">
+                            <div class="goodCard-img">
+                                <img width="100%" src="/./Upload/Goods/smallImg/2017-10-19/small_img/1508394929.jpeg"  class="thumb" alt="">
+ <input style="display: none" value="/./Upload/Goods/smallImg/2017-10-19/1508394929.jpeg" class="s_img">
+                            </div>
+                            <div class="goodCard-info">
+                                <p>刘彦</p>
+                                <p><span class="good-title">模仿-2(天然石头装置)</span><span class="price">-4.00</span></p>
+                            </div>
+                        </div>
+                    </a>
+                    <div class="bubble">
+                        <div class="favorite">
+                            <div class="heart-shape"></div>
+                                                            <input style="display: none" value="3045" class="goods_id">
+                        </div>
+                        <div class="pup" style="display: none">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <div class="arrow_b"></div>
+                        </div>
+                    </div>
+                </li>                <li>
+                    <a href="/Home/goodsInfo/1722/3044" target="_blank">
+                        <div class="goodCard">
+                            <div class="goodCard-img">
+                                <img width="100%" src="/./Upload/Goods/smallImg/2017-10-19/small_img/1508394883.jpeg"  class="thumb" alt="">
+ <input style="display: none" value="/./Upload/Goods/smallImg/2017-10-19/1508394883.jpeg" class="s_img">
+                            </div>
+                            <div class="goodCard-info">
+                                <p>刘彦</p>
+                                <p><span class="good-title">模仿(天然石头装置)</span><span class="price">-4.00</span></p>
+                            </div>
+                        </div>
+                    </a>
+                    <div class="bubble">
+                        <div class="favorite">
+                            <div class="heart-shape"></div>
+                                                            <input style="display: none" value="3044" class="goods_id">
+                        </div>
+                        <div class="pup" style="display: none">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <div class="arrow_b"></div>
+                        </div>
+                    </div>
+                </li>                <li>
+                    <a href="/Home/goodsInfo/1721/3043" target="_blank">
+                        <div class="goodCard">
+                            <div class="goodCard-img">
+                                <img width="100%" src="/./Upload/Goods/smallImg/2017-10-19/small_img/1508394827.jpeg"  class="thumb" alt="">
+ <input style="display: none" value="/./Upload/Goods/smallImg/2017-10-19/1508394827.jpeg" class="s_img">
+                            </div>
+                            <div class="goodCard-info">
+                                <p>刘彦</p>
+                                <p><span class="good-title">蝗</span><span class="price">-4.00</span></p>
+                            </div>
+                        </div>
+                    </a>
+                    <div class="bubble">
+                        <div class="favorite">
+                            <div class="heart-shape"></div>
+                                                            <input style="display: none" value="3043" class="goods_id">
+                        </div>
+                        <div class="pup" style="display: none">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <div class="arrow_b"></div>
+                        </div>
+                    </div>
+                </li>                <li>
+                    <a href="/Home/goodsInfo/1720/3042" target="_blank">
+                        <div class="goodCard">
+                            <div class="goodCard-img">
+                                <img width="100%" src="/./Upload/Goods/smallImg/2017-10-19/small_img/1508394781.jpeg"  class="thumb" alt="">
+ <input style="display: none" value="/./Upload/Goods/smallImg/2017-10-19/1508394781.jpeg" class="s_img">
+                            </div>
+                            <div class="goodCard-info">
+                                <p>刘彦</p>
+                                <p><span class="good-title">红色木马</span><span class="price">-4.00</span></p>
+                            </div>
+                        </div>
+                    </a>
+                    <div class="bubble">
+                        <div class="favorite">
+                            <div class="heart-shape"></div>
+                                                            <input style="display: none" value="3042" class="goods_id">
+                        </div>
+                        <div class="pup" style="display: none">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <div class="arrow_b"></div>
+                        </div>
+                    </div>
+                </li>                <li>
+                    <a href="/Home/goodsInfo/1719/3041" target="_blank">
+                        <div class="goodCard">
+                            <div class="goodCard-img">
+                                <img width="100%" src="/./Upload/Goods/smallImg/2017-10-19/small_img/1508394690.jpeg"  class="thumb" alt="">
+ <input style="display: none" value="/./Upload/Goods/smallImg/2017-10-19/1508394690.jpeg" class="s_img">
+                            </div>
+                            <div class="goodCard-info">
+                                <p>刘彦</p>
+                                <p><span class="good-title">和</span><span class="price">-4.00</span></p>
+                            </div>
+                        </div>
+                    </a>
+                    <div class="bubble">
+                        <div class="favorite">
+                            <div class="heart-shape"></div>
+                                                            <input style="display: none" value="3041" class="goods_id">
+                        </div>
+                        <div class="pup" style="display: none">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <div class="arrow_b"></div>
+                        </div>
+                    </div>
+                </li>                <li>
+                    <a href="/Home/goodsInfo/1717/3039" target="_blank">
+                        <div class="goodCard">
+                            <div class="goodCard-img">
+                                <img width="100%" src="/./Upload/Goods/smallImg/2017-10-19/small_img/1508394532.jpeg"  class="thumb" alt="">
+ <input style="display: none" value="/./Upload/Goods/smallImg/2017-10-19/1508394532.jpeg" class="s_img">
+                            </div>
+                            <div class="goodCard-info">
+                                <p>刘彦</p>
+                                <p><span class="good-title">家（透明树脂，石头，尺寸不定）</span><span class="price">-4.00</span></p>
+                            </div>
+                        </div>
+                    </a>
+                    <div class="bubble">
+                        <div class="favorite">
+                            <div class="heart-shape"></div>
+                                                            <input style="display: none" value="3039" class="goods_id">
+                        </div>
+                        <div class="pup" style="display: none">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <div class="arrow_b"></div>
+                        </div>
+                    </div>
+                </li>                <li>
+                    <a href="/Home/goodsInfo/1585/2907" target="_blank">
+                        <div class="goodCard">
+                            <div class="goodCard-img">
+                                <img width="100%" src="/./Upload/Goods/smallImg/2017-09-16/small_img/1505492666.jpeg"  class="thumb" alt="">
+ <input style="display: none" value="/./Upload/Goods/smallImg/2017-09-16/1505492666.jpeg" class="s_img">
+                            </div>
+                            <div class="goodCard-info">
+                                <p>毕横</p>
+                                <p><span class="good-title">阿潘达</span><span class="price">-1.00</span></p>
+                            </div>
+                        </div>
+                    </a>
+                    <div class="bubble">
+                        <div class="favorite">
+                            <div class="heart-shape"></div>
+                                                            <input style="display: none" value="2907" class="goods_id">
+                        </div>
+                        <div class="pup" style="display: none">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <div class="arrow_b"></div>
+                        </div>
+                    </div>
+                </li>                <li>
+                    <a href="/Home/goodsInfo/1584/2906" target="_blank">
+                        <div class="goodCard">
+                            <div class="goodCard-img">
+                                <img width="100%" src="/./Upload/Goods/smallImg/2017-09-16/small_img/1505492613.jpeg"  class="thumb" alt="">
+ <input style="display: none" value="/./Upload/Goods/smallImg/2017-09-16/1505492613.jpeg" class="s_img">
+                            </div>
+                            <div class="goodCard-info">
+                                <p>毕横</p>
+                                <p><span class="good-title">阿潘达</span><span class="price">-1.00</span></p>
+                            </div>
+                        </div>
+                    </a>
+                    <div class="bubble">
+                        <div class="favorite">
+                            <div class="heart-shape"></div>
+                                                            <input style="display: none" value="2906" class="goods_id">
+                        </div>
+                        <div class="pup" style="display: none">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <div class="arrow_b"></div>
+                        </div>
+                    </div>
+                </li>                <li>
+                    <a href="/Home/goodsInfo/1583/2905" target="_blank">
+                        <div class="goodCard">
+                            <div class="goodCard-img">
+                                <img width="100%" src="/./Upload/Goods/smallImg/2017-09-16/small_img/1505492565.jpeg"  class="thumb" alt="">
+ <input style="display: none" value="/./Upload/Goods/smallImg/2017-09-16/1505492565.jpeg" class="s_img">
+                            </div>
+                            <div class="goodCard-info">
+                                <p>毕横</p>
+                                <p><span class="good-title">阿潘达</span><span class="price">-1.00</span></p>
+                            </div>
+                        </div>
+                    </a>
+                    <div class="bubble">
+                        <div class="favorite">
+                            <div class="heart-shape"></div>
+                                                            <input style="display: none" value="2905" class="goods_id">
+                        </div>
+                        <div class="pup" style="display: none">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <div class="arrow_b"></div>
+                        </div>
+                    </div>
+                </li>                <li>
+                    <a href="/Home/goodsInfo/1582/2904" target="_blank">
+                        <div class="goodCard">
+                            <div class="goodCard-img">
+                                <img width="100%" src="/./Upload/Goods/smallImg/2017-09-16/small_img/1505492498.jpeg"  class="thumb" alt="">
+ <input style="display: none" value="/./Upload/Goods/smallImg/2017-09-16/1505492498.jpeg" class="s_img">
+                            </div>
+                            <div class="goodCard-info">
+                                <p>毕横</p>
+                                <p><span class="good-title">斗战剩佛</span><span class="price">-1.00</span></p>
+                            </div>
+                        </div>
+                    </a>
+                    <div class="bubble">
+                        <div class="favorite">
+                            <div class="heart-shape"></div>
+                                                            <input style="display: none" value="2904" class="goods_id">
+                        </div>
+                        <div class="pup" style="display: none">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <div class="arrow_b"></div>
+                        </div>
+                    </div>
+                </li>                <li>
+                    <a href="/Home/goodsInfo/1581/2903" target="_blank">
+                        <div class="goodCard">
+                            <div class="goodCard-img">
+                                <img width="100%" src="/./Upload/Goods/smallImg/2017-09-16/small_img/1505492453.jpeg"  class="thumb" alt="">
+ <input style="display: none" value="/./Upload/Goods/smallImg/2017-09-16/1505492453.jpeg" class="s_img">
+                            </div>
+                            <div class="goodCard-info">
+                                <p>毕横</p>
+                                <p><span class="good-title">斗战剩佛</span><span class="price">-1.00</span></p>
+                            </div>
+                        </div>
+                    </a>
+                    <div class="bubble">
+                        <div class="favorite">
+                            <div class="heart-shape"></div>
+                                                            <input style="display: none" value="2903" class="goods_id">
+                        </div>
+                        <div class="pup" style="display: none">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <div class="arrow_b"></div>
+                        </div>
+                    </div>
+                </li>                <li>
+                    <a href="/Home/goodsInfo/1580/2902" target="_blank">
+                        <div class="goodCard">
+                            <div class="goodCard-img">
+                                <img width="100%" src="/./Upload/Goods/smallImg/2017-09-16/small_img/1505492401.jpeg"  class="thumb" alt="">
+ <input style="display: none" value="/./Upload/Goods/smallImg/2017-09-16/1505492401.jpeg" class="s_img">
+                            </div>
+                            <div class="goodCard-info">
+                                <p>毕横</p>
+                                <p><span class="good-title">斗战剩佛</span><span class="price">-1.00</span></p>
+                            </div>
+                        </div>
+                    </a>
+                    <div class="bubble">
+                        <div class="favorite">
+                            <div class="heart-shape"></div>
+                                                            <input style="display: none" value="2902" class="goods_id">
+                        </div>
+                        <div class="pup" style="display: none">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <div class="arrow_b"></div>
+                        </div>
+                    </div>
+                </li>                <li>
+                    <a href="/Home/goodsInfo/1579/2901" target="_blank">
+                        <div class="goodCard">
+                            <div class="goodCard-img">
+                                <img width="100%" src="/./Upload/Goods/smallImg/2017-09-16/small_img/1505492346.jpeg"  class="thumb" alt="">
+ <input style="display: none" value="/./Upload/Goods/smallImg/2017-09-16/1505492346.jpeg" class="s_img">
+                            </div>
+                            <div class="goodCard-info">
+                                <p>毕横</p>
+                                <p><span class="good-title">斗战剩佛</span><span class="price">-1.00</span></p>
+                            </div>
+                        </div>
+                    </a>
+                    <div class="bubble">
+                        <div class="favorite">
+                            <div class="heart-shape"></div>
+                                                            <input style="display: none" value="2901" class="goods_id">
+                        </div>
+                        <div class="pup" style="display: none">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <div class="arrow_b"></div>
+                        </div>
+                    </div>
+                </li>                <li>
+                    <a href="/Home/goodsInfo/1578/2900" target="_blank">
+                        <div class="goodCard">
+                            <div class="goodCard-img">
+                                <img width="100%" src="/./Upload/Goods/smallImg/2017-09-16/small_img/1505492285.jpeg"  class="thumb" alt="">
+ <input style="display: none" value="/./Upload/Goods/smallImg/2017-09-16/1505492285.jpeg" class="s_img">
+                            </div>
+                            <div class="goodCard-info">
+                                <p>毕横</p>
+                                <p><span class="good-title">解·放</span><span class="price">-1.00</span></p>
+                            </div>
+                        </div>
+                    </a>
+                    <div class="bubble">
+                        <div class="favorite">
+                            <div class="heart-shape"></div>
+                                                            <input style="display: none" value="2900" class="goods_id">
+                        </div>
+                        <div class="pup" style="display: none">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <div class="arrow_b"></div>
+                        </div>
+                    </div>
+                </li>                <li>
+                    <a href="/Home/goodsInfo/1577/2899" target="_blank">
+                        <div class="goodCard">
+                            <div class="goodCard-img">
+                                <img width="100%" src="/./Upload/Goods/smallImg/2017-09-16/small_img/1505492165.jpeg"  class="thumb" alt="">
+ <input style="display: none" value="/./Upload/Goods/smallImg/2017-09-16/1505492165.jpeg" class="s_img">
+                            </div>
+                            <div class="goodCard-info">
+                                <p>毕横</p>
+                                <p><span class="good-title">解·放</span><span class="price">-1.00</span></p>
+                            </div>
+                        </div>
+                    </a>
+                    <div class="bubble">
+                        <div class="favorite">
+                            <div class="heart-shape"></div>
+                                                            <input style="display: none" value="2899" class="goods_id">
+                        </div>
+                        <div class="pup" style="display: none">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <div class="arrow_b"></div>
+                        </div>
+                    </div>
+                </li>                <li>
+                    <a href="/Home/goodsInfo/1576/2898" target="_blank">
+                        <div class="goodCard">
+                            <div class="goodCard-img">
+                                <img width="100%" src="/./Upload/Goods/smallImg/2017-09-16/small_img/1505492035.jpeg"  class="thumb" alt="">
+ <input style="display: none" value="/./Upload/Goods/smallImg/2017-09-16/1505492035.jpeg" class="s_img">
+                            </div>
+                            <div class="goodCard-info">
+                                <p>毕横</p>
+                                <p><span class="good-title">解·放</span><span class="price">-1.00</span></p>
+                            </div>
+                        </div>
+                    </a>
+                    <div class="bubble">
+                        <div class="favorite">
+                            <div class="heart-shape"></div>
+                                                            <input style="display: none" value="2898" class="goods_id">
+                        </div>
+                        <div class="pup" style="display: none">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <div class="arrow_b"></div>
+                        </div>
+                    </div>
+                </li>                <li>
+                    <a href="/Home/goodsInfo/1575/2897" target="_blank">
+                        <div class="goodCard">
+                            <div class="goodCard-img">
+                                <img width="100%" src="/./Upload/Goods/smallImg/2017-09-16/small_img/1505491918.jpeg"  class="thumb" alt="">
+ <input style="display: none" value="/./Upload/Goods/smallImg/2017-09-16/1505491918.jpeg" class="s_img">
+                            </div>
+                            <div class="goodCard-info">
+                                <p>毕横</p>
+                                <p><span class="good-title">解·放</span><span class="price">-1.00</span></p>
+                            </div>
+                        </div>
+                    </a>
+                    <div class="bubble">
+                        <div class="favorite">
+                            <div class="heart-shape"></div>
+                                                            <input style="display: none" value="2897" class="goods_id">
+                        </div>
+                        <div class="pup" style="display: none">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <div class="arrow_b"></div>
+                        </div>
+                    </div>
+                </li>                <li>
+                    <a href="/Home/goodsInfo/1574/2896" target="_blank">
+                        <div class="goodCard">
+                            <div class="goodCard-img">
+                                <img width="100%" src="/./Upload/Goods/smallImg/2017-09-16/small_img/1505491809.jpeg"  class="thumb" alt="">
+ <input style="display: none" value="/./Upload/Goods/smallImg/2017-09-16/1505491809.jpeg" class="s_img">
+                            </div>
+                            <div class="goodCard-info">
+                                <p>毕横</p>
+                                <p><span class="good-title">解·放</span><span class="price">-1.00</span></p>
+                            </div>
+                        </div>
+                    </a>
+                    <div class="bubble">
+                        <div class="favorite">
+                            <div class="heart-shape"></div>
+                                                            <input style="display: none" value="2896" class="goods_id">
+                        </div>
+                        <div class="pup" style="display: none">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <div class="arrow_b"></div>
+                        </div>
+                    </div>
+                </li>                <li>
+                    <a href="/Home/goodsInfo/1573/2895" target="_blank">
+                        <div class="goodCard">
+                            <div class="goodCard-img">
+                                <img width="100%" src="/./Upload/Goods/smallImg/2017-09-15/small_img/1505490466.jpeg"  class="thumb" alt="">
+ <input style="display: none" value="/./Upload/Goods/smallImg/2017-09-15/1505490466.jpeg" class="s_img">
+                            </div>
+                            <div class="goodCard-info">
+                                <p>毕横</p>
+                                <p><span class="good-title">解·放</span><span class="price">-1.00</span></p>
+                            </div>
+                        </div>
+                    </a>
+                    <div class="bubble">
+                        <div class="favorite">
+                            <div class="heart-shape"></div>
+                                                            <input style="display: none" value="2895" class="goods_id">
+                        </div>
+                        <div class="pup" style="display: none">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <div class="arrow_b"></div>
+                        </div>
+                    </div>
+                </li>                <li>
+                    <a href="/Home/goodsInfo/1572/2894" target="_blank">
+                        <div class="goodCard">
+                            <div class="goodCard-img">
+                                <img width="100%" src="/./Upload/Goods/smallImg/2017-09-15/small_img/1505490384.jpeg"  class="thumb" alt="">
+ <input style="display: none" value="/./Upload/Goods/smallImg/2017-09-15/1505490384.jpeg" class="s_img">
+                            </div>
+                            <div class="goodCard-info">
+                                <p>毕横</p>
+                                <p><span class="good-title">解·放</span><span class="price">-1.00</span></p>
+                            </div>
+                        </div>
+                    </a>
+                    <div class="bubble">
+                        <div class="favorite">
+                            <div class="heart-shape"></div>
+                                                            <input style="display: none" value="2894" class="goods_id">
+                        </div>
+                        <div class="pup" style="display: none">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <div class="arrow_b"></div>
+                        </div>
+                    </div>
+                </li>                <li>
+                    <a href="/Home/goodsInfo/1571/2893" target="_blank">
+                        <div class="goodCard">
+                            <div class="goodCard-img">
+                                <img width="100%" src="/./Upload/Goods/smallImg/2017-09-15/small_img/1505490300.jpeg"  class="thumb" alt="">
+ <input style="display: none" value="/./Upload/Goods/smallImg/2017-09-15/1505490300.jpeg" class="s_img">
+                            </div>
+                            <div class="goodCard-info">
+                                <p>毕横</p>
+                                <p><span class="good-title">解·放</span><span class="price">-1.00</span></p>
+                            </div>
+                        </div>
+                    </a>
+                    <div class="bubble">
+                        <div class="favorite">
+                            <div class="heart-shape"></div>
+                                                            <input style="display: none" value="2893" class="goods_id">
+                        </div>
+                        <div class="pup" style="display: none">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <div class="arrow_b"></div>
+                        </div>
+                    </div>
+                </li>                <li>
+                    <a href="/Home/goodsInfo/1570/2892" target="_blank">
+                        <div class="goodCard">
+                            <div class="goodCard-img">
+                                <img width="100%" src="/./Upload/Goods/smallImg/2017-09-15/small_img/1505490211.jpeg"  class="thumb" alt="">
+ <input style="display: none" value="/./Upload/Goods/smallImg/2017-09-15/1505490211.jpeg" class="s_img">
+                            </div>
+                            <div class="goodCard-info">
+                                <p>毕横</p>
+                                <p><span class="good-title">解·放</span><span class="price">-1.00</span></p>
+                            </div>
+                        </div>
+                    </a>
+                    <div class="bubble">
+                        <div class="favorite">
+                            <div class="heart-shape"></div>
+                                                            <input style="display: none" value="2892" class="goods_id">
+                        </div>
+                        <div class="pup" style="display: none">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <div class="arrow_b"></div>
+                        </div>
+                    </div>
+                </li>                <li>
+                    <a href="/Home/goodsInfo/1569/2891" target="_blank">
+                        <div class="goodCard">
+                            <div class="goodCard-img">
+                                <img width="100%" src="/./Upload/Goods/smallImg/2017-09-15/small_img/1505490142.jpeg"  class="thumb" alt="">
+ <input style="display: none" value="/./Upload/Goods/smallImg/2017-09-15/1505490142.jpeg" class="s_img">
+                            </div>
+                            <div class="goodCard-info">
+                                <p>毕横</p>
+                                <p><span class="good-title">解·放</span><span class="price">-1.00</span></p>
+                            </div>
+                        </div>
+                    </a>
+                    <div class="bubble">
+                        <div class="favorite">
+                            <div class="heart-shape"></div>
+                                                            <input style="display: none" value="2891" class="goods_id">
+                        </div>
+                        <div class="pup" style="display: none">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <div class="arrow_b"></div>
+                        </div>
+                    </div>
+                </li>                <li>
+                    <a href="/Home/goodsInfo/1568/2890" target="_blank">
+                        <div class="goodCard">
+                            <div class="goodCard-img">
+                                <img width="100%" src="/./Upload/Goods/smallImg/2017-09-15/small_img/1505490090.jpeg"  class="thumb" alt="">
+ <input style="display: none" value="/./Upload/Goods/smallImg/2017-09-15/1505490090.jpeg" class="s_img">
+                            </div>
+                            <div class="goodCard-info">
+                                <p>毕横</p>
+                                <p><span class="good-title">解·放</span><span class="price">-1.00</span></p>
+                            </div>
+                        </div>
+                    </a>
+                    <div class="bubble">
+                        <div class="favorite">
+                            <div class="heart-shape"></div>
+                                                            <input style="display: none" value="2890" class="goods_id">
+                        </div>
+                        <div class="pup" style="display: none">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <div class="arrow_b"></div>
+                        </div>
+                    </div>
+                </li>                <li>
+                    <a href="/Home/goodsInfo/1567/2889" target="_blank">
+                        <div class="goodCard">
+                            <div class="goodCard-img">
+                                <img width="100%" src="/./Upload/Goods/smallImg/2017-09-15/small_img/1505490040.jpeg"  class="thumb" alt="">
+ <input style="display: none" value="/./Upload/Goods/smallImg/2017-09-15/1505490040.jpeg" class="s_img">
+                            </div>
+                            <div class="goodCard-info">
+                                <p>毕横</p>
+                                <p><span class="good-title">解·放</span><span class="price">-1.00</span></p>
+                            </div>
+                        </div>
+                    </a>
+                    <div class="bubble">
+                        <div class="favorite">
+                            <div class="heart-shape"></div>
+                                                            <input style="display: none" value="2889" class="goods_id">
+                        </div>
+                        <div class="pup" style="display: none">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <div class="arrow_b"></div>
+                        </div>
+                    </div>
+                </li>                <li>
+                    <a href="/Home/goodsInfo/1566/2888" target="_blank">
+                        <div class="goodCard">
+                            <div class="goodCard-img">
+                                <img width="100%" src="/./Upload/Goods/smallImg/2017-09-15/small_img/1505489975.jpeg"  class="thumb" alt="">
+ <input style="display: none" value="/./Upload/Goods/smallImg/2017-09-15/1505489975.jpeg" class="s_img">
+                            </div>
+                            <div class="goodCard-info">
+                                <p>毕横</p>
+                                <p><span class="good-title">解·放</span><span class="price">-1.00</span></p>
+                            </div>
+                        </div>
+                    </a>
+                    <div class="bubble">
+                        <div class="favorite">
+                            <div class="heart-shape"></div>
+                                                            <input style="display: none" value="2888" class="goods_id">
+                        </div>
+                        <div class="pup" style="display: none">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <div class="arrow_b"></div>
+                        </div>
+                    </div>
+                </li>                <li>
+                    <a href="/Home/goodsInfo/1564/2886" target="_blank">
+                        <div class="goodCard">
+                            <div class="goodCard-img">
+                                <img width="100%" src="/./Upload/Goods/smallImg/2017-09-15/small_img/1505464677.png"  class="thumb" alt="">
+ <input style="display: none" value="/./Upload/Goods/smallImg/2017-09-15/1505464677.png" class="s_img">
+                            </div>
+                            <div class="goodCard-info">
+                                <p>毕横</p>
+                                <p><span class="good-title">斗战剩佛</span><span class="price">-1.00</span></p>
+                            </div>
+                        </div>
+                    </a>
+                    <div class="bubble">
+                        <div class="favorite">
+                            <div class="heart-shape"></div>
+                                                            <input style="display: none" value="2886" class="goods_id">
+                        </div>
+                        <div class="pup" style="display: none">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <div class="arrow_b"></div>
+                        </div>
+                    </div>
+                </li>                <li>
+                    <a href="/Home/goodsInfo/1563/2885" target="_blank">
+                        <div class="goodCard">
+                            <div class="goodCard-img">
+                                <img width="100%" src="/./Upload/Goods/smallImg/2017-09-15/small_img/1505464593.png"  class="thumb" alt="">
+ <input style="display: none" value="/./Upload/Goods/smallImg/2017-09-15/1505464593.png" class="s_img">
+                            </div>
+                            <div class="goodCard-info">
+                                <p>毕横</p>
+                                <p><span class="good-title">阿潘达</span><span class="price">-1.00</span></p>
+                            </div>
+                        </div>
+                    </a>
+                    <div class="bubble">
+                        <div class="favorite">
+                            <div class="heart-shape"></div>
+                                                            <input style="display: none" value="2885" class="goods_id">
+                        </div>
+                        <div class="pup" style="display: none">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <div class="arrow_b"></div>
+                        </div>
+                    </div>
+                </li>                <li>
+                    <a href="/Home/goodsInfo/1562/2884" target="_blank">
+                        <div class="goodCard">
+                            <div class="goodCard-img">
+                                <img width="100%" src="/./Upload/Goods/smallImg/2017-09-15/small_img/1505464444.png"  class="thumb" alt="">
+ <input style="display: none" value="/./Upload/Goods/smallImg/2017-09-15/1505464444.png" class="s_img">
+                            </div>
+                            <div class="goodCard-info">
+                                <p>毕横</p>
+                                <p><span class="good-title">解·放</span><span class="price">-1.00</span></p>
+                            </div>
+                        </div>
+                    </a>
+                    <div class="bubble">
+                        <div class="favorite">
+                            <div class="heart-shape"></div>
+                                                            <input style="display: none" value="2884" class="goods_id">
+                        </div>
+                        <div class="pup" style="display: none">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <div class="arrow_b"></div>
+                        </div>
+                    </div>
+                </li>                <li>
+                    <a href="/Home/goodsInfo/644/1764" target="_blank">
+                        <div class="goodCard">
+                            <div class="goodCard-img">
+                                <img width="100%" src="/./Upload/Goods/smallImg/2017-08-03/small_img/1501744489.jpeg"  class="thumb" alt="">
+ <input style="display: none" value="/./Upload/Goods/smallImg/2017-08-03/1501744489.jpeg" class="s_img">
+                            </div>
+                            <div class="goodCard-info">
+                                <p>迷失国度</p>
+                                <p><span class="good-title">花前欲下</span><span class="price">12000.00</span></p>
+                            </div>
+                        </div>
+                    </a>
+                    <div class="bubble">
+                        <div class="favorite">
+                            <div class="heart-shape"></div>
+                                                            <input style="display: none" value="1764" class="goods_id">
+                        </div>
+                        <div class="pup" style="display: none">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <div class="arrow_b"></div>
+                        </div>
+                    </div>
+                </li>                <li>
+                    <a href="/Home/goodsInfo/567/1668" target="_blank">
+                        <div class="goodCard">
+                            <div class="goodCard-img">
+                                <img width="100%" src="/./Upload/Goods/smallImg/2017-07-25/small_img/1500961783.png"  class="thumb" alt="">
+ <input style="display: none" value="/./Upload/Goods/smallImg/2017-07-25/1500961783.png" class="s_img">
+                            </div>
+                            <div class="goodCard-info">
+                                <p>陈灵平</p>
+                                <p><span class="good-title">梦寻桃花源</span><span class="price">60000.00</span></p>
+                            </div>
+                        </div>
+                    </a>
+                    <div class="bubble">
+                        <div class="favorite">
+                            <div class="heart-shape"></div>
+                                                            <input style="display: none" value="1668" class="goods_id">
+                        </div>
+                        <div class="pup" style="display: none">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <div class="arrow_b"></div>
+                        </div>
+                    </div>
+                </li>                <li>
+                    <a href="/Home/goodsInfo/561/1660" target="_blank">
+                        <div class="goodCard">
+                            <div class="goodCard-img">
+                                <img width="100%" src="/./Upload/Goods/smallImg/2017-07-25/small_img/1500960018.png"  class="thumb" alt="">
+ <input style="display: none" value="/./Upload/Goods/smallImg/2017-07-25/1500960018.png" class="s_img">
+                            </div>
+                            <div class="goodCard-info">
+                                <p>陈灵平</p>
+                                <p><span class="good-title">孤独者的梦</span><span class="price">30000.00</span></p>
+                            </div>
+                        </div>
+                    </a>
+                    <div class="bubble">
+                        <div class="favorite">
+                            <div class="heart-shape"></div>
+                                                            <input style="display: none" value="1660" class="goods_id">
+                        </div>
+                        <div class="pup" style="display: none">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <div class="arrow_b"></div>
+                        </div>
+                    </div>
+                </li>                <li>
+                    <a href="/Home/goodsInfo/559/1658" target="_blank">
+                        <div class="goodCard">
+                            <div class="goodCard-img">
+                                <img width="100%" src="/./Upload/Goods/smallImg/2017-07-25/small_img/1500955159.jpeg"  class="thumb" alt="">
+ <input style="display: none" value="/./Upload/Goods/smallImg/2017-07-25/1500955159.jpeg" class="s_img">
+                            </div>
+                            <div class="goodCard-info">
+                                <p>陈灵平</p>
+                                <p><span class="good-title">待那春暖花开时</span><span class="price">50000.00</span></p>
+                            </div>
+                        </div>
+                    </a>
+                    <div class="bubble">
+                        <div class="favorite">
+                            <div class="heart-shape"></div>
+                                                            <input style="display: none" value="1658" class="goods_id">
+                        </div>
+                        <div class="pup" style="display: none">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <div class="arrow_b"></div>
+                        </div>
+                    </div>
+                </li>                <li>
+                    <a href="/Home/goodsInfo/562/1661" target="_blank">
+                        <div class="goodCard">
+                            <div class="goodCard-img">
+                                <img width="100%" src="/./Upload/Goods/smallImg/2017-09-10/small_img/1505040176.png"  class="thumb" alt="">
+ <input style="display: none" value="/./Upload/Goods/smallImg/2017-09-10/1505040176.png" class="s_img">
+                            </div>
+                            <div class="goodCard-info">
+                                <p>陈灵平</p>
+                                <p><span class="good-title">黑夜也是白日的梦</span><span class="price">50000.00</span></p>
+                            </div>
+                        </div>
+                    </a>
+                    <div class="bubble">
+                        <div class="favorite">
+                            <div class="heart-shape"></div>
+                                                            <input style="display: none" value="1661" class="goods_id">
+                        </div>
+                        <div class="pup" style="display: none">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <div class="arrow_b"></div>
+                        </div>
+                    </div>
+                </li>                <li>
+                    <a href="/Home/goodsInfo/569/1670" target="_blank">
+                        <div class="goodCard">
+                            <div class="goodCard-img">
+                                <img width="100%" src="/./Upload/Goods/smallImg/2017-07-25/small_img/1500962149.png"  class="thumb" alt="">
+ <input style="display: none" value="/./Upload/Goods/smallImg/2017-07-25/1500962149.png" class="s_img">
+                            </div>
+                            <div class="goodCard-info">
+                                <p>陈灵平</p>
+                                <p><span class="good-title">又见桃花缘Q版</span><span class="price">3600.00</span></p>
+                            </div>
+                        </div>
+                    </a>
+                    <div class="bubble">
+                        <div class="favorite">
+                            <div class="heart-shape"></div>
+                                                            <input style="display: none" value="1670" class="goods_id">
+                        </div>
+                        <div class="pup" style="display: none">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <div class="arrow_b"></div>
+                        </div>
+                    </div>
+                </li>                <li>
+                    <a href="/Home/goodsInfo/568/1669" target="_blank">
+                        <div class="goodCard">
+                            <div class="goodCard-img">
+                                <img width="100%" src="/./Upload/Goods/smallImg/2017-09-10/small_img/1505040302.png"  class="thumb" alt="">
+ <input style="display: none" value="/./Upload/Goods/smallImg/2017-09-10/1505040302.png" class="s_img">
+                            </div>
+                            <div class="goodCard-info">
+                                <p>陈灵平</p>
+                                <p><span class="good-title">又见桃花缘</span><span class="price">50000.00</span></p>
+                            </div>
+                        </div>
+                    </a>
+                    <div class="bubble">
+                        <div class="favorite">
+                            <div class="heart-shape"></div>
+                                                            <input style="display: none" value="1669" class="goods_id">
+                        </div>
+                        <div class="pup" style="display: none">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <div class="arrow_b"></div>
+                        </div>
+                    </div>
+                </li>                <li>
+                    <a href="/Home/goodsInfo/566/1665" target="_blank">
+                        <div class="goodCard">
+                            <div class="goodCard-img">
+                                <img width="100%" src="/./Upload/Goods/smallImg/2017-07-25/small_img/1500961472.png"  class="thumb" alt="">
+ <input style="display: none" value="/./Upload/Goods/smallImg/2017-07-25/1500961472.png" class="s_img">
+                            </div>
+                            <div class="goodCard-info">
+                                <p>陈灵平</p>
+                                <p><span class="good-title">梦里飞行家</span><span class="price">24000.00</span></p>
+                            </div>
+                        </div>
+                    </a>
+                    <div class="bubble">
+                        <div class="favorite">
+                            <div class="heart-shape"></div>
+                                                            <input style="display: none" value="1665" class="goods_id">
+                        </div>
+                        <div class="pup" style="display: none">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <div class="arrow_b"></div>
+                        </div>
+                    </div>
+                </li>                <li>
+                    <a href="/Home/goodsInfo/565/1664" target="_blank">
+                        <div class="goodCard">
+                            <div class="goodCard-img">
+                                <img width="100%" src="/./Upload/Goods/smallImg/2017-07-25/small_img/1500961139.png"  class="thumb" alt="">
+ <input style="display: none" value="/./Upload/Goods/smallImg/2017-07-25/1500961139.png" class="s_img">
+                            </div>
+                            <div class="goodCard-info">
+                                <p>陈灵平</p>
+                                <p><span class="good-title">梦归途</span><span class="price">30000.00</span></p>
+                            </div>
+                        </div>
+                    </a>
+                    <div class="bubble">
+                        <div class="favorite">
+                            <div class="heart-shape"></div>
+                                                            <input style="display: none" value="1664" class="goods_id">
+                        </div>
+                        <div class="pup" style="display: none">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <div class="arrow_b"></div>
+                        </div>
+                    </div>
+                </li>                <li>
+                    <a href="/Home/goodsInfo/564/1663" target="_blank">
+                        <div class="goodCard">
+                            <div class="goodCard-img">
+                                <img width="100%" src="/./Upload/Goods/smallImg/2017-07-25/small_img/1500960879.png"  class="thumb" alt="">
+ <input style="display: none" value="/./Upload/Goods/smallImg/2017-07-25/1500960879.png" class="s_img">
+                            </div>
+                            <div class="goodCard-info">
+                                <p>陈灵平</p>
+                                <p><span class="good-title">静静等待</span><span class="price">24000.00</span></p>
+                            </div>
+                        </div>
+                    </a>
+                    <div class="bubble">
+                        <div class="favorite">
+                            <div class="heart-shape"></div>
+                                                            <input style="display: none" value="1663" class="goods_id">
+                        </div>
+                        <div class="pup" style="display: none">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <div class="arrow_b"></div>
+                        </div>
+                    </div>
+                </li>                <li>
+                    <a href="/Home/goodsInfo/563/1662" target="_blank">
+                        <div class="goodCard">
+                            <div class="goodCard-img">
+                                <img width="100%" src="/./Upload/Goods/smallImg/2017-07-25/small_img/1500960585.png"  class="thumb" alt="">
+ <input style="display: none" value="/./Upload/Goods/smallImg/2017-07-25/1500960585.png" class="s_img">
+                            </div>
+                            <div class="goodCard-info">
+                                <p>陈灵平</p>
+                                <p><span class="good-title">花雨满天</span><span class="price">8800.00</span></p>
+                            </div>
+                        </div>
+                    </a>
+                    <div class="bubble">
+                        <div class="favorite">
+                            <div class="heart-shape"></div>
+                                                            <input style="display: none" value="1662" class="goods_id">
+                        </div>
+                        <div class="pup" style="display: none">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <div class="arrow_b"></div>
+                        </div>
+                    </div>
+                </li>                <li>
+                    <a href="/Home/goodsInfo/560/1659" target="_blank">
+                        <div class="goodCard">
+                            <div class="goodCard-img">
+                                <img width="100%" src="/./Upload/Goods/smallImg/2017-07-25/small_img/1500955314.png"  class="thumb" alt="">
+ <input style="display: none" value="/./Upload/Goods/smallImg/2017-07-25/1500955314.png" class="s_img">
+                            </div>
+                            <div class="goodCard-info">
+                                <p>陈灵平</p>
+                                <p><span class="good-title">独梦桃芳</span><span class="price">35000.00</span></p>
+                            </div>
+                        </div>
+                    </a>
+                    <div class="bubble">
+                        <div class="favorite">
+                            <div class="heart-shape"></div>
+                                                            <input style="display: none" value="1659" class="goods_id">
+                        </div>
+                        <div class="pup" style="display: none">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <div class="arrow_b"></div>
+                        </div>
+                    </div>
+                </li>                <li>
+                    <a href="/Home/goodsInfo/18/865" target="_blank">
+                        <div class="goodCard">
+                            <div class="goodCard-img">
+                                <img width="100%" src="/./Upload/Goods/smallImg/2017-06-28/small_img/1498629727.jpeg"  class="thumb" alt="">
+ <input style="display: none" value="/./Upload/Goods/smallImg/2017-06-28/1498629727.jpeg" class="s_img">
+                            </div>
+                            <div class="goodCard-info">
+                                <p>造客</p>
+                                <p><span class="good-title">胖马飞飞</span><span class="price">5000.00</span></p>
+                            </div>
+                        </div>
+                    </a>
+                    <div class="bubble">
+                        <div class="favorite">
+                            <div class="heart-shape"></div>
+                                                            <input style="display: none" value="865" class="goods_id">
+                        </div>
+                        <div class="pup" style="display: none">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <div class="arrow_b"></div>
+                        </div>
+                    </div>
+                </li>                <li>
+                    <a href="/Home/goodsInfo/102/942" target="_blank">
+                        <div class="goodCard">
+                            <div class="goodCard-img">
+                                <img width="100%" src="/./Upload/Goods/smallImg/2017-06-27/small_img/1498559004.jpeg"  class="thumb" alt="">
+ <input style="display: none" value="/./Upload/Goods/smallImg/2017-06-27/1498559004.jpeg" class="s_img">
+                            </div>
+                            <div class="goodCard-info">
+                                <p>造客</p>
+                                <p><span class="good-title">佛缘</span><span class="price">16800.00</span></p>
+                            </div>
+                        </div>
+                    </a>
+                    <div class="bubble">
+                        <div class="favorite">
+                            <div class="heart-shape"></div>
+                                                            <input style="display: none" value="942" class="goods_id">
+                        </div>
+                        <div class="pup" style="display: none">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <div class="arrow_b"></div>
+                        </div>
+                    </div>
+                </li>                <li>
+                    <a href="/Home/goodsInfo/505/1538" target="_blank">
+                        <div class="goodCard">
+                            <div class="goodCard-img">
+                                <img width="100%" src="/./Upload/Goods/smallImg/2017-08-24/small_img/1503547426.png"  class="thumb" alt="">
+ <input style="display: none" value="/./Upload/Goods/smallImg/2017-08-24/1503547426.png" class="s_img">
+                            </div>
+                            <div class="goodCard-info">
+                                <p>陳建周</p>
+                                <p><span class="good-title">静·悟空</span><span class="price">10000.00</span></p>
+                            </div>
+                        </div>
+                    </a>
+                    <div class="bubble">
+                        <div class="favorite">
+                            <div class="heart-shape"></div>
+                                                            <input style="display: none" value="1538" class="goods_id">
+                        </div>
+                        <div class="pup" style="display: none">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <div class="arrow_b"></div>
+                        </div>
+                    </div>
+                </li>                <li>
+                    <a href="/Home/goodsInfo/20/867" target="_blank">
+                        <div class="goodCard">
+                            <div class="goodCard-img">
+                                <img width="100%" src="/./Upload/Goods/smallImg/2017-08-23/small_img/1503483091.png"  class="thumb" alt="">
+ <input style="display: none" value="/./Upload/Goods/smallImg/2017-08-23/1503483091.png" class="s_img">
+                            </div>
+                            <div class="goodCard-info">
+                                <p>陳建周</p>
+                                <p><span class="good-title">孙悟空·梵高版雕塑</span><span class="price">1500.00</span></p>
+                            </div>
+                        </div>
+                    </a>
+                    <div class="bubble">
+                        <div class="favorite">
+                            <div class="heart-shape"></div>
+                                                            <input style="display: none" value="867" class="goods_id">
+                        </div>
+                        <div class="pup" style="display: none">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <div class="arrow_b"></div>
+                        </div>
+                    </div>
+                </li>                <li>
+                    <a href="/Home/goodsInfo/498/1535" target="_blank">
+                        <div class="goodCard">
+                            <div class="goodCard-img">
+                                <img width="100%" src="/./Upload/Goods/smallImg/2017-08-23/small_img/1503483712.jpeg"  class="thumb" alt="">
+ <input style="display: none" value="/./Upload/Goods/smallImg/2017-08-23/1503483712.jpeg" class="s_img">
+                            </div>
+                            <div class="goodCard-info">
+                                <p>陳建周</p>
+                                <p><span class="good-title">齐天大圣-铸铜版</span><span class="price">22000.00</span></p>
+                            </div>
+                        </div>
+                    </a>
+                    <div class="bubble">
+                        <div class="favorite">
+                            <div class="heart-shape"></div>
+                                                            <input style="display: none" value="1535" class="goods_id">
+                        </div>
+                        <div class="pup" style="display: none">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <div class="arrow_b"></div>
+                        </div>
+                    </div>
+                </li>                <li>
+                    <a href="/Home/goodsInfo/497/1534" target="_blank">
+                        <div class="goodCard">
+                            <div class="goodCard-img">
+                                <img width="100%" src="/./Upload/Goods/smallImg/2017-08-23/small_img/1503483859.jpeg"  class="thumb" alt="">
+ <input style="display: none" value="/./Upload/Goods/smallImg/2017-08-23/1503483859.jpeg" class="s_img">
+                            </div>
+                            <div class="goodCard-info">
+                                <p>陳建周</p>
+                                <p><span class="good-title">齐天大圣-树脂版</span><span class="price">3500.00</span></p>
+                            </div>
+                        </div>
+                    </a>
+                    <div class="bubble">
+                        <div class="favorite">
+                            <div class="heart-shape"></div>
+                                                            <input style="display: none" value="1534" class="goods_id">
+                        </div>
+                        <div class="pup" style="display: none">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <div class="arrow_b"></div>
+                        </div>
+                    </div>
+                </li>                <li>
+                    <a href="/Home/goodsInfo/22/869" target="_blank">
+                        <div class="goodCard">
+                            <div class="goodCard-img">
+                                <img width="100%" src="/./Upload/Goods/smallImg/2017-05-11/small_img/1494512860.png"  class="thumb" alt="">
+ <input style="display: none" value="/./Upload/Goods/smallImg/2017-05-11/1494512860.png" class="s_img">
+                            </div>
+                            <div class="goodCard-info">
+                                <p>造客</p>
+                                <p><span class="good-title">直觉</span><span class="price">30000.00</span></p>
+                            </div>
+                        </div>
+                    </a>
+                    <div class="bubble">
+                        <div class="favorite">
+                            <div class="heart-shape"></div>
+                                                            <input style="display: none" value="869" class="goods_id">
+                        </div>
+                        <div class="pup" style="display: none">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <div class="arrow_b"></div>
+                        </div>
+                    </div>
+                </li>                <li>
+                    <a href="/Home/goodsInfo/21/868" target="_blank">
+                        <div class="goodCard">
+                            <div class="goodCard-img">
+                                <img width="100%" src="/./Upload/Goods/smallImg/2017-05-11/small_img/1494512880.png"  class="thumb" alt="">
+ <input style="display: none" value="/./Upload/Goods/smallImg/2017-05-11/1494512880.png" class="s_img">
+                            </div>
+                            <div class="goodCard-info">
+                                <p>造客</p>
+                                <p><span class="good-title">小胖看世界</span><span class="price">1800.00</span></p>
+                            </div>
+                        </div>
+                    </a>
+                    <div class="bubble">
+                        <div class="favorite">
+                            <div class="heart-shape"></div>
+                                                            <input style="display: none" value="868" class="goods_id">
+                        </div>
+                        <div class="pup" style="display: none">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <div class="arrow_b"></div>
+                        </div>
+                    </div>
+                </li>                <li>
+                    <a href="/Home/goodsInfo/17/864" target="_blank">
+                        <div class="goodCard">
+                            <div class="goodCard-img">
+                                <img width="100%" src="/./Upload/Goods/smallImg/2017-05-11/small_img/1494513010.png"  class="thumb" alt="">
+ <input style="display: none" value="/./Upload/Goods/smallImg/2017-05-11/1494513010.png" class="s_img">
+                            </div>
+                            <div class="goodCard-info">
+                                <p>造客</p>
+                                <p><span class="good-title">南瓜一梦</span><span class="price">8000.00</span></p>
+                            </div>
+                        </div>
+                    </a>
+                    <div class="bubble">
+                        <div class="favorite">
+                            <div class="heart-shape"></div>
+                                                            <input style="display: none" value="864" class="goods_id">
+                        </div>
+                        <div class="pup" style="display: none">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <div class="arrow_b"></div>
+                        </div>
+                    </div>
+                </li>                <li>
+                    <a href="/Home/goodsInfo/5/855" target="_blank">
+                        <div class="goodCard">
+                            <div class="goodCard-img">
+                                <img width="100%" src="/./Upload/Goods/smallImg/2017-05-11/small_img/1494513427.png"  class="thumb" alt="">
+ <input style="display: none" value="/./Upload/Goods/smallImg/2017-05-11/1494513427.png" class="s_img">
+                            </div>
+                            <div class="goodCard-info">
+                                <p>造客</p>
+                                <p><span class="good-title">蓝蝴蝶</span><span class="price">20000.00</span></p>
+                            </div>
+                        </div>
+                    </a>
+                    <div class="bubble">
+                        <div class="favorite">
+                            <div class="heart-shape"></div>
+                                                            <input style="display: none" value="855" class="goods_id">
+                        </div>
+                        <div class="pup" style="display: none">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <div class="arrow_b"></div>
+                        </div>
+                    </div>
+                </li>                <li>
+                    <a href="/Home/goodsInfo/4/854" target="_blank">
+                        <div class="goodCard">
+                            <div class="goodCard-img">
+                                <img width="100%" src="/./Upload/Goods/smallImg/2017-05-11/small_img/1494513479.png"  class="thumb" alt="">
+ <input style="display: none" value="/./Upload/Goods/smallImg/2017-05-11/1494513479.png" class="s_img">
+                            </div>
+                            <div class="goodCard-info">
+                                <p>造客</p>
+                                <p><span class="good-title">梦寻桃花源Q版</span><span class="price">1800.00</span></p>
+                            </div>
+                        </div>
+                    </a>
+                    <div class="bubble">
+                        <div class="favorite">
+                            <div class="heart-shape"></div>
+                                                            <input style="display: none" value="854" class="goods_id">
+                        </div>
+                        <div class="pup" style="display: none">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <div class="arrow_b"></div>
+                        </div>
+                    </div>
+                </li>                <li>
+                    <a href="/Home/goodsInfo/3/853" target="_blank">
+                        <div class="goodCard">
+                            <div class="goodCard-img">
+                                <img width="100%" src="/./Upload/Goods/smallImg/2017-05-11/small_img/1494513501.png"  class="thumb" alt="">
+ <input style="display: none" value="/./Upload/Goods/smallImg/2017-05-11/1494513501.png" class="s_img">
+                            </div>
+                            <div class="goodCard-info">
+                                <p>造客</p>
+                                <p><span class="good-title">蓝蝴蝶</span><span class="price">30000.00</span></p>
+                            </div>
+                        </div>
+                    </a>
+                    <div class="bubble">
+                        <div class="favorite">
+                            <div class="heart-shape"></div>
+                                                            <input style="display: none" value="853" class="goods_id">
+                        </div>
+                        <div class="pup" style="display: none">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <div class="arrow_b"></div>
+                        </div>
+                    </div>
+                </li>                <li>
+                    <a href="/Home/goodsInfo/2/852" target="_blank">
+                        <div class="goodCard">
+                            <div class="goodCard-img">
+                                <img width="100%" src="/./Upload/Goods/smallImg/2017-05-11/small_img/1494513574.png"  class="thumb" alt="">
+ <input style="display: none" value="/./Upload/Goods/smallImg/2017-05-11/1494513574.png" class="s_img">
+                            </div>
+                            <div class="goodCard-info">
+                                <p>造客</p>
+                                <p><span class="good-title">解·放</span><span class="price">12000.00</span></p>
+                            </div>
+                        </div>
+                    </a>
+                    <div class="bubble">
+                        <div class="favorite">
+                            <div class="heart-shape"></div>
+                                                            <input style="display: none" value="852" class="goods_id">
+                        </div>
+                        <div class="pup" style="display: none">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <div class="arrow_b"></div>
+                        </div>
+                    </div>
+                </li>        </ul>
+    </div>
+</section>
+
+    <style>
+        footer{
+            margin-top: 100px;
+            width: 100%;
+        }
+        .footer_list{
+            max-width: 1340px;
+            min-width: 980px;
+            margin: 0 auto;
+            overflow: hidden;
+            display: flex;
+            justify-content: space-around;
+        }
+        .footer_list>ul{
+            list-style: none;
+        }
+        .footer_list>ul li a{
+            text-decoration: none;
+            font-size: 12px;
+            color: #000000;
+            text-decoration: none;
+            display: inline-block;
+            margin-top: 14px;
+            line-height: 20px;
+        }
+        .footer_list>ul li a.open{
+            background-color: #34a8c4;
+            color: #FFFFFF;
+            border-radius: 4px;
+            padding: 8px;
+        }
+        .footer_info{
+            max-width: 1340px;
+            min-width: 980px;
+            box-sizing: border-box;
+            padding: 0 60px;
+            margin: 60px auto 30px;
+        }
+        .footer_info::after{
+            content: '';
+            display: block;
+            clear: both;
+        }
+        .footer_info p{
+            border: 1px solid #dddddc;
+            padding: 5px;
+            display: inline-block;
+            font-size: 13px;
+        }
+        .footer_info p:last-child{
+            float: right;
+        }
+
+        .footer_list .last_list li a{
+            /*width: 22px;*/
+            margin: 0;
+        }
+        .sidle_bar{
+            position: fixed;
+            width: 100px;
+            bottom: 50px;
+        }
+        .sidle_bar>a{
+            font-size: 12px;
+            display: inline-block;
+            margin-bottom: 15px;
+        }
+
+        .jiathis_style_32x32 {
+            /*width: 15px;*/
+        }
+        .jiathis_style_32x32 .jtico_cqq{
+            background:url(/PcTpl/Home/Public/images/Index/aa3.png) no-repeat;
+            background-position: 0px 0px;
+            background-size:22px 22px;
+            margin-left: 2px;
+        }
+        .jiathis_style_32x32 .jtico_tsina{
+            background:url(/PcTpl/Home/Public/images/Index/aa2.png) no-repeat;
+            background-position: 0px 0px;
+            background-size:22px 22px;
+            margin-left: 2px;
+        }
+        .jiathis_style_32x32 .jtico_weixin{
+            background:url(/PcTpl/Home/Public/images/Index/aa1.png) no-repeat;
+            background-position: 0px 0px;
+            background-size:22px 22px;
+            margin-left: 2px;
+        }
+    </style>
+
+
+
+    <footer>
+        <div class="footer_list">
+            <ul>
+                <li><a><strong>把你的激情融入企业</strong></a></li>
+                <li><a class="open" href="/Home/shop/211316">打开一个商店</a></li>
+                <li><a href="/Home/Service/seek.html">在搜猎人出售</a></li>
+                <li><a href="/Home/Index/specifications.html">我们的规则</a></li>
+                <!--<li><a href="javascript:return false;">使用条款</a></li>-->
+                <!--<li><a href="javascript:return false;">隐私条款</a></li>-->
+            </ul>
+            <ul>
+                <li><a><strong>关于</strong></a></li>
+                <li><a href="/Home/index/read.html">关于我们</a></li>
+                <li><a href="/Home/Service/cooperation.html">联系我们</a></li>
+            </ul>
+            <ul>
+                <li><a><strong>更多</strong></a></li>
+                <li><a href="javascript:;" class="weixin_s">微信</a></li>
+                <li><a href="http://weibo.com/soulieren?refer_flag=1001030102_">微博</a></li>
+                <li><a href="https://shop129576228.taobao.com/?spm=a230r.7195193.1997079397.2.s5bniH">淘宝</a></li>
+                <li><a href="http://v.qq.com/vplus/2f648c677c0dcb939fcf6a40cd1fae90">原创视频</a></li>
+            </ul>
+            <ul>
+                <li><a><strong>政策</strong></a></li>
+                <li><a href="/Home/Index/buyer_policy.html">买家政策 </a></li>
+                <li><a href="/Home/Index/seller_policy.html">卖家政策 </a></li>
+                <li><a href="/Home/Index/trademark_policy.html">商标政策 </a></li>
+            </ul>
+            <ul>
+                <li><a><strong>商务合作</strong></a></li>
+                <li><a href="/Home/BusinessCooperation/index.html#page2">线上渠道</a></li>
+                <li><a href="/Home/BusinessCooperation/index.html#page3">线下渠道</a></li>
+                <li><a href="/Home/BusinessCooperation/index.html#page4">视频定制</a></li>
+            </ul>
+            <ul class="last_list">
+                <li><a href="javascript:;" style="margin:12px 0"><strong>分享</strong></a></li>
+                <li class="jiathis_style_32x32"><a class="jiathis_button_weixin"></a></li>
+                <li class="jiathis_style_32x32"><a class="jiathis_button_cqq"></a></li>
+                <li class="jiathis_style_32x32"><a class="jiathis_button_tsina"></a></li>
+            </ul>
+        </div>
+        <div class="footer_info">
+            <p>版权所有&nbsp;京ICP备15012603号—1</p>
+            <p>Tel:010-57794643&nbsp;周日-周五9:00-19:00</p>
+        </div>
+    </footer>
+
+    <script type="text/javascript">
+        var jiathis_config = {
+            summary: "",
+            shortUrl: false,
+            hideMore: false
+        }
+    </script>
+    <script type="text/javascript" src="http://v3.jiathis.com/code/jia.js" charset="utf-8"></script>
+    <script>
+        $('.weixin_s').click(function () {
+            $('.weiX-box').show();
+        });
+        $('.weiX-box').click(function () {
+            $('.weiX-box').hide();
+        })
+    </script>
+
+<!--<script src="/PcTpl/Public/js/jquery.lazyload.js"></script>-->
+<script src="/PcTpl/Public/js/ImgLoad.js"></script>
+<script>
+    var img = $('.thumb');
+    $.each(img,function (index,dom) {
+    var src = $(this).next('.s_img').val();
+    console.log(src);
+    $(dom).attr("src",""+src);
+    });
+</script>
+<script>
+    var price = $('.price');
+   $.each(price,function (index,dom) {
+       var ee =$(dom).html();
+       if(ee=='-1.00'){
+           $(dom).empty();
+           $(dom).html('议价');
+       }else if(ee=='-2.00'){
+           $(dom).empty();
+           $(dom).html('非卖品');
+       }else if(ee=='-3.00'){
+           $(dom).empty();
+           $(dom).html('已售');
+       }else if(ee=='-4.00'){
+           $(dom).empty();
+           $(dom).html('展示');
+       }
+   });
+    console.log();
+    $('.favorite').click(function () {
+        var goods_id = $(this).find('.goods_id').val();
+        var _this = $(this);
+        $.ajax({
+            type: "POST",
+            url: "/Home/customerCollection/customer_collection.html",
+            data: {goods_id: goods_id},
+            success: function (data) {
+                var aaa = JSON.parse(data);
+                if (aaa.status == 1) {
+                    _this.find('.heart-shape').removeClass('heart-shape').addClass('heart-change');
+                    alert(aaa.msg);
+                } else {
+                    $('.loginBtn').click();
+                }
+            }
+        });
+
+    });
+    $('.allGoodsList>ul>li').mouseenter(function () {
+        $(this).find('.bubble').fadeIn(200);
+    }).mouseleave(function () {
+        $(this).find('.bubble').fadeOut(200);
+    });
+</script>
+</body>
+</html>

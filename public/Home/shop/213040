@@ -1,0 +1,1600 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="keywords" content="搜猎人,原创,艺术,原创精神,艺术家,设计师,手工艺人,原创者,迟首飞,版画,油画,艺术品,艺术品电商,原创艺术品购物平台,张喜忠">
+    <meta name="description" content="搜猎人一个民族的原创品牌、一家原创者自己的平台，以“平台化整合创新”为理念、
+    打造高品质电子商务平台。经营一切具有原创精神的产品，汇集艺术家、设计师、手工业者、创新独立品牌。成立于 2015 年，
+    旗下北京搜猎人电子商务有限公司、北京搜猎人文化发展有限公司、宁波搜猎人科技有限公司。办公场地位于北京、香港、深圳、
+    昆明、宁波。">
+    <link rel="shortcut icon" href="http://www.soulieren.com/favicon.ico"/>
+    <link rel="stylesheet" href="/PcTpl/Public/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/PcTpl/Public/common/font/iconfont.css">
+    <link rel="stylesheet" href="/PcTpl/Public/css/cropper.css">
+    <link rel="stylesheet" href="/PcTpl/Public/css/swiper.min.css">
+    <link rel="stylesheet" href="/PcTpl/Home/Public/css/goods/goodsList.css">
+    <script src="/PcTpl/Public/js/jquery-3.0.0.min.js"></script>
+    <title>搜猎人/张喜忠个人主页</title>
+</head>
+<body>
+<div class="div_random_bj"></div>
+<div class="div_random">
+    <div class="div_form_ation"><img src="/PcTpl/Home/Public/images/Goods/img123.png"/> 填写申请信息</div>
+    <div class="div_error" ><img src="/PcTpl/Home/Public/images/Goods/img1234.png" style="margin: 10px;"/> </div>
+    <div class="block_level">
+        <div style="margin-right: 78px;">
+            <input type="text" placeholder="姓名" class="customer_name">
+            <input type="text" placeholder="手机" class="customer_phone">
+             <select class="industry">
+                 <option value="">所属行业</option>
+                 <option value="服装">服装</option>
+                 <option value="家电">家电</option>
+                 <option value="文具">文具</option>
+                 <option value="婴童">婴童</option>
+                 <option value="玩具">玩具</option>
+                 <option value="工业设计">工业设计</option>
+                 <option value="动漫">动漫</option>
+                 <option value="影视">影视</option>
+                 <option value="旅游">旅游</option>
+                 <option value="食品">食品</option>
+                 <option value="出版">出版</option>
+                 <option value="3C数码">3C数码</option>
+                 <option value="其他">其他</option>
+             </select>
+        </div>
+
+        <input value="2" class="category1">
+        <input value="320" class="all_ids">
+        <div>
+            <input type="text" placeholder="公司" class="customer_company">
+            <input type="text" placeholder="邮箱" class="customer_mail">
+        </div>
+
+    </div>
+    <div class="submit_application">
+        提交
+    </div>
+</div>
+<div class="main">
+    <div class="aside-bar">
+        <div class="fixed-btn">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <ul class="menu">
+            <li><a href="/Home/index/pc.html"><span class="iconfont icon-shouyeshouye1"></span>首页</a></li>
+            <li><a class="gerenzhongxin"><span class="iconfont icon-gerenzhongxin"></span>个人中心</a></li>
+                        <li><a href="/Home/carts/index.html"><span class="iconfont icon-gouwuche1"></span>我的购物车</a></li>
+                    </ul>
+
+        <div class="main-menu">
+            <div class="menu-hd active">墙面装饰与收藏</div>
+            <ul class="sub-menu">
+                <li><a href="/Home/category/6">版画</a></li>
+                <li><a href="/Home/category/7">油画</a></li>
+                <li><a href="/Home/category/11">水彩(粉)</a></li>
+                <li><a href="/Home/category/12">国画</a></li>
+                <li><a href="/Home/category/13">朝鲜画</a></li>
+            </ul>
+            <div class="menu-hd">服装和配饰</div>
+            <ul class="sub-menu">
+                <li><a href="/Home/category/14">包和钱包</a></li>
+                <li><a href="/Home/category/15">服装</a></li>
+                <li><a href="/Home/category/16">腰带</a></li>
+            </ul>
+            <div class="menu-hd">家庭和生活</div>
+            <ul class="sub-menu">
+                <li><a href="/Home/category/9">雕塑和摆件</a></li>
+                <li><a href="/Home/category/31">家具家装</a></li>
+                <li><a href="/Home/category/63438">手机数码</a></li>
+            </ul>
+            <div class="menu-hd">文化用品</div>
+            <ul class="sub-menu">
+                <li><a href="/Home/category/4">书</a></li>
+                <li><a href="/Home/category/8">明星片</a></li>
+                <li><a href="/Home/category/10">手账本</a></li>
+                <li><a href="/Home/category/33">砚台</a></li>
+            </ul>
+            <div class="menu-hd">珠宝</div>
+            <ul class="sub-menu">
+                <li><a href="/Home/category/28">耳饰</a></li>
+                <li><a href="/Home/category/29">项链</a></li>
+                <li><a href="/Home/category/30">戒指</a></li>
+                <li><a href="/Home/category/63437">银条</a></li>
+            </ul>
+        </div>
+    </div>
+    <input style="display: none" value="" id="session">
+    <div class="aside-content">
+        <div class="mark-bg"></div>
+        <div class="shop-box container-fluid" id="crop-avatar">
+            <img class="img-bg" src="/./Upload/Home/shop/banner/2017-12-13/1513132110.jpeg" alt="">
+            <!--Cropping modal -->
+            <div class="modal fade" id="avatar-modal" aria-hidden="true" aria-labelledby="avatar-modal-label"
+                 role="dialog"
+                 tabindex="-1">
+                <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                        <form class="avatar-form">
+                            <div class="modal-header">
+                                <button class="close" data-dismiss="modal" type="button">&times;</button>
+                                <h4 class="modal-title" id="avatar-modal-label">Change Avatar</h4>
+                            </div>
+                            <div class="modal-body">
+                                <div class="avatar-body">
+                                    <!-- Upload image and data -->
+                                    <div class="avatar-upload">
+                                        <label for="avatarInput">Local upload</label>
+                                        <input class="avatar-input" id="avatarInput" name="file" type="file">
+                                    </div>
+
+                                    <!-- Crop and preview -->
+                                    <div class="row">
+                                        <div class="col-md-9">
+                                            <div class="avatar-wrapper">
+                                                <img src="" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <div class="avatar-preview preview-lg"></div>
+                                            <div class="avatar-preview preview-md"></div>
+                                            <div class="avatar-preview preview-sm"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" id="save" class="btn btn-primary" data-dismiss="modal">Save
+                                    changes
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div><!-- /.modal -->
+                                    <div class="canvas-box" style="display: none"></div>
+            <div class="inner"></div>
+            <div class="content">
+                <div class="shop-infos">
+                    <div class="shop-content">
+                        <div class="shop_name">张喜忠</div>
+                        <div class="shop-con" style="font-size: 14px;">艺术是人生测量的尺度</div>
+                        <div class="arrow-down"><a href="javascript:;"><img
+                                src="/PcTpl/Home/Public/images/storeList/arrow_down.png" alt=""></a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main-con">
+
+            <div class="shop-info">
+                <div class="shop-img">
+                                            <a href="">
+                                                            <img src="/./Upload/image/2017-08-18/1503048757.jpeg"/>                        </a>                </div>
+                <div class="shop-content">
+                    <div class="shop_name">张喜忠</div>
+                                        <div class="follow">关&nbsp;注</div>
+                        
+                    <input type="hidden" name="shop_id" value="320" id="shop_id">
+                    <div class="shop-con">
+                        <span class="shop-text">52件作品</span><span class="line">|</span><span
+                            class="shop-text">513位关注TA</span>
+                    </div>
+                    <div class="shop-con" style="padding: 7px 0px 6px;">
+                        <span class="address iconfont icon-location"></span><span></span>
+                    </div>
+                    <div class="div_application">
+                        <div class="application">申请作品IP</div>
+                        <div class="div_explain"><a href="/Home/Service/authorization.html"  class="">IP授权说明</a></div>
+                    </div>
+                </div>
+            </div>
+            <div class="title-con clear">
+                <div class="main-page active">主页</div>
+                <div class="video-page">视频</div>
+                <div class="article-page">文章</div>
+            </div>
+            <div class="include-box">
+                <div class="main-item" style="display: block">
+                    <div class="main-item1"></div>
+                    <!--推介商品-->
+
+<div class="wrapper">
+    <h2>推荐 / RECOMMEND</h2>
+    <div class="wrapper-con">
+        <ul class="wrapper-ul clearfix">
+                            <li class="wrapper-box">
+                    <a href="/Home/goodsInfo/787/2027">
+                        <img src="/./Upload/Goods/smallImg/2017-08-18/small_img/1503041519.jpeg" data-loadSrc="/./Upload/Goods/smallImg/2017-08-18/1503041519.jpeg"/>
+                    </a>
+                    <div class="wrapper-info">
+                        <p>
+                            <span class="wrapper-name">花心</span>
+                            <span class="collect">
+                                                                                                   <span class="heart iconfont icon-dianzan" data-state="1"></span><span class="text">收藏</span>
+                                                                    <input type="hidden" name="goods_id" value="787" class="goods_list_id"
+                                       id="goods_id">
+                            </span>
+                        </p>
+                        <p class="price">￥-1.00</p>
+                    </div>
+                </li>                <li class="wrapper-box">
+                    <a href="/Home/goodsInfo/796/2036">
+                        <img src="/./Upload/Goods/smallImg/2017-08-18/small_img/1503043161.jpeg" data-loadSrc="/./Upload/Goods/smallImg/2017-08-18/1503043161.jpeg"/>
+                    </a>
+                    <div class="wrapper-info">
+                        <p>
+                            <span class="wrapper-name">菩提树</span>
+                            <span class="collect">
+                                                                                                   <span class="heart iconfont icon-dianzan" data-state="1"></span><span class="text">收藏</span>
+                                                                    <input type="hidden" name="goods_id" value="796" class="goods_list_id"
+                                       id="goods_id">
+                            </span>
+                        </p>
+                        <p class="price">￥-1.00</p>
+                    </div>
+                </li>                <li class="wrapper-box">
+                    <a href="/Home/goodsInfo/813/2053">
+                        <img src="/./Upload/Goods/smallImg/2017-08-18/small_img/1503046052.jpeg" data-loadSrc="/./Upload/Goods/smallImg/2017-08-18/1503046052.jpeg"/>
+                    </a>
+                    <div class="wrapper-info">
+                        <p>
+                            <span class="wrapper-name">岸边</span>
+                            <span class="collect">
+                                                                                                   <span class="heart iconfont icon-dianzan" data-state="1"></span><span class="text">收藏</span>
+                                                                    <input type="hidden" name="goods_id" value="813" class="goods_list_id"
+                                       id="goods_id">
+                            </span>
+                        </p>
+                        <p class="price">￥-1.00</p>
+                    </div>
+                </li>                <li class="wrapper-box">
+                    <a href="/Home/goodsInfo/819/2059">
+                        <img src="/./Upload/Goods/smallImg/2017-08-18/small_img/1503047261.jpeg" data-loadSrc="/./Upload/Goods/smallImg/2017-08-18/1503047261.jpeg"/>
+                    </a>
+                    <div class="wrapper-info">
+                        <p>
+                            <span class="wrapper-name">红消息</span>
+                            <span class="collect">
+                                                                                                   <span class="heart iconfont icon-dianzan" data-state="1"></span><span class="text">收藏</span>
+                                                                    <input type="hidden" name="goods_id" value="819" class="goods_list_id"
+                                       id="goods_id">
+                            </span>
+                        </p>
+                        <p class="price">￥-1.00</p>
+                    </div>
+                </li>                <li class="wrapper-box">
+                    <a href="/Home/goodsInfo/824/2064">
+                        <img src="/./Upload/Goods/smallImg/2017-08-18/small_img/1503047837.jpeg" data-loadSrc="/./Upload/Goods/smallImg/2017-08-18/1503047837.jpeg"/>
+                    </a>
+                    <div class="wrapper-info">
+                        <p>
+                            <span class="wrapper-name">梅花樵夫</span>
+                            <span class="collect">
+                                                                                                   <span class="heart iconfont icon-dianzan" data-state="1"></span><span class="text">收藏</span>
+                                                                    <input type="hidden" name="goods_id" value="824" class="goods_list_id"
+                                       id="goods_id">
+                            </span>
+                        </p>
+                        <p class="price">￥-1.00</p>
+                    </div>
+                </li>        </ul>
+        <!--<div class="my-progress">
+            <div class="progress-react"></div>
+        </div>-->
+    </div>
+    <div class="btn prev-btn"><</div>
+    <div class="btn next-btn">></div>
+</div>
+
+<div class="banner">
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                    <a href="">
+                        <img class="pic" data-loadSrc="/./Upload/shop/rotation/2017-08-18/1503049759.jpeg" src="/./Upload/shop/rotation/2017-08-18/small_img/1503049759.jpeg">
+                    </a>
+                </div>                <div class="swiper-slide">
+                    <a href="http://www.sohu.com/a/33489586_163159">
+                        <img class="pic" data-loadSrc="/./Upload/shop/rotation/2017-08-18/1503051003.jpeg" src="/./Upload/shop/rotation/2017-08-18/small_img/1503051003.jpeg">
+                    </a>
+                </div>                <div class="swiper-slide">
+                    <a href="http://cul.qq.com/a/20150718/014860.htm#p=1">
+                        <img class="pic" data-loadSrc="/./Upload/shop/rotation/2017-08-18/1503051070.jpeg" src="/./Upload/shop/rotation/2017-08-18/small_img/1503051070.jpeg">
+                    </a>
+                </div>        </div>
+        <!-- 如果需要分页器 -->
+        <div class="swiper-pagination"></div>
+    </div>
+</div>
+
+<!--商品分类-->
+<div class="category clear">
+    <div class="category-item">
+            <h2>复刻装饰</h2>
+            <div class="item-list clear">
+
+                                    <div class="img_box">
+                        <a href="/Home/goodsInfo/682/1808">
+                            <img src="/./Upload/Goods/smallImg/2017-08-09/small_img/1502279944.png" data-loadSrc="/./Upload/Goods/smallImg/2017-08-09/1502279944.png"/>
+                        </a>
+                        <div class="img_info">
+                            <p>
+                                <span class="img_name">豹喜图</span>
+                                <span class="collect">
+                                                                                                               <span class="heart iconfont icon-dianzan" data-state="1"></span><span
+                                                class="text">收藏</span>
+                                                                            <input type="hidden" name="goods_id" value="682" class="goods_list_id"
+                                           id="goods_list_id">
+                                </span>
+                            </p>
+                            <p class="price">￥1590.00</p>
+                        </div>
+                    </div>                    <div class="img_box">
+                        <a href="/Home/goodsInfo/683/1810">
+                            <img src="/./Upload/Goods/smallImg/2017-08-09/small_img/1502279923.png" data-loadSrc="/./Upload/Goods/smallImg/2017-08-09/1502279923.png"/>
+                        </a>
+                        <div class="img_info">
+                            <p>
+                                <span class="img_name">蓝翅膀</span>
+                                <span class="collect">
+                                                                                                               <span class="heart iconfont icon-dianzan" data-state="1"></span><span
+                                                class="text">收藏</span>
+                                                                            <input type="hidden" name="goods_id" value="683" class="goods_list_id"
+                                           id="goods_list_id">
+                                </span>
+                            </p>
+                            <p class="price">￥1590.00</p>
+                        </div>
+                    </div>                    <div class="img_box">
+                        <a href="/Home/goodsInfo/684/1812">
+                            <img src="/./Upload/Goods/smallImg/2017-08-09/small_img/1502279900.png" data-loadSrc="/./Upload/Goods/smallImg/2017-08-09/1502279900.png"/>
+                        </a>
+                        <div class="img_info">
+                            <p>
+                                <span class="img_name">我的风帆</span>
+                                <span class="collect">
+                                                                                                               <span class="heart iconfont icon-dianzan" data-state="1"></span><span
+                                                class="text">收藏</span>
+                                                                            <input type="hidden" name="goods_id" value="684" class="goods_list_id"
+                                           id="goods_list_id">
+                                </span>
+                            </p>
+                            <p class="price">￥1590.00</p>
+                        </div>
+                    </div>                    <div class="img_box">
+                        <a href="/Home/goodsInfo/685/1814">
+                            <img src="/./Upload/Goods/smallImg/2017-08-09/small_img/1502280052.png" data-loadSrc="/./Upload/Goods/smallImg/2017-08-09/1502280052.png"/>
+                        </a>
+                        <div class="img_info">
+                            <p>
+                                <span class="img_name">红消息</span>
+                                <span class="collect">
+                                                                                                               <span class="heart iconfont icon-dianzan" data-state="1"></span><span
+                                                class="text">收藏</span>
+                                                                            <input type="hidden" name="goods_id" value="685" class="goods_list_id"
+                                           id="goods_list_id">
+                                </span>
+                            </p>
+                            <p class="price">￥1590.00</p>
+                        </div>
+                    </div>            </div>
+            <a href="javascript:;" class="more-btn">查看更多>></a>
+        </div><div class="category-item">
+            <h2>原创经典</h2>
+            <div class="item-list clear">
+
+                                    <div class="img_box">
+                        <a href="/Home/goodsInfo/785/2025">
+                            <img src="/./Upload/Goods/smallImg/2017-08-18/small_img/1503041141.jpeg" data-loadSrc="/./Upload/Goods/smallImg/2017-08-18/1503041141.jpeg"/>
+                        </a>
+                        <div class="img_info">
+                            <p>
+                                <span class="img_name">启示录</span>
+                                <span class="collect">
+                                                                                                               <span class="heart iconfont icon-dianzan" data-state="1"></span><span
+                                                class="text">收藏</span>
+                                                                            <input type="hidden" name="goods_id" value="785" class="goods_list_id"
+                                           id="goods_list_id">
+                                </span>
+                            </p>
+                            <p class="price">￥100000.00</p>
+                        </div>
+                    </div>                    <div class="img_box">
+                        <a href="/Home/goodsInfo/786/2026">
+                            <img src="/./Upload/Goods/smallImg/2017-08-18/small_img/1503041359.jpeg" data-loadSrc="/./Upload/Goods/smallImg/2017-08-18/1503041359.jpeg"/>
+                        </a>
+                        <div class="img_info">
+                            <p>
+                                <span class="img_name">归宿</span>
+                                <span class="collect">
+                                                                                                               <span class="heart iconfont icon-dianzan" data-state="1"></span><span
+                                                class="text">收藏</span>
+                                                                            <input type="hidden" name="goods_id" value="786" class="goods_list_id"
+                                           id="goods_list_id">
+                                </span>
+                            </p>
+                            <p class="price">￥-1.00</p>
+                        </div>
+                    </div>                    <div class="img_box">
+                        <a href="/Home/goodsInfo/787/2027">
+                            <img src="/./Upload/Goods/smallImg/2017-08-18/small_img/1503041519.jpeg" data-loadSrc="/./Upload/Goods/smallImg/2017-08-18/1503041519.jpeg"/>
+                        </a>
+                        <div class="img_info">
+                            <p>
+                                <span class="img_name">花心</span>
+                                <span class="collect">
+                                                                                                               <span class="heart iconfont icon-dianzan" data-state="1"></span><span
+                                                class="text">收藏</span>
+                                                                            <input type="hidden" name="goods_id" value="787" class="goods_list_id"
+                                           id="goods_list_id">
+                                </span>
+                            </p>
+                            <p class="price">￥-1.00</p>
+                        </div>
+                    </div>                    <div class="img_box">
+                        <a href="/Home/goodsInfo/788/2028">
+                            <img src="/./Upload/Goods/smallImg/2017-08-18/small_img/1503041676.jpeg" data-loadSrc="/./Upload/Goods/smallImg/2017-08-18/1503041676.jpeg"/>
+                        </a>
+                        <div class="img_info">
+                            <p>
+                                <span class="img_name">错乱</span>
+                                <span class="collect">
+                                                                                                               <span class="heart iconfont icon-dianzan" data-state="1"></span><span
+                                                class="text">收藏</span>
+                                                                            <input type="hidden" name="goods_id" value="788" class="goods_list_id"
+                                           id="goods_list_id">
+                                </span>
+                            </p>
+                            <p class="price">￥-1.00</p>
+                        </div>
+                    </div>                    <div class="img_box">
+                        <a href="/Home/goodsInfo/789/2029">
+                            <img src="/./Upload/Goods/smallImg/2017-08-18/small_img/1503041817.jpeg" data-loadSrc="/./Upload/Goods/smallImg/2017-08-18/1503041817.jpeg"/>
+                        </a>
+                        <div class="img_info">
+                            <p>
+                                <span class="img_name">狮子</span>
+                                <span class="collect">
+                                                                                                               <span class="heart iconfont icon-dianzan" data-state="1"></span><span
+                                                class="text">收藏</span>
+                                                                            <input type="hidden" name="goods_id" value="789" class="goods_list_id"
+                                           id="goods_list_id">
+                                </span>
+                            </p>
+                            <p class="price">￥-1.00</p>
+                        </div>
+                    </div>                    <div class="img_box">
+                        <a href="/Home/goodsInfo/790/2030">
+                            <img src="/./Upload/Goods/smallImg/2017-08-18/small_img/1503041937.jpeg" data-loadSrc="/./Upload/Goods/smallImg/2017-08-18/1503041937.jpeg"/>
+                        </a>
+                        <div class="img_info">
+                            <p>
+                                <span class="img_name">谁在看</span>
+                                <span class="collect">
+                                                                                                               <span class="heart iconfont icon-dianzan" data-state="1"></span><span
+                                                class="text">收藏</span>
+                                                                            <input type="hidden" name="goods_id" value="790" class="goods_list_id"
+                                           id="goods_list_id">
+                                </span>
+                            </p>
+                            <p class="price">￥-1.00</p>
+                        </div>
+                    </div>                    <div class="img_box">
+                        <a href="/Home/goodsInfo/791/2031">
+                            <img src="/./Upload/Goods/smallImg/2017-08-18/small_img/1503042085.jpeg" data-loadSrc="/./Upload/Goods/smallImg/2017-08-18/1503042085.jpeg"/>
+                        </a>
+                        <div class="img_info">
+                            <p>
+                                <span class="img_name">轻浮</span>
+                                <span class="collect">
+                                                                                                               <span class="heart iconfont icon-dianzan" data-state="1"></span><span
+                                                class="text">收藏</span>
+                                                                            <input type="hidden" name="goods_id" value="791" class="goods_list_id"
+                                           id="goods_list_id">
+                                </span>
+                            </p>
+                            <p class="price">￥-1.00</p>
+                        </div>
+                    </div>                    <div class="img_box">
+                        <a href="/Home/goodsInfo/792/2032">
+                            <img src="/./Upload/Goods/smallImg/2017-08-18/small_img/1503042688.jpeg" data-loadSrc="/./Upload/Goods/smallImg/2017-08-18/1503042688.jpeg"/>
+                        </a>
+                        <div class="img_info">
+                            <p>
+                                <span class="img_name">上升下沉</span>
+                                <span class="collect">
+                                                                                                               <span class="heart iconfont icon-dianzan" data-state="1"></span><span
+                                                class="text">收藏</span>
+                                                                            <input type="hidden" name="goods_id" value="792" class="goods_list_id"
+                                           id="goods_list_id">
+                                </span>
+                            </p>
+                            <p class="price">￥-1.00</p>
+                        </div>
+                    </div>                    <div class="img_box">
+                        <a href="/Home/goodsInfo/793/2033">
+                            <img src="/./Upload/Goods/smallImg/2017-08-18/small_img/1503042817.jpeg" data-loadSrc="/./Upload/Goods/smallImg/2017-08-18/1503042817.jpeg"/>
+                        </a>
+                        <div class="img_info">
+                            <p>
+                                <span class="img_name">听和说</span>
+                                <span class="collect">
+                                                                                                               <span class="heart iconfont icon-dianzan" data-state="1"></span><span
+                                                class="text">收藏</span>
+                                                                            <input type="hidden" name="goods_id" value="793" class="goods_list_id"
+                                           id="goods_list_id">
+                                </span>
+                            </p>
+                            <p class="price">￥-1.00</p>
+                        </div>
+                    </div>                    <div class="img_box">
+                        <a href="/Home/goodsInfo/794/2034">
+                            <img src="/./Upload/Goods/smallImg/2017-08-18/small_img/1503042925.jpeg" data-loadSrc="/./Upload/Goods/smallImg/2017-08-18/1503042925.jpeg"/>
+                        </a>
+                        <div class="img_info">
+                            <p>
+                                <span class="img_name">如是说</span>
+                                <span class="collect">
+                                                                                                               <span class="heart iconfont icon-dianzan" data-state="1"></span><span
+                                                class="text">收藏</span>
+                                                                            <input type="hidden" name="goods_id" value="794" class="goods_list_id"
+                                           id="goods_list_id">
+                                </span>
+                            </p>
+                            <p class="price">￥-1.00</p>
+                        </div>
+                    </div>                    <div class="img_box">
+                        <a href="/Home/goodsInfo/795/2035">
+                            <img src="/./Upload/Goods/smallImg/2017-08-18/small_img/1503043042.jpeg" data-loadSrc="/./Upload/Goods/smallImg/2017-08-18/1503043042.jpeg"/>
+                        </a>
+                        <div class="img_info">
+                            <p>
+                                <span class="img_name">褶皱</span>
+                                <span class="collect">
+                                                                                                               <span class="heart iconfont icon-dianzan" data-state="1"></span><span
+                                                class="text">收藏</span>
+                                                                            <input type="hidden" name="goods_id" value="795" class="goods_list_id"
+                                           id="goods_list_id">
+                                </span>
+                            </p>
+                            <p class="price">￥-1.00</p>
+                        </div>
+                    </div>                    <div class="img_box">
+                        <a href="/Home/goodsInfo/796/2036">
+                            <img src="/./Upload/Goods/smallImg/2017-08-18/small_img/1503043161.jpeg" data-loadSrc="/./Upload/Goods/smallImg/2017-08-18/1503043161.jpeg"/>
+                        </a>
+                        <div class="img_info">
+                            <p>
+                                <span class="img_name">菩提树</span>
+                                <span class="collect">
+                                                                                                               <span class="heart iconfont icon-dianzan" data-state="1"></span><span
+                                                class="text">收藏</span>
+                                                                            <input type="hidden" name="goods_id" value="796" class="goods_list_id"
+                                           id="goods_list_id">
+                                </span>
+                            </p>
+                            <p class="price">￥-1.00</p>
+                        </div>
+                    </div>                    <div class="img_box">
+                        <a href="/Home/goodsInfo/797/2037">
+                            <img src="/./Upload/Goods/smallImg/2017-08-18/small_img/1503043285.jpeg" data-loadSrc="/./Upload/Goods/smallImg/2017-08-18/1503043285.jpeg"/>
+                        </a>
+                        <div class="img_info">
+                            <p>
+                                <span class="img_name">蓝翅膀</span>
+                                <span class="collect">
+                                                                                                               <span class="heart iconfont icon-dianzan" data-state="1"></span><span
+                                                class="text">收藏</span>
+                                                                            <input type="hidden" name="goods_id" value="797" class="goods_list_id"
+                                           id="goods_list_id">
+                                </span>
+                            </p>
+                            <p class="price">￥-1.00</p>
+                        </div>
+                    </div>                    <div class="img_box">
+                        <a href="/Home/goodsInfo/798/2038">
+                            <img src="/./Upload/Goods/smallImg/2017-08-18/small_img/1503043575.jpeg" data-loadSrc="/./Upload/Goods/smallImg/2017-08-18/1503043575.jpeg"/>
+                        </a>
+                        <div class="img_info">
+                            <p>
+                                <span class="img_name">谁在看</span>
+                                <span class="collect">
+                                                                                                               <span class="heart iconfont icon-dianzan" data-state="1"></span><span
+                                                class="text">收藏</span>
+                                                                            <input type="hidden" name="goods_id" value="798" class="goods_list_id"
+                                           id="goods_list_id">
+                                </span>
+                            </p>
+                            <p class="price">￥-1.00</p>
+                        </div>
+                    </div>                    <div class="img_box">
+                        <a href="/Home/goodsInfo/799/2039">
+                            <img src="/./Upload/Goods/smallImg/2017-08-18/small_img/1503043703.jpeg" data-loadSrc="/./Upload/Goods/smallImg/2017-08-18/1503043703.jpeg"/>
+                        </a>
+                        <div class="img_info">
+                            <p>
+                                <span class="img_name">红鲤鱼</span>
+                                <span class="collect">
+                                                                                                               <span class="heart iconfont icon-dianzan" data-state="1"></span><span
+                                                class="text">收藏</span>
+                                                                            <input type="hidden" name="goods_id" value="799" class="goods_list_id"
+                                           id="goods_list_id">
+                                </span>
+                            </p>
+                            <p class="price">￥50000.00</p>
+                        </div>
+                    </div>                    <div class="img_box">
+                        <a href="/Home/goodsInfo/800/2040">
+                            <img src="/./Upload/Goods/smallImg/2017-08-18/small_img/1503043860.jpeg" data-loadSrc="/./Upload/Goods/smallImg/2017-08-18/1503043860.jpeg"/>
+                        </a>
+                        <div class="img_info">
+                            <p>
+                                <span class="img_name">往事</span>
+                                <span class="collect">
+                                                                                                               <span class="heart iconfont icon-dianzan" data-state="1"></span><span
+                                                class="text">收藏</span>
+                                                                            <input type="hidden" name="goods_id" value="800" class="goods_list_id"
+                                           id="goods_list_id">
+                                </span>
+                            </p>
+                            <p class="price">￥-1.00</p>
+                        </div>
+                    </div>                    <div class="img_box">
+                        <a href="/Home/goodsInfo/801/2041">
+                            <img src="/./Upload/Goods/smallImg/2017-08-18/small_img/1503043962.jpeg" data-loadSrc="/./Upload/Goods/smallImg/2017-08-18/1503043962.jpeg"/>
+                        </a>
+                        <div class="img_info">
+                            <p>
+                                <span class="img_name">深呼吸</span>
+                                <span class="collect">
+                                                                                                               <span class="heart iconfont icon-dianzan" data-state="1"></span><span
+                                                class="text">收藏</span>
+                                                                            <input type="hidden" name="goods_id" value="801" class="goods_list_id"
+                                           id="goods_list_id">
+                                </span>
+                            </p>
+                            <p class="price">￥-1.00</p>
+                        </div>
+                    </div>                    <div class="img_box">
+                        <a href="/Home/goodsInfo/802/2042">
+                            <img src="/./Upload/Goods/smallImg/2017-08-18/small_img/1503044150.jpeg" data-loadSrc="/./Upload/Goods/smallImg/2017-08-18/1503044150.jpeg"/>
+                        </a>
+                        <div class="img_info">
+                            <p>
+                                <span class="img_name">雨中人</span>
+                                <span class="collect">
+                                                                                                               <span class="heart iconfont icon-dianzan" data-state="1"></span><span
+                                                class="text">收藏</span>
+                                                                            <input type="hidden" name="goods_id" value="802" class="goods_list_id"
+                                           id="goods_list_id">
+                                </span>
+                            </p>
+                            <p class="price">￥-1.00</p>
+                        </div>
+                    </div>                    <div class="img_box">
+                        <a href="/Home/goodsInfo/803/2043">
+                            <img src="/./Upload/Goods/smallImg/2017-08-18/small_img/1503044270.jpeg" data-loadSrc="/./Upload/Goods/smallImg/2017-08-18/1503044270.jpeg"/>
+                        </a>
+                        <div class="img_info">
+                            <p>
+                                <span class="img_name">大鱼</span>
+                                <span class="collect">
+                                                                                                               <span class="heart iconfont icon-dianzan" data-state="1"></span><span
+                                                class="text">收藏</span>
+                                                                            <input type="hidden" name="goods_id" value="803" class="goods_list_id"
+                                           id="goods_list_id">
+                                </span>
+                            </p>
+                            <p class="price">￥-1.00</p>
+                        </div>
+                    </div>                    <div class="img_box">
+                        <a href="/Home/goodsInfo/804/2044">
+                            <img src="/./Upload/Goods/smallImg/2017-08-18/small_img/1503044365.jpeg" data-loadSrc="/./Upload/Goods/smallImg/2017-08-18/1503044365.jpeg"/>
+                        </a>
+                        <div class="img_info">
+                            <p>
+                                <span class="img_name">心火</span>
+                                <span class="collect">
+                                                                                                               <span class="heart iconfont icon-dianzan" data-state="1"></span><span
+                                                class="text">收藏</span>
+                                                                            <input type="hidden" name="goods_id" value="804" class="goods_list_id"
+                                           id="goods_list_id">
+                                </span>
+                            </p>
+                            <p class="price">￥-1.00</p>
+                        </div>
+                    </div>                    <div class="img_box">
+                        <a href="/Home/goodsInfo/805/2045">
+                            <img src="/./Upload/Goods/smallImg/2017-08-18/small_img/1503044464.jpeg" data-loadSrc="/./Upload/Goods/smallImg/2017-08-18/1503044464.jpeg"/>
+                        </a>
+                        <div class="img_info">
+                            <p>
+                                <span class="img_name">格里高利如实说</span>
+                                <span class="collect">
+                                                                                                               <span class="heart iconfont icon-dianzan" data-state="1"></span><span
+                                                class="text">收藏</span>
+                                                                            <input type="hidden" name="goods_id" value="805" class="goods_list_id"
+                                           id="goods_list_id">
+                                </span>
+                            </p>
+                            <p class="price">￥-1.00</p>
+                        </div>
+                    </div>                    <div class="img_box">
+                        <a href="/Home/goodsInfo/806/2046">
+                            <img src="/./Upload/Goods/smallImg/2017-08-18/small_img/1503044630.jpeg" data-loadSrc="/./Upload/Goods/smallImg/2017-08-18/1503044630.jpeg"/>
+                        </a>
+                        <div class="img_info">
+                            <p>
+                                <span class="img_name">一枝梨花压海棠</span>
+                                <span class="collect">
+                                                                                                               <span class="heart iconfont icon-dianzan" data-state="1"></span><span
+                                                class="text">收藏</span>
+                                                                            <input type="hidden" name="goods_id" value="806" class="goods_list_id"
+                                           id="goods_list_id">
+                                </span>
+                            </p>
+                            <p class="price">￥-1.00</p>
+                        </div>
+                    </div>                    <div class="img_box">
+                        <a href="/Home/goodsInfo/807/2047">
+                            <img src="/./Upload/Goods/smallImg/2017-08-18/small_img/1503044911.jpeg" data-loadSrc="/./Upload/Goods/smallImg/2017-08-18/1503044911.jpeg"/>
+                        </a>
+                        <div class="img_info">
+                            <p>
+                                <span class="img_name">深水</span>
+                                <span class="collect">
+                                                                                                               <span class="heart iconfont icon-dianzan" data-state="1"></span><span
+                                                class="text">收藏</span>
+                                                                            <input type="hidden" name="goods_id" value="807" class="goods_list_id"
+                                           id="goods_list_id">
+                                </span>
+                            </p>
+                            <p class="price">￥-1.00</p>
+                        </div>
+                    </div>                    <div class="img_box">
+                        <a href="/Home/goodsInfo/808/2048">
+                            <img src="/./Upload/Goods/smallImg/2017-08-18/small_img/1503045069.jpeg" data-loadSrc="/./Upload/Goods/smallImg/2017-08-18/1503045069.jpeg"/>
+                        </a>
+                        <div class="img_info">
+                            <p>
+                                <span class="img_name">铁丝</span>
+                                <span class="collect">
+                                                                                                               <span class="heart iconfont icon-dianzan" data-state="1"></span><span
+                                                class="text">收藏</span>
+                                                                            <input type="hidden" name="goods_id" value="808" class="goods_list_id"
+                                           id="goods_list_id">
+                                </span>
+                            </p>
+                            <p class="price">￥-1.00</p>
+                        </div>
+                    </div>                    <div class="img_box">
+                        <a href="/Home/goodsInfo/809/2049">
+                            <img src="/./Upload/Goods/smallImg/2017-08-18/small_img/1503045207.jpeg" data-loadSrc="/./Upload/Goods/smallImg/2017-08-18/1503045207.jpeg"/>
+                        </a>
+                        <div class="img_info">
+                            <p>
+                                <span class="img_name">耳语</span>
+                                <span class="collect">
+                                                                                                               <span class="heart iconfont icon-dianzan" data-state="1"></span><span
+                                                class="text">收藏</span>
+                                                                            <input type="hidden" name="goods_id" value="809" class="goods_list_id"
+                                           id="goods_list_id">
+                                </span>
+                            </p>
+                            <p class="price">￥-1.00</p>
+                        </div>
+                    </div>                    <div class="img_box">
+                        <a href="/Home/goodsInfo/810/2050">
+                            <img src="/./Upload/Goods/smallImg/2017-08-18/small_img/1503045446.jpeg" data-loadSrc="/./Upload/Goods/smallImg/2017-08-18/1503045446.jpeg"/>
+                        </a>
+                        <div class="img_info">
+                            <p>
+                                <span class="img_name">彩虹瞬间</span>
+                                <span class="collect">
+                                                                                                               <span class="heart iconfont icon-dianzan" data-state="1"></span><span
+                                                class="text">收藏</span>
+                                                                            <input type="hidden" name="goods_id" value="810" class="goods_list_id"
+                                           id="goods_list_id">
+                                </span>
+                            </p>
+                            <p class="price">￥-1.00</p>
+                        </div>
+                    </div>                    <div class="img_box">
+                        <a href="/Home/goodsInfo/811/2051">
+                            <img src="/./Upload/Goods/smallImg/2017-08-18/small_img/1503045669.jpeg" data-loadSrc="/./Upload/Goods/smallImg/2017-08-18/1503045669.jpeg"/>
+                        </a>
+                        <div class="img_info">
+                            <p>
+                                <span class="img_name">敲</span>
+                                <span class="collect">
+                                                                                                               <span class="heart iconfont icon-dianzan" data-state="1"></span><span
+                                                class="text">收藏</span>
+                                                                            <input type="hidden" name="goods_id" value="811" class="goods_list_id"
+                                           id="goods_list_id">
+                                </span>
+                            </p>
+                            <p class="price">￥-1.00</p>
+                        </div>
+                    </div>                    <div class="img_box">
+                        <a href="/Home/goodsInfo/812/2052">
+                            <img src="/./Upload/Goods/smallImg/2017-08-18/small_img/1503045779.jpeg" data-loadSrc="/./Upload/Goods/smallImg/2017-08-18/1503045779.jpeg"/>
+                        </a>
+                        <div class="img_info">
+                            <p>
+                                <span class="img_name">篝火</span>
+                                <span class="collect">
+                                                                                                               <span class="heart iconfont icon-dianzan" data-state="1"></span><span
+                                                class="text">收藏</span>
+                                                                            <input type="hidden" name="goods_id" value="812" class="goods_list_id"
+                                           id="goods_list_id">
+                                </span>
+                            </p>
+                            <p class="price">￥-1.00</p>
+                        </div>
+                    </div>                    <div class="img_box">
+                        <a href="/Home/goodsInfo/813/2053">
+                            <img src="/./Upload/Goods/smallImg/2017-08-18/small_img/1503046052.jpeg" data-loadSrc="/./Upload/Goods/smallImg/2017-08-18/1503046052.jpeg"/>
+                        </a>
+                        <div class="img_info">
+                            <p>
+                                <span class="img_name">岸边</span>
+                                <span class="collect">
+                                                                                                               <span class="heart iconfont icon-dianzan" data-state="1"></span><span
+                                                class="text">收藏</span>
+                                                                            <input type="hidden" name="goods_id" value="813" class="goods_list_id"
+                                           id="goods_list_id">
+                                </span>
+                            </p>
+                            <p class="price">￥-1.00</p>
+                        </div>
+                    </div>                    <div class="img_box">
+                        <a href="/Home/goodsInfo/814/2054">
+                            <img src="/./Upload/Goods/smallImg/2017-08-18/small_img/1503046203.jpeg" data-loadSrc="/./Upload/Goods/smallImg/2017-08-18/1503046203.jpeg"/>
+                        </a>
+                        <div class="img_info">
+                            <p>
+                                <span class="img_name">悟心禅师的兰草</span>
+                                <span class="collect">
+                                                                                                               <span class="heart iconfont icon-dianzan" data-state="1"></span><span
+                                                class="text">收藏</span>
+                                                                            <input type="hidden" name="goods_id" value="814" class="goods_list_id"
+                                           id="goods_list_id">
+                                </span>
+                            </p>
+                            <p class="price">￥-1.00</p>
+                        </div>
+                    </div>                    <div class="img_box">
+                        <a href="/Home/goodsInfo/815/2055">
+                            <img src="/./Upload/Goods/smallImg/2017-08-18/small_img/1503046329.jpeg" data-loadSrc="/./Upload/Goods/smallImg/2017-08-18/1503046329.jpeg"/>
+                        </a>
+                        <div class="img_info">
+                            <p>
+                                <span class="img_name">我的风帆</span>
+                                <span class="collect">
+                                                                                                               <span class="heart iconfont icon-dianzan" data-state="1"></span><span
+                                                class="text">收藏</span>
+                                                                            <input type="hidden" name="goods_id" value="815" class="goods_list_id"
+                                           id="goods_list_id">
+                                </span>
+                            </p>
+                            <p class="price">￥-1.00</p>
+                        </div>
+                    </div>                    <div class="img_box">
+                        <a href="/Home/goodsInfo/816/2056">
+                            <img src="/./Upload/Goods/smallImg/2017-08-18/small_img/1503046449.jpeg" data-loadSrc="/./Upload/Goods/smallImg/2017-08-18/1503046449.jpeg"/>
+                        </a>
+                        <div class="img_info">
+                            <p>
+                                <span class="img_name">血腥的故事</span>
+                                <span class="collect">
+                                                                                                               <span class="heart iconfont icon-dianzan" data-state="1"></span><span
+                                                class="text">收藏</span>
+                                                                            <input type="hidden" name="goods_id" value="816" class="goods_list_id"
+                                           id="goods_list_id">
+                                </span>
+                            </p>
+                            <p class="price">￥-1.00</p>
+                        </div>
+                    </div>                    <div class="img_box">
+                        <a href="/Home/goodsInfo/817/2057">
+                            <img src="/./Upload/Goods/smallImg/2017-08-18/small_img/1503046875.jpeg" data-loadSrc="/./Upload/Goods/smallImg/2017-08-18/1503046875.jpeg"/>
+                        </a>
+                        <div class="img_info">
+                            <p>
+                                <span class="img_name">乡愁</span>
+                                <span class="collect">
+                                                                                                               <span class="heart iconfont icon-dianzan" data-state="1"></span><span
+                                                class="text">收藏</span>
+                                                                            <input type="hidden" name="goods_id" value="817" class="goods_list_id"
+                                           id="goods_list_id">
+                                </span>
+                            </p>
+                            <p class="price">￥-1.00</p>
+                        </div>
+                    </div>                    <div class="img_box">
+                        <a href="/Home/goodsInfo/818/2058">
+                            <img src="/./Upload/Goods/smallImg/2017-08-18/small_img/1503046988.jpeg" data-loadSrc="/./Upload/Goods/smallImg/2017-08-18/1503046988.jpeg"/>
+                        </a>
+                        <div class="img_info">
+                            <p>
+                                <span class="img_name">悼念大海</span>
+                                <span class="collect">
+                                                                                                               <span class="heart iconfont icon-dianzan" data-state="1"></span><span
+                                                class="text">收藏</span>
+                                                                            <input type="hidden" name="goods_id" value="818" class="goods_list_id"
+                                           id="goods_list_id">
+                                </span>
+                            </p>
+                            <p class="price">￥-1.00</p>
+                        </div>
+                    </div>                    <div class="img_box">
+                        <a href="/Home/goodsInfo/819/2059">
+                            <img src="/./Upload/Goods/smallImg/2017-08-18/small_img/1503047261.jpeg" data-loadSrc="/./Upload/Goods/smallImg/2017-08-18/1503047261.jpeg"/>
+                        </a>
+                        <div class="img_info">
+                            <p>
+                                <span class="img_name">红消息</span>
+                                <span class="collect">
+                                                                                                               <span class="heart iconfont icon-dianzan" data-state="1"></span><span
+                                                class="text">收藏</span>
+                                                                            <input type="hidden" name="goods_id" value="819" class="goods_list_id"
+                                           id="goods_list_id">
+                                </span>
+                            </p>
+                            <p class="price">￥-1.00</p>
+                        </div>
+                    </div>                    <div class="img_box">
+                        <a href="/Home/goodsInfo/820/2060">
+                            <img src="/./Upload/Goods/smallImg/2017-08-18/small_img/1503047353.jpeg" data-loadSrc="/./Upload/Goods/smallImg/2017-08-18/1503047353.jpeg"/>
+                        </a>
+                        <div class="img_info">
+                            <p>
+                                <span class="img_name">宿命图之海平线</span>
+                                <span class="collect">
+                                                                                                               <span class="heart iconfont icon-dianzan" data-state="1"></span><span
+                                                class="text">收藏</span>
+                                                                            <input type="hidden" name="goods_id" value="820" class="goods_list_id"
+                                           id="goods_list_id">
+                                </span>
+                            </p>
+                            <p class="price">￥-1.00</p>
+                        </div>
+                    </div>                    <div class="img_box">
+                        <a href="/Home/goodsInfo/821/2061">
+                            <img src="/./Upload/Goods/smallImg/2017-08-18/small_img/1503047483.jpeg" data-loadSrc="/./Upload/Goods/smallImg/2017-08-18/1503047483.jpeg"/>
+                        </a>
+                        <div class="img_info">
+                            <p>
+                                <span class="img_name">宿命图之面相</span>
+                                <span class="collect">
+                                                                                                               <span class="heart iconfont icon-dianzan" data-state="1"></span><span
+                                                class="text">收藏</span>
+                                                                            <input type="hidden" name="goods_id" value="821" class="goods_list_id"
+                                           id="goods_list_id">
+                                </span>
+                            </p>
+                            <p class="price">￥-1.00</p>
+                        </div>
+                    </div>                    <div class="img_box">
+                        <a href="/Home/goodsInfo/822/2062">
+                            <img src="/./Upload/Goods/smallImg/2017-08-18/small_img/1503047592.jpeg" data-loadSrc="/./Upload/Goods/smallImg/2017-08-18/1503047592.jpeg"/>
+                        </a>
+                        <div class="img_info">
+                            <p>
+                                <span class="img_name">宿命图之大地牧歌</span>
+                                <span class="collect">
+                                                                                                               <span class="heart iconfont icon-dianzan" data-state="1"></span><span
+                                                class="text">收藏</span>
+                                                                            <input type="hidden" name="goods_id" value="822" class="goods_list_id"
+                                           id="goods_list_id">
+                                </span>
+                            </p>
+                            <p class="price">￥-1.00</p>
+                        </div>
+                    </div>                    <div class="img_box">
+                        <a href="/Home/goodsInfo/823/2063">
+                            <img src="/./Upload/Goods/smallImg/2017-08-18/small_img/1503047742.jpeg" data-loadSrc="/./Upload/Goods/smallImg/2017-08-18/1503047742.jpeg"/>
+                        </a>
+                        <div class="img_info">
+                            <p>
+                                <span class="img_name">宿命图之自渡者的挽歌</span>
+                                <span class="collect">
+                                                                                                               <span class="heart iconfont icon-dianzan" data-state="1"></span><span
+                                                class="text">收藏</span>
+                                                                            <input type="hidden" name="goods_id" value="823" class="goods_list_id"
+                                           id="goods_list_id">
+                                </span>
+                            </p>
+                            <p class="price">￥-1.00</p>
+                        </div>
+                    </div>                    <div class="img_box">
+                        <a href="/Home/goodsInfo/824/2064">
+                            <img src="/./Upload/Goods/smallImg/2017-08-18/small_img/1503047837.jpeg" data-loadSrc="/./Upload/Goods/smallImg/2017-08-18/1503047837.jpeg"/>
+                        </a>
+                        <div class="img_info">
+                            <p>
+                                <span class="img_name">梅花樵夫</span>
+                                <span class="collect">
+                                                                                                               <span class="heart iconfont icon-dianzan" data-state="1"></span><span
+                                                class="text">收藏</span>
+                                                                            <input type="hidden" name="goods_id" value="824" class="goods_list_id"
+                                           id="goods_list_id">
+                                </span>
+                            </p>
+                            <p class="price">￥-1.00</p>
+                        </div>
+                    </div>                    <div class="img_box">
+                        <a href="/Home/goodsInfo/825/2065">
+                            <img src="/./Upload/Goods/smallImg/2017-08-18/small_img/1503047943.jpeg" data-loadSrc="/./Upload/Goods/smallImg/2017-08-18/1503047943.jpeg"/>
+                        </a>
+                        <div class="img_info">
+                            <p>
+                                <span class="img_name">孑孓</span>
+                                <span class="collect">
+                                                                                                               <span class="heart iconfont icon-dianzan" data-state="1"></span><span
+                                                class="text">收藏</span>
+                                                                            <input type="hidden" name="goods_id" value="825" class="goods_list_id"
+                                           id="goods_list_id">
+                                </span>
+                            </p>
+                            <p class="price">￥-1.00</p>
+                        </div>
+                    </div>                    <div class="img_box">
+                        <a href="/Home/goodsInfo/826/2066">
+                            <img src="/./Upload/Goods/smallImg/2017-08-18/small_img/1503048067.jpeg" data-loadSrc="/./Upload/Goods/smallImg/2017-08-18/1503048067.jpeg"/>
+                        </a>
+                        <div class="img_info">
+                            <p>
+                                <span class="img_name">阴历七月十五</span>
+                                <span class="collect">
+                                                                                                               <span class="heart iconfont icon-dianzan" data-state="1"></span><span
+                                                class="text">收藏</span>
+                                                                            <input type="hidden" name="goods_id" value="826" class="goods_list_id"
+                                           id="goods_list_id">
+                                </span>
+                            </p>
+                            <p class="price">￥-1.00</p>
+                        </div>
+                    </div>                    <div class="img_box">
+                        <a href="/Home/goodsInfo/827/2067">
+                            <img src="/./Upload/Goods/smallImg/2017-08-18/small_img/1503048184.jpeg" data-loadSrc="/./Upload/Goods/smallImg/2017-08-18/1503048184.jpeg"/>
+                        </a>
+                        <div class="img_info">
+                            <p>
+                                <span class="img_name">肉身时光</span>
+                                <span class="collect">
+                                                                                                               <span class="heart iconfont icon-dianzan" data-state="1"></span><span
+                                                class="text">收藏</span>
+                                                                            <input type="hidden" name="goods_id" value="827" class="goods_list_id"
+                                           id="goods_list_id">
+                                </span>
+                            </p>
+                            <p class="price">￥-1.00</p>
+                        </div>
+                    </div>                    <div class="img_box">
+                        <a href="/Home/goodsInfo/828/2068">
+                            <img src="/./Upload/Goods/smallImg/2017-08-18/small_img/1503048443.jpeg" data-loadSrc="/./Upload/Goods/smallImg/2017-08-18/1503048443.jpeg"/>
+                        </a>
+                        <div class="img_info">
+                            <p>
+                                <span class="img_name">传灯图</span>
+                                <span class="collect">
+                                                                                                               <span class="heart iconfont icon-dianzan" data-state="1"></span><span
+                                                class="text">收藏</span>
+                                                                            <input type="hidden" name="goods_id" value="828" class="goods_list_id"
+                                           id="goods_list_id">
+                                </span>
+                            </p>
+                            <p class="price">￥-1.00</p>
+                        </div>
+                    </div>                    <div class="img_box">
+                        <a href="/Home/goodsInfo/829/2069">
+                            <img src="/./Upload/Goods/smallImg/2017-08-18/small_img/1503048579.jpeg" data-loadSrc="/./Upload/Goods/smallImg/2017-08-18/1503048579.jpeg"/>
+                        </a>
+                        <div class="img_info">
+                            <p>
+                                <span class="img_name">水无心</span>
+                                <span class="collect">
+                                                                                                               <span class="heart iconfont icon-dianzan" data-state="1"></span><span
+                                                class="text">收藏</span>
+                                                                            <input type="hidden" name="goods_id" value="829" class="goods_list_id"
+                                           id="goods_list_id">
+                                </span>
+                            </p>
+                            <p class="price">￥-1.00</p>
+                        </div>
+                    </div>                    <div class="img_box">
+                        <a href="/Home/goodsInfo/830/2070">
+                            <img src="/./Upload/Goods/smallImg/2017-08-18/small_img/1503048718.jpeg" data-loadSrc="/./Upload/Goods/smallImg/2017-08-18/1503048718.jpeg"/>
+                        </a>
+                        <div class="img_info">
+                            <p>
+                                <span class="img_name">哭墙</span>
+                                <span class="collect">
+                                                                                                               <span class="heart iconfont icon-dianzan" data-state="1"></span><span
+                                                class="text">收藏</span>
+                                                                            <input type="hidden" name="goods_id" value="830" class="goods_list_id"
+                                           id="goods_list_id">
+                                </span>
+                            </p>
+                            <p class="price">￥-1.00</p>
+                        </div>
+                    </div>            </div>
+            <a href="javascript:;" class="more-btn">查看更多>></a>
+        </div><div class="category-item">
+            <h2>架上纸本</h2>
+            <div class="item-list clear">
+
+                                    <div class="img_box">
+                        <a href="/Home/goodsInfo/831/2071">
+                            <img src="/./Upload/Goods/smallImg/2017-08-18/small_img/1503054133.jpeg" data-loadSrc="/./Upload/Goods/smallImg/2017-08-18/1503054133.jpeg"/>
+                        </a>
+                        <div class="img_info">
+                            <p>
+                                <span class="img_name">雨果</span>
+                                <span class="collect">
+                                                                                                               <span class="heart iconfont icon-dianzan" data-state="1"></span><span
+                                                class="text">收藏</span>
+                                                                            <input type="hidden" name="goods_id" value="831" class="goods_list_id"
+                                           id="goods_list_id">
+                                </span>
+                            </p>
+                            <p class="price">￥-1.00</p>
+                        </div>
+                    </div>                    <div class="img_box">
+                        <a href="/Home/goodsInfo/832/2072">
+                            <img src="/./Upload/Goods/smallImg/2017-08-18/small_img/1503054265.jpeg" data-loadSrc="/./Upload/Goods/smallImg/2017-08-18/1503054265.jpeg"/>
+                        </a>
+                        <div class="img_info">
+                            <p>
+                                <span class="img_name">施洗约翰</span>
+                                <span class="collect">
+                                                                                                               <span class="heart iconfont icon-dianzan" data-state="1"></span><span
+                                                class="text">收藏</span>
+                                                                            <input type="hidden" name="goods_id" value="832" class="goods_list_id"
+                                           id="goods_list_id">
+                                </span>
+                            </p>
+                            <p class="price">￥-1.00</p>
+                        </div>
+                    </div>            </div>
+            <a href="javascript:;" class="more-btn">查看更多>></a>
+        </div></div>
+
+    <div class="ad">
+        <a href="https://v.qq.com/x/page/a0314171d7u.html"><img data-loadSrc="/./Upload/shop/banner/2017-08-18/1503051351.jpeg" src="/./Upload/shop/banner/2017-08-18/small_img/1503051351.jpeg" alt="广告位"></a>
+    </div>
+<div class="introduce"><p><span style="font-size: 14px;">出生于中国吉林省<br></span></p><p><span style="font-size: 14px;">1984年&nbsp; 毕业于吉林戏曲艺术学校</span></p><p><span style="font-size: 14px;">1984年&nbsp; 与王长百、路明等人组织中国北方青年艺术家联盟</span></p><p><span style="font-size: 14px;">1985年&nbsp; 共同主办首届展览《北方道路画展》</span></p><p><span style="font-size: 14px;">1986年&nbsp; 参与组织《版象艺术联展》</span></p><p><span style="font-size: 14px;">1986年&nbsp; 参与组织《中国北方青年艺术大展</span></p><p><span style="font-size: 14px;">1990年&nbsp; 毕业于吉林艺术学院雕塑专业</span></p><p><span style="font-size: 14px;">2015年&nbsp; 7月“我是他者的人质”张喜忠油画个人展 &nbsp; 中国美术馆</span></p><p><span style="font-size: 14px;">2015年&nbsp; 9月我是他者的人质”张喜忠油画个人展 &nbsp; 长春方舟美术馆</span></p></div>
+
+                </div>
+                <div class="video-item">
+                    <!--视频-->
+<div class="video clear">
+    <div class="video-box clearfix">
+            <a href="https://v.qq.com/x/page/a0314171d7u.html" target="_blank">
+                <img src="/./Upload/article/2017-08-18/1503049635.jpeg" />
+            </a>
+            <div class="video_info">
+                <p>张喜忠——我是他者的人质</p>
+            </div>
+        </div></div>
+                </div>
+                <div class="article-item">
+                    
+<!--文章-->
+<div class="article clear">
+    <div class="article-box">
+                            <a href="/Home/Article/article/id/35.html" target="_blank">
+                    <img src="/./Upload/article/2017-08-18/1503040386.jpeg" />
+                </a>
+            <div class="article_info">
+                <p class="tit">灵魂游走的纪念碑仪式</p>
+                <p class="article_con">                                            谁都知道，艺术可以用来表达情感，甚至也都认为，不能或没有表达情感的艺术作品算不上好作品。                                        </p>
+                <p class="article-link">
+                                            <a href="/Home/Article/article/id/35.html" target="_blank">
+                            【阅读文章】</a>                                        <span class="heart iconfont icon-dianzan"></span>
+                        
+
+
+                    <input type="hidden" name="article_id" value="35"  class="article_id" id="article_id">
+                </p>
+
+            </div>
+        </div><div class="article-box">
+                            <a href="/Home/Article/article/id/34.html" target="_blank">
+                    <img src="/./Upload/article/2017-08-18/1503039846.jpeg" />
+                </a>
+            <div class="article_info">
+                <p class="tit">他隐藏了什么？</p>
+                <p class="article_con">                                                                                        信仰是人生的一种态度，是久远于现在文明的人类生命体的特征。                                                                                </p>
+                <p class="article-link">
+                                            <a href="/Home/Article/article/id/34.html" target="_blank">
+                            【阅读文章】</a>                                        <span class="heart iconfont icon-dianzan"></span>
+                        
+
+
+                    <input type="hidden" name="article_id" value="34"  class="article_id" id="article_id">
+                </p>
+
+            </div>
+        </div><div class="article-box">
+                            <a href="/Home/Article/article/id/32.html" target="_blank">
+                    <img src="/./Upload/article/2017-08-18/1503040509.jpeg" />
+                </a>
+            <div class="article_info">
+                <p class="tit">涤忽·于安</p>
+                <p class="article_con">                                                                                                                                                                                如最初的景象，于安重又展示在判决之前，死可以更正我的错误么？我多么期求一个事件，一个邪恶的事件降临我的命运订正这个故事，有什么样的惩罚能够抹杀于安的存在。  </p>
+                <p class="article-link">
+                                            <a href="/Home/Article/article/id/32.html" target="_blank">
+                            【阅读文章】</a>                                        <span class="heart iconfont icon-dianzan"></span>
+                        
+
+
+                    <input type="hidden" name="article_id" value="32"  class="article_id" id="article_id">
+                </p>
+
+            </div>
+        </div><div class="article-box">
+                            <a href="/Home/Article/article/id/31.html" target="_blank">
+                    <img src="/./Upload/article/2017-08-18/1503039729.jpeg" />
+                </a>
+            <div class="article_info">
+                <p class="tit">哭    岛</p>
+                <p class="article_con">                                                                                        按声学结构让海岛发出巨大的哭声。
+海上声学。爆破。气象。控制工程。                                                                                </p>
+                <p class="article-link">
+                                            <a href="/Home/Article/article/id/31.html" target="_blank">
+                            【阅读文章】</a>                                        <span class="heart iconfont icon-dianzan"></span>
+                        
+
+
+                    <input type="hidden" name="article_id" value="31"  class="article_id" id="article_id">
+                </p>
+
+            </div>
+        </div><div class="article-box">
+                            <a href="/Home/Article/article/id/30.html" target="_blank">
+                    <img src="/./Upload/article/2017-08-18/1503032760.jpeg" />
+                </a>
+            <div class="article_info">
+                <p class="tit"> 群居是一种恶习</p>
+                <p class="article_con">                                                                                            绘画是精神私语，由虚设的内与外距离的消解为最终成就的工作。                                                                                </p>
+                <p class="article-link">
+                                            <a href="/Home/Article/article/id/30.html" target="_blank">
+                            【阅读文章】</a>                                        <span class="heart iconfont icon-dianzan"></span>
+                        
+
+
+                    <input type="hidden" name="article_id" value="30"  class="article_id" id="article_id">
+                </p>
+
+            </div>
+        </div><div class="article-box">
+                            <a href="/Home/Article/article/id/29.html" target="_blank">
+                    <img src="/./Upload/article/2017-08-18/1503031311.jpeg" />
+                </a>
+            <div class="article_info">
+                <p class="tit">寄语</p>
+                <p class="article_con">生命在于对未知世界的迷恋，我一直这样理解着我们活着的意义。</p>
+                <p class="article-link">
+                                            <a href="/Home/Article/article/id/29.html" target="_blank">
+                            【阅读文章】</a>                                        <span class="heart iconfont icon-dianzan"></span>
+                        
+
+
+                    <input type="hidden" name="article_id" value="29"  class="article_id" id="article_id">
+                </p>
+
+            </div>
+        </div><div class="article-box">
+                            <a href="/Home/Article/article/id/28.html" target="_blank">
+                    <img src="/./Upload/article/2017-08-18/1503040284.jpeg" />
+                </a>
+            <div class="article_info">
+                <p class="tit">大化无声</p>
+                <p class="article_con">                                                                                        无论环境如何变幻，都丝毫不能改变他对内心之纯净的坚守。                                                                                </p>
+                <p class="article-link">
+                                            <a href="/Home/Article/article/id/28.html" target="_blank">
+                            【阅读文章】</a>                                        <span class="heart iconfont icon-dianzan"></span>
+                        
+
+
+                    <input type="hidden" name="article_id" value="28"  class="article_id" id="article_id">
+                </p>
+
+            </div>
+        </div><div class="article-box">
+                            <a href="/Home/Article/article/id/27.html" target="_blank">
+                    <img src="/./Upload/article/2017-08-18/1503040159.jpeg" />
+                </a>
+            <div class="article_info">
+                <p class="tit">  狂野的密室</p>
+                <p class="article_con">                                                                                                                                                                                                                                                               </p>
+                <p class="article-link">
+                                            <a href="/Home/Article/article/id/27.html" target="_blank">
+                            【阅读文章】</a>                                        <span class="heart iconfont icon-dianzan"></span>
+                        
+
+
+                    <input type="hidden" name="article_id" value="27"  class="article_id" id="article_id">
+                </p>
+
+            </div>
+        </div></div>
+                </div>
+            </div>
+            
+    <style>
+        footer{
+            margin-top: 100px;
+            width: 100%;
+        }
+        .footer_list{
+            max-width: 1340px;
+            min-width: 980px;
+            margin: 0 auto;
+            overflow: hidden;
+            display: flex;
+            justify-content: space-around;
+        }
+        .footer_list>ul{
+            list-style: none;
+        }
+        .footer_list>ul li a{
+            text-decoration: none;
+            font-size: 12px;
+            color: #000000;
+            text-decoration: none;
+            display: inline-block;
+            margin-top: 14px;
+            line-height: 20px;
+        }
+        .footer_list>ul li a.open{
+            background-color: #34a8c4;
+            color: #FFFFFF;
+            border-radius: 4px;
+            padding: 8px;
+        }
+        .footer_info{
+            max-width: 1340px;
+            min-width: 980px;
+            box-sizing: border-box;
+            padding: 0 60px;
+            margin: 60px auto 30px;
+        }
+        .footer_info::after{
+            content: '';
+            display: block;
+            clear: both;
+        }
+        .footer_info p{
+            border: 1px solid #dddddc;
+            padding: 5px;
+            display: inline-block;
+            font-size: 13px;
+        }
+        .footer_info p:last-child{
+            float: right;
+        }
+
+        .footer_list .last_list li a{
+            /*width: 22px;*/
+            margin: 0;
+        }
+        .sidle_bar{
+            position: fixed;
+            width: 100px;
+            bottom: 50px;
+        }
+        .sidle_bar>a{
+            font-size: 12px;
+            display: inline-block;
+            margin-bottom: 15px;
+        }
+
+        .jiathis_style_32x32 {
+            /*width: 15px;*/
+        }
+        .jiathis_style_32x32 .jtico_cqq{
+            background:url(/PcTpl/Home/Public/images/Index/aa3.png) no-repeat;
+            background-position: 0px 0px;
+            background-size:22px 22px;
+            margin-left: 2px;
+        }
+        .jiathis_style_32x32 .jtico_tsina{
+            background:url(/PcTpl/Home/Public/images/Index/aa2.png) no-repeat;
+            background-position: 0px 0px;
+            background-size:22px 22px;
+            margin-left: 2px;
+        }
+        .jiathis_style_32x32 .jtico_weixin{
+            background:url(/PcTpl/Home/Public/images/Index/aa1.png) no-repeat;
+            background-position: 0px 0px;
+            background-size:22px 22px;
+            margin-left: 2px;
+        }
+    </style>
+
+
+
+    <footer>
+        <div class="footer_list">
+            <ul>
+                <li><a><strong>把你的激情融入企业</strong></a></li>
+                <li><a class="open" href="/Home/shop/211316">打开一个商店</a></li>
+                <li><a href="/Home/Service/seek.html">在搜猎人出售</a></li>
+                <li><a href="/Home/Index/specifications.html">我们的规则</a></li>
+                <!--<li><a href="javascript:return false;">使用条款</a></li>-->
+                <!--<li><a href="javascript:return false;">隐私条款</a></li>-->
+            </ul>
+            <ul>
+                <li><a><strong>关于</strong></a></li>
+                <li><a href="/Home/index/read.html">关于我们</a></li>
+                <li><a href="/Home/Service/cooperation.html">联系我们</a></li>
+            </ul>
+            <ul>
+                <li><a><strong>更多</strong></a></li>
+                <li><a href="javascript:;" class="weixin_s">微信</a></li>
+                <li><a href="http://weibo.com/soulieren?refer_flag=1001030102_">微博</a></li>
+                <li><a href="https://shop129576228.taobao.com/?spm=a230r.7195193.1997079397.2.s5bniH">淘宝</a></li>
+                <li><a href="http://v.qq.com/vplus/2f648c677c0dcb939fcf6a40cd1fae90">原创视频</a></li>
+            </ul>
+            <ul>
+                <li><a><strong>政策</strong></a></li>
+                <li><a href="/Home/Index/buyer_policy.html">买家政策 </a></li>
+                <li><a href="/Home/Index/seller_policy.html">卖家政策 </a></li>
+                <li><a href="/Home/Index/trademark_policy.html">商标政策 </a></li>
+            </ul>
+            <ul>
+                <li><a><strong>商务合作</strong></a></li>
+                <li><a href="/Home/BusinessCooperation/index.html#page2">线上渠道</a></li>
+                <li><a href="/Home/BusinessCooperation/index.html#page3">线下渠道</a></li>
+                <li><a href="/Home/BusinessCooperation/index.html#page4">视频定制</a></li>
+            </ul>
+            <ul class="last_list">
+                <li><a href="javascript:;" style="margin:12px 0"><strong>分享</strong></a></li>
+                <li class="jiathis_style_32x32"><a class="jiathis_button_weixin"></a></li>
+                <li class="jiathis_style_32x32"><a class="jiathis_button_cqq"></a></li>
+                <li class="jiathis_style_32x32"><a class="jiathis_button_tsina"></a></li>
+            </ul>
+        </div>
+        <div class="footer_info">
+            <p>版权所有&nbsp;京ICP备15012603号—1</p>
+            <p>Tel:010-57794643&nbsp;周日-周五9:00-19:00</p>
+        </div>
+    </footer>
+
+    <script type="text/javascript">
+        var jiathis_config = {
+            summary: "",
+            shortUrl: false,
+            hideMore: false
+        }
+    </script>
+    <script type="text/javascript" src="http://v3.jiathis.com/code/jia.js" charset="utf-8"></script>
+    <script>
+        $('.weixin_s').click(function () {
+            $('.weiX-box').show();
+        });
+        $('.weiX-box').click(function () {
+            $('.weiX-box').hide();
+        })
+    </script>
+
+            <div class="top"></div>
+        </div>
+    </div>
+</div>
+
+
+
+<script src="/PcTpl/Public/js/bootstrap.min.js"></script>
+<script src="/PcTpl/Public/js/cropper.js"></script>
+<script src="/PcTpl/Public/js/swiper.min.js"></script>
+<script src="/PcTpl/Home/Public/js/goods/goodsList.js"></script>
+<script src="/PcTpl/Public/js/ImgLoad.js"></script>
+<script>
+    $('.submit_application').click(function () {
+       var data ={
+           customer_name:$('.customer_name').val(),
+           category:$('.category1').val(),
+           customer_company:$('.customer_company').val(),
+           customer_phone:$('.customer_phone').val(),
+           customer_mail:$('.customer_mail').val(),
+           industry:$('.industry').val(),
+           all_ids:$('.all_ids').val()
+       };
+        $.ajax({
+            type: "POST",
+            url: "../copyright/shopAuthorization",
+            data: data,
+            dataType: 'json',
+            success: function (data) {
+                if (data.status == -10086) {
+                    alert(data.msg);
+                    return false;
+                }else if (data.status == -1) {
+                    alert(data.msg);
+                    return false;
+                } else if (data.status == 1) {
+                    alert("申请成功，稍后有搜猎人工作人员联系您！");
+                    location.reload();
+                    return true;
+                }
+            }
+        })
+    });
+    $('.div_error').click(function () {
+         $('.div_random_bj').hide();
+         $('.div_random').hide();
+    });
+    $('.application').click(function () {
+         $('.div_random_bj').show();
+         $('.div_random').show();
+    });
+
+    var price = $('.price');
+    $.each(price,function (index,dom) {
+        var ee =$(dom).html();
+        if(ee=='￥-1.00'){
+            $(dom).empty();
+            $(dom).html('议价');
+        }else if(ee=='￥-2.00'){
+            $(dom).empty();
+            $(dom).html('非卖品');
+        }else if(ee=='￥-3.00'){
+            $(dom).empty();
+            $(dom).html('已售');
+        }else if(ee=='￥-4.00'){
+            $(dom).empty();
+            $(dom).html('展示');
+        }
+    });
+</script>
+<script>
+    var session = $('#session').val();
+    $('.gerenzhongxin').click(function () {
+        if (session == '') {
+            alert("请登录");
+        } else {
+            window.location.href = "/Home/Personal/order.html";
+        }
+    });
+    $('.dianpu').click(function () {
+        if (session == '') {
+            alert("请登录");
+        } else {
+            window.location.href = "/Home/SellerCenter/index.html";
+        }
+    });
+    $('.woguanlidedianpu').click(function () {
+        if (session == '') {
+            alert("请登录");
+        } else {
+            window.location.href = "/Home/shop/";
+        }
+    });
+    var swiper = new Swiper('.swiper-container', {
+        pagination: '.swiper-pagination',
+        paginationClickable: '.swiper-pagination',
+        spaceBetween: 30,
+        autoplay: 3500,
+        autoplayDisableOnInteraction: false
+//            loop:true
+    });
+    var $banner = $('.banner'),
+        $bImgLen = $banner.find('img').length;
+    if ($bImgLen == 0) {
+        $banner.remove();
+    } else if ($bImgLen == 1) {
+        $banner.find('.swiper-pagination').hide();
+    }
+</script>
+</body>
+</html>

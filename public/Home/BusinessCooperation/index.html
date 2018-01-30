@@ -1,0 +1,1127 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>商务合作</title>
+    <meta  name="keywords" content="搜猎人,原创,艺术,原创精神,艺术家,设计师,手工艺人,原创者,迟首飞,IP 内容开发,IP 衍生品内容设计,打造中国人自己的IP,IP开发与应用,IP 产业落地,艺术理念+互联网思维,原创艺术品消费平台,原创艺术品购物平台,艺术互联网,艺术产业" />
+</head>
+
+<link rel="stylesheet" href="/PcTpl/Public/css/jquery.fullPage.css">
+
+<style>
+
+    *{
+        margin: 0px;
+        padding: 0px;
+        font-size: 16px;
+        font-family: "微软雅黑";
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+    li{
+        list-style-type: none;
+    }
+    .banner{
+        width: 100%;
+    }
+
+    .banner_text{
+        position: absolute;
+        font-size: 47px;
+        color: #fff;
+        top: 50%;
+        text-align: center;
+        margin: 0 auto;
+        width: 100%;
+    }
+    .banner_text p{
+        font-size: 47px;
+    }
+    .banner ul li{
+        color: #fff;
+        width: 200px;
+        text-align: center;
+        list-style-type: none;
+    }
+    .banner ul li a{
+        color: #fff;
+    }
+    .banner ul{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        top: 94%;
+        position: absolute;
+    }
+    .banner ul li a:hover{
+        color: #ff873e;
+    }
+    .top{
+        font-size: 20px;
+        text-align: center;
+        line-height: 60px;
+    }
+    .all_text{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-top: -325px;
+        margin-left: -500px;
+        color: #fff;
+        width: 1000px;
+        height: 650px;
+    }
+    .all_text a{
+        padding: 6px 20px;
+        border-radius: 3px;
+        background-color: #ff873e;
+        color: #fff;
+        display: inline-block;
+    }
+    .linedown,.onLine,.video{
+        cursor:pointer;
+    }
+    .onLine_form,.linedown_form,.video_form{
+        padding: 50px 20px 0px;
+        position: absolute;
+        border-radius: 5px;
+        z-index: 1;
+        display: none;
+        width: 500px;
+        background: rgba(255,255,255,1);
+        height: 400px;
+        top: 50%;
+        left: 50%;
+        margin-top: -190px;
+        margin-left: -250px;
+        color: #000;
+    }
+    .all_text .video_div .video_form {
+        height: 446px;
+        padding-top: 80px;
+        margin-top: -180px;
+    }
+    .all_text .video_div .jump{
+        margin-top: 60px;
+    }
+
+    .all_text .onLine_div .onLine_form{
+        height: 448px;
+        margin-top: -224px;
+    }
+    .box{
+        border-radius: 15px;
+        padding: 15px 10px;
+        margin: 10px auto;
+        width: 650px;
+        text-align: center;
+    }
+    .box p{
+        line-height: 25px;
+    }
+    .onLine_form p,.linedown_form p,.video_form p{
+        text-align: center;
+        line-height: 55px;
+    }
+    .onLine_form input,.linedown_form input,.video_form input{
+        height: 30px; width: 310px;
+        padding-left: 5px;
+    }
+    .jump{
+        margin-top: 43px;
+        width: 100%;
+        text-align: center;
+    }
+    .jump a+a{
+        margin-left:20px;
+    }
+    .box ul{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 36px 0px;
+    }
+    .box ul li+li{
+        margin-left: 50px;
+    }
+    .cenner{
+        line-height: 25px;
+        text-align: center;
+    }
+    .all_a{
+        margin: 0 auto;
+        text-align: center;
+        margin-bottom: 26px;
+    }
+    .condition{
+        width: 480px;
+        margin: 40px auto;
+        line-height: 30px;
+    }
+    .condition span{
+        text-align: center;    display: block;
+    }
+    .plan-section {
+        width: inherit
+    }
+    .condition span{
+        font-size: 18px;
+    }
+
+    .section {
+        height: 944px;
+        width: 100%;
+        min-width: 1000px;
+        margin: 0 auto;
+        overflow: hidden
+    }
+
+    .section1 { background: url(/PcTpl/Home/Public/images/BusinessCooperation/banner_1.png) 50%;}
+    .section2 { background: url(/PcTpl/Home/Public/images/BusinessCooperation/banner_2.png) 50%;}
+    .section3 { background: url(/PcTpl/Home/Public/images/BusinessCooperation/banner_3.png) 50%;}
+    .section4 { background: url(/PcTpl/Home/Public/images/BusinessCooperation/banner_4.png) 50%;}
+    .onLine,.linedown,.video{
+        position: absolute;
+        margin-left: -50%;
+        width: 100%;
+    }
+    .aasd,.aasd2,.aasd3{
+        width: 1950px;
+        height: 3956px;
+        margin-top: -50%;
+        margin-left: -50%;
+    }
+</style>
+
+<body>
+
+
+
+
+
+<input style="display: none" value="" id="session">
+
+
+<div style="position: absolute;top:0;width: 100%;z-index: 10;" class="include">
+    ﻿    <link rel="stylesheet" href="/PcTpl/Home/Public/css/index/navigation.css">
+    <script src="/PcTpl/Public/js/jquery-1.7.2.js"></script>
+    <script type="text/javascript" src="/PcTpl/Public/js/reg.js"></script>
+    <script type="text/javascript" src="/PcTpl/Home/Public/js/lgandrg.js"></script>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+        }
+        #full_navigation{
+            margin-top: -20px;
+        }
+        #full_navigation .tabs{
+            width: 580px;
+            margin: 0 auto;
+            position: fixed;
+            background-color: #f5f5f1;
+            padding-top: 20px;
+            left: 50%;
+            margin-left: -290px;
+            z-index: 10990;
+            top: 50%;
+            margin-top: -240px;
+
+        }
+        #full_navigation .nav .nav-menu li .move .changeA {
+            background-color: #ff873e;
+            color: #FFFFFF;
+        }
+        #full_navigation .nav  .nav-menu li a {
+            text-align: left;
+            display: block;
+            padding-left: 14px;
+            text-decoration: none;
+        }
+        .header_bar span a{
+            font-size: 16px;
+        }
+        #full_navigation .ul1s{
+            list-style: none;
+            display: flex;
+            margin: 0;
+            padding: 0;
+            align-items: center;
+            margin-left: 51px;
+        }
+        #full_navigation .ul1s li{
+            font-size: 13px;
+            background-color: #f3f3f3;
+            border: 1px #dddddc solid;
+            width: 50px;
+            height: 30px;
+            text-align: center;
+            line-height: 29px;
+            cursor: pointer;
+        }
+        #full_navigation .ul1s li:nth-child(1){
+            border-right:none ;
+        }
+        #full_navigation .ul1s li.active{
+            background:#fff;
+            border-bottom: none;
+            height: 30px;
+            color: #ff873e;
+        }
+        #full_navigation .tabs div{
+            background-color: #fff;
+        }
+
+        #full_navigation .tabs .boxs>div{
+            line-height: 28px;
+            padding-top: 0px;
+            z-index: -1;
+            border-top: 1px #dddddc solid;
+            display: none;  margin-top: -1px;
+        }
+        #full_navigation  .all_div{
+            display: none;
+            position: absolute;
+            z-index: 100;
+            text-align: center;
+            margin: 0 auto;
+            width: 100%;
+            margin-top: -134px;
+            height: 100%;
+        }
+        body .all_div .tabs  .boxs {
+            width: 100%;
+            height: auto;
+        }
+        #full_navigation .all_div_bj{
+            position: fixed;
+            top: 0px;
+            left: 0px;
+            width: 100%;
+            height: 100%;
+            z-index: 999;
+            display: block;
+            opacity: 0.8;
+            background-color: rgb(221, 221, 221);
+        }
+
+        body #full_navigation .boxs input{
+
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+            font-family: inherit;
+            width: 232px;
+            line-height: 20px;
+            color: #333;
+            font-size: 12px;
+            margin: 0 0 0.2em 0;
+            padding: 6px;
+            border: 1px solid #c2c2c2;
+            border-right: 1px solid #e6e6e6;
+            border-bottom: 1px solid #e6e6e6;
+            display: block;
+        }
+        #full_navigation .register p{
+            font-size: 12px;
+            margin-top: 8px;
+            margin-bottom: 4px;
+        }
+        #full_navigation .register{
+            padding: 20px 53px;
+            text-align: left;
+        }
+        #full_navigation .boxs  .checkbox{
+            width: 13px;
+        }
+        #full_navigation .boxs .register span{
+            color: red;
+            position: absolute;
+            margin: -34px 0px 0px 256px;
+            font-size: 12px;
+        }
+        #full_navigation .boxs .login span{
+              color: red;
+              position: absolute;
+              margin: -34px 0px 0px 256px;
+              font-size: 12px;
+          }
+        #full_navigation .boxs .register hr{
+            background-color: #e1e1df;
+            color: #e1e1df;
+            border: 0;
+            height: 1px;
+            margin: 19px 0 11px;
+            clear: both;
+        }
+        #full_navigation  .register .submit-button{
+            background-color: #3cb1cb;
+            border-color: rgba(0, 0, 0, 0.2);
+            box-sizing: border-box;
+            border-radius:3px;
+            color: #fff;
+            margin: 10px 0px;
+        }
+        #full_navigation .login .submit-button{
+
+            font-size: 14px;
+            line-height: inherit;
+            background-color: #3cb1cb;
+            border-color: rgba(0, 0, 0, 0.2);
+            box-sizing: border-box;
+            border-radius:3px;
+            color: #fff;
+            border: none;
+            margin: 10px 0;
+        }
+        #full_navigation .login p{
+            font-size: 12px;
+            margin-top: 8px;
+            margin-bottom: 4px;
+        }
+        #full_navigation .login{
+            padding: 20px 53px;
+            text-align: left;
+        }
+        #full_navigation .boxs .login hr{
+            background-color: #e1e1df;
+            color: #e1e1df;
+            border: 0;
+            height: 1px;
+            margin: 19px 0 11px;
+            clear: both;
+        }
+
+        #full_navigation #kd{    width: 82px;
+            position: absolute;
+            height: 34px;
+            border: 1px solid #dddddc;
+            border-left: none;
+            margin-top: -36px;
+            margin-left: 150px;
+        }
+        #full_navigation #kds{    width: 82px;
+                position: absolute;
+                height: 34px;
+                border: 1px solid #dddddc;
+                border-left: none;
+                margin-top: -36px;
+                margin-left: 150px;
+            }
+        #full_navigation img {
+            vertical-align: middle;
+        }
+        #full_navigation .boxs #mobilecode{
+            width: 150px;
+        }
+        #full_navigation #btnSendCode{
+            width: 82px;
+            height: 34px;
+            font-size: 11px;
+            background-color: #ff873e;
+            color: #fff;
+            margin-top: -36px;
+            margin-left: 150px;    display: -webkit-box;
+            border: none;
+        }
+        #full_navigation #btnSendCodes{
+            width: 82px;
+            height: 34px;
+            font-size: 11px;
+            background-color: #ff873e;
+            color: #fff;
+            margin-top: -36px;
+            margin-left: 150px;    display: -webkit-box;
+            border: none;
+        }
+        #full_navigation .boxs .register .input_text{
+            font-size: 12px;
+            margin: -23px 22px 0px;
+            color: #000;
+        }
+        #full_navigation .boxs .login .input_text{
+            font-size: 12px;
+            margin: -23px 22px 0px;
+            color: #000;
+        }
+        #full_navigation #randCode{
+            width: 150px;
+        }
+        #full_navigation  .button-login {
+            background-color: #34A8C4;
+            width: 232px;
+            margin-top: 10px;
+            border: none;
+            font-size: 14px;
+            line-height: inherit;
+            border-radius:3px;
+            color: #fff;
+        }
+        #full_navigation  .phone-button {
+            background-color: #34A8C4;
+            width: 232px;
+            margin-top: 10px;
+            border: none;
+            font-size: 14px;
+            line-height: inherit;
+            border-radius:3px;
+            color: #fff;
+        }
+        #full_navigation .submit-button{
+            width: 232px;
+            border-radius: 3px;
+        }
+        #full_navigation #randCode1{
+            width: 150px;
+        }
+        #full_navigation .lgs .kuaijie{
+            margin-top: 10px;
+            margin-bottom: 20px;
+        }
+        #full_navigation .lgs .kuaijie a{
+            padding: 6px 22px;
+            color: #fff;
+            background-color: #34A8C4;
+            border-radius: 3px;
+        }
+        .boxs a{
+            color: #34A8C4;
+            text-decoration: none;
+            font-size: 12px;
+
+        }
+    
+        #register,.loginBtn,.operation span{
+            cursor: pointer;
+        }
+        #full_navigation .tabs .ul1s .close{
+            font-size: 24px;
+            float:right;
+            background-color: #f5f5f1;
+            cursor: pointer;
+            margin-left: 383px;
+            width: 31px;
+            height: 27px;
+            line-height: 27px;
+            color: #666;
+            opacity: 1;
+        }
+        .weChats{
+            width: 100%; height: auto ;display: none;    margin: 0 auto;text-align: center;
+        }
+        body #full_navigation .boxs .shoujidls input,body #full_navigation .boxs .mingzidls input{
+            margin: 22px 0px;
+        }
+        .weiX-box{
+            position: fixed;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0,0,0,.7);
+            z-index: 9;
+            display: none;
+            margin-top: -20px;
+        }
+        .weiX-box img{
+            position: absolute;
+            top:50%;
+            left: 50%;
+            margin-top:-125px ;
+            margin-left:-125px ;
+        }
+    </style>
+    <script>
+        var _hmt = _hmt || [];
+        (function () {
+            var hm = document.createElement("script");
+            hm.src = "https://hm.baidu.com/hm.js?9a11dd5949cc7fabe8b1613247bce4ee";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(hm, s);
+        })();
+    </script>
+    <script>
+        (function(){
+            var bp = document.createElement('script');
+            var curProtocol = window.location.protocol.split(':')[0];
+            if (curProtocol === 'https') {
+                bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+            }
+            else {
+                bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+            }
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(bp, s);
+        })();
+    </script>
+    <div class="weiX-box">
+        <img src="/PcTpl/Public/images/weixin.jpg" alt="" width="250px">
+    </div>
+<div id="full_navigation">
+    <header>
+        <div class="header_bar">
+            <input style="display: none" value="" id="session">
+            <div class="logo"><a href="/Home/Index/index.html"><img src="/PcTpl/Home/Public/images/Index/logo2.png"/></a></div>
+            <div class="search_bar">
+                <form action="/Home/Search/search" method="post">
+                    <input type="text" name="name" placeholder="你在寻找什么？"/>
+                    <input type="submit" value="搜索"/>
+                </form>
+            </div>
+            <div class="operation">
+                <span><a href="/Home/service/seek.html">搜猎人上出售</a></span>                <span><a id="register">注册</a></span>                <span><a class="loginBtn" id="login">登录</a></span>                                                <span class="car"><a href="/Home/carts/index.html"><img src="/PcTpl/Home/Public/images/Index/Shopping Cart.png"/></a></span>
+            </div>
+        </div>
+    </header>
+    <div class="nav">
+
+        <ul class="navBar">
+            <li><a href="/Home/Index/pc.html">商城首页</a></li>
+            <li class="current-line">
+                <a class="move" href="javascript:;">墙面装饰与收藏</a>
+                <ul class="nav-menu">
+                    <li>
+                            <div class="move">
+                                <a class="changeA" href="/Home/category/6">版画</a>
+                                <a href="/Home/category/6">版画</a>
+                            </div>
+                        </li><li>
+                            <div class="move">
+                                <a class="changeA" href="/Home/category/7">油画</a>
+                                <a href="/Home/category/7">油画</a>
+                            </div>
+                        </li><li>
+                            <div class="move">
+                                <a class="changeA" href="/Home/category/11">水彩(粉)</a>
+                                <a href="/Home/category/11">水彩(粉)</a>
+                            </div>
+                        </li><li>
+                            <div class="move">
+                                <a class="changeA" href="/Home/category/12">国画</a>
+                                <a href="/Home/category/12">国画</a>
+                            </div>
+                        </li><li>
+                            <div class="move">
+                                <a class="changeA" href="/Home/category/13">朝鲜画</a>
+                                <a href="/Home/category/13">朝鲜画</a>
+                            </div>
+                        </li><li>
+                            <div class="move">
+                                <a class="changeA" href="/Home/category/63439">素描</a>
+                                <a href="/Home/category/63439">素描</a>
+                            </div>
+                        </li><li>
+                            <div class="move">
+                                <a class="changeA" href="/Home/category/63440">绘画</a>
+                                <a href="/Home/category/63440">绘画</a>
+                            </div>
+                        </li><li>
+                            <div class="move">
+                                <a class="changeA" href="/Home/category/63442">综合材料</a>
+                                <a href="/Home/category/63442">综合材料</a>
+                            </div>
+                        </li>                </ul>
+            </li>
+            <li>
+                <a class="move" href="javascript:;">服装和配饰</a>
+                <ul class="nav-menu">
+                    <li>
+                            <div class="move">
+                                <a class="changeA" href="/Home/category/14">箱包</a>
+                                <a href="/Home/category/14">箱包</a>
+                            </div>
+                        </li><li>
+                            <div class="move">
+                                <a class="changeA" href="/Home/category/15">男/女装</a>
+                                <a href="/Home/category/15">男/女装</a>
+                            </div>
+                        </li><li>
+                            <div class="move">
+                                <a class="changeA" href="/Home/category/16">腰带</a>
+                                <a href="/Home/category/16">腰带</a>
+                            </div>
+                        </li>                </ul>
+            </li>
+                <li>
+                <a class="move" href="javascript:;">珠宝</a>
+                <ul class="nav-menu">
+                    <li>
+                            <div class="move">
+                                <a class="changeA" href="/Home/Goods/allgoodsList/id/28.html">耳饰</a>
+                                <a href="/Home/Goods/allgoodsList/id/28.html">耳饰</a>
+                            </div>
+                        </li><li>
+                            <div class="move">
+                                <a class="changeA" href="/Home/Goods/allgoodsList/id/29.html">项链</a>
+                                <a href="/Home/Goods/allgoodsList/id/29.html">项链</a>
+                            </div>
+                        </li><li>
+                            <div class="move">
+                                <a class="changeA" href="/Home/Goods/allgoodsList/id/30.html">戒指</a>
+                                <a href="/Home/Goods/allgoodsList/id/30.html">戒指</a>
+                            </div>
+                        </li><li>
+                            <div class="move">
+                                <a class="changeA" href="/Home/Goods/allgoodsList/id/63437.html">银条</a>
+                                <a href="/Home/Goods/allgoodsList/id/63437.html">银条</a>
+                            </div>
+                        </li>                </ul>
+            </li>
+            <li>
+                <a class="move" href="javascript:;">家庭和生活</a>
+                <ul class="nav-menu">
+                    <li>
+                            <div class="move">
+                                <a class="changeA" href="/Home/category/9">雕塑</a>
+                                <a href="/Home/category/9">雕塑</a>
+                            </div>
+                        </li><li>
+                            <div class="move">
+                                <a class="changeA" href="/Home/category/31">家居家装</a>
+                                <a href="/Home/category/31">家居家装</a>
+                            </div>
+                        </li><li>
+                            <div class="move">
+                                <a class="changeA" href="/Home/category/63438">手机数码</a>
+                                <a href="/Home/category/63438">手机数码</a>
+                            </div>
+                        </li><li>
+                            <div class="move">
+                                <a class="changeA" href="/Home/category/63443">酒</a>
+                                <a href="/Home/category/63443">酒</a>
+                            </div>
+                        </li>                </ul>
+            </li>
+            <li>
+                <a class="move" href="javascript:;">文化用品</a>
+                <ul class="nav-menu">
+                    <li>
+                            <div class="move">
+                                <a class="changeA" href="/Home/category/4">书刊</a>
+                                <a href="/Home/category/4">书刊</a>
+                            </div>
+                        </li><li>
+                            <div class="move">
+                                <a class="changeA" href="/Home/category/8">明信片</a>
+                                <a href="/Home/category/8">明信片</a>
+                            </div>
+                        </li><li>
+                            <div class="move">
+                                <a class="changeA" href="/Home/category/10">手帐本</a>
+                                <a href="/Home/category/10">手帐本</a>
+                            </div>
+                        </li><li>
+                            <div class="move">
+                                <a class="changeA" href="/Home/category/63441">茶叶</a>
+                                <a href="/Home/category/63441">茶叶</a>
+                            </div>
+                        </li>                </ul>
+            </li>
+          <!--   <li>
+                <a class="move" href="/Home/Article/articlelist.html">原创故事</a>
+            </li> -->
+        </ul>
+    </div>
+    <div class="mark_bg"></div>
+    <div class="all_div">
+        <div class="all_div_bj"></div>
+        <div class="tabs">
+            <ul class="ul1s">
+                <li class="rg active">注册</li>
+                <li class="lg">登录</li>
+                <div  class="close">×</div>
+            </ul>
+            <div class="boxs">
+                <div style="width: 100%; height: auto" class="rgs box1">
+                    <form class="register sms-form" id="sms-form" method="post"  name="form-sub">
+                        <p>手机号码</p>
+                        <input type="text" id="phone" name="username"  class="phone" maxlength="11" placeholder="11位手机号码" >
+                        <span class="phone_span"></span>
+                        <p>验证码</p>
+                        <input  type="text" id="randCode" name="randCode" maxlength="4" placeholder="图片验证码"  >
+                        <div class="kd">
+                            <img src="/Home/Mobile/createCode" id="kd"
+                                 onclick="this.src='/Home/Mobile/createCode/id/'+Math.random()">
+                        </div>
+                        <span class="randCode_span"></span>
+                        <p>手机验证码</p>
+                        <input type="text" id="mobilecode" name="mobilecode" class="input-sty padding-r" maxlength="6" placeholder="手机验证码" >
+                        <button id="btnSendCode" class="phoneCode" type="submit">发送验证码</button>
+
+                        <span class="mobilecode_span"></span>
+                        <p>密码</p>
+                        <input  type="password" name="pwd" class="pwd" id="password" maxlength="16"  placeholder="6-16位字符，须包含字母、数字" >
+                        <span class="password_span"></span>
+                        <p>确认密码</p>
+                        <input  type="password" name="rpwd" class="rpwd" id="rpassword" maxlength="16" placeholder="确认密码" >
+                        <span class="rpassword_span"></span>
+                        <hr/>
+                        <div>
+                            <input type="checkbox" class="checkbox" checked="checked"  /><span class="input_text">请确认已阅读并同意搜猎人<a href="/Home/Index/use_clause.html " target="_black">使用条款</a>和<a href="/Home/Index/privacy_clause.html" target="_black" >隐私条款</a></span>
+                        </div>
+                        <button type="button" class=" button-login registerBtn" >立即注册</button><span class="zhuce_span"style=" margin: 8px 30px;"></span>
+                    </form>
+                </div>
+                <div style="width: 100%; height: auto" class="lgs box1">
+                    <div  class="login">
+                        <div class="kuaijie">
+                            <a href="javascript:;" class="mingzidl" style="background-color:#189ce0">用户名</a>
+                            <a href="javascript:;" class="shoujidl">手机号</a>
+                            <a href="javascript:;" class="weixindl">微信</a>
+                        </div>
+                        <hr style=" margin-top: 5px;margin-bottom: 0px;"/>
+                        <!--用户名登录-->
+                            <div class="mingzidls">
+                                <input type="text" id="username" name="username"  class="phone" placeholder="用户名" >
+                                <span class="phone1_span" style="margin-top: -53px;"></span>
+                                <input type="password"  name="pwd"  class="password" id="password1"  maxlength="16"  placeholder="密码" >
+                                <span class="password1_span" style="margin-top: -53px;"></span>
+                                <hr />
+                                <div>
+                                    <a href="/Home/Password/index.html">忘记密码了吗？</a>
+                                </div>
+                                <button type="button" value="登录" class="submit-button"  >登录</button>
+                            </div>
+                        <!--手机号码登录-->
+                            <div class="shoujidls" style="display: none">
+                                <form class=" sms-forms" id="sms-forms" method="post"  name="form-sub">
+                                    <input type="text" id="usernames" name="username"  class="username" maxlength="11" placeholder="手机号码" >
+                                    <span class="phone1_span" style="margin-top: -53px;"></span>
+                                    <input type="text" id="mobilecodes" name="mobilecode" class="input-sty padding-r" maxlength="6" placeholder="验证码" >
+                                    <button id="btnSendCodes" class="phoneCode" type="submit" style="margin-top: -56px;">发送验证码</button>
+                                    <span class="mobilecodes_span"></span>
+                                    <hr />
+                                    <div>
+                                        <a href="/Home/Password/index.html">忘记密码了吗？</a>
+                                    </div>
+                                    <button type="button" value="登录" class="phone-button"  onclick="">登录</button>
+                                </form>
+                            </div>
+                        <!--微信内嵌登录-->
+                            <div class="weChats box1" >
+                                <div id="weChat"></div>
+                                <script src="http://res.wx.qq.com/connect/zh_CN/htmledition/js/wxLogin.js"></script>
+                                <script>
+                                    var obj = new WxLogin({
+                                        id:"weChat",
+                                        appid: "wx8d8646fc4b1dcca4",
+                                        scope: "snsapi_login",
+                                        redirect_uri: "http%3A%2F%2Fwww.soulieren.com%2Findex.php%2Fhome%2FThirdLogin%2Fcallback",
+                                        state: "",
+                                        style: "black",
+                                        href: ""
+                                    });
+                                </script>
+                            </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+</div>
+<div id="dowebok">
+    <div class="section section1" id="test">
+        <div class="banner">
+            <div class="banner_text">
+                <p>商务合作</p>
+            </div>
+            <div>
+                <ul id="menu1">
+                    <li data-menuanchor="page2"><a href="#page2">线上渠道</a> </li>
+                    <li data-menuanchor="page3"><a href="#page3">线下渠道</a></li>
+                    <li data-menuanchor="page4"><a href="#page4">视频定制</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="section section2" >
+        <div style="position: relative;">
+            <div class="all_text">
+                <div class="onLine_div">
+                    <p class="top">线上渠道</p>
+                    <p class="cenner">面向广大代理商企业，搜猎人提供便捷线上销售代理。同时提供全方位支持与合作培训，申请加入后市场经理将及时跟进联系，合作流程如下</p>
+                    <div class="box">
+                        <ul>
+                            <li>1.登录（注册）搜猎人账号</li>
+                            <li>2.提交申请资料</li>
+                            <li>3.合作洽谈</li>
+                        </ul>
+                        <ul>
+                            <li>4.签订合作协议</li>
+                            <li>5.提供线上产品</li>
+                        </ul>
+                    </div>
+                    <div class="all_a"><a class="onLine_a " style="cursor:pointer">申请加入</a></div>
+
+                    <div class="onLine_form">
+                        <p>平台介绍：<input type="text" name="introduction_onLine" placeholder="平台介绍"></p>
+                        <p>您的称呼：<input type="text" name="name_onLine" placeholder="您的称呼"></p>
+                        <p>机构名称：<input type="text" name="appellation_onLine" placeholder="机构名称"></p>
+                        <p>手机号码：<input type="text" name="phone_onLine" placeholder="您的手机号"></p>
+                        <p>您的网址：<input type="text" name="url_onLine" placeholder="http://www.soulieren.com"></p>
+                        <p>您的邮箱：<input type="email" name="email_onLine" placeholder="邮箱"></p>
+                        <div class="jump">
+                            <!--<a class="onLine_off">关闭</a><a class="onLine">提交</a>-->
+                            <a class="onLine">提交</a>
+                        </div>
+                    </div>
+                    <div class="condition">
+                        <span>加入条件</span>
+                        <p>1.完善而健全的线上渠道，有运营必备的支撑资源</p>
+                        <p>2.产品及品牌识别度较高</p>
+                        <p>3.线上平台具有一定的销售能力</p>
+                    </div>
+                    <div class="aasd">
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="section section3" >
+        <div style="position: relative;">
+            <div class="all_text">
+            <div class="linedown_div">
+                <p class="top">线下渠道</p>
+                <p class="cenner">面向广大销售商提供优质高效的产品服务，提供品牌加盟服务，申请加入后市场经理将及时跟进联系，合作流程如下</p>
+                <div class="box">
+                    <ul>
+                        <li>1.登录（注册）搜猎人账号</li>
+                        <li>2.提交申请资料</li>
+                        <li>3.合作洽谈</li>
+                    </ul>
+                    <ul>
+                        <li>4.签订合作协议</li>
+                        <li>5.产品备货</li>
+                    </ul>
+                </div>
+                <div class="all_a"><a class="linedown_a" style="cursor:pointer">申请加入</a></div>
+                <div class="linedown_form">
+                    <p>企业介绍：<input type="text" name="appellation_linedown" placeholder="企业介绍"></p>
+                    <p>手机号码：<input type="text" name="phone_linedown" placeholder="您的手机号"></p>
+                    <p>您的称呼：<input type="text" name="name_linedown" placeholder="您的称呼"></p>
+                    <p>您的邮箱：<input type="email" name="email_linedown" placeholder="邮箱"></p>
+                    <p>您的地址：<input type="text" name="address_linedown" placeholder="地址"></p>
+                    <div class="jump">
+                        <!--<a class="linedown_off">关闭</a>-->
+                        <a class="linedown">提交</a>
+                    </div>
+                </div>
+                <div class="condition">
+                    <span>加入条件</span>
+                    <p>1.良好的合作精神和积极性，能够配合总公司的总体方案，积极开拓市场，形成良性循环</p>
+                    <p>2.有一定的销售基础或其他相关行业经营经验</p>
+                    <p>3.有基本的物流配送能力和仓储能力</p>
+                    <p>4.熟悉市场，有成熟的销售批发渠道</p>
+                </div>
+                <div class="aasd2">
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+    <div class="section section4" >
+        <div style="position: relative;">
+            <div class="all_text">
+            <div class="video_div">
+                <p class="top">视频定制</p>
+                <p class="cenner">根据客户需求定制的高质量软广视频，特别策划单集 / 系列节目、拍摄单集/ 多集高质量视频制作一篇 / 多篇文案，申请加入后市场经理将及时跟进联系，合作流程如下</p>
+                <div class="box">
+                    <ul>
+                        <li>1.登录（注册） 搜猎人账号</li>
+                        <li>2.提交申请资料</li>
+                        <li>3.合作洽谈</li>
+                    </ul>
+                    <ul>
+                        <li>4.档期订位</li>
+                        <li>5.签订合作协议</li>
+                        <li>6.发布视频</li>
+                    </ul>
+                </div>
+                <div class="all_a"><a class="video_a" style="cursor:pointer">申请定制</a></div>
+                <div class="video_form">
+                    <p>您的邮箱：<input type="email" name="email_video" placeholder="邮箱"></p>
+                    <p>视频类型：<input type="text" name="shooting_type_video" placeholder="视频类型"></p>
+                    <p>您的职业：<input type="text" name="career_video" placeholder="职业"></p>
+                    <p>您的称呼：<input type="text" name="name_video" placeholder="您的称呼"></p>
+                    <p>手机号码：<input type="text" name="phone_video" placeholder="您的手机号"></p>
+                    <div class="jump">
+                        <!--<a class="video_off">关闭</a>-->
+                        <a class="video">提交</a>
+                    </div>
+                </div>
+                <div class="condition">
+                    <span>定制服务</span>
+                    <p>1.以人物访谈为主线，讲故事的报道方式呈现公司创始人背后的故事和情怀</p>
+                    <p>2.以产品和设计师为主线，从科技、设计和人文的角度呈现产品所凝聚的理念和精神内核</p>
+                    <p>3.人物，场景，产品，情节根据实际拍摄需求定制</p>
+                    <p>4.熟悉市场，有成熟的销售批发渠道</p>
+                </div>
+                <div class="aasd3">
+
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+</div>
+<script src="/PcTpl/Public/js/jquery-1.8.3.min.js"></script>
+<script src="/PcTpl/Public/js/jquery.fullPage.js"> </script>
+<script>
+
+    $(function(){
+        $('#dowebok').fullpage({
+            sectionsColor: ['#1bbc9b', '#4BBFC3', '#7BAABE', '#f90'],
+            anchors: ['page1', 'page2', 'page3', 'page4'],
+            afterLoad: function(anchorLink, index){
+                if(index == 1){
+                    $('.include').fadeIn(700);;
+                }
+                if(index == 2){
+                    $('.include').fadeOut(700)
+                }
+                if(index == 3){
+
+                    $('.include').fadeOut(700)
+                }
+                if(index == 4){
+
+                    $('.include').fadeOut(700)
+                }
+            },
+        });
+    });
+
+    $(function () {
+        $('.onLine_a').click(function () {
+            $('.onLine_form').fadeIn();
+        });
+        $('.aasd').click(function () {
+            $('.onLine_form').fadeOut();
+        });
+        $('.linedown_a').click(function () {
+            $('.linedown_form').fadeIn();
+        });
+        $('.aasd2').click(function () {
+            $('.linedown_form').fadeOut();
+        });
+        $('.video_a').click(function () {
+            $('.video_form').fadeIn();
+        });
+        $('.aasd3').click(function () {
+            $('.video_form').fadeOut();
+        });
+        var onLineInfo ={};
+        var lineDown ={};
+        var video ={};
+        var session=$('#session').val();
+        $('.onLine').click(function () {
+            if(session==''){
+                $('.all_div').fadeIn();
+                $('.lg').addClass('active');
+                $('.rg').removeClass('active');
+                $('.rgs').hide();
+                $('.lgs').show();
+            }else {
+                onLineInfo['introduction'] = $('input[name="introduction_onLine"]').val();
+                onLineInfo['name'] = $('input[name="name_onLine"]').val();
+                onLineInfo['appellation'] = $('input[name="appellation_onLine"]').val();
+                onLineInfo['phone'] = $('input[name="phone_onLine"]').val();
+                onLineInfo['url'] = $('input[name="url_onLine"]').val();
+                onLineInfo['email'] = $('input[name="email_onLine"]').val();
+                $.ajax({
+                    url: '../../Home/BusinessCooperation/onLine',
+                    type: "POST",
+                    data:onLineInfo,
+                    success: function(data){
+                        var res = JSON.parse(data);
+                        if(res.status=='-1'){
+                            alert(res.msg);
+                        }else{
+                            alert(res.msg);
+                        }
+                    },
+                    error:function (err) {
+                        console.log(err);
+                    }
+                });
+            }
+
+        });
+
+        $('.linedown').click(function () {
+            if(session==''){
+
+                $('.all_div').fadeIn();
+                $('.lg').addClass('active');
+                $('.rg').removeClass('active');
+            }else {
+                lineDown['name'] = $('input[name="name_linedown"]').val();
+                lineDown['appellation'] = $('input[name="appellation_linedown"]').val();
+                lineDown['phone'] = $('input[name="phone_linedown"]').val();
+                lineDown['address'] = $('input[name="address_linedown"]').val();
+                lineDown['email'] = $('input[name="email_linedown"]').val();
+
+                $.ajax({
+                    url: '../../Home/BusinessCooperation/LineDown',
+                    type: "POST",
+                    data: lineDown,
+                    success: function (data) {
+                        var res = JSON.parse(data);
+                        if (res.status == '-1') {
+                            alert(res.msg);
+                        } else {
+                            alert(res.msg);
+                        }
+                    },
+                    error: function (err) {
+                        console.log(err);
+                    }
+                });
+            }
+
+        });
+        $('.video').click(function () {
+            if(session==''){
+
+                $('.all_div').fadeIn();
+                $('.lg').addClass('active');
+                $('.rg').removeClass('active');
+            }else {
+                video['email'] = $('input[name="email_video"]').val();
+                video['shooting_type'] = $('input[name="shooting_type_video"]').val();
+                video['career'] = $('input[name="career_video"]').val();
+                video['name'] = $('input[name="name_video"]').val();
+                video['phone'] = $('input[name="phone_video"]').val();
+
+                $.ajax({
+                    url: '../../Home/BusinessCooperation/videoCustomization',
+                    type: "POST",
+                    data: video,
+                    success: function (data) {
+                        var res = JSON.parse(data);
+                        if (res.status == '-1') {
+                            alert(res.msg);
+                        } else {
+                            alert(res.msg);
+                        }
+                    },
+                    error: function (err) {
+                        console.log(err);
+                    }
+                });
+            }
+        });
+
+    })
+</script>
+</body>
+</html>

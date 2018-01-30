@@ -1,0 +1,2065 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>店铺列表</title>
+    <meta  name="keywords" content="搜猎人,原创,艺术,原创精神,艺术家,设计师,手工艺人,原创者,迟首飞,IP 内容开发,IP 衍生品内容设计,打造中国人自己的IP,IP开发与应用,IP 产业落地,艺术理念+互联网思维,原创艺术品消费平台,原创艺术品购物平台,艺术互联网,艺术产业" />
+</head>
+<script src="/PcTpl/Public/js/jquery-1.7.2.js"></script>
+<script src="/PcTpl/Home/Public/js/collection.js"></script>
+<link rel="stylesheet" type="text/css"  href="/PcTpl/Public/css/bootstrap.css">
+
+<style>
+    *{
+        padding: 0;
+        margin: 0;
+    }
+    a{
+        text-decoration: none;
+    }
+    body{
+        font-family: "微软雅黑";
+        background-color: #f5f5f5;
+    }
+    span, p{
+        color: #737373;
+    }
+    .all{
+        width: 1100px;
+        margin: 40px auto;
+    }
+    .col-4{
+        background-color: #fff;
+        float: left;
+        margin-bottom: 20px;
+        width: 32.3333%;
+        border: 1px #f0f0f0 solid;
+        overflow: hidden;
+    }
+    .col-4:nth-child(3n-1){
+        margin: 0px 1.5%;
+        margin-bottom: 20px;
+    }
+    .col-4 img{
+        height: 220px;
+        transform: translate(-9%,0%);
+    }
+    .goods{
+        padding: 0px 10px;
+        margin-top: 7px;
+    }
+    .attract{
+        cursor: pointer;
+        padding: 3px 10px 3px 6px;;
+        border: 1px solid #F2F2F0;
+    }
+    .attract p{
+        margin: 0px;
+        font-size: 12px;
+    }
+    .attract p i{
+        display: inline-block;
+        position: relative;
+        padding: 0 6px;
+        font-style: normal;
+        font-weight: normal;
+    }
+    .col .hover{
+        border: 1px #3eaf36 solid;
+    }
+    .col .hover p,.col .hover p i{
+        color:#3eaf36;
+    }
+    .Information{
+        margin-top: 35px;
+    }
+    .Information p{
+        color: #999;
+        padding: 0px 10px 5px;
+        margin: 0px;
+    }
+    .Information p span{
+        color: #ff6000;
+    }
+</style>
+<body>
+﻿    <link rel="stylesheet" href="/PcTpl/Home/Public/css/index/navigation.css">
+    <script src="/PcTpl/Public/js/jquery-1.7.2.js"></script>
+    <script type="text/javascript" src="/PcTpl/Public/js/reg.js"></script>
+    <script type="text/javascript" src="/PcTpl/Home/Public/js/lgandrg.js"></script>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+        }
+        #full_navigation{
+            margin-top: -20px;
+        }
+        #full_navigation .tabs{
+            width: 580px;
+            margin: 0 auto;
+            position: fixed;
+            background-color: #f5f5f1;
+            padding-top: 20px;
+            left: 50%;
+            margin-left: -290px;
+            z-index: 10990;
+            top: 50%;
+            margin-top: -240px;
+
+        }
+        #full_navigation .nav .nav-menu li .move .changeA {
+            background-color: #ff873e;
+            color: #FFFFFF;
+        }
+        #full_navigation .nav  .nav-menu li a {
+            text-align: left;
+            display: block;
+            padding-left: 14px;
+            text-decoration: none;
+        }
+        .header_bar span a{
+            font-size: 16px;
+        }
+        #full_navigation .ul1s{
+            list-style: none;
+            display: flex;
+            margin: 0;
+            padding: 0;
+            align-items: center;
+            margin-left: 51px;
+        }
+        #full_navigation .ul1s li{
+            font-size: 13px;
+            background-color: #f3f3f3;
+            border: 1px #dddddc solid;
+            width: 50px;
+            height: 30px;
+            text-align: center;
+            line-height: 29px;
+            cursor: pointer;
+        }
+        #full_navigation .ul1s li:nth-child(1){
+            border-right:none ;
+        }
+        #full_navigation .ul1s li.active{
+            background:#fff;
+            border-bottom: none;
+            height: 30px;
+            color: #ff873e;
+        }
+        #full_navigation .tabs div{
+            background-color: #fff;
+        }
+
+        #full_navigation .tabs .boxs>div{
+            line-height: 28px;
+            padding-top: 0px;
+            z-index: -1;
+            border-top: 1px #dddddc solid;
+            display: none;  margin-top: -1px;
+        }
+        #full_navigation  .all_div{
+            display: none;
+            position: absolute;
+            z-index: 100;
+            text-align: center;
+            margin: 0 auto;
+            width: 100%;
+            margin-top: -134px;
+            height: 100%;
+        }
+        body .all_div .tabs  .boxs {
+            width: 100%;
+            height: auto;
+        }
+        #full_navigation .all_div_bj{
+            position: fixed;
+            top: 0px;
+            left: 0px;
+            width: 100%;
+            height: 100%;
+            z-index: 999;
+            display: block;
+            opacity: 0.8;
+            background-color: rgb(221, 221, 221);
+        }
+
+        body #full_navigation .boxs input{
+
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+            font-family: inherit;
+            width: 232px;
+            line-height: 20px;
+            color: #333;
+            font-size: 12px;
+            margin: 0 0 0.2em 0;
+            padding: 6px;
+            border: 1px solid #c2c2c2;
+            border-right: 1px solid #e6e6e6;
+            border-bottom: 1px solid #e6e6e6;
+            display: block;
+        }
+        #full_navigation .register p{
+            font-size: 12px;
+            margin-top: 8px;
+            margin-bottom: 4px;
+        }
+        #full_navigation .register{
+            padding: 20px 53px;
+            text-align: left;
+        }
+        #full_navigation .boxs  .checkbox{
+            width: 13px;
+        }
+        #full_navigation .boxs .register span{
+            color: red;
+            position: absolute;
+            margin: -34px 0px 0px 256px;
+            font-size: 12px;
+        }
+        #full_navigation .boxs .login span{
+              color: red;
+              position: absolute;
+              margin: -34px 0px 0px 256px;
+              font-size: 12px;
+          }
+        #full_navigation .boxs .register hr{
+            background-color: #e1e1df;
+            color: #e1e1df;
+            border: 0;
+            height: 1px;
+            margin: 19px 0 11px;
+            clear: both;
+        }
+        #full_navigation  .register .submit-button{
+            background-color: #3cb1cb;
+            border-color: rgba(0, 0, 0, 0.2);
+            box-sizing: border-box;
+            border-radius:3px;
+            color: #fff;
+            margin: 10px 0px;
+        }
+        #full_navigation .login .submit-button{
+
+            font-size: 14px;
+            line-height: inherit;
+            background-color: #3cb1cb;
+            border-color: rgba(0, 0, 0, 0.2);
+            box-sizing: border-box;
+            border-radius:3px;
+            color: #fff;
+            border: none;
+            margin: 10px 0;
+        }
+        #full_navigation .login p{
+            font-size: 12px;
+            margin-top: 8px;
+            margin-bottom: 4px;
+        }
+        #full_navigation .login{
+            padding: 20px 53px;
+            text-align: left;
+        }
+        #full_navigation .boxs .login hr{
+            background-color: #e1e1df;
+            color: #e1e1df;
+            border: 0;
+            height: 1px;
+            margin: 19px 0 11px;
+            clear: both;
+        }
+
+        #full_navigation #kd{    width: 82px;
+            position: absolute;
+            height: 34px;
+            border: 1px solid #dddddc;
+            border-left: none;
+            margin-top: -36px;
+            margin-left: 150px;
+        }
+        #full_navigation #kds{    width: 82px;
+                position: absolute;
+                height: 34px;
+                border: 1px solid #dddddc;
+                border-left: none;
+                margin-top: -36px;
+                margin-left: 150px;
+            }
+        #full_navigation img {
+            vertical-align: middle;
+        }
+        #full_navigation .boxs #mobilecode{
+            width: 150px;
+        }
+        #full_navigation #btnSendCode{
+            width: 82px;
+            height: 34px;
+            font-size: 11px;
+            background-color: #ff873e;
+            color: #fff;
+            margin-top: -36px;
+            margin-left: 150px;    display: -webkit-box;
+            border: none;
+        }
+        #full_navigation #btnSendCodes{
+            width: 82px;
+            height: 34px;
+            font-size: 11px;
+            background-color: #ff873e;
+            color: #fff;
+            margin-top: -36px;
+            margin-left: 150px;    display: -webkit-box;
+            border: none;
+        }
+        #full_navigation .boxs .register .input_text{
+            font-size: 12px;
+            margin: -23px 22px 0px;
+            color: #000;
+        }
+        #full_navigation .boxs .login .input_text{
+            font-size: 12px;
+            margin: -23px 22px 0px;
+            color: #000;
+        }
+        #full_navigation #randCode{
+            width: 150px;
+        }
+        #full_navigation  .button-login {
+            background-color: #34A8C4;
+            width: 232px;
+            margin-top: 10px;
+            border: none;
+            font-size: 14px;
+            line-height: inherit;
+            border-radius:3px;
+            color: #fff;
+        }
+        #full_navigation  .phone-button {
+            background-color: #34A8C4;
+            width: 232px;
+            margin-top: 10px;
+            border: none;
+            font-size: 14px;
+            line-height: inherit;
+            border-radius:3px;
+            color: #fff;
+        }
+        #full_navigation .submit-button{
+            width: 232px;
+            border-radius: 3px;
+        }
+        #full_navigation #randCode1{
+            width: 150px;
+        }
+        #full_navigation .lgs .kuaijie{
+            margin-top: 10px;
+            margin-bottom: 20px;
+        }
+        #full_navigation .lgs .kuaijie a{
+            padding: 6px 22px;
+            color: #fff;
+            background-color: #34A8C4;
+            border-radius: 3px;
+        }
+        .boxs a{
+            color: #34A8C4;
+            text-decoration: none;
+            font-size: 12px;
+
+        }
+    
+        #register,.loginBtn,.operation span{
+            cursor: pointer;
+        }
+        #full_navigation .tabs .ul1s .close{
+            font-size: 24px;
+            float:right;
+            background-color: #f5f5f1;
+            cursor: pointer;
+            margin-left: 383px;
+            width: 31px;
+            height: 27px;
+            line-height: 27px;
+            color: #666;
+            opacity: 1;
+        }
+        .weChats{
+            width: 100%; height: auto ;display: none;    margin: 0 auto;text-align: center;
+        }
+        body #full_navigation .boxs .shoujidls input,body #full_navigation .boxs .mingzidls input{
+            margin: 22px 0px;
+        }
+        .weiX-box{
+            position: fixed;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0,0,0,.7);
+            z-index: 9;
+            display: none;
+            margin-top: -20px;
+        }
+        .weiX-box img{
+            position: absolute;
+            top:50%;
+            left: 50%;
+            margin-top:-125px ;
+            margin-left:-125px ;
+        }
+    </style>
+    <script>
+        var _hmt = _hmt || [];
+        (function () {
+            var hm = document.createElement("script");
+            hm.src = "https://hm.baidu.com/hm.js?9a11dd5949cc7fabe8b1613247bce4ee";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(hm, s);
+        })();
+    </script>
+    <script>
+        (function(){
+            var bp = document.createElement('script');
+            var curProtocol = window.location.protocol.split(':')[0];
+            if (curProtocol === 'https') {
+                bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+            }
+            else {
+                bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+            }
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(bp, s);
+        })();
+    </script>
+    <div class="weiX-box">
+        <img src="/PcTpl/Public/images/weixin.jpg" alt="" width="250px">
+    </div>
+<div id="full_navigation">
+    <header>
+        <div class="header_bar">
+            <input style="display: none" value="" id="session">
+            <div class="logo"><a href="/Home/Index/index.html"><img src="/PcTpl/Home/Public/images/Index/logo2.png"/></a></div>
+            <div class="search_bar">
+                <form action="/Home/Search/search" method="post">
+                    <input type="text" name="name" placeholder="你在寻找什么？"/>
+                    <input type="submit" value="搜索"/>
+                </form>
+            </div>
+            <div class="operation">
+                <span><a href="/Home/service/seek.html">搜猎人上出售</a></span>                <span><a id="register">注册</a></span>                <span><a class="loginBtn" id="login">登录</a></span>                                                <span class="car"><a href="/Home/carts/index.html"><img src="/PcTpl/Home/Public/images/Index/Shopping Cart.png"/></a></span>
+            </div>
+        </div>
+    </header>
+    <div class="nav">
+
+        <ul class="navBar">
+            <li><a href="/Home/Index/pc.html">商城首页</a></li>
+            <li class="current-line">
+                <a class="move" href="javascript:;">墙面装饰与收藏</a>
+                <ul class="nav-menu">
+                    <li>
+                            <div class="move">
+                                <a class="changeA" href="/Home/category/6">版画</a>
+                                <a href="/Home/category/6">版画</a>
+                            </div>
+                        </li><li>
+                            <div class="move">
+                                <a class="changeA" href="/Home/category/7">油画</a>
+                                <a href="/Home/category/7">油画</a>
+                            </div>
+                        </li><li>
+                            <div class="move">
+                                <a class="changeA" href="/Home/category/11">水彩(粉)</a>
+                                <a href="/Home/category/11">水彩(粉)</a>
+                            </div>
+                        </li><li>
+                            <div class="move">
+                                <a class="changeA" href="/Home/category/12">国画</a>
+                                <a href="/Home/category/12">国画</a>
+                            </div>
+                        </li><li>
+                            <div class="move">
+                                <a class="changeA" href="/Home/category/13">朝鲜画</a>
+                                <a href="/Home/category/13">朝鲜画</a>
+                            </div>
+                        </li><li>
+                            <div class="move">
+                                <a class="changeA" href="/Home/category/63439">素描</a>
+                                <a href="/Home/category/63439">素描</a>
+                            </div>
+                        </li><li>
+                            <div class="move">
+                                <a class="changeA" href="/Home/category/63440">绘画</a>
+                                <a href="/Home/category/63440">绘画</a>
+                            </div>
+                        </li><li>
+                            <div class="move">
+                                <a class="changeA" href="/Home/category/63442">综合材料</a>
+                                <a href="/Home/category/63442">综合材料</a>
+                            </div>
+                        </li>                </ul>
+            </li>
+            <li>
+                <a class="move" href="javascript:;">服装和配饰</a>
+                <ul class="nav-menu">
+                    <li>
+                            <div class="move">
+                                <a class="changeA" href="/Home/category/14">箱包</a>
+                                <a href="/Home/category/14">箱包</a>
+                            </div>
+                        </li><li>
+                            <div class="move">
+                                <a class="changeA" href="/Home/category/15">男/女装</a>
+                                <a href="/Home/category/15">男/女装</a>
+                            </div>
+                        </li><li>
+                            <div class="move">
+                                <a class="changeA" href="/Home/category/16">腰带</a>
+                                <a href="/Home/category/16">腰带</a>
+                            </div>
+                        </li>                </ul>
+            </li>
+                <li>
+                <a class="move" href="javascript:;">珠宝</a>
+                <ul class="nav-menu">
+                    <li>
+                            <div class="move">
+                                <a class="changeA" href="/Home/Goods/allgoodsList/id/28.html">耳饰</a>
+                                <a href="/Home/Goods/allgoodsList/id/28.html">耳饰</a>
+                            </div>
+                        </li><li>
+                            <div class="move">
+                                <a class="changeA" href="/Home/Goods/allgoodsList/id/29.html">项链</a>
+                                <a href="/Home/Goods/allgoodsList/id/29.html">项链</a>
+                            </div>
+                        </li><li>
+                            <div class="move">
+                                <a class="changeA" href="/Home/Goods/allgoodsList/id/30.html">戒指</a>
+                                <a href="/Home/Goods/allgoodsList/id/30.html">戒指</a>
+                            </div>
+                        </li><li>
+                            <div class="move">
+                                <a class="changeA" href="/Home/Goods/allgoodsList/id/63437.html">银条</a>
+                                <a href="/Home/Goods/allgoodsList/id/63437.html">银条</a>
+                            </div>
+                        </li>                </ul>
+            </li>
+            <li>
+                <a class="move" href="javascript:;">家庭和生活</a>
+                <ul class="nav-menu">
+                    <li>
+                            <div class="move">
+                                <a class="changeA" href="/Home/category/9">雕塑</a>
+                                <a href="/Home/category/9">雕塑</a>
+                            </div>
+                        </li><li>
+                            <div class="move">
+                                <a class="changeA" href="/Home/category/31">家居家装</a>
+                                <a href="/Home/category/31">家居家装</a>
+                            </div>
+                        </li><li>
+                            <div class="move">
+                                <a class="changeA" href="/Home/category/63438">手机数码</a>
+                                <a href="/Home/category/63438">手机数码</a>
+                            </div>
+                        </li><li>
+                            <div class="move">
+                                <a class="changeA" href="/Home/category/63443">酒</a>
+                                <a href="/Home/category/63443">酒</a>
+                            </div>
+                        </li>                </ul>
+            </li>
+            <li>
+                <a class="move" href="javascript:;">文化用品</a>
+                <ul class="nav-menu">
+                    <li>
+                            <div class="move">
+                                <a class="changeA" href="/Home/category/4">书刊</a>
+                                <a href="/Home/category/4">书刊</a>
+                            </div>
+                        </li><li>
+                            <div class="move">
+                                <a class="changeA" href="/Home/category/8">明信片</a>
+                                <a href="/Home/category/8">明信片</a>
+                            </div>
+                        </li><li>
+                            <div class="move">
+                                <a class="changeA" href="/Home/category/10">手帐本</a>
+                                <a href="/Home/category/10">手帐本</a>
+                            </div>
+                        </li><li>
+                            <div class="move">
+                                <a class="changeA" href="/Home/category/63441">茶叶</a>
+                                <a href="/Home/category/63441">茶叶</a>
+                            </div>
+                        </li>                </ul>
+            </li>
+          <!--   <li>
+                <a class="move" href="/Home/Article/articlelist.html">原创故事</a>
+            </li> -->
+        </ul>
+    </div>
+    <div class="mark_bg"></div>
+    <div class="all_div">
+        <div class="all_div_bj"></div>
+        <div class="tabs">
+            <ul class="ul1s">
+                <li class="rg active">注册</li>
+                <li class="lg">登录</li>
+                <div  class="close">×</div>
+            </ul>
+            <div class="boxs">
+                <div style="width: 100%; height: auto" class="rgs box1">
+                    <form class="register sms-form" id="sms-form" method="post"  name="form-sub">
+                        <p>手机号码</p>
+                        <input type="text" id="phone" name="username"  class="phone" maxlength="11" placeholder="11位手机号码" >
+                        <span class="phone_span"></span>
+                        <p>验证码</p>
+                        <input  type="text" id="randCode" name="randCode" maxlength="4" placeholder="图片验证码"  >
+                        <div class="kd">
+                            <img src="/Home/Mobile/createCode" id="kd"
+                                 onclick="this.src='/Home/Mobile/createCode/id/'+Math.random()">
+                        </div>
+                        <span class="randCode_span"></span>
+                        <p>手机验证码</p>
+                        <input type="text" id="mobilecode" name="mobilecode" class="input-sty padding-r" maxlength="6" placeholder="手机验证码" >
+                        <button id="btnSendCode" class="phoneCode" type="submit">发送验证码</button>
+
+                        <span class="mobilecode_span"></span>
+                        <p>密码</p>
+                        <input  type="password" name="pwd" class="pwd" id="password" maxlength="16"  placeholder="6-16位字符，须包含字母、数字" >
+                        <span class="password_span"></span>
+                        <p>确认密码</p>
+                        <input  type="password" name="rpwd" class="rpwd" id="rpassword" maxlength="16" placeholder="确认密码" >
+                        <span class="rpassword_span"></span>
+                        <hr/>
+                        <div>
+                            <input type="checkbox" class="checkbox" checked="checked"  /><span class="input_text">请确认已阅读并同意搜猎人<a href="/Home/Index/use_clause.html " target="_black">使用条款</a>和<a href="/Home/Index/privacy_clause.html" target="_black" >隐私条款</a></span>
+                        </div>
+                        <button type="button" class=" button-login registerBtn" >立即注册</button><span class="zhuce_span"style=" margin: 8px 30px;"></span>
+                    </form>
+                </div>
+                <div style="width: 100%; height: auto" class="lgs box1">
+                    <div  class="login">
+                        <div class="kuaijie">
+                            <a href="javascript:;" class="mingzidl" style="background-color:#189ce0">用户名</a>
+                            <a href="javascript:;" class="shoujidl">手机号</a>
+                            <a href="javascript:;" class="weixindl">微信</a>
+                        </div>
+                        <hr style=" margin-top: 5px;margin-bottom: 0px;"/>
+                        <!--用户名登录-->
+                            <div class="mingzidls">
+                                <input type="text" id="username" name="username"  class="phone" placeholder="用户名" >
+                                <span class="phone1_span" style="margin-top: -53px;"></span>
+                                <input type="password"  name="pwd"  class="password" id="password1"  maxlength="16"  placeholder="密码" >
+                                <span class="password1_span" style="margin-top: -53px;"></span>
+                                <hr />
+                                <div>
+                                    <a href="/Home/Password/index.html">忘记密码了吗？</a>
+                                </div>
+                                <button type="button" value="登录" class="submit-button"  >登录</button>
+                            </div>
+                        <!--手机号码登录-->
+                            <div class="shoujidls" style="display: none">
+                                <form class=" sms-forms" id="sms-forms" method="post"  name="form-sub">
+                                    <input type="text" id="usernames" name="username"  class="username" maxlength="11" placeholder="手机号码" >
+                                    <span class="phone1_span" style="margin-top: -53px;"></span>
+                                    <input type="text" id="mobilecodes" name="mobilecode" class="input-sty padding-r" maxlength="6" placeholder="验证码" >
+                                    <button id="btnSendCodes" class="phoneCode" type="submit" style="margin-top: -56px;">发送验证码</button>
+                                    <span class="mobilecodes_span"></span>
+                                    <hr />
+                                    <div>
+                                        <a href="/Home/Password/index.html">忘记密码了吗？</a>
+                                    </div>
+                                    <button type="button" value="登录" class="phone-button"  onclick="">登录</button>
+                                </form>
+                            </div>
+                        <!--微信内嵌登录-->
+                            <div class="weChats box1" >
+                                <div id="weChat"></div>
+                                <script src="http://res.wx.qq.com/connect/zh_CN/htmledition/js/wxLogin.js"></script>
+                                <script>
+                                    var obj = new WxLogin({
+                                        id:"weChat",
+                                        appid: "wx8d8646fc4b1dcca4",
+                                        scope: "snsapi_login",
+                                        redirect_uri: "http%3A%2F%2Fwww.soulieren.com%2Findex.php%2Fhome%2FThirdLogin%2Fcallback",
+                                        state: "",
+                                        style: "black",
+                                        href: ""
+                                    });
+                                </script>
+                            </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="all">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col">
+                <div class="col-4">
+                        <a href="/Home/shop/212625">
+                            <img src='/./Upload/Home/shop/banner/2017-12-08/1512703690.jpeg'>
+                        </a>
+                        <div class="goods">
+                           
+                            <div style="line-height: 25px; font-size: 16px;float: left">
+                                <a href="/Home/shop/212625">
+                               陳建周                               </a>
+                            </div>
+                            
+                            <div style="float: right">
+                                <div class="attract">
+                                    <input style="display: none" class="shop_id" value="49">
+                                    <p><i>+</i><span>关注</span></p>
+                                        
+                                </div>
+                            </div>
+                        </div>
+                        <div class="Information">
+                            <p>发表过<span>172</span>件艺术品</p>
+                            <p>被<span>1431</span>位圈内人关注</p>
+                        </div>
+                    </div><div class="col-4">
+                        <a href="/Home/shop/213111">
+                            <img src='/./Upload/Home/shop/banner/2017-12-13/1513129450.jpeg'>
+                        </a>
+                        <div class="goods">
+                           
+                            <div style="line-height: 25px; font-size: 16px;float: left">
+                                <a href="/Home/shop/213111">
+                               范佳                               </a>
+                            </div>
+                            
+                            <div style="float: right">
+                                <div class="attract">
+                                    <input style="display: none" class="shop_id" value="334">
+                                    <p><i>+</i><span>关注</span></p>
+                                        
+                                </div>
+                            </div>
+                        </div>
+                        <div class="Information">
+                            <p>发表过<span>46</span>件艺术品</p>
+                            <p>被<span>269</span>位圈内人关注</p>
+                        </div>
+                    </div><div class="col-4">
+                        <a href="/Home/shop/213305">
+                            <img src='/./Upload/Home/shop/banner/2018-01-16/1516077699.jpeg'>
+                        </a>
+                        <div class="goods">
+                           
+                            <div style="line-height: 25px; font-size: 16px;float: left">
+                                <a href="/Home/shop/213305">
+                               YFYG阎飞                               </a>
+                            </div>
+                            
+                            <div style="float: right">
+                                <div class="attract">
+                                    <input style="display: none" class="shop_id" value="366">
+                                    <p><i>+</i><span>关注</span></p>
+                                        
+                                </div>
+                            </div>
+                        </div>
+                        <div class="Information">
+                            <p>发表过<span>32</span>件艺术品</p>
+                            <p>被<span>67</span>位圈内人关注</p>
+                        </div>
+                    </div><div class="col-4">
+                        <a href="/Home/shop/212999">
+                            <img src='/./Upload/Home/shop/banner/2017-12-13/1513130807.jpeg'>
+                        </a>
+                        <div class="goods">
+                           
+                            <div style="line-height: 25px; font-size: 16px;float: left">
+                                <a href="/Home/shop/212999">
+                               杨苏                               </a>
+                            </div>
+                            
+                            <div style="float: right">
+                                <div class="attract">
+                                    <input style="display: none" class="shop_id" value="330">
+                                    <p><i>+</i><span>关注</span></p>
+                                        
+                                </div>
+                            </div>
+                        </div>
+                        <div class="Information">
+                            <p>发表过<span>36</span>件艺术品</p>
+                            <p>被<span>427</span>位圈内人关注</p>
+                        </div>
+                    </div><div class="col-4">
+                        <a href="/Home/shop/213080">
+                            <img src='/./Upload/Home/shop/banner/2017-09-12/1505202986.jpeg'>
+                        </a>
+                        <div class="goods">
+                           
+                            <div style="line-height: 25px; font-size: 16px;float: left">
+                                <a href="/Home/shop/213080">
+                               卜番                               </a>
+                            </div>
+                            
+                            <div style="float: right">
+                                <div class="attract">
+                                    <input style="display: none" class="shop_id" value="328">
+                                    <p><i>+</i><span>关注</span></p>
+                                        
+                                </div>
+                            </div>
+                        </div>
+                        <div class="Information">
+                            <p>发表过<span>13</span>件艺术品</p>
+                            <p>被<span>199</span>位圈内人关注</p>
+                        </div>
+                    </div><div class="col-4">
+                        <a href="/Home/shop/212922">
+                            <img src='/./Upload/Home/shop/banner/2017-11-22/1511332224.jpeg'>
+                        </a>
+                        <div class="goods">
+                           
+                            <div style="line-height: 25px; font-size: 16px;float: left">
+                                <a href="/Home/shop/212922">
+                               肖晴                               </a>
+                            </div>
+                            
+                            <div style="float: right">
+                                <div class="attract">
+                                    <input style="display: none" class="shop_id" value="279">
+                                    <p><i>+</i><span>关注</span></p>
+                                        
+                                </div>
+                            </div>
+                        </div>
+                        <div class="Information">
+                            <p>发表过<span>28</span>件艺术品</p>
+                            <p>被<span>344</span>位圈内人关注</p>
+                        </div>
+                    </div><div class="col-4">
+                        <a href="/Home/shop/212746">
+                            <img src='/./Upload/Home/shop/banner/2017-09-11/1505126599.jpeg'>
+                        </a>
+                        <div class="goods">
+                           
+                            <div style="line-height: 25px; font-size: 16px;float: left">
+                                <a href="/Home/shop/212746">
+                               张小熊                               </a>
+                            </div>
+                            
+                            <div style="float: right">
+                                <div class="attract">
+                                    <input style="display: none" class="shop_id" value="163">
+                                    <p><i>+</i><span>关注</span></p>
+                                        
+                                </div>
+                            </div>
+                        </div>
+                        <div class="Information">
+                            <p>发表过<span>16</span>件艺术品</p>
+                            <p>被<span>382</span>位圈内人关注</p>
+                        </div>
+                    </div><div class="col-4">
+                        <a href="/Home/shop/212846">
+                            <img src='/./Upload/Home/shop/banner/2017-09-11/1505123537.jpeg'>
+                        </a>
+                        <div class="goods">
+                           
+                            <div style="line-height: 25px; font-size: 16px;float: left">
+                                <a href="/Home/shop/212846">
+                               曹继才                               </a>
+                            </div>
+                            
+                            <div style="float: right">
+                                <div class="attract">
+                                    <input style="display: none" class="shop_id" value="211">
+                                    <p><i>+</i><span>关注</span></p>
+                                        
+                                </div>
+                            </div>
+                        </div>
+                        <div class="Information">
+                            <p>发表过<span>42</span>件艺术品</p>
+                            <p>被<span>882</span>位圈内人关注</p>
+                        </div>
+                    </div><div class="col-4">
+                        <a href="/Home/shop/213075">
+                            <img src='/./Upload/Home/shop/banner/2017-08-29/1504021492.jpeg'>
+                        </a>
+                        <div class="goods">
+                           
+                            <div style="line-height: 25px; font-size: 16px;float: left">
+                                <a href="/Home/shop/213075">
+                               路昊                               </a>
+                            </div>
+                            
+                            <div style="float: right">
+                                <div class="attract">
+                                    <input style="display: none" class="shop_id" value="324">
+                                    <p><i>+</i><span>关注</span></p>
+                                        
+                                </div>
+                            </div>
+                        </div>
+                        <div class="Information">
+                            <p>发表过<span>29</span>件艺术品</p>
+                            <p>被<span>597</span>位圈内人关注</p>
+                        </div>
+                    </div><div class="col-4">
+                        <a href="/Home/shop/212982">
+                            <img src='/./Upload/Home/shop/banner/2017-12-13/1513131810.jpeg'>
+                        </a>
+                        <div class="goods">
+                           
+                            <div style="line-height: 25px; font-size: 16px;float: left">
+                                <a href="/Home/shop/212982">
+                               聂笑辰                               </a>
+                            </div>
+                            
+                            <div style="float: right">
+                                <div class="attract">
+                                    <input style="display: none" class="shop_id" value="296">
+                                    <p><i>+</i><span>关注</span></p>
+                                        
+                                </div>
+                            </div>
+                        </div>
+                        <div class="Information">
+                            <p>发表过<span>163</span>件艺术品</p>
+                            <p>被<span>505</span>位圈内人关注</p>
+                        </div>
+                    </div><div class="col-4">
+                        <a href="/Home/shop/213040">
+                            <img src='/./Upload/Home/shop/banner/2017-12-13/1513132110.jpeg'>
+                        </a>
+                        <div class="goods">
+                           
+                            <div style="line-height: 25px; font-size: 16px;float: left">
+                                <a href="/Home/shop/213040">
+                               张喜忠                               </a>
+                            </div>
+                            
+                            <div style="float: right">
+                                <div class="attract">
+                                    <input style="display: none" class="shop_id" value="320">
+                                    <p><i>+</i><span>关注</span></p>
+                                        
+                                </div>
+                            </div>
+                        </div>
+                        <div class="Information">
+                            <p>发表过<span>52</span>件艺术品</p>
+                            <p>被<span>513</span>位圈内人关注</p>
+                        </div>
+                    </div><div class="col-4">
+                        <a href="/Home/shop/212702">
+                            <img src='/./Upload/Home/shop/banner/2017-08-13/1502609337.jpeg'>
+                        </a>
+                        <div class="goods">
+                           
+                            <div style="line-height: 25px; font-size: 16px;float: left">
+                                <a href="/Home/shop/212702">
+                               赵博                               </a>
+                            </div>
+                            
+                            <div style="float: right">
+                                <div class="attract">
+                                    <input style="display: none" class="shop_id" value="304">
+                                    <p><i>+</i><span>关注</span></p>
+                                        
+                                </div>
+                            </div>
+                        </div>
+                        <div class="Information">
+                            <p>发表过<span>83</span>件艺术品</p>
+                            <p>被<span>608</span>位圈内人关注</p>
+                        </div>
+                    </div><div class="col-4">
+                        <a href="/Home/shop/213112">
+                            <img src='/./Upload/Home/shop/banner/2017-09-15/1505489583.jpeg'>
+                        </a>
+                        <div class="goods">
+                           
+                            <div style="line-height: 25px; font-size: 16px;float: left">
+                                <a href="/Home/shop/213112">
+                               毕横                               </a>
+                            </div>
+                            
+                            <div style="float: right">
+                                <div class="attract">
+                                    <input style="display: none" class="shop_id" value="335">
+                                    <p><i>+</i><span>关注</span></p>
+                                        
+                                </div>
+                            </div>
+                        </div>
+                        <div class="Information">
+                            <p>发表过<span>23</span>件艺术品</p>
+                            <p>被<span>1067</span>位圈内人关注</p>
+                        </div>
+                    </div><div class="col-4">
+                        <a href="/Home/shop/213037">
+                            <img src='/./Upload/Home/shop/banner/2017-12-13/1513133188.jpeg'>
+                        </a>
+                        <div class="goods">
+                           
+                            <div style="line-height: 25px; font-size: 16px;float: left">
+                                <a href="/Home/shop/213037">
+                               刘彦                               </a>
+                            </div>
+                            
+                            <div style="float: right">
+                                <div class="attract">
+                                    <input style="display: none" class="shop_id" value="319">
+                                    <p><i>+</i><span>关注</span></p>
+                                        
+                                </div>
+                            </div>
+                        </div>
+                        <div class="Information">
+                            <p>发表过<span>113</span>件艺术品</p>
+                            <p>被<span>272</span>位圈内人关注</p>
+                        </div>
+                    </div><div class="col-4">
+                        <a href="/Home/shop/213359">
+                            <img src='/./Upload/Home/shop/banner/2018-01-25/1516862908.jpeg'>
+                        </a>
+                        <div class="goods">
+                           
+                            <div style="line-height: 25px; font-size: 16px;float: left">
+                                <a href="/Home/shop/213359">
+                               翰墨国粹艺术馆                               </a>
+                            </div>
+                            
+                            <div style="float: right">
+                                <div class="attract">
+                                    <input style="display: none" class="shop_id" value="374">
+                                    <p><i>+</i><span>关注</span></p>
+                                        
+                                </div>
+                            </div>
+                        </div>
+                        <div class="Information">
+                            <p>发表过<span>2</span>件艺术品</p>
+                            <p>被<span>0</span>位圈内人关注</p>
+                        </div>
+                    </div><div class="col-4">
+                        <a href="/Home/shop/213343">
+                            <img src='/./Upload/Home/shop/banner/2018-01-23/1516691906.jpeg'>
+                        </a>
+                        <div class="goods">
+                           
+                            <div style="line-height: 25px; font-size: 16px;float: left">
+                                <a href="/Home/shop/213343">
+                               悬彩画坊宋技龙                               </a>
+                            </div>
+                            
+                            <div style="float: right">
+                                <div class="attract">
+                                    <input style="display: none" class="shop_id" value="373">
+                                    <p><i>+</i><span>关注</span></p>
+                                        
+                                </div>
+                            </div>
+                        </div>
+                        <div class="Information">
+                            <p>发表过<span>44</span>件艺术品</p>
+                            <p>被<span>1</span>位圈内人关注</p>
+                        </div>
+                    </div><div class="col-4">
+                        <a href="/Home/shop/213155">
+                            <img src='/./Upload/Home/shop/banner/2018-01-22/1516621522.jpeg'>
+                        </a>
+                        <div class="goods">
+                           
+                            <div style="line-height: 25px; font-size: 16px;float: left">
+                                <a href="/Home/shop/213155">
+                               姚宇小宇宙爆发                               </a>
+                            </div>
+                            
+                            <div style="float: right">
+                                <div class="attract">
+                                    <input style="display: none" class="shop_id" value="371">
+                                    <p><i>+</i><span>关注</span></p>
+                                        
+                                </div>
+                            </div>
+                        </div>
+                        <div class="Information">
+                            <p>发表过<span>4</span>件艺术品</p>
+                            <p>被<span>1</span>位圈内人关注</p>
+                        </div>
+                    </div><div class="col-4">
+                        <a href="/Home/shop/213335">
+                            <img src='/'>
+                        </a>
+                        <div class="goods">
+                           
+                            <div style="line-height: 25px; font-size: 16px;float: left">
+                                <a href="/Home/shop/213335">
+                               张少如                               </a>
+                            </div>
+                            
+                            <div style="float: right">
+                                <div class="attract">
+                                    <input style="display: none" class="shop_id" value="370">
+                                    <p><i>+</i><span>关注</span></p>
+                                        
+                                </div>
+                            </div>
+                        </div>
+                        <div class="Information">
+                            <p>发表过<span>1</span>件艺术品</p>
+                            <p>被<span>0</span>位圈内人关注</p>
+                        </div>
+                    </div><div class="col-4">
+                        <a href="/Home/shop/213332">
+                            <img src='/./Upload/Home/shop/banner/2018-01-26/1516974370.jpeg'>
+                        </a>
+                        <div class="goods">
+                           
+                            <div style="line-height: 25px; font-size: 16px;float: left">
+                                <a href="/Home/shop/213332">
+                               当代艺术                               </a>
+                            </div>
+                            
+                            <div style="float: right">
+                                <div class="attract">
+                                    <input style="display: none" class="shop_id" value="369">
+                                    <p><i>+</i><span>关注</span></p>
+                                        
+                                </div>
+                            </div>
+                        </div>
+                        <div class="Information">
+                            <p>发表过<span>1</span>件艺术品</p>
+                            <p>被<span>0</span>位圈内人关注</p>
+                        </div>
+                    </div><div class="col-4">
+                        <a href="/Home/shop/213320">
+                            <img src='/'>
+                        </a>
+                        <div class="goods">
+                           
+                            <div style="line-height: 25px; font-size: 16px;float: left">
+                                <a href="/Home/shop/213320">
+                               空石艺术                               </a>
+                            </div>
+                            
+                            <div style="float: right">
+                                <div class="attract">
+                                    <input style="display: none" class="shop_id" value="368">
+                                    <p><i>+</i><span>关注</span></p>
+                                        
+                                </div>
+                            </div>
+                        </div>
+                        <div class="Information">
+                            <p>发表过<span>9</span>件艺术品</p>
+                            <p>被<span>55</span>位圈内人关注</p>
+                        </div>
+                    </div><div class="col-4">
+                        <a href="/Home/shop/213130">
+                            <img src='/./Upload/Home/shop/banner/2017-10-18/1508280534.jpeg'>
+                        </a>
+                        <div class="goods">
+                           
+                            <div style="line-height: 25px; font-size: 16px;float: left">
+                                <a href="/Home/shop/213130">
+                               孙立沙                               </a>
+                            </div>
+                            
+                            <div style="float: right">
+                                <div class="attract">
+                                    <input style="display: none" class="shop_id" value="338">
+                                    <p><i>+</i><span>关注</span></p>
+                                        
+                                </div>
+                            </div>
+                        </div>
+                        <div class="Information">
+                            <p>发表过<span>28</span>件艺术品</p>
+                            <p>被<span>400</span>位圈内人关注</p>
+                        </div>
+                    </div><div class="col-4">
+                        <a href="/Home/shop/213280">
+                            <img src='/'>
+                        </a>
+                        <div class="goods">
+                           
+                            <div style="line-height: 25px; font-size: 16px;float: left">
+                                <a href="/Home/shop/213280">
+                               朱漆坊                               </a>
+                            </div>
+                            
+                            <div style="float: right">
+                                <div class="attract">
+                                    <input style="display: none" class="shop_id" value="363">
+                                    <p><i>+</i><span>关注</span></p>
+                                        
+                                </div>
+                            </div>
+                        </div>
+                        <div class="Information">
+                            <p>发表过<span>9</span>件艺术品</p>
+                            <p>被<span>81</span>位圈内人关注</p>
+                        </div>
+                    </div><div class="col-4">
+                        <a href="/Home/shop/213286">
+                            <img src='/./Upload/Home/shop/banner/2018-01-05/1515138339.jpeg'>
+                        </a>
+                        <div class="goods">
+                           
+                            <div style="line-height: 25px; font-size: 16px;float: left">
+                                <a href="/Home/shop/213286">
+                               左晋                               </a>
+                            </div>
+                            
+                            <div style="float: right">
+                                <div class="attract">
+                                    <input style="display: none" class="shop_id" value="365">
+                                    <p><i>+</i><span>关注</span></p>
+                                        
+                                </div>
+                            </div>
+                        </div>
+                        <div class="Information">
+                            <p>发表过<span>38</span>件艺术品</p>
+                            <p>被<span>117</span>位圈内人关注</p>
+                        </div>
+                    </div><div class="col-4">
+                        <a href="/Home/shop/213281">
+                            <img src='/./Upload/Home/shop/banner/2017-12-26/1514280217.jpeg'>
+                        </a>
+                        <div class="goods">
+                           
+                            <div style="line-height: 25px; font-size: 16px;float: left">
+                                <a href="/Home/shop/213281">
+                               科罗德文化有限公司                               </a>
+                            </div>
+                            
+                            <div style="float: right">
+                                <div class="attract">
+                                    <input style="display: none" class="shop_id" value="364">
+                                    <p><i>+</i><span>关注</span></p>
+                                        
+                                </div>
+                            </div>
+                        </div>
+                        <div class="Information">
+                            <p>发表过<span>9</span>件艺术品</p>
+                            <p>被<span>82</span>位圈内人关注</p>
+                        </div>
+                    </div><div class="col-4">
+                        <a href="/Home/shop/212628">
+                            <img src='/./Upload/Home/shop/banner/2017-09-29/1506653572.jpeg'>
+                        </a>
+                        <div class="goods">
+                           
+                            <div style="line-height: 25px; font-size: 16px;float: left">
+                                <a href="/Home/shop/212628">
+                               张家玮的孤独园                               </a>
+                            </div>
+                            
+                            <div style="float: right">
+                                <div class="attract">
+                                    <input style="display: none" class="shop_id" value="53">
+                                    <p><i>+</i><span>关注</span></p>
+                                        
+                                </div>
+                            </div>
+                        </div>
+                        <div class="Information">
+                            <p>发表过<span>17</span>件艺术品</p>
+                            <p>被<span>83</span>位圈内人关注</p>
+                        </div>
+                    </div><div class="col-4">
+                        <a href="/Home/shop/213277">
+                            <img src='/'>
+                        </a>
+                        <div class="goods">
+                           
+                            <div style="line-height: 25px; font-size: 16px;float: left">
+                                <a href="/Home/shop/213277">
+                               许英特                               </a>
+                            </div>
+                            
+                            <div style="float: right">
+                                <div class="attract">
+                                    <input style="display: none" class="shop_id" value="362">
+                                    <p><i>+</i><span>关注</span></p>
+                                        
+                                </div>
+                            </div>
+                        </div>
+                        <div class="Information">
+                            <p>发表过<span>3</span>件艺术品</p>
+                            <p>被<span>165</span>位圈内人关注</p>
+                        </div>
+                    </div><div class="col-4">
+                        <a href="/Home/shop/213145">
+                            <img src='/./Upload/Home/shop/banner/2017-11-07/1510052369.jpeg'>
+                        </a>
+                        <div class="goods">
+                           
+                            <div style="line-height: 25px; font-size: 16px;float: left">
+                                <a href="/Home/shop/213145">
+                               罗涛                               </a>
+                            </div>
+                            
+                            <div style="float: right">
+                                <div class="attract">
+                                    <input style="display: none" class="shop_id" value="340">
+                                    <p><i>+</i><span>关注</span></p>
+                                        
+                                </div>
+                            </div>
+                        </div>
+                        <div class="Information">
+                            <p>发表过<span>21</span>件艺术品</p>
+                            <p>被<span>155</span>位圈内人关注</p>
+                        </div>
+                    </div><div class="col-4">
+                        <a href="/Home/shop/213250">
+                            <img src='/./Upload/Home/shop/banner/2017-12-12/1513051480.jpeg'>
+                        </a>
+                        <div class="goods">
+                           
+                            <div style="line-height: 25px; font-size: 16px;float: left">
+                                <a href="/Home/shop/213250">
+                               刘玥                               </a>
+                            </div>
+                            
+                            <div style="float: right">
+                                <div class="attract">
+                                    <input style="display: none" class="shop_id" value="359">
+                                    <p><i>+</i><span>关注</span></p>
+                                        
+                                </div>
+                            </div>
+                        </div>
+                        <div class="Information">
+                            <p>发表过<span>62</span>件艺术品</p>
+                            <p>被<span>455</span>位圈内人关注</p>
+                        </div>
+                    </div><div class="col-4">
+                        <a href="/Home/shop/213174">
+                            <img src='/'>
+                        </a>
+                        <div class="goods">
+                           
+                            <div style="line-height: 25px; font-size: 16px;float: left">
+                                <a href="/Home/shop/213174">
+                               开放力艺术                               </a>
+                            </div>
+                            
+                            <div style="float: right">
+                                <div class="attract">
+                                    <input style="display: none" class="shop_id" value="360">
+                                    <p><i>+</i><span>关注</span></p>
+                                        
+                                </div>
+                            </div>
+                        </div>
+                        <div class="Information">
+                            <p>发表过<span>5</span>件艺术品</p>
+                            <p>被<span>102</span>位圈内人关注</p>
+                        </div>
+                    </div><div class="col-4">
+                        <a href="/Home/shop/213092">
+                            <img src='/./Upload/Home/shop/banner/2017-09-08/1504868153.jpeg'>
+                        </a>
+                        <div class="goods">
+                           
+                            <div style="line-height: 25px; font-size: 16px;float: left">
+                                <a href="/Home/shop/213092">
+                               HELLO ART                               </a>
+                            </div>
+                            
+                            <div style="float: right">
+                                <div class="attract">
+                                    <input style="display: none" class="shop_id" value="325">
+                                    <p><i>+</i><span>关注</span></p>
+                                        
+                                </div>
+                            </div>
+                        </div>
+                        <div class="Information">
+                            <p>发表过<span>53</span>件艺术品</p>
+                            <p>被<span>722</span>位圈内人关注</p>
+                        </div>
+                    </div><div class="col-4">
+                        <a href="/Home/shop/212670">
+                            <img src='/./Upload/Home/shop/banner/2017-12-13/1513146559.jpeg'>
+                        </a>
+                        <div class="goods">
+                           
+                            <div style="line-height: 25px; font-size: 16px;float: left">
+                                <a href="/Home/shop/212670">
+                               隐彰                               </a>
+                            </div>
+                            
+                            <div style="float: right">
+                                <div class="attract">
+                                    <input style="display: none" class="shop_id" value="117">
+                                    <p><i>+</i><span>关注</span></p>
+                                        
+                                </div>
+                            </div>
+                        </div>
+                        <div class="Information">
+                            <p>发表过<span>30</span>件艺术品</p>
+                            <p>被<span>169</span>位圈内人关注</p>
+                        </div>
+                    </div><div class="col-4">
+                        <a href="/Home/shop/213237">
+                            <img src='/./Upload/Home/shop/banner/2017-12-08/1512715541.jpeg'>
+                        </a>
+                        <div class="goods">
+                           
+                            <div style="line-height: 25px; font-size: 16px;float: left">
+                                <a href="/Home/shop/213237">
+                               王占武                               </a>
+                            </div>
+                            
+                            <div style="float: right">
+                                <div class="attract">
+                                    <input style="display: none" class="shop_id" value="356">
+                                    <p><i>+</i><span>关注</span></p>
+                                        
+                                </div>
+                            </div>
+                        </div>
+                        <div class="Information">
+                            <p>发表过<span>37</span>件艺术品</p>
+                            <p>被<span>282</span>位圈内人关注</p>
+                        </div>
+                    </div><div class="col-4">
+                        <a href="/Home/shop/213217">
+                            <img src='/./Upload/Home/shop/banner/2017-11-30/1512040996.jpeg'>
+                        </a>
+                        <div class="goods">
+                           
+                            <div style="line-height: 25px; font-size: 16px;float: left">
+                                <a href="/Home/shop/213217">
+                               自龙                               </a>
+                            </div>
+                            
+                            <div style="float: right">
+                                <div class="attract">
+                                    <input style="display: none" class="shop_id" value="354">
+                                    <p><i>+</i><span>关注</span></p>
+                                        
+                                </div>
+                            </div>
+                        </div>
+                        <div class="Information">
+                            <p>发表过<span>19</span>件艺术品</p>
+                            <p>被<span>575</span>位圈内人关注</p>
+                        </div>
+                    </div><div class="col-4">
+                        <a href="/Home/shop/213219">
+                            <img src='/./Upload/Home/shop/banner/2017-12-01/1512109213.jpeg'>
+                        </a>
+                        <div class="goods">
+                           
+                            <div style="line-height: 25px; font-size: 16px;float: left">
+                                <a href="/Home/shop/213219">
+                               O界-王冰                               </a>
+                            </div>
+                            
+                            <div style="float: right">
+                                <div class="attract">
+                                    <input style="display: none" class="shop_id" value="355">
+                                    <p><i>+</i><span>关注</span></p>
+                                        
+                                </div>
+                            </div>
+                        </div>
+                        <div class="Information">
+                            <p>发表过<span>25</span>件艺术品</p>
+                            <p>被<span>235</span>位圈内人关注</p>
+                        </div>
+                    </div><div class="col-4">
+                        <a href="/Home/shop/213205">
+                            <img src='/./Upload/Home/shop/banner/2017-12-01/1512116724.jpeg'>
+                        </a>
+                        <div class="goods">
+                           
+                            <div style="line-height: 25px; font-size: 16px;float: left">
+                                <a href="/Home/shop/213205">
+                               王云云                               </a>
+                            </div>
+                            
+                            <div style="float: right">
+                                <div class="attract">
+                                    <input style="display: none" class="shop_id" value="352">
+                                    <p><i>+</i><span>关注</span></p>
+                                        
+                                </div>
+                            </div>
+                        </div>
+                        <div class="Information">
+                            <p>发表过<span>197</span>件艺术品</p>
+                            <p>被<span>937</span>位圈内人关注</p>
+                        </div>
+                    </div><div class="col-4">
+                        <a href="/Home/shop/213169">
+                            <img src='/./Upload/Home/shop/banner/2017-11-25/1511611558.jpeg'>
+                        </a>
+                        <div class="goods">
+                           
+                            <div style="line-height: 25px; font-size: 16px;float: left">
+                                <a href="/Home/shop/213169">
+                               一片空白                               </a>
+                            </div>
+                            
+                            <div style="float: right">
+                                <div class="attract">
+                                    <input style="display: none" class="shop_id" value="348">
+                                    <p><i>+</i><span>关注</span></p>
+                                        
+                                </div>
+                            </div>
+                        </div>
+                        <div class="Information">
+                            <p>发表过<span>8</span>件艺术品</p>
+                            <p>被<span>154</span>位圈内人关注</p>
+                        </div>
+                    </div><div class="col-4">
+                        <a href="/Home/shop/213192">
+                            <img src='/./Upload/Home/shop/banner/2017-11-19/1511058878.jpeg'>
+                        </a>
+                        <div class="goods">
+                           
+                            <div style="line-height: 25px; font-size: 16px;float: left">
+                                <a href="/Home/shop/213192">
+                               朱拙                               </a>
+                            </div>
+                            
+                            <div style="float: right">
+                                <div class="attract">
+                                    <input style="display: none" class="shop_id" value="349">
+                                    <p><i>+</i><span>关注</span></p>
+                                        
+                                </div>
+                            </div>
+                        </div>
+                        <div class="Information">
+                            <p>发表过<span>28</span>件艺术品</p>
+                            <p>被<span>969</span>位圈内人关注</p>
+                        </div>
+                    </div><div class="col-4">
+                        <a href="/Home/shop/213194">
+                            <img src='/./Upload/Home/shop/banner/2017-11-19/1511084888.jpeg'>
+                        </a>
+                        <div class="goods">
+                           
+                            <div style="line-height: 25px; font-size: 16px;float: left">
+                                <a href="/Home/shop/213194">
+                               常世江艺术馆                               </a>
+                            </div>
+                            
+                            <div style="float: right">
+                                <div class="attract">
+                                    <input style="display: none" class="shop_id" value="350">
+                                    <p><i>+</i><span>关注</span></p>
+                                        
+                                </div>
+                            </div>
+                        </div>
+                        <div class="Information">
+                            <p>发表过<span>19</span>件艺术品</p>
+                            <p>被<span>269</span>位圈内人关注</p>
+                        </div>
+                    </div><div class="col-4">
+                        <a href="/Home/shop/213167">
+                            <img src='/./Upload/Home/shop/banner/2017-11-14/1510671870.jpeg'>
+                        </a>
+                        <div class="goods">
+                           
+                            <div style="line-height: 25px; font-size: 16px;float: left">
+                                <a href="/Home/shop/213167">
+                               新锐绘画                               </a>
+                            </div>
+                            
+                            <div style="float: right">
+                                <div class="attract">
+                                    <input style="display: none" class="shop_id" value="344">
+                                    <p><i>+</i><span>关注</span></p>
+                                        
+                                </div>
+                            </div>
+                        </div>
+                        <div class="Information">
+                            <p>发表过<span>31</span>件艺术品</p>
+                            <p>被<span>534</span>位圈内人关注</p>
+                        </div>
+                    </div><div class="col-4">
+                        <a href="/Home/shop/213179">
+                            <img src='/./Upload/Home/shop/banner/2017-11-19/1511059561.jpeg'>
+                        </a>
+                        <div class="goods">
+                           
+                            <div style="line-height: 25px; font-size: 16px;float: left">
+                                <a href="/Home/shop/213179">
+                               仝凌飞                               </a>
+                            </div>
+                            
+                            <div style="float: right">
+                                <div class="attract">
+                                    <input style="display: none" class="shop_id" value="347">
+                                    <p><i>+</i><span>关注</span></p>
+                                        
+                                </div>
+                            </div>
+                        </div>
+                        <div class="Information">
+                            <p>发表过<span>70</span>件艺术品</p>
+                            <p>被<span>154</span>位圈内人关注</p>
+                        </div>
+                    </div><div class="col-4">
+                        <a href="/Home/shop/213176">
+                            <img src='/./Upload/Home/shop/banner/2017-11-07/1510038779.jpeg'>
+                        </a>
+                        <div class="goods">
+                           
+                            <div style="line-height: 25px; font-size: 16px;float: left">
+                                <a href="/Home/shop/213176">
+                               LoukasTC                               </a>
+                            </div>
+                            
+                            <div style="float: right">
+                                <div class="attract">
+                                    <input style="display: none" class="shop_id" value="346">
+                                    <p><i>+</i><span>关注</span></p>
+                                        
+                                </div>
+                            </div>
+                        </div>
+                        <div class="Information">
+                            <p>发表过<span>102</span>件艺术品</p>
+                            <p>被<span>186</span>位圈内人关注</p>
+                        </div>
+                    </div><div class="col-4">
+                        <a href="/Home/shop/213171">
+                            <img src='/./Upload/Home/shop/banner/2017-11-05/1509872082.jpeg'>
+                        </a>
+                        <div class="goods">
+                           
+                            <div style="line-height: 25px; font-size: 16px;float: left">
+                                <a href="/Home/shop/213171">
+                               陈华达                               </a>
+                            </div>
+                            
+                            <div style="float: right">
+                                <div class="attract">
+                                    <input style="display: none" class="shop_id" value="345">
+                                    <p><i>+</i><span>关注</span></p>
+                                        
+                                </div>
+                            </div>
+                        </div>
+                        <div class="Information">
+                            <p>发表过<span>7</span>件艺术品</p>
+                            <p>被<span>459</span>位圈内人关注</p>
+                        </div>
+                    </div><div class="col-4">
+                        <a href="/Home/shop/213022">
+                            <img src='/./Upload/Home/shop/banner/2017-08-09/1502278737.jpeg'>
+                        </a>
+                        <div class="goods">
+                           
+                            <div style="line-height: 25px; font-size: 16px;float: left">
+                                <a href="/Home/shop/213022">
+                               李仁渤的超级游戏                               </a>
+                            </div>
+                            
+                            <div style="float: right">
+                                <div class="attract">
+                                    <input style="display: none" class="shop_id" value="312">
+                                    <p><i>+</i><span>关注</span></p>
+                                        
+                                </div>
+                            </div>
+                        </div>
+                        <div class="Information">
+                            <p>发表过<span>32</span>件艺术品</p>
+                            <p>被<span>204</span>位圈内人关注</p>
+                        </div>
+                    </div><div class="col-4">
+                        <a href="/Home/shop/213105">
+                            <img src='/./Upload/Home/shop/banner/2017-09-13/1505289627.jpeg'>
+                        </a>
+                        <div class="goods">
+                           
+                            <div style="line-height: 25px; font-size: 16px;float: left">
+                                <a href="/Home/shop/213105">
+                               李化猛艺术工作室                               </a>
+                            </div>
+                            
+                            <div style="float: right">
+                                <div class="attract">
+                                    <input style="display: none" class="shop_id" value="332">
+                                    <p><i>+</i><span>关注</span></p>
+                                        
+                                </div>
+                            </div>
+                        </div>
+                        <div class="Information">
+                            <p>发表过<span>41</span>件艺术品</p>
+                            <p>被<span>284</span>位圈内人关注</p>
+                        </div>
+                    </div><div class="col-4">
+                        <a href="/Home/shop/213098">
+                            <img src='/./Upload/Home/shop/banner/2017-09-11/1505132034.jpeg'>
+                        </a>
+                        <div class="goods">
+                           
+                            <div style="line-height: 25px; font-size: 16px;float: left">
+                                <a href="/Home/shop/213098">
+                               王唐糖                               </a>
+                            </div>
+                            
+                            <div style="float: right">
+                                <div class="attract">
+                                    <input style="display: none" class="shop_id" value="327">
+                                    <p><i>+</i><span>关注</span></p>
+                                        
+                                </div>
+                            </div>
+                        </div>
+                        <div class="Information">
+                            <p>发表过<span>38</span>件艺术品</p>
+                            <p>被<span>484</span>位圈内人关注</p>
+                        </div>
+                    </div><div class="col-4">
+                        <a href="/Home/shop/213058">
+                            <img src='/./Upload/Home/shop/banner/2017-08-23/1503490743.jpeg'>
+                        </a>
+                        <div class="goods">
+                           
+                            <div style="line-height: 25px; font-size: 16px;float: left">
+                                <a href="/Home/shop/213058">
+                               Holz-树                               </a>
+                            </div>
+                            
+                            <div style="float: right">
+                                <div class="attract">
+                                    <input style="display: none" class="shop_id" value="322">
+                                    <p><i>+</i><span>关注</span></p>
+                                        
+                                </div>
+                            </div>
+                        </div>
+                        <div class="Information">
+                            <p>发表过<span>2</span>件艺术品</p>
+                            <p>被<span>164</span>位圈内人关注</p>
+                        </div>
+                    </div><div class="col-4">
+                        <a href="/Home/shop/213045">
+                            <img src='/./Upload/Home/shop/banner/2017-08-15/1502768913.jpeg'>
+                        </a>
+                        <div class="goods">
+                           
+                            <div style="line-height: 25px; font-size: 16px;float: left">
+                                <a href="/Home/shop/213045">
+                               李赞                               </a>
+                            </div>
+                            
+                            <div style="float: right">
+                                <div class="attract">
+                                    <input style="display: none" class="shop_id" value="321">
+                                    <p><i>+</i><span>关注</span></p>
+                                        
+                                </div>
+                            </div>
+                        </div>
+                        <div class="Information">
+                            <p>发表过<span>16</span>件艺术品</p>
+                            <p>被<span>292</span>位圈内人关注</p>
+                        </div>
+                    </div><div class="col-4">
+                        <a href="/Home/shop/212919">
+                            <img src='/./Upload/Home/shop/banner/2017-08-11/1502418664.png'>
+                        </a>
+                        <div class="goods">
+                           
+                            <div style="line-height: 25px; font-size: 16px;float: left">
+                                <a href="/Home/shop/212919">
+                               张占占                               </a>
+                            </div>
+                            
+                            <div style="float: right">
+                                <div class="attract">
+                                    <input style="display: none" class="shop_id" value="278">
+                                    <p><i>+</i><span>关注</span></p>
+                                        
+                                </div>
+                            </div>
+                        </div>
+                        <div class="Information">
+                            <p>发表过<span>91</span>件艺术品</p>
+                            <p>被<span>713</span>位圈内人关注</p>
+                        </div>
+                    </div><div class="col-4">
+                        <a href="/Home/shop/213023">
+                            <img src='/./Upload/Home/shop/banner/2017-08-03/1501750069.jpeg'>
+                        </a>
+                        <div class="goods">
+                           
+                            <div style="line-height: 25px; font-size: 16px;float: left">
+                                <a href="/Home/shop/213023">
+                               迷失国度                               </a>
+                            </div>
+                            
+                            <div style="float: right">
+                                <div class="attract">
+                                    <input style="display: none" class="shop_id" value="313">
+                                    <p><i>+</i><span>关注</span></p>
+                                        
+                                </div>
+                            </div>
+                        </div>
+                        <div class="Information">
+                            <p>发表过<span>17</span>件艺术品</p>
+                            <p>被<span>124</span>位圈内人关注</p>
+                        </div>
+                    </div><div class="col-4">
+                        <a href="/Home/shop/212997">
+                            <img src='/./Upload/Home/shop/banner/2017-08-08/1502187550.jpeg'>
+                        </a>
+                        <div class="goods">
+                           
+                            <div style="line-height: 25px; font-size: 16px;float: left">
+                                <a href="/Home/shop/212997">
+                               洪涛的丹青世界                               </a>
+                            </div>
+                            
+                            <div style="float: right">
+                                <div class="attract">
+                                    <input style="display: none" class="shop_id" value="302">
+                                    <p><i>+</i><span>关注</span></p>
+                                        
+                                </div>
+                            </div>
+                        </div>
+                        <div class="Information">
+                            <p>发表过<span>34</span>件艺术品</p>
+                            <p>被<span>139</span>位圈内人关注</p>
+                        </div>
+                    </div><div class="col-4">
+                        <a href="/Home/shop/213014">
+                            <img src='/./Upload/Home/shop/banner/2017-07-25/1500994505.jpeg'>
+                        </a>
+                        <div class="goods">
+                           
+                            <div style="line-height: 25px; font-size: 16px;float: left">
+                                <a href="/Home/shop/213014">
+                               陈灵平                               </a>
+                            </div>
+                            
+                            <div style="float: right">
+                                <div class="attract">
+                                    <input style="display: none" class="shop_id" value="305">
+                                    <p><i>+</i><span>关注</span></p>
+                                        
+                                </div>
+                            </div>
+                        </div>
+                        <div class="Information">
+                            <p>发表过<span>11</span>件艺术品</p>
+                            <p>被<span>196</span>位圈内人关注</p>
+                        </div>
+                    </div><div class="col-4">
+                        <a href="/Home/shop/211316">
+                            <img src='/./Upload/Home/shop/banner/2017-11-30/1512017069.jpeg'>
+                        </a>
+                        <div class="goods">
+                           
+                            <div style="line-height: 25px; font-size: 16px;float: left">
+                                <a href="/Home/shop/211316">
+                               造客                               </a>
+                            </div>
+                            
+                            <div style="float: right">
+                                <div class="attract">
+                                    <input style="display: none" class="shop_id" value="1">
+                                    <p><i>+</i><span>关注</span></p>
+                                        
+                                </div>
+                            </div>
+                        </div>
+                        <div class="Information">
+                            <p>发表过<span>175</span>件艺术品</p>
+                            <p>被<span>1414</span>位圈内人关注</p>
+                        </div>
+                    </div><div class="col-4">
+                        <a href="/Home/shop/212977">
+                            <img src='/./Upload/Home/shop/banner/2017-07-09/1499582106.jpeg'>
+                        </a>
+                        <div class="goods">
+                           
+                            <div style="line-height: 25px; font-size: 16px;float: left">
+                                <a href="/Home/shop/212977">
+                               厌式房间                               </a>
+                            </div>
+                            
+                            <div style="float: right">
+                                <div class="attract">
+                                    <input style="display: none" class="shop_id" value="293">
+                                    <p><i>+</i><span>关注</span></p>
+                                        
+                                </div>
+                            </div>
+                        </div>
+                        <div class="Information">
+                            <p>发表过<span>11</span>件艺术品</p>
+                            <p>被<span>297</span>位圈内人关注</p>
+                        </div>
+                    </div><div class="col-4">
+                        <a href="/Home/shop/212992">
+                            <img src='/./Upload/Home/shop/banner/2017-07-12/1499831814.png'>
+                        </a>
+                        <div class="goods">
+                           
+                            <div style="line-height: 25px; font-size: 16px;float: left">
+                                <a href="/Home/shop/212992">
+                               IN  MARCH                               </a>
+                            </div>
+                            
+                            <div style="float: right">
+                                <div class="attract">
+                                    <input style="display: none" class="shop_id" value="299">
+                                    <p><i>+</i><span>关注</span></p>
+                                        
+                                </div>
+                            </div>
+                        </div>
+                        <div class="Information">
+                            <p>发表过<span>16</span>件艺术品</p>
+                            <p>被<span>223</span>位圈内人关注</p>
+                        </div>
+                    </div><div class="col-4">
+                        <a href="/Home/shop/212813">
+                            <img src='/./Upload/Home/shop/banner/2017-07-20/1500543517.jpeg'>
+                        </a>
+                        <div class="goods">
+                           
+                            <div style="line-height: 25px; font-size: 16px;float: left">
+                                <a href="/Home/shop/212813">
+                               卷卷品牌店                               </a>
+                            </div>
+                            
+                            <div style="float: right">
+                                <div class="attract">
+                                    <input style="display: none" class="shop_id" value="198">
+                                    <p><i>+</i><span>关注</span></p>
+                                        
+                                </div>
+                            </div>
+                        </div>
+                        <div class="Information">
+                            <p>发表过<span>9</span>件艺术品</p>
+                            <p>被<span>267</span>位圈内人关注</p>
+                        </div>
+                    </div><div class="col-4">
+                        <a href="/Home/shop/212829">
+                            <img src='/./Upload/Home/shop/banner/2017-10-09/1507533024.jpeg'>
+                        </a>
+                        <div class="goods">
+                           
+                            <div style="line-height: 25px; font-size: 16px;float: left">
+                                <a href="/Home/shop/212829">
+                               mimeme手工皮具                               </a>
+                            </div>
+                            
+                            <div style="float: right">
+                                <div class="attract">
+                                    <input style="display: none" class="shop_id" value="203">
+                                    <p><i>+</i><span>关注</span></p>
+                                        
+                                </div>
+                            </div>
+                        </div>
+                        <div class="Information">
+                            <p>发表过<span>6</span>件艺术品</p>
+                            <p>被<span>148</span>位圈内人关注</p>
+                        </div>
+                    </div><div class="col-4">
+                        <a href="/Home/shop/213063">
+                            <img src='/'>
+                        </a>
+                        <div class="goods">
+                           
+                            <div style="line-height: 25px; font-size: 16px;float: left">
+                                <a href="/Home/shop/213063">
+                               欧卡拉的画                               </a>
+                            </div>
+                            
+                            <div style="float: right">
+                                <div class="attract">
+                                    <input style="display: none" class="shop_id" value="339">
+                                    <p><i>+</i><span>关注</span></p>
+                                        
+                                </div>
+                            </div>
+                        </div>
+                        <div class="Information">
+                            <p>发表过<span>14</span>件艺术品</p>
+                            <p>被<span>83</span>位圈内人关注</p>
+                        </div>
+                    </div>            </div>
+        </div>
+    </div>
+</div>
+<script>
+    var $attract=$('.attract');
+    $attract.mouseover(function () {
+        $(this).addClass('hover');
+    }).mouseleave(function () {
+        $(this).removeClass('hover')
+    });
+    $attract.click(function () {
+           //收藏店铺
+            var shop_id=$(this).find('.shop_id').val();
+            $.ajax({
+                type: "POST",
+                url: "../CustomerCollection/customer_collection",
+                data: {shop_id: shop_id},
+                dataType: 'json',
+                success: function (data) {
+                    if (data.status == -1) {
+                        //未登录
+                        alert(data.msg);
+                        return false;
+                    }
+                    if (data.status == -404) {
+                        //添加失败，程序故障或网络原因
+                        alert(data.msg);
+                        return false;
+                    }
+                    if (data.status == 1) {
+                        alert("关注成功");
+                        window.location.reload();
+                        return true;
+                    }
+                    if (data.status == 2) {
+                        //已收藏
+                        alert("该店铺已关注");
+                    }
+                }
+            })
+        });
+
+</script>
+</body>
+</html>

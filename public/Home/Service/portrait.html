@@ -1,0 +1,997 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>肖像</title>
+    <meta  name="keywords" content="搜猎人,原创,艺术,原创精神,艺术家,设计师,手工艺人,原创者,迟首飞,IP 内容开发,IP 衍生品内容设计,打造中国人自己的IP,IP开发与应用,IP 产业落地,艺术理念+互联网思维,原创艺术品消费平台,原创艺术品购物平台,艺术互联网,艺术产业" />
+    <link rel="stylesheet" href="/PcTpl/Public/css/reset.css">
+    <link rel="stylesheet" href="/PcTpl/Public/css/nav.css">
+    <link rel="stylesheet" href="/PcTpl/Public/css/footer.css">
+    <link rel="stylesheet" href="/PcTpl/Home/Public/css/Static/portrait.css">
+       <script type="text/javascript" src="/PcTpl/Home/Public/js/pc/jquery.min.js"></script>
+    
+</head>
+<body>
+<header>
+
+    <script type="text/javascript" src="/PcTpl/Public/js/reg.js"></script>
+    <script type="text/javascript" src="/PcTpl/Home/Public/js/lgandrg.js"></script>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        #full_navigation {
+        }
+        header{
+            max-width: 1000px;
+            position: relative;
+            /*background-color: #333333;*/
+            background-color: #ffffff;
+            min-width: 1000px;
+            z-index: 999;
+            margin: 0 auto;
+            /*border-bottom: 1px solid #bababa;*/
+        }
+        #full_navigation .tabs {
+            width: 580px;
+            margin: 0 auto;
+            position: fixed;
+            background-color: #f5f5f1;
+            padding-top: 20px;
+            left: 50%;
+            margin-left: -290px;
+            z-index: 10990;
+            top: 40%;
+            margin-top: -280px;
+        }
+
+        #full_navigation .nav .nav-menu li .move .changeA {
+            background-color: #ff873e;
+            color: #FFFFFF;
+        }
+
+        #full_navigation .nav .nav-menu li a {
+            text-align: left;
+            display: block;
+            padding-left: 14px;
+            text-decoration: none;
+        }
+
+        .header_bar span a {
+            font-size: 16px;
+        }
+
+        #full_navigation .ul1s {
+            list-style: none;
+            display: flex;
+            margin: 0;
+            padding: 0;
+            align-items: center;
+            margin-left: 51px;
+        }
+
+        #full_navigation .ul1s li {
+            font-size: 13px;
+            background-color: #f3f3f3;
+            border: 1px #dddddc solid;
+            width: 50px;
+            height: 30px;
+            text-align: center;
+            line-height: 29px;
+            cursor: pointer;
+        }
+
+        #full_navigation .ul1s li:nth-child(1) {
+            border-right: none;
+        }
+
+        #full_navigation .ul1s li.active {
+            background: #fff;
+            border-bottom: none;
+            height: 31px;
+            color: #ff873e;
+        }
+
+        #full_navigation .tabs div {
+            background-color: #fff;
+        }
+
+        #full_navigation .tabs .boxs > div {
+            line-height: 28px;
+            padding-top: 0px;
+            z-index: -1;
+            border-top: 1px #dddddc solid;
+            display: none;
+            margin-top: -1px;
+        }
+
+        #full_navigation .all_div {
+            display: none;
+            position: absolute;
+            z-index: 100;
+            text-align: center;
+            margin: 0 auto;
+            width: 100%;
+            margin-top: -134px;
+            height: 100%;
+        }
+
+        body .all_div .tabs .boxs {
+            width: 100%;
+            height: auto;
+        }
+
+        #full_navigation .all_div_bj {
+            position: fixed;
+            top: 0px;
+            left: 0px;
+            width: 100%;
+            height: 100%;
+            z-index: 999;
+            display: block;
+            opacity: 0.8;
+            background-color: rgb(221, 221, 221);
+        }
+
+        body #full_navigation .boxs input {
+
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+            font-family: inherit;
+            width: 232px;
+            line-height: 20px;
+            color: #333;
+            font-size: 12px;
+            margin: 0 0 0.2em 0;
+            padding: 6px;
+            border: 1px solid #c2c2c2;
+            border-right: 1px solid #e6e6e6;
+            border-bottom: 1px solid #e6e6e6;
+            display: block;
+        }
+
+        #full_navigation .register p {
+            font-size: 12px;
+            margin-top: 8px;
+            margin-bottom: 4px;
+        }
+
+        #full_navigation .register {
+            padding: 20px 53px;
+            text-align: left;
+        }
+
+        #full_navigation .boxs .checkbox {
+            width: 13px;
+        }
+
+        #full_navigation .boxs .register span {
+            color: red;
+            position: absolute;
+            margin: -34px 0px 0px 256px;
+            font-size: 12px;
+        }
+
+        #full_navigation .boxs .login span {
+            color: red;
+            position: absolute;
+            margin: -34px 0px 0px 256px;
+            font-size: 12px;
+        }
+
+        #full_navigation .boxs .register hr {
+            background-color: #e1e1df;
+            color: #e1e1df;
+            border: 0;
+            height: 1px;
+            margin: 19px 0 11px;
+            clear: both;
+        }
+
+        #full_navigation .register .submit-button {
+            background-color: #3cb1cb;
+            border-color: rgba(0, 0, 0, 0.2);
+            box-sizing: border-box;
+            border-radius: 3px;
+            color: #fff;
+            margin: 10px 0px;
+        }
+
+        #full_navigation .boxs .login span {
+            font-size: 12px;
+            color: red;
+            position: absolute;
+            margin: -34px 0px 0px 256px;
+        }
+
+        #full_navigation .login .submit-button {
+
+            font-size: 14px;
+            line-height: inherit;
+            background-color: #3cb1cb;
+            border-color: rgba(0, 0, 0, 0.2);
+            box-sizing: border-box;
+            border-radius: 3px;
+            color: #fff;
+            border: none;
+            margin: 10px 0;
+        }
+
+        #full_navigation .login p {
+            font-size: 12px;
+            margin-top: 8px;
+            margin-bottom: 4px;
+        }
+
+        #full_navigation .login {
+            padding: 20px 53px;
+            text-align: left;
+        }
+
+        #full_navigation .boxs .login hr {
+            background-color: #e1e1df;
+            color: #e1e1df;
+            border: 0;
+            height: 1px;
+            margin: 19px 0 11px;
+            clear: both;
+        }
+
+        #full_navigation #kd {
+            width: 82px;
+            position: absolute;
+            height: 32px;
+            border: 1px solid #dddddc;
+            border-left: none;
+            margin-top: -36px;
+            margin-left: 150px;
+        }
+
+        #full_navigation #kds {
+            width: 82px;
+            position: absolute;
+            height: 32px;
+            border: 1px solid #dddddc;
+            border-left: none;
+            margin-top: -37px;
+            margin-left: 150px;
+        }
+
+        #full_navigation img {
+            vertical-align: middle;
+        }
+
+        #full_navigation .boxs #mobilecode {
+            width: 150px;
+        }
+
+        #full_navigation #btnSendCode {
+            width: 82px;
+            height: 34px;
+            font-size: 11px;
+            background-color: #ff873e;
+            color: #fff;
+            margin-top: -37px;
+            margin-left: 150px;
+            display: -webkit-box;
+            border: none;
+        }
+
+        #full_navigation .boxs .register .input_text {
+            font-size: 12px;
+            margin: -23px 22px 0px;
+            color: #000;
+        }
+
+        #full_navigation .boxs .login .input_text {
+            font-size: 12px;
+            margin: -23px 22px 0px;
+            color: #000;
+        }
+
+        #full_navigation #randCode {
+            width: 150px;
+        }
+
+        #full_navigation .button-login {
+            background-color: #34A8C4;
+            width: 232px;
+            margin-top: 10px;
+            border: none;
+            font-size: 14px;
+            line-height: inherit;
+            border-radius: 3px;
+            color: #fff;
+        }
+
+        #full_navigation  .phone-button {
+            background-color: #34A8C4;
+            width: 232px;
+            margin-top: 10px;
+            border: none;
+            font-size: 14px;
+            line-height: inherit;
+            border-radius:3px;
+            color: #fff;
+        }
+        #full_navigation .submit-button {
+            width: 232px;
+            border-radius: 3px;
+        }
+
+        #full_navigation #randCode1 {
+            width: 150px;
+        }
+
+        #full_navigation .lgs .kuaijie{
+            margin-top: 10px;
+            margin-bottom: 20px;
+        }
+        #full_navigation .lgs .kuaijie a{
+            padding: 6px 22px;
+            color: #fff;
+            background-color: #34A8C4;
+            border-radius: 3px;
+        }
+        .boxs a {
+            color: #34A8C4;
+            text-decoration: none;
+            font-size: 12px;
+
+        }
+
+        .zhuces a {
+            padding: 9px 16px;
+            cursor: pointer;
+        }
+
+        #login {
+            /*color: #b4b4b4;*/
+            color: #7F7F7F;
+        }
+
+        #full_navigation .tabs .ul1s .close {
+            font-size: 24px;
+            float: right;
+            background-color: #f5f5f1;
+            cursor: pointer;
+            margin-left: 383px;
+            width: 31px;
+            height: 31px;
+            line-height: 31px;
+            color: #666;
+        }
+        .weChats{
+            width: 100%; height: auto ;display: none;    margin: 0 auto;text-align: center;
+        }
+        body #full_navigation .boxs .shoujidls input,body #full_navigation .boxs .mingzidls input{
+            margin: 22px 0px;
+        }
+        #full_navigation #btnSendCodes{
+            width: 82px;
+            height: 34px;
+            font-size: 11px;
+            background-color: #ff873e;
+            color: #fff;
+            margin-top: -36px;
+            margin-left: 150px;    display: -webkit-box;
+            border: none;
+        }
+
+    </style>
+
+
+    <div class="content clearfix">
+        <div class="logo"><a href="/Home/index/index.html"><img src="/PcTpl/Public/images/logo_h.png" alt="logo"></a>
+        </div>
+        <ul id="menu" class="menu">
+            <li data-menuanchor="page1" class="menu_li active">
+                <a href="/Home/index/index.html">首页</a>
+            </li>
+            <li data-menuanchor="page2" class="menu_li">
+                <a href="/Home/Service/copyright.html">版权</a>
+
+            </li>
+            <li data-menuanchor="page3" class="menu_li">
+                <a href="/Home/Service/cases.html">IP展示</a>
+            </li>
+            <li data-menuanchor="page4" class="menu_li">
+                <a href="/Home/Service/authorization.html">IP授权</a>
+               
+            </li>
+            <li data-menuanchor="page5" class="menu_li">
+                <a href="/Home/Service/make.html">IP订制</a>
+            </li>
+            <li data-menuanchor="page6" class="menu_li">
+                <a href="#">IP产业化</a>
+                <ul class="sub_menu">
+                    <li>
+                        <div class="sub-con">
+                            <a href="/Home/Service/clouds.html">云朵童画</a>
+                            <a href="/Home/Service/clouds.html">云朵童画</a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="sub-con">
+                            <a href="/Home/Service/develop.html">衍生品开发</a>
+                            <a href="/Home/Service/develop.html">衍生品开发</a>
+                        </div>
+                    </li>
+                </ul>
+            </li>
+
+            <li data-menuanchor="page7" class="menu_li">
+                <a href="#">造客</a>
+                <ul class="sub_menu">
+                    <li>
+                        <div class="sub-con">
+                            <a href="/Home/Article/ArticleList.html">原创故事</a>
+                            <a href="/Home/Article/ArticleList.html">原创故事</a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="sub-con">
+                            <a href="/Home/Service/activity.html">精品活动</a>
+                            <a href="/Home/Service/activity.html">精品活动</a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="sub-con">
+                            <a href="/Home/Service/media.html">媒体报道</a>
+                            <a href="/Home/Service/media.html">媒体报道</a>
+                        </div>
+                    </li>
+                </ul>
+            </li>
+            <li data-menuanchor="page8" class="menu_li">
+                <a href="#">关于</a>
+                <ul class="sub_menu">
+                    <li>
+                        <div class="sub-con">
+                            <a href="/Home/Service/hunterCollection.html">猎人集锦</a>
+                            <a href="/Home/Service/hunterCollection.html">猎人集锦</a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="sub-con">
+                            <a href="/Home/Service/seek.html">寻找原创者</a>
+                            <a href="/Home/Service/seek.html">寻找原创者</a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="sub-con">
+                            <a href="/Home/Service/cooperation.html">关于我们</a>
+                            <a href="/Home/Service/cooperation.html">关于我们</a>
+                        </div>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+        <div class="nav-right">
+            <div class="goShop"><a href="/Home/index/pc.html" target="_blank">商城</a></div>
+            <div class="zhuces">
+                <span><a class="loginBtn" id="login">登录</a></span>                                                <input style="display: none" value="" id="session">
+            </div>
+        </div>
+
+    </div>
+    <div id="full_navigation">
+        <div class="mark_bg"></div>
+
+        <div class="all_div">
+            <div class="all_div_bj"></div>
+            <div class="tabs">
+                <ul class="ul1s">
+                    <li class="rg active">注册</li>
+                    <li class="lg">登录</li>
+                    <div  class="close">×</div>
+                </ul>
+                <div class="boxs">
+                    <div style="width: 100%; height: auto" class="rgs box1">
+                        <form class="register sms-form" id="sms-form" method="post"  name="form-sub">
+                            <p>手机号码</p>
+                            <input type="text" id="phone" name="username"  class="phone" maxlength="11" placeholder="11位手机号码" >
+                            <span class="phone_span"></span>
+                            <p>验证码</p>
+                            <input  type="text" id="randCode" name="randCode" maxlength="4" placeholder="图片验证码"  >
+                            <div class="kd">
+                                <img src="/Home/Mobile/createCode" id="kd"
+                                     onclick="this.src='/Home/Mobile/createCode/id/'+Math.random()">
+                            </div>
+                            <span class="randCode_span"></span>
+                            <p>手机验证码</p>
+                            <input type="text" id="mobilecode" name="mobilecode" class="input-sty padding-r" maxlength="6" placeholder="手机验证码" >
+                            <button id="btnSendCode" class="phoneCode" type="submit">发送验证码</button>
+
+                            <span class="mobilecode_span"></span>
+                            <p>密码</p>
+                            <input  type="password" name="pwd" class="pwd" id="password" maxlength="16"  placeholder="6-16位字符，须包含字母、数字" >
+                            <span class="password_span"></span>
+                            <p>确认密码</p>
+                            <input  type="password" name="rpwd" class="rpwd" id="rpassword" maxlength="16" placeholder="确认密码" >
+                            <span class="rpassword_span"></span>
+                            <hr/>
+                            <div>
+                                <input type="checkbox" class="checkbox" checked="checked"  /><span class="input_text">请确认已阅读并同意搜猎人<a href="/Home/Index/use_clause.html " target="_black">使用条款</a>和<a href="/Home/Index/privacy_clause.html" target="_black" >隐私条款</a></span>
+                            </div>
+                            <button type="button" class=" button-login registerBtn" >立即注册</button><span class="zhuce_span"style=" margin: 8px 30px;"></span>
+                        </form>
+                    </div>
+                    <div style="width: 100%; height: auto" class="lgs box1">
+                        <div  class="login">
+                            <div class="kuaijie">
+                                <a href="javascript:;" class="mingzidl" style="background-color:#189ce0">用户名</a>
+                                <a href="javascript:;" class="shoujidl">手机号</a>
+                                <a href="javascript:;" class="weixindl">微信</a>
+                            </div>
+                            <hr style=" margin-top: 5px;margin-bottom: 0px;"/>
+                            <!--用户名登录-->
+                            <div class="mingzidls">
+                                <input type="text" id="username" name="username"  class="phone" placeholder="用户名" >
+                                <span class="phone1_span" style="margin-top: -53px;"></span>
+                                <input type="password"  name="pwd"  class="password" id="password1"  maxlength="16"  placeholder="密码" >
+                                <span class="password1_span" style="margin-top: -53px;"></span>
+                                <hr />
+                                <div>
+                                    <a href="/Home/Password/index.html">忘记密码了吗？</a>
+                                </div>
+                                <button type="button" value="登录" class="submit-button"  >登录</button>
+                            </div>
+                            <!--手机号码登录-->
+                            <div class="shoujidls" style="display: none">
+                                <form class=" sms-forms" id="sms-forms" method="post"  name="form-sub">
+                                    <input type="text" id="usernames" name="username"  class="username" maxlength="11" placeholder="手机号码" >
+                                    <span class="phone1_span" style="margin-top: -53px;"></span>
+                                    <input type="text" id="mobilecodes" name="mobilecode" class="input-sty padding-r" maxlength="6" placeholder="验证码" >
+                                    <button id="btnSendCodes" class="phoneCode" type="submit" style="margin-top: -56px;">发送验证码</button>
+                                    <span class="mobilecodes_span"></span>
+                                    <hr />
+                                    <div>
+                                        <a href="/Home/Password/index.html">忘记密码了吗？</a>
+                                    </div>
+                                    <button type="button" value="登录" class="phone-button"  onclick="">登录</button>
+                                </form>
+                            </div>
+                            <!--微信内嵌登录-->
+                            <div class="weChats box1" >
+                                <div id="weChat"></div>
+                                <script src="http://res.wx.qq.com/connect/zh_CN/htmledition/js/wxLogin.js"></script>
+                                <script>
+                                    var obj = new WxLogin({
+                                        id:"weChat",
+                                        appid: "wx8d8646fc4b1dcca4",
+                                        scope: "snsapi_login",
+                                        redirect_uri: "http%3A%2F%2Fwww.soulieren.com%2Findex.php%2Fhome%2FThirdLogin%2Fcallback",
+                                        state: "",
+                                        style: "black",
+                                        href: ""
+                                    });
+                                </script>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+</header>
+
+<script>
+    $(function () {
+        $('.sub_menu li').mouseenter(function () {
+            $(this).find('.sub-con').stop().animate({'top': 0}, 500, 'linear');
+        }).mouseleave(function () {
+            $(this).find('.sub-con').stop().animate({'top': -53}, 500, 'linear');
+        })
+    })
+</script>
+<div class="banner">
+    <img src="/PcTpl/Home/Public/images/Static/portrait_banner.jpg" />
+</div>
+<div class="md-modal md-effect-1" id="modal-1">
+    <div class="md-content">
+        <p class="md-content_p">定制人员信息</p>
+        <p class="md-content_p1">请认真填写表格内容，并保证您所填写的内容真实有效。</p>
+        <p class="md-content_p2">以下均为必填项</p>
+        <div class="md-content_form">
+                <input type="text" placeholder="姓名" class="name1" maxlength="7" />
+                <input type="text" placeholder="微信号" class="wechat" maxlength="7" />
+                <input type="text" placeholder="电话" maxlength="11" class="phone1"/>
+                <select class="portrait">
+                    <option value="头像">头像</option>
+                    <option value="半身像">半身像</option>
+                    <option value="全身像">全身像</option>
+                </select>
+                <input type="text"  placeholder="邮箱" class="email1"/>
+                <input type="text" class="requirement" placeholder="您对画像的其他要求"/>
+                    <a href="/Home/businessCooperation/inheritPdf.html" style=" font-size: 14px;padding: 5px 10px;background-color: #000; margin: 50px 30px; color: #fff; float: left;position: absolute;">肖像定制合同</a>
+                <div class="get">
+                    提&nbsp;&nbsp;&nbsp;交
+                </div>
+            </form>
+            <div class="md-close"><p>×</p></div>
+        </div>
+        <div class="val_text">
+            <span class="name_val"></span>
+            <span ></span>
+            <span class="phone_val"></span>
+            <span></span>
+            <span class="email_val"></span>
+        </div>
+    </div>
+</div>
+<div class="container">
+<div class="content ">
+    <div class="first">
+        <div class="first_left">
+            <p class="portrait">肖像定制</p>
+            <p class="english">Portrait customization</p>
+            <div class="img">
+                <img src="/PcTpl/Home/Public/images/Static/portrait_img1.png">
+                <p> 路昊&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;《男青年肖像》</p>
+            </div>
+
+        </div>
+
+        <div class="first_rigth">
+            <div class="text">
+
+                <div class="introduce">
+                    <p >随着经济不断发展，精神文明建设的完善，越来越多的人对生活品质追求也渐渐提高。搜猎人在“坚守与传承”理念下推出肖像定制业务。肖像作品是记忆的追溯，高级的礼物，家族文化的呈现方式，更是具备收藏与投资多重功能，他将会成为您特有的一件艺术品。</p>
+                    <p class="introduce_p1">15世纪欧洲的文艺复兴运动中，在“人文主义”思想的影响下，人们开始对当时生活中的人物、风景、物品进行观察和直接描绘。</p>
+                    <p class="introduce_p2">西方欧洲贵族的生活方式中，每个值得纪念的日子，纪念的人，便聘用优秀画家为其绘制肖像作品。最著名的《蒙娜丽莎》，就是达·芬奇为一个皮货商人的妻子绘制的肖像。</p>
+                    <p class="introduce_p1">在有关西方油画的历史资料中也提到：由于经济发展很快，西方市民阶层相对富裕，资产阶层和中产阶层便雇用画家绘制一些极具世俗生活情趣的肖像群像作品， 新贵们都将能拥有这些画家的作品，视为高贵地位和审美趣味的体现。 </p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="techniques">
+        <div>
+            <p class="font">绘画技法</p>
+            <p class="text_english">painting techniques</p>
+            <p class="techniques_p">间接画法作为欧洲传统绘画的主要手段，经历几个世纪的发展与变革，贯穿整个欧洲绘画发展的脉络，呈现出无限丰富的视觉美感和鲜明的人文精神，并在历史发展的进程中呈现出多元化趋势。我们所谈到的整个欧洲绘画源流以及构成其传统的一些基本演变方法都是从西方古代流传下来的诸多艺术作品中回溯还原得到的。这种西方传统的绘画方式，以多重罩染的间接画法为表现手段，是古代绘画大师与艺术家在近两千年的时间里逐渐发展形成的。这种间接画法与欧洲近三百年来形成的直接画法形成了鲜明的对比，两者使用的是不同的绘画媒介和材料，所表达的方式和思维的方式也不近相同。西方传统的间接多画法要求作画步骤严谨，材料比例严格，对作画者有一定的要求。</p>
+            <img src="/PcTpl/Home/Public/images/Static/techniques.png" width="100%">
+            <p class="techniques_p1">间接画法的视觉呈现原理</p>
+        </div>
+        <div class="techniques_content">
+            <div class="techniques_left">
+                <p class="techniques_content_head">底子制作</p>
+                <p class="techniques_content_p">在制作方式上，传统的绘画底层需要精心的反复涂抹打磨制作。</p>
+                <div class="techniques_box">
+                    <div>
+                        <img src="/PcTpl/Home/Public/images/Static/techniques_img1.png">
+                        <p>1.涂刷底胶</p>
+                    </div>
+                    <div>
+                        <img src="/PcTpl/Home/Public/images/Static/techniques_img2.png">
+                        <p>2.配制底料</p>
+                    </div>
+                    <div>
+                        <img src="/PcTpl/Home/Public/images/Static/techniques_img5.png">
+                        <p>3.制作画底</p>
+                    </div>
+                    <div>
+                        <img src="/PcTpl/Home/Public/images/Static/techniques_img6.png">
+                        <p>4.涂抹底色</p>
+                    </div>
+                </div>
+            </div>
+            <div class="techniques_rigth">
+                <p class="techniques_content_head">绘制阶段</p>
+                <p class="techniques_content_p">使用颜料不宜多，一般使用黑、白、赭、褐等纯度低的颜色做基础色层。</p>
+                <div class="techniques_box1">
+                    <div>
+                        <img src="/PcTpl/Home/Public/images/Static/techniques_img3.png">
+                        <p>1.传统画家常用色</p>
+                    </div>
+                    <div>
+                        <img src="/PcTpl/Home/Public/images/Static/techniques_img4.png">
+                        <p>2.绘制基础色层</p>
+                    </div>
+                    <div>
+                        <img src="/PcTpl/Home/Public/images/Static/techniques_img7.png">
+                        <p>3.深入刻画</p>
+                    </div>
+                    <div>
+                        <img src="/PcTpl/Home/Public/images/Static/techniques_img8.png">
+                        <p>4.逐层罩染润饰</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <p class="techniques_text_p">用干性油、媒介剂、和松节油按照一定比例混合，依照“肥盖瘦”的原则逐层罩染润饰，直到完成。在每一步的操作中有一定的反复，通过对西方传统的间接技法的研究，能更好的理解西方古代艺术家的工作方式与绘画语言，同时也能从造型传统中汲取视觉经验与精神力量。</p>
+    </div>
+    <div class="second">
+        <div class="second_left">
+            <p class="font">为肖像绘画定制服务的画家们</p>
+            <p class="text_english">Artists who tailor their services to portrait painting</p>
+            <div class="introduce">
+                <p class="introduce_p">肖像定制为“坚守与传承”旗下项目之一 ，我们拥有一支专业的艺术家团队。</p>
+                <p class="introduce_p1">具有专业的学术委员会评审，签约艺术家、代理艺术家，我们会针对客户的不同需求，让客户最终得到的作品具有最大价值的艺术生命力。</p>
+            </div>
+        </div>
+        <div class="second_rigth">
+            <div class="img">
+                <img src="/PcTpl/Home/Public/images/Static/portrait_img2.png">
+                <p>刘小彦  《抱银鼠的女子》  </p>
+            </div>
+        </div>
+    </div>
+    <div class="third">
+        <div class="list">
+            <div class="list1">
+                <div><p>尺寸 </p><p>头像 </p></div>
+                <div><p>价格 </p><p>20000RMB </p></div>
+                <div><p>时间</p><p>一个半月</p></div>
+            </div>
+            <div class="list2">
+                <div><p>尺寸 </p><p>半身像 </p></div>
+                <div><p>价格 </p><p>35000RMB </p></div>
+                <div><p>时间</p><p>五个月</p></div>
+            </div>
+            <div class="list3">
+                <div><p>尺寸 </p><p>全身像 </p></div>
+                <div><p>价格 </p><p>80000RMB </p></div>
+                <div><p>时间</p><p>八个月</p></div>
+            </div>
+            <p class="chicun">《以上尺寸仅供参考，根据实际进行调整》</p>
+        </div>
+        <div style="margin-left: 90px; margin-top: 648px;float: left;">
+            <p class="font"> 特殊肖像定制</p>
+            <p class="text_english">Special portrait customization</p>
+            <div class="box">
+                <p>背景要求价格根据要求待定</p>
+            </div>
+        </div>
+    </div>
+    <div class="fourth">
+        <div class="fourth_text">
+            <p class="font">肖像标准定制要求</p>
+            <p class="text_english">Portrait standard customization requirements</p>
+            <div class="introduce">
+                <p>1.价格表仅为定制创作费，需要添加背景、宠物、装饰等等，需提前沟通。</p>
+                <p>2.照片要求：提供画像清晰照片，及各角度照片。（可提供拍摄服务，费用另算）</p>
+                <p>3.成品为精装裱作品，其他装裱需提前说明。</p>
+                <p>4.绘制期间，不能做大范围的修改，如：风格、动作、主色调。</p>
+                <p>5.指定委员会成员艺术家定制根据市场情况进行价格调整。</p>
+            </div>
+        </div>
+    </div>
+    <div class="seventh">
+        <p class="font">肖像定制流程</p>
+        <p class="text_english">Past works</p>
+        <ul>
+            <li>
+                <p>1</p>
+                <div>
+                    <img src="/PcTpl/Home/Public/images/Static/portrait_icon1.png">
+                    <p>填写表单</p>
+                </div>
+            </li>
+            <li>
+                <p>2</p>
+                <div>
+                    <img src="/PcTpl/Home/Public/images/Static/portrait_icon2.png">
+                    <p>提交照片</p>
+                </div>
+            </li>
+            <li>
+                <p>3</p>
+                <div>
+                    <img src="/PcTpl/Home/Public/images/Static/portrait_icon3.png">
+                    <p>指定艺术家</p>
+                </div>
+            </li>
+            <li>
+                <p>4</p>
+                <div>
+                    <img src="/PcTpl/Home/Public/images/Static/portrait_icon5.png">
+                    <p>沟通客户</p>
+                </div>
+            </li>
+            <li>
+                <p>5</p>
+                <div>
+                    <img src="/PcTpl/Home/Public/images/Static/portrait_icon4.png">
+                    <p>委员会评审</p>
+                </div>
+            </li>
+            <li>
+                <p>6</p>
+                <div>
+                    <img src="/PcTpl/Home/Public/images/Static/portrait_icon6.png">
+                    <p>物流配送</p>
+                </div>
+            </li>
+        </ul>
+    </div>
+
+    <div class="load">
+        <a  class="md-trigger" data-modal="modal-1">立即订制</a>
+    </div>
+</div>
+<style>
+
+    .jiathis_style_32x32 .jtico_cqq{
+        background:url(/PcTpl/Public/images/qq1.png) no-repeat;
+        background-position: 0px 0px;
+        background-size:28px 28px;
+        margin-left: 2px;
+    }
+    .jiathis_style_32x32 .jtico_tsina{
+        background:url(/PcTpl/Public/images/wb1.png) no-repeat;
+        background-position: 0px 0px;
+        background-size:28px 28px;
+        margin-left: 2px;
+    }
+    .jiathis_style_32x32 .jtico_weixin{
+        background:url(/PcTpl/Public/images/wx1.png) no-repeat;
+        background-position: 0px 0px;
+        background-size:28px 28px;
+        margin-left: 2px;
+    }
+</style>
+<footer>
+
+
+    <div class="content">
+        <div style="margin: 0px auto 20px;text-align: center">
+            <img src="/PcTpl/Public/images/sou_logo.png" style="width: 80px; "/>
+        </div>
+        <div class="footer_list">
+            <ul>
+                <li><a><strong>把你的激情融入企业</strong></a></li>
+                <li><a class="open" href="/Home/shop/211316">打开一个商店</a></li>
+                <li><a href="/Home/Service/seek.html">在搜猎人出售</a></li>
+                <li><a href="/Home/Index/specifications.html">我们的规则</a></li>
+                <!--<li><a href="javascript:return false;">使用条款</a></li>-->
+                <!--<li><a href="javascript:return false;">隐私条款</a></li>-->
+            </ul>
+            <ul>
+                <li><a><strong>关于</strong></a></li>
+                <li><a href="/Home/index/read.html">关于我们</a></li>
+                <li><a href="/Home/index/read.html">加入我们</a></li>
+                <li><a href="/Home/index/read.html">联系我们</a></li>
+            </ul>
+            <ul>
+                <li><a><strong>更多</strong></a></li>
+                <li><a href="javascript:;" class="weixin_s">微信</a></li>
+                <li><a href="http://weibo.com/soulieren?refer_flag=1001030102_">微博</a></li>
+                <li><a href="https://shop129576228.taobao.com/?spm=a230r.7195193.1997079397.2.s5bniH">淘宝</a></li>
+                <li><a href="http://v.qq.com/vplus/2f648c677c0dcb939fcf6a40cd1fae90">原创视频</a></li>
+            </ul>
+            <ul>
+                <li><a><strong>政策</strong></a></li>
+                <li><a href="/Home/Index/buyer_policy.html">买家政策 </a></li>
+                <li><a href="/Home/Index/seller_policy.html">卖家政策 </a></li>
+                <li><a href="/Home/Index/trademark_policy.html">商标政策 </a></li>
+            </ul>
+            <ul>
+                <li><a><strong>商务合作</strong></a></li>
+                <li><a href="/Home/BusinessCooperation/index.html#page2">线上渠道</a></li>
+                <li><a href="/Home/BusinessCooperation/index.html#page3">线下渠道</a></li>
+                <li><a href="/Home/BusinessCooperation/index.html#page4">视频定制</a></li>
+            </ul>
+            <ul class="last_list">
+                <li><a href="javascript:;" style="margin:12px 3px 12px;"><strong>分享</strong></a></li>
+                <li class="jiathis_style_32x32"><a class="jiathis_button_weixin"></a></li>
+                <li class="jiathis_style_32x32"><a class="jiathis_button_cqq"></a></li>
+                <li class="jiathis_style_32x32"><a class="jiathis_button_tsina"></a></li>
+            </ul>
+        </div>
+
+    </div>
+    <div class="soulieren">
+        <hr>
+        <div class="footer_info">
+            <p>版权所有&nbsp;京ICP备15012603号—1</p>
+        </div>
+    </div>
+    <script type="text/javascript">
+        var jiathis_config = {
+            summary: "",
+            shortUrl: false,
+            hideMore: false
+        }
+    </script>
+    <script type="text/javascript" src="http://v3.jiathis.com/code/jia.js" charset="utf-8"></script>
+    <script>
+        $('.weixin_s').click(function () {
+            $('.weiX-box').show();
+        });
+        $('.weiX-box').click(function () {
+            $('.weiX-box').hide();
+        })
+    </script>
+
+</footer>
+</div>
+<div class="md-overlay"></div>
+<script src="/PcTpl/Public/js/jquery-1.7.2.js"></script>
+<script src="/PcTpl/Home/Public/js/Static/index.js"></script>
+<script>
+    $(function() {
+        $('.name1').blur(function () {
+            var name = $(this).val();
+            reg = /^[0-9]*$/;
+            if (reg.test(name)) {
+                $('.name_val').html("名字不能为数字 ");
+            } else if (name == '') {
+                $('.name_val').html("名字不能为空 ");
+            } else {
+                $('.name_val').html('');
+            }
+            return false;
+        });
+        $('.email1').blur(function () {
+            var email = $(this).val();
+            reg = /^([a-zA-Z0-9]+[_|\_|\.]?)*[a-zA-Z0-9]+@([a-zA-Z0-9]+[_|\_|\.]?)*[a-zA-Z0-9]+\.[a-zA-Z]{2,3}$/i;
+            if (email == '') {
+                $('.email_val').html("邮箱不能为空 ");
+            } else if (!reg.test(email)) {
+                $('.email_val').html("邮箱格式不正确");
+            } else {
+                $('.email_val').html('');
+            }
+            return false;
+        });
+        $(".phone1").blur(function () {
+            reg = /^1[3|4|5|8][0-9]\d{4,8}$/i;
+            var phone=$(this).val();
+            if (phone == "") {
+                $(".phone_val").html("手机号不能为空");
+            }
+            else if (phone.length < 11) {
+                $(".phone_val").html("手机号长度不能小于11位！");
+            }
+            else if (!reg.test(phone)) {
+                $(".phone_val").html("手机号长度有误！");
+            }
+            else {
+                $(".phone_val").html('');
+            }
+            return false;
+        });
+    });
+    $('.get').click(function () {
+        var user = {
+            phone_number: $(".phone1").val(),
+            name:$(".name1").val(),
+            email:$(".email1").val(),
+            wechat: $(".wechat").val(),
+            character_sketch: $(".portrait").val(),
+            text:$(".requirement").val()
+        };
+        $.ajax({
+            type: "POST",
+            url: "./portrait",
+            data: user,
+            dataType: 'json',
+            success: function (data) {
+                if(data.status == 0){
+                    alert(data.msg);
+                    return false;
+                }else if(data.status == -1){
+                    alert(data.msg);
+                    return false;
+                }else {
+                    alert(data.msg);
+                    return true;
+                }
+            }
+        })
+
+    })
+</script>
+
+</body>
+</html>
