@@ -9,14 +9,14 @@
     <meta  name="keywords" content="鸟布鲸 我们的世界" />
     <title>鸟布鲸</title>
 
-    <link rel="stylesheet" href="{{asset('Pctpl/Public/css/nav.css')}}">
-    <link type="text/css" href="{{asset('Pctpl/Home/Public/css/pc/lib2.css')}}" rel="stylesheet"/>
-    <link type="text/css" href="{{asset('Pctpl/Home/Public/css/pc/style.2041.css')}}" rel="stylesheet"/>
-    <link type="text/css" href="{{asset('Pctpl/Home/Public/css/pc/bwhite.css')}}" rel="stylesheet"/>
-    <link type="text/css" href="{{asset('Pctpl/Home/Public/css/pc/2323.css')}}" rel="stylesheet"/>
-    <script type="text/javascript" src="{{asset('Pctpl/Home/Public/js/pc/jquery.min.js')}}"></script>
-    <script type="text/javascript" src="{{asset('Pctpl/Home/Public/js/pc/jquery.list.js')}}"></script>
-    <script type="text/javascript" src="{{asset('Pctpl/Home/Public/js/pc/org.1494058893.js')}}" data-main="indexMain"></script>
+    <link rel="stylesheet" href="{{asset('PcTpl/Public/css/nav.css')}}">
+    <link type="text/css" href="{{asset('PcTpl/Home/Public/css/pc/lib2.css')}}" rel="stylesheet"/>
+    <link type="text/css" href="{{asset('PcTpl/Home/Public/css/pc/style.2041.css')}}" rel="stylesheet"/>
+    <link type="text/css" href="{{asset('PcTpl/Home/Public/css/pc/bwhite.css')}}" rel="stylesheet"/>
+    <link type="text/css" href="{{asset('PcTpl/Home/Public/css/pc/2323.css')}}" rel="stylesheet"/>
+    <script type="text/javascript" src="{{asset('PcTpl/Home/Public/js/pc/jquery.min.js')}}"></script>
+    <script type="text/javascript" src="{{asset('PcTpl/Home/Public/js/pc/jquery.list.js')}}"></script>
+    <script type="text/javascript" src="{{asset('PcTpl/Home/Public/js/pc/org.1494058893.js')}}" data-main="indexMain"></script>
     <style>
         .fixed{display: none}
          .pop_activity_div{
@@ -76,8 +76,8 @@
 
 <header>
 
-    <script type="text/javascript" src="/Pctpl/Public/js/reg.js"></script>
-    <script type="text/javascript" src="/Pctpl/Home/Public/js/lgandrg.js"></script>
+    <script type="text/javascript" src="/PcTpl/Public/js/reg.js"></script>
+    <script type="text/javascript" src="/PcTpl/Home/Public/js/lgandrg.js"></script>
     <style>
         * {
             margin: 0px;
@@ -448,7 +448,7 @@
     <div class="content clearfix">
         <br>
         <div class='logo'>
-            <a href="/home/page"><img src="{{asset('pctpl/public/images/logo_n.png')}}" alt="logo"></a>
+            <a href="/home/page"><img src="{{asset('PcTpl/public/images/logo_n.png')}}" alt="logo"></a>
         </div>
         <!--ul id="menu" class="menu">
             <li data-menuanchor="page1" class="menu_li active">
@@ -966,7 +966,7 @@
                         <div class="content_list">
                             <div id="news_item_0" class="item_block wow first" style="animation-delay:.0s">
                                 <a  href="http://www.kejixun.com/chuangye/170118/276125.shtml" class="item_img" target="_blank">
-                                    <img src="/Pctpl/Home/Public/images/pc/1490322118269.jpg"/>
+                                    <img src="/PcTpl/Home/Public/images/pc/1490322118269.jpg"/>
                                     <div class="rectborder"></div>
                                     <i class="icon iconfont icon-add"></i>
                                 </a>
@@ -982,7 +982,7 @@
                             </div>
                             <div id="news_item_1" class="item_block wow" style="animation-delay:.1s">
                                 <a  href="http://jb.sznews.com/html/2016-11/08/content_3656096.htm" class="item_img" target="_blank">
-                                    <img src="/Pctpl/Home/Public/images/pc/1490322763387.jpg"/>
+                                    <img src="/PcTpl/Home/Public/images/pc/1490322763387.jpg"/>
                                     <div class="rectborder"></div>
                                     <i class="icon iconfont icon-add"></i>
                                 </a>
@@ -999,7 +999,7 @@
                             </div>
                             <div id="news_item_2" class="item_block wow" style="animation-delay:.0s">
                                 <a href="http://collection.sina.com.cn/exhibit/zlxx/2016-09-27/doc-ifxwevmc5654434.shtml" class="item_img" target="_blank">
-                                    <img src="/Pctpl/Home/Public/images/pc/1490322673374.jpg"/>
+                                    <img src="/PcTpl/Home/Public/images/pc/1490322673374.jpg"/>
                                     <div class="rectborder"></div>
                                     <i class="icon iconfont icon-add"></i>
                                 </a>
@@ -1016,7 +1016,7 @@
                             </div>
                             <div id="news_item_3" class="item_block wow" style="animation-delay:.1s">
                                 <a  href="http://www.artsbj.com/show-19-513225-1.html" class="item_img"  target="_blank">
-                                    <img src="/Pctpl/Home/Public/images/pc/1490323393338.jpg"/>
+                                    <img src="/PcTpl/Home/Public/images/pc/1490323393338.jpg"/>
                                     <div class="rectborder"></div>
                                     <i class="icon iconfont icon-add"></i>
                                 </a>
@@ -1033,7 +1033,7 @@
                             </div>
                             <div id="news_item_4" class="item_block wow" style="animation-delay:.0s">
                                 <a  href="http://www.cs.com.cn/ssgs/gssc/201603/t20160329_4935873.html" class="item_img"  target="_blank">
-                                    <img src="/Pctpl/Home/Public/images/pc/1490323516121.jpg"/>
+                                    <img src="/PcTpl/Home/Public/images/pc/1490323516121.jpg"/>
                                     <div class="rectborder"></div>
                                     <i class="icon iconfont icon-add"></i>
                                 </a>
@@ -1050,7 +1050,7 @@
                             </div>
                             <div id="news_item_5" class="item_block wow" style="animation-delay:.1s">
                                 <a  href="http://www.takefoto.cn/viewnews-524124.html" class="item_img" target="_blank">
-                                    <img src="/Pctpl/Home/Public/images/pc/1490321730457.jpg"/>
+                                    <img src="/PcTpl/Home/Public/images/pc/1490321730457.jpg"/>
                                     <div class="rectborder"></div>
                                     <i class="icon iconfont icon-add"></i>
                                 </a>
