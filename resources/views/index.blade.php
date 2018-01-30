@@ -869,7 +869,7 @@
                         <div class="content_list">
                             @foreach($category as $ca)
                             <div id="project_item_0" class="item_block wow" style="animation-delay:.0s">
-                                <a href="javascript:volid(0);" class="item_link" target="_blank">
+                                <a href="{{$ca['url']}}" class="item_link" target="_blank">
                                     <div class="item_img"><img src="{{$ca['path']}}"/>
                                         <div class="rectborder"></div>
                                         <i class="icon iconfont icon-add"></i></div>
@@ -910,80 +910,6 @@
                                 </div>
                             </a>
                             @endforeach
-                            <!--a  href="javascript:volid(0);" target="_blank">
-                                <div  class="item_block " style="animation-delay:.1s">
-                                    <img src="/Pctpl/Home/Public/images/pc/1490075211271.jpg"/>
-                                    <div class="item_wrapper">
-                                        <div class="item_info move"><p class="title ellipsis">小怪兽</p>
-                                            <p class="subtitle ellipsis">每个人心中都有一只小怪兽，从年幼到迟暮，和我们一起成长，一起对世界始终充满好奇心和热情。</p></div>
-                                        <i class="icon iconfont icon-add"></i>
-                                    </div>
-                                </div>
-                            </a>
-
-                            <a href="/Home/Service/cases_maomi.html" target="_blank">
-                                <div  class="item_block wow" style="animation-delay:.0s">
-                                    <img src="/Pctpl/Home/Public/images/pc/1490075444696.jpg"/>
-                                    <div class="item_wrapper">
-                                        <div class="item_info move"><p class="title ellipsis">少女猫咪</p>
-                                            <p class="subtitle ellipsis">不用担心，总有一天，你也会拥有一只你自己的猫</p></div>
-                                        <i class="icon iconfont icon-add"></i>
-                                    </div>
-                                </div>
-                            </a>
-
-                            <a href="/Home/shop/212813.html"  target="_blank">
-                                <div class="item_block wow" style="animation-delay:.1s">
-                                    <img src="/Pctpl/Home/Public/images/pc/1490072989607.jpg"/>
-                                    <div class="item_wrapper">
-                                        <div class="item_info move"><p class="title ellipsis">卷卷</p>
-                                            <p class="subtitle ellipsis">卷卷传递出的爱的讯息和“有爱就有幸福”的理念</p></div>
-                                        <i class="icon iconfont icon-add"></i>
-                                    </div>
-                                </div>
-                            </a>
-                            <a href="/Home/Service/cases_xiaoye.html" target="_blank">
-                                <div  class="item_block wow" style="animation-delay:.1s">
-                                    <img src="/Pctpl/Home/Public/images/pc/1490338321679.jpg"/>
-                                    <div class="item_wrapper">
-                                        <div class="item_info move"><p class="title ellipsis">欣小叶</p>
-                                            <p class="subtitle ellipsis">欣小叶是搜猎人原创，为贵州欣港湾休闲综合体定制</p></div>
-                                        <i class="icon iconfont icon-add"></i>
-                                    </div>
-                                </div>
-                            </a>
-                             <a href="/Home/Service/cases_guyu.html" target="_blank" >
-                                <div class="item_block wow" style="animation-delay:.2s">
-                                    <img src="/Pctpl/Home/Public/images/pc/1490073308708.jpg"/>
-                                    <div class="item_wrapper">
-                                        <div class="item_info move"><p class="title ellipsis">木风和谷雨</p>
-                                            <p class="subtitle ellipsis">健康、淳朴、开朗、温柔、正能量，传达出枫叶谷热情的服务态度</p></div>
-                                        <i class="icon iconfont icon-add"></i>
-                                    </div>
-                                </div>
-                            </a>
-
-                            <a href="/Home/Service/cases_moshi.html" target="_blank">
-                                <div class="item_block wow" style="animation-delay:.0s">
-                                    <img src="/Pctpl/Home/Public/images/pc/1491811693240.jpg"/>
-                                    <div class="item_wrapper">
-                                        <div class="item_info move"><p class="title ellipsis">Moshi Moshi</p>
-                                            <p class="subtitle ellipsis">MOSHI是由搜猎人原创，为云南壹恒食品有限公司和西草药业定制</p></div>
-                                        <i class="icon iconfont icon-add"></i>
-                                    </div>
-                                </div>
-                            </a>
-                            <a href="/Home/Service/inherit.html" target="_blank" >
-                                <div  class="item_block wow" style="animation-delay:.1s">
-                                    <img src="/Pctpl/Home/Public/images/pc/1490073118356.jpg"/>
-                                    <div class="item_wrapper">
-                                        <div class="item_info move"><p class="title ellipsis">坚守与传承</p>
-                                            <p class="subtitle ellipsis">坚守与传承——是对优良传统与精神品质的守望，是对今后发展的希冀</p></div>
-                                        <i class="icon iconfont icon-add"></i>
-                                    </div>
-                                </div>
-                            </a-->
-
 
                         </div>
                         <div class="clear"></div>
@@ -1166,62 +1092,6 @@
                                 </a>
                             </li>
                             @endforeach
-                            <!--li id="item_block_1" class="item_block wow" style="animation-delay:.1s">
-                                <a class="item_img" href="http://www.hanbook.cn/" target="_blank">
-                                    <img  src="/Pctpl/Home/Public/images/pc/1491471598822.png"/>
-                                </a>
-                            </li>
-
-                            <li id="item_block_2" class="item_block wow" style="animation-delay:.3s">
-                                <a class="item_img"  href="http://www.bjsunmoon.com/" target="_blank">
-                                    <img  src="/Pctpl/Home/Public/images/pc/1491471726615.png"/>
-                                </a>
-                            </li>
-                            <li id="item_block_3" class="item_block wow" style="animation-delay:.4s">
-                                <a class="item_img"  href="http://www.chaoxianminyi.com/home.html" target="_blank">
-                                    <img  src="/Pctpl/Home/Public/images/pc/1491471794980.png"/>
-                                </a>
-                            </li>
-                            <li id="item_block_4" class="item_block wow" style="animation-delay:.5s">
-                                <a class="item_img" href="http://www.szmatee.com/" target="_blank" >
-                                    <img src="/Pctpl/Home/Public/images/pc/1491471808752.png"/>
-                                </a>
-                            </li>
-                            <li id="item_block_5" class="item_block wow" style="animation-delay:.1s">
-                                <a class="item_img"  href="http://www.jitu.studio/" target="_blank">
-                                    <img  src="/Pctpl/Home/Public/images/pc/1491471835861.png"/>
-                                </a>
-                            </li>
-                            <li id="item_block_6" class="item_block wow" style="animation-delay:.2s">
-                                <a class="item_img" href="http://www.tnyoo.com/" target="_blank">
-                                    <img   src="/Pctpl/Home/Public/images/pc/1491471871985.png"/>
-                                </a>
-                            </li>
-                            <li id="item_block_7" class="item_block wow" style="animation-delay:.3s">
-                                <a class="item_img" href="https://www.jd.com/" target="_blank">
-                                    <img   src="/Pctpl/Home/Public/images/pc/1491471881514.png"/>
-                                </a>
-                            </li>
-                            <li id="item_block_8" class="item_block wow" style="animation-delay:.4s">
-                                <a class="item_img" href="http://book.dangdang.com/" target="_blank">
-                                    <img src="/Pctpl/Home/Public/images/pc/1491471891891.png"/>
-                                </a>
-                            </li>
-                            <li id="item_block_9" class="item_block wow" style="animation-delay:.2s">
-                                <a class="item_img" href="https://v.qq.com/" target="_blank" >
-                                    <img   src="/Pctpl/Home/Public/images/pc/149147167119.png"/>
-                                </a>
-                            </li>
-                            <li id="item_block_10" class="item_block wow" style="animation-delay:.0s">
-                                <a class="item_img"  href="https://weibo.com/" target="_blank">
-                                    <img src="/Pctpl/Home/Public/images/pc/149147182358.png"/>
-                                </a>
-                            </li>
-                            <li id="item_block_11" class="item_block wow" style="animation-delay:.5s">
-                                <a  class="item_img" >
-                                    <img src="/Pctpl/Home/Public/images/pc/dangdang.jpg"/>
-                                </a>
-                            </li-->
                         </ul>
                         <div class="clear"></div>
                     </div>
