@@ -17,27 +17,27 @@ class IndexService  {
         $themes = array(
             array(
                 'path' => 'Pctpl/Home/Public/images/Index/20180114banner02.jpg',
-                'url'  => 'home/page',
+                'url'  => 'market/jelly',
             ),
             array(
                 'path' => 'Pctpl/Home/Public/images/Index/20180114banner01.jpg',
-                'url'  => 'home/page',
+                'url'  => 'market/jelly',
             ),
             array(
                 'path' => 'Pctpl/Home/Public/images/pc/1211banner04.jpg',
-                'url'  => 'home/page',
+                'url'  => 'market/jelly',
             ),
             array(
                 'path' => 'Pctpl/Home/Public/images/pc/1490685075590.jpg',
-                'url'  => 'home/page',
+                'url'  => 'market/jelly',
             ),
             array(
                 'path' => 'Pctpl/Home/Public/images/pc/1211banner01.jpg',
-                'url'  => 'home/page',
+                'url'  => 'market/jelly',
             ),
             array(
                 'path' => 'Pctpl/Home/Public/images/pc/1211banner03.jpg',
-                'url'  => 'home/page',
+                'url'  => 'market/jelly',
             ),
         );
         return $themes;
