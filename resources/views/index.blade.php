@@ -663,36 +663,12 @@
                 <div class="content_list owl-carousel owl-theme" data-slider-height="500" data-slider-auto="1"
                      data-slider-mode="3" data-slider-pause="5"  data-slider-speed="1"
                      style="height:500px">
-
-                     <div class="item_block">
+                    @foreach($themes as $theme)
+                        <div class="item_block">
                         <div class="item_bg image"
-                             style="background-image:url(/Pctpl/Home/Public/images/Index/20180114banner02.jpg)"><a href="/home/page"></a></div>
-                    </div>
-                      <div class="item_block">
-                        <div class="item_bg image"
-                             style="background-image:url(/Pctpl/Home/Public/images/Index/20180114banner01.jpg)"><a href="/home/page"></a></div>
-                    </div>
-
-
-
-                    <div class="item_block">
-                        <div class="item_bg image"
-                             style="background-image:url(/Pctpl/Home/Public/images/pc/1211banner04.jpg)"><a href="/home/page"></a></div>
-                    </div>
-
-                    <div class="item_block">
-                        <div class="item_bg image"
-                             style="background-image:url(/Pctpl/Home/Public/images/pc/1490685075590.jpg)"><a href="/home/page"></a></div>
-                    </div>
-                     <div class="item_block">
-                        <div class="item_bg image"
-                             style="background-image:url(/Pctpl/Home/Public/images/pc/1211banner01.jpg)"><a href="/home/page"></a></div>
-                    </div>
-
-                       <div class="item_block">
-                        <div class="item_bg image"
-                             style="background-image:url(/Pctpl/Home/Public/images/pc/1211banner03.jpg)"><a href="/home/page"></a></div>
-                    </div>
+                             style="background-image:url({{$theme['path']}})"><a href="{{$theme['url']}}"></a></div>
+                        </div>
+                    @endforeach
                 </div>
                 <div class="sliderArrow">
                     <div></div>
@@ -891,9 +867,10 @@
                     <div class="content_wrapper slider" data-slider-num='{"0":{"nav":0,"items":2},"1180":{"items":4}}'
                          data-slider-loop="1">
                         <div class="content_list">
+                            @foreach($category as $ca)
                             <div id="project_item_0" class="item_block wow" style="animation-delay:.0s">
                                 <a href="javascript:volid(0);" class="item_link" target="_blank">
-                                    <div class="item_img"><img src="/Pctpl/Home/Public/images/pc/1490327989706.png"/>
+                                    <div class="item_img"><img src="{{$ca['path']}}"/>
                                         <div class="rectborder"></div>
                                         <i class="icon iconfont icon-add"></i></div>
                                     <!--div class="item_wrapper">
@@ -901,67 +878,7 @@
                                             <p class="subtitle">我们的世界</p></div>
                                     </div-->
                                 </a></div>
-                            <div id="project_item_1" class="item_block wow" style="animation-delay:.1s">
-                                <a href="javascript:volid(0);" class="item_link" target="_blank">
-                                    <div class="item_img"><img src="/Pctpl/Home/Public/images/pc/1490326932783.png"/>
-                                        <div class="rectborder"></div>
-                                        <i class="icon iconfont icon-add"></i></div>
-                                    <!--div class="item_wrapper">
-                                        <div class="item_info"><p class="title ellipsis">葛峻宇</p>
-                                            <p class="subtitle">执行董事</p></div>
-                                    </div-->
-                                </a></div>
-                            <div id="project_item_2" class="item_block wow" style="animation-delay:.0s">
-                                <a href="javascript:volid(0);" class="item_link" target="_blank">
-                                    <div class="item_img"><img src="/Pctpl/Home/Public/images/pc/1490323515250.png"/>
-                                        <div class="rectborder"></div>
-                                        <i class="icon iconfont icon-add"></i></div>
-                                    <!--div class="item_wrapper">
-                                        <div class="item_info"><p class="title ellipsis">林永智</p>
-                                            <p class="subtitle"> 财务总监</p></div>
-                                    </div-->
-                                </a></div>
-                            <div id="project_item_3" class="item_block wow" style="animation-delay:.1s">
-                                <a href="javascript:volid(0);" class="item_link" target="_blank">
-                                    <div class="item_img"><img src="/Pctpl/Home/Public/images/pc/1490325755542.png"/>
-                                        <div class="rectborder"></div>
-                                        <i class="icon iconfont icon-add"></i></div>
-                                    <!--div class="item_wrapper">
-                                        <div class="item_info"><p class="title ellipsis">翁逸龙</p>
-                                            <p class="subtitle">产品总监</p></div>
-                                    </div-->
-                                </a></div>
-                            <div id="project_item_4" class="item_block wow" style="animation-delay:.0s">
-                                <a href="javascript:volid(0);" class="item_link" target="_blank">
-                                    <div class="item_img"><img src="/Pctpl/Home/Public/images/pc/1490260622270.jpg"/>
-                                        <div class="rectborder"></div>
-                                        <i class="icon iconfont icon-add"></i></div>
-                                    <!--div class="item_wrapper">
-                                        <div class="item_info"><p class="title ellipsis">李赞 </p>
-                                            <p class="subtitle">艺术总监</p></div>
-                                    </div-->
-                                </a></div>
-                            <div id="project_item_5" class="item_block wow" style="animation-delay:.1s">
-                                <a href="javascript:volid(0);" class="item_link" target="_blank">
-                                    <div class="item_img"><img src="/Pctpl/Home/Public/images/pc/1490326477972.png"/>
-                                        <div class="rectborder"></div>
-                                        <i class="icon iconfont icon-add"></i></div>
-                                    <!--div class="item_wrapper">
-                                        <div class="item_info"><p class="title ellipsis">李彩媛</p>
-                                            <p class="subtitle">行政</p></div>
-                                    </div-->
-                                </a></div>
-
-                            <div id="project_item_6" class="item_block wow" style="animation-delay:.1s">
-                                <a href="javascript:volid(0);" class="item_link" target="_blank">
-                                    <div class="item_img"><img src="/Pctpl/Home/Public/images/pc/1490326496297.png"/>
-                                        <div class="rectborder"></div>
-                                        <i class="icon iconfont icon-add"></i></div>
-                                    <!--div class="item_wrapper">
-                                        <div class="item_info"><p class="title ellipsis">小聪  </p>
-                                            <p class="subtitle">设计总监</p></div>
-                                    </div-->
-                                </a></div>
+                            @endforeach
                         </div>
                         <div class="clear"></div>
                     </div>
@@ -981,19 +898,19 @@
                 <div class="container_content">
                     <div class="content_wrapper">
                         <div class="content_list movedx" data-movedx-mid="2" data-movedx-distance="15">
-
-                            <a  href="/Home/shop/212625.html"  target="_blank">
+                            @foreach($recommends as $recommend)
+                            <a  href="{{$recommend['url']}}"  target="_blank">
                                 <div class="item_block wow" style="animation-delay:.2s">
-                                    <img src="/Pctpl/Home/Public/images/pc/1490072433234.jpg"/>
+                                    <img src="{{$recommend['src']}}"/>
                                     <div class="item_wrapper">
-                                        <div class="item_info move"><p class="title ellipsis">陈建周</p>
-                                            <p class="subtitle ellipsis">梦想的世界，没有语言和声音一样绚丽多彩</p></div>
+                                        <div class="item_info move"><p class="title ellipsis">{{$recommend['author']}}</p>
+                                            <p class="subtitle ellipsis">{{$recommend['content']}}</p></div>
                                         <i class="icon iconfont icon-add"></i>
                                     </div>
                                 </div>
                             </a>
-
-                            <a  href="javascript:volid(0);" target="_blank">
+                            @endforeach
+                            <!--a  href="javascript:volid(0);" target="_blank">
                                 <div  class="item_block " style="animation-delay:.1s">
                                     <img src="/Pctpl/Home/Public/images/pc/1490075211271.jpg"/>
                                     <div class="item_wrapper">
@@ -1065,7 +982,7 @@
                                         <i class="icon iconfont icon-add"></i>
                                     </div>
                                 </div>
-                            </a>
+                            </a-->
 
 
                         </div>

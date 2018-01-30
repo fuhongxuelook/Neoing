@@ -4,18 +4,21 @@ namespace Neo\Http\Controllers\Index;
 
 
 use Neo\Http\Controllers\Controller;
-use Neo\Asset\Engine\Home\HomeService;
+use Neo\Asset\Engine\Home\IndexService;
 //use Neo\Http\Requests\Home\HomeRequest;
 
 class RestfulController extends Controller{
 
 	private $service ;
 
-	function __construct(HomeService $service) {
+	function __construct(IndexService $service) {
 		$this->service = $service;
 	}
 
 	public function index() {
-    	return view('index');
+		$themes = $this->service->theme();
+		$category = $this->service->category();
+		$recommends = $this->service->recommend();
+    	return view('index',compact('themes','category','recommends'));
 	}
 }
