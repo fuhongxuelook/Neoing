@@ -33,7 +33,7 @@
                 bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
             }
             else {
-                bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+               url bp.src = 'http://push.zhanzhang.baidu.com/push.js';
             }
             var s = document.getElementsByTagName("script")[0];
             s.parentNode.insertBefore(bp, s);
@@ -42,7 +42,7 @@
 <div id="full_navigation">
     <header>
         <div class="header_bar">
-            <div class="logo"><a href="{{$route['jump']}}"><img src="/Pctpl/Public/images/logo_n.png"></a>
+            <div class="logo"><a href="{{$route['jump']}}"><img src="/Pctpl/Public/images/logo_n.pngurl"></a>
             </div>
             <div class="operation">
                 <span>

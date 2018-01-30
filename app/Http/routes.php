@@ -11,10 +11,7 @@
 |
 */
 
-Route::get('/', function () {
-    return view('index',['title' => '鸟布鲸文化','url' => '/home/page','copyright' => 'Copyright © 2018-2038']);
-});
-
+Route::get('/', 'Index\RestfulController@index');
 
 Route::get('/ajax', function () {
     return view('art/ajax');
