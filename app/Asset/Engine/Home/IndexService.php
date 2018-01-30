@@ -131,10 +131,41 @@ class IndexService  {
         return $info;
     }
 
-    public function route() {
+    public function news() {
+        
     }
 
-    public function artist() {
-     
+    public function partner() {
+        $partners = array(
+            array(
+                'url' => 'http://www.fanhua.net.cn/',
+                'src' => '/Pctpl/Home/Public/images/pc/1491471542571.png',
+            ),
+            array(
+                'url' => 'http://www.hanbook.cn/',
+                'src' => '/Pctpl/Home/Public/images/pc/1491471598822.png',
+            ),
+            array(
+                'url' => 'http://www.bjsunmoon.com/',
+                'src' => '/Pctpl/Home/Public/images/pc/1491471726615.png',
+            ),
+            array(
+                'url' => 'http://www.chaoxianminyi.com/home.html',
+                'src' => '/Pctpl/Home/Public/images/pc/1491471794980.png',
+            ),
+            array(
+                'url' => 'http://www.szmatee.com/',
+                'src' => '/Pctpl/Home/Public/images/pc/1491471808752.png',
+            ),
+            array(
+                'url' => 'http://www.jitu.studio/',
+                'src' => '/Pctpl/Home/Public/images/pc/1491471835861.png',
+            ),
+            array(
+                'url' => 'http://www.tnyoo.com/',
+                'src' => '/Pctpl/Home/Public/images/pc/1491471871985.png',
+            ),
+        );
+        return $partners;
     }
 }

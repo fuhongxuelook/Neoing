@@ -1159,12 +1159,14 @@
                 <div class="container_content">
                     <div class="content_wrapper">
                         <ul class="content_list">
-                            <li id="item_block_0" class="item_block wow" style="animation-delay:.0s">
-                                <a class="item_img" href="http://www.fanhua.net.cn/" target="_blank">
-                                    <img src="/Pctpl/Home/Public/images/pc/1491471542571.png"/>
+                            @foreach($partners as $key => $partner)
+                            <li id="{{'item_block_'.$key}}" class="item_block wow" style="animation-delay:.0s">
+                                <a class="item_img" href="{{$partner['url']}}" target="_blank">
+                                    <img src="{{$partner['src']}}"/>
                                 </a>
                             </li>
-                            <li id="item_block_1" class="item_block wow" style="animation-delay:.1s">
+                            @endforeach
+                            <!--li id="item_block_1" class="item_block wow" style="animation-delay:.1s">
                                 <a class="item_img" href="http://www.hanbook.cn/" target="_blank">
                                     <img  src="/Pctpl/Home/Public/images/pc/1491471598822.png"/>
                                 </a>
@@ -1219,7 +1221,7 @@
                                 <a  class="item_img" >
                                     <img src="/Pctpl/Home/Public/images/pc/dangdang.jpg"/>
                                 </a>
-                            </li>
+                            </li-->
                         </ul>
                         <div class="clear"></div>
                     </div>
