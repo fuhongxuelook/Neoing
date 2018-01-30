@@ -445,7 +445,6 @@
 
     </style>
 
-
     <div class="content clearfix">
         <br>
         <div class='logo'>
@@ -534,6 +533,7 @@
                 </ul>
             </li>
         </ul-->
+
         <div class="nav-right">
             <div class="goShop"><a href="" target="_blank">搜索</a></div>
             <div class="zhuces">
@@ -700,7 +700,7 @@
                 <div class="clear"></div>
             </div>
         </div>
-        <div class="mlist service_tabs module ff_noSlider" style=" ">
+        <!--div class="mlist service_tabs module ff_noSlider" style=" ">
             <div class="bgmask"></div>
             <div class="module_container wide">
                 <div class="container_header wow">
@@ -813,7 +813,7 @@
                                         <div class="item_wrapper">
                                             <div class="item_img"><img src="/Pctpl/Home/Public/images/pc/1490077085525.png"/></div>
                                             <div class="item_info">
-                                                <!--p class="nums">class</p-->
+                                                <p class="nums">class</p>
                                                 <p class="title ellipsis">鸟&nbsp;布鲸</p>
                                                 <p class="subtitle ellipsis">Neoing</p></div>
                                         </div>
@@ -876,7 +876,100 @@
                 </div>
                 <div class="clear"></div>
             </div>
+        </div-->
+        <div class="mlist team module ff_slider" style=" ">
+            <div class="bgmask"></div>
+            <div class="module_container">
+                <div class="container_header wow">
+                    <p class="title">分类</p>
+                    <p class="subtitle"> / CateGory</p>
+                </div>
+                <div class="container_category wow movedx one" data-movedx-mid="2" data-movedx-distance="15">
+                    <a href="javascript:volid(0);" class="active"><span>全部</span></a>
+                </div>
+                <div class="container_content">
+                    <div class="content_wrapper slider" data-slider-num='{"0":{"nav":0,"items":2},"1180":{"items":4}}'
+                         data-slider-loop="1">
+                        <div class="content_list">
+                            <div id="project_item_0" class="item_block wow" style="animation-delay:.0s">
+                                <a href="javascript:volid(0);" class="item_link" target="_blank">
+                                    <div class="item_img"><img src="/Pctpl/Home/Public/images/pc/1490327989706.png"/>
+                                        <div class="rectborder"></div>
+                                        <i class="icon iconfont icon-add"></i></div>
+                                    <!--div class="item_wrapper">
+                                        <div class="item_info"><p class="title ellipsis">鸟 布鲸</p>
+                                            <p class="subtitle">我们的世界</p></div>
+                                    </div-->
+                                </a></div>
+                            <div id="project_item_1" class="item_block wow" style="animation-delay:.1s">
+                                <a href="javascript:volid(0);" class="item_link" target="_blank">
+                                    <div class="item_img"><img src="/Pctpl/Home/Public/images/pc/1490326932783.png"/>
+                                        <div class="rectborder"></div>
+                                        <i class="icon iconfont icon-add"></i></div>
+                                    <!--div class="item_wrapper">
+                                        <div class="item_info"><p class="title ellipsis">葛峻宇</p>
+                                            <p class="subtitle">执行董事</p></div>
+                                    </div-->
+                                </a></div>
+                            <div id="project_item_2" class="item_block wow" style="animation-delay:.0s">
+                                <a href="javascript:volid(0);" class="item_link" target="_blank">
+                                    <div class="item_img"><img src="/Pctpl/Home/Public/images/pc/1490323515250.png"/>
+                                        <div class="rectborder"></div>
+                                        <i class="icon iconfont icon-add"></i></div>
+                                    <!--div class="item_wrapper">
+                                        <div class="item_info"><p class="title ellipsis">林永智</p>
+                                            <p class="subtitle"> 财务总监</p></div>
+                                    </div-->
+                                </a></div>
+                            <div id="project_item_3" class="item_block wow" style="animation-delay:.1s">
+                                <a href="javascript:volid(0);" class="item_link" target="_blank">
+                                    <div class="item_img"><img src="/Pctpl/Home/Public/images/pc/1490325755542.png"/>
+                                        <div class="rectborder"></div>
+                                        <i class="icon iconfont icon-add"></i></div>
+                                    <!--div class="item_wrapper">
+                                        <div class="item_info"><p class="title ellipsis">翁逸龙</p>
+                                            <p class="subtitle">产品总监</p></div>
+                                    </div-->
+                                </a></div>
+                            <div id="project_item_4" class="item_block wow" style="animation-delay:.0s">
+                                <a href="javascript:volid(0);" class="item_link" target="_blank">
+                                    <div class="item_img"><img src="/Pctpl/Home/Public/images/pc/1490260622270.jpg"/>
+                                        <div class="rectborder"></div>
+                                        <i class="icon iconfont icon-add"></i></div>
+                                    <!--div class="item_wrapper">
+                                        <div class="item_info"><p class="title ellipsis">李赞 </p>
+                                            <p class="subtitle">艺术总监</p></div>
+                                    </div-->
+                                </a></div>
+                            <div id="project_item_5" class="item_block wow" style="animation-delay:.1s">
+                                <a href="javascript:volid(0);" class="item_link" target="_blank">
+                                    <div class="item_img"><img src="/Pctpl/Home/Public/images/pc/1490326477972.png"/>
+                                        <div class="rectborder"></div>
+                                        <i class="icon iconfont icon-add"></i></div>
+                                    <!--div class="item_wrapper">
+                                        <div class="item_info"><p class="title ellipsis">李彩媛</p>
+                                            <p class="subtitle">行政</p></div>
+                                    </div-->
+                                </a></div>
+
+                            <div id="project_item_6" class="item_block wow" style="animation-delay:.1s">
+                                <a href="javascript:volid(0);" class="item_link" target="_blank">
+                                    <div class="item_img"><img src="/Pctpl/Home/Public/images/pc/1490326496297.png"/>
+                                        <div class="rectborder"></div>
+                                        <i class="icon iconfont icon-add"></i></div>
+                                    <!--div class="item_wrapper">
+                                        <div class="item_info"><p class="title ellipsis">小聪  </p>
+                                            <p class="subtitle">设计总监</p></div>
+                                    </div-->
+                                </a></div>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                </div>
+                <div class="clear"></div>
+            </div>
         </div>
+
         <div class="mlist project module ff_noSlider" style=" ">
             <div class="bgmask"></div>
             <div class="module_container wide">
@@ -996,7 +1089,7 @@
                             <div class="description wow">
                                 <p style="text-align: center;">
                                     <span style="font-size: 14px;">
-                                        搜猎人——一个民族的原创品牌、一家原创者自己的平台，以“平台化整合创新”为理念、打造高品质电子商务平台。经营一切具有原创精神的产品，汇集艺术家、设计师、手工业者、创新独立品牌。成立于 2015 年，旗下北京搜猎人电子商务有限公司、北京搜猎人文化发展有限公司、宁波搜猎人科技有限公司。办公场地位于北京、香港、深圳、昆明、宁波。
+                                        鸟布鲸 专注油画服务,为全世界提供种类繁多,性价比高的油画作品。
                                     </span>
                                 </p>
                                 <p><span style="font-size: 14px;"><br/></span></p>
@@ -1017,98 +1110,7 @@
                 </div>
             </div>
         </div>
-        <div class="mlist team module ff_slider" style=" ">
-            <div class="bgmask"></div>
-            <div class="module_container">
-                <div class="container_header wow">
-                    <p class="title">团队精英</p>
-                    <p class="subtitle"> / TEAM</p>
-                </div>
-                <div class="container_category wow movedx one" data-movedx-mid="2" data-movedx-distance="15">
-                    <a href="javascript:volid(0);" class="active"><span>全部</span></a>
-                </div>
-                <div class="container_content">
-                    <div class="content_wrapper slider" data-slider-num='{"0":{"nav":0,"items":2},"1180":{"items":4}}'
-                         data-slider-loop="1">
-                        <div class="content_list">
-                            <div id="project_item_0" class="item_block wow" style="animation-delay:.0s">
-                                <a href="javascript:volid(0);" class="item_link" target="_blank">
-                                    <div class="item_img"><img src="/Pctpl/Home/Public/images/pc/1490327989706.png"/>
-                                        <div class="rectborder"></div>
-                                        <i class="icon iconfont icon-add"></i></div>
-                                    <div class="item_wrapper">
-                                        <div class="item_info"><p class="title ellipsis">迟首飞</p>
-                                            <p class="subtitle">搜猎人创始人</p></div>
-                                    </div>
-                                </a></div>
-                            <div id="project_item_1" class="item_block wow" style="animation-delay:.1s">
-                                <a href="javascript:volid(0);" class="item_link" target="_blank">
-                                    <div class="item_img"><img src="/Pctpl/Home/Public/images/pc/1490326932783.png"/>
-                                        <div class="rectborder"></div>
-                                        <i class="icon iconfont icon-add"></i></div>
-                                    <div class="item_wrapper">
-                                        <div class="item_info"><p class="title ellipsis">葛峻宇</p>
-                                            <p class="subtitle">执行董事</p></div>
-                                    </div>
-                                </a></div>
-                            <div id="project_item_2" class="item_block wow" style="animation-delay:.0s">
-                                <a href="javascript:volid(0);" class="item_link" target="_blank">
-                                    <div class="item_img"><img src="/Pctpl/Home/Public/images/pc/1490323515250.png"/>
-                                        <div class="rectborder"></div>
-                                        <i class="icon iconfont icon-add"></i></div>
-                                    <div class="item_wrapper">
-                                        <div class="item_info"><p class="title ellipsis">林永智</p>
-                                            <p class="subtitle"> 财务总监</p></div>
-                                    </div>
-                                </a></div>
-                            <div id="project_item_3" class="item_block wow" style="animation-delay:.1s">
-                                <a href="javascript:volid(0);" class="item_link" target="_blank">
-                                    <div class="item_img"><img src="/Pctpl/Home/Public/images/pc/1490325755542.png"/>
-                                        <div class="rectborder"></div>
-                                        <i class="icon iconfont icon-add"></i></div>
-                                    <div class="item_wrapper">
-                                        <div class="item_info"><p class="title ellipsis">翁逸龙</p>
-                                            <p class="subtitle">产品总监</p></div>
-                                    </div>
-                                </a></div>
-                            <div id="project_item_4" class="item_block wow" style="animation-delay:.0s">
-                                <a href="javascript:volid(0);" class="item_link" target="_blank">
-                                    <div class="item_img"><img src="/Pctpl/Home/Public/images/pc/1490260622270.jpg"/>
-                                        <div class="rectborder"></div>
-                                        <i class="icon iconfont icon-add"></i></div>
-                                    <div class="item_wrapper">
-                                        <div class="item_info"><p class="title ellipsis">李赞 </p>
-                                            <p class="subtitle">艺术总监</p></div>
-                                    </div>
-                                </a></div>
-                            <div id="project_item_5" class="item_block wow" style="animation-delay:.1s">
-                                <a href="javascript:volid(0);" class="item_link" target="_blank">
-                                    <div class="item_img"><img src="/Pctpl/Home/Public/images/pc/1490326477972.png"/>
-                                        <div class="rectborder"></div>
-                                        <i class="icon iconfont icon-add"></i></div>
-                                    <div class="item_wrapper">
-                                        <div class="item_info"><p class="title ellipsis">李彩媛</p>
-                                            <p class="subtitle">行政</p></div>
-                                    </div>
-                                </a></div>
-
-                            <div id="project_item_6" class="item_block wow" style="animation-delay:.1s">
-                                <a href="javascript:volid(0);" class="item_link" target="_blank">
-                                    <div class="item_img"><img src="/Pctpl/Home/Public/images/pc/1490326496297.png"/>
-                                        <div class="rectborder"></div>
-                                        <i class="icon iconfont icon-add"></i></div>
-                                    <div class="item_wrapper">
-                                        <div class="item_info"><p class="title ellipsis">小聪  </p>
-                                            <p class="subtitle">设计总监</p></div>
-                                    </div>
-                                </a></div>
-                        </div>
-                        <div class="clear"></div>
-                    </div>
-                </div>
-                <div class="clear"></div>
-            </div>
-        </div>
+        
         <div class="mlist news module ff_noSlider" style=" ">
             <div class="bgmask"></div>
             <div class="module_container">
@@ -1308,7 +1310,7 @@
                 <div class="clear"></div>
             </div>
         </div>
-        <div id="mcontact" class="mcontact module" style=" ">
+        <!--div id="mcontact" class="mcontact module" style=" ">
             <div class="module_container">
                 <div class="container_header wow">
                     <p class="title">联系</p>
@@ -1358,7 +1360,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div-->
     </div>
 </div>
 <div id="footer">
