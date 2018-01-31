@@ -667,7 +667,7 @@
                     @foreach($themes as $theme)
                         <div class="item_block">
                         <div class="item_bg image"
-                             style="background-image:url({{$theme['path']}})"><a href="{{$theme['url']}}"></a></div>
+                             style="background-image:url({{$theme['path']}})"><a href="{{$theme['url']}}" target="_parent"></a></div>
                         </div>
                     @endforeach
                 </div>
@@ -870,7 +870,7 @@
                         <div class="content_list">
                             @foreach($category as $ca)
                             <div id="project_item_0" class="item_block wow" style="animation-delay:.0s">
-                                <a href="{{$ca['url']}}" class="item_link" target="_blank">
+                                <a href="{{$ca['url']}}" class="item_link" target="_parent">
                                     <div class="item_img"><img src="{{$ca['path']}}"/>
                                         <div class="rectborder"></div>
                                         <i class="icon iconfont icon-add"></i></div>
@@ -900,7 +900,7 @@
                     <div class="content_wrapper">
                         <div class="content_list movedx" data-movedx-mid="2" data-movedx-distance="15">
                             @foreach($recommends as $recommend)
-                            <a  href="{{$recommend['url']}}"  target="_blank">
+                            <a  href="{{$recommend['url']}}"  target="_parent">
                                 <div class="item_block wow" style="animation-delay:.2s">
                                     <img src="{{$recommend['src']}}"/>
                                     <div class="item_wrapper">
