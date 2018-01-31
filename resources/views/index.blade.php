@@ -537,11 +537,11 @@
         <div class="nav-right">
             <div class="zhuces">
                 <input style="border:3px solid #C4C4C4;width: 200px;height:32px;font-size:15px;border-radius:15px" placeholder="{{$placeholder}}">
-                <span><a class="loginBtn" id="login">🔍</a></span>    
+                <span><a class="searchBtn" href="" target="_blank">🔍</a></span> 
             </div>
-            <div class="goShop"><a href="" target="_blank">登陆</a></div>
+            <div class="goLogin"><a id="login" style="color:white;">登陆</a></div>
+            <input style="display: none" value="" id="session">   
         </div>
-
     </div>
     <div id="full_navigation">
         <div class="mark_bg"></div>
@@ -580,7 +580,7 @@
                             <span class="rpassword_span"></span>
                             <hr/>
                             <div>
-                                <input type="checkbox" class="checkbox" checked="checked"  /><span class="input_text">请确认已阅读并同意搜猎人<a href="/Home/Index/use_clause.html " target="_black">使用条款</a>和<a href="/Home/Index/privacy_clause.html" target="_black" >隐私条款</a></span>
+                                <input type="checkbox" class="checkbox" checked="checked"  /><span class="input_text">请确认已阅读并同意鸟布鲸<a href="/Home/Index/use_clause.html " target="_black">使用条款</a>和<a href="/Home/Index/privacy_clause.html" target="_black" >隐私条款</a></span>
                             </div>
                             <button type="button" class=" button-login registerBtn" >立即注册</button><span class="zhuce_span"style=" margin: 8px 30px;"></span>
                         </form>

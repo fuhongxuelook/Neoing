@@ -38,12 +38,12 @@ header .nav-right a{
     color: #ffffff;
     display: inline-block;
 }
-header .nav-right .goShop{
+header .nav-right .goLogin{
     border: 1px solid #34a8c4;
     background-color:#34a8c4;
     border-radius: 5px;
 }
-header .nav-right .goShop a{
+header .nav-right .goLogin a{
     padding: 8px 8px 8px 16px;
     text-align: center;
     letter-spacing: 8px;

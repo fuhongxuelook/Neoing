@@ -53,7 +53,7 @@ header { background-color: rgb(255, 255, 255); min-width: 830px; width: 100%; pa
 .search_bar input[type="text"] { float: left; width: 230px; height: 30px; padding-left: 10px; border-width: 1px medium 1px 1px; border-style: solid none solid solid; border-color: rgb(221, 221, 220) currentcolor rgb(221, 221, 220) rgb(221, 221, 220); -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none; border-image: none; font-size: 12px; border-top-left-radius: 3px; border-bottom-left-radius: 3px; box-sizing: border-box; }
 .search_bar input[type="submit"] { float: left; color: rgb(255, 255, 255); background-color: rgb(52, 168, 196); height: 30px; width: 100px; font-size: 12px; border-width: 1px 1px 1px medium; border-style: solid solid solid none; border-color: rgb(52, 168, 196) rgb(52, 168, 196) rgb(52, 168, 196) currentcolor; -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none; border-image: none; border-top-right-radius: 3px; border-bottom-right-radius: 3px; }
 .operation { float: right; margin-top: 15px; position: relative; }
-.loginBtn { border: 1px solid rgb(76, 178, 203); border-radius: 8px; padding: 0px 5px; display: inline-block; }
+.searchBtn { border: 1px solid rgb(76, 178, 203); border-radius: 8px; padding: 0px 5px; display: inline-block; }
 .operation > span { display: inline-block; height: 30px; line-height: 30px; margin: 0px 12px; position: relative; }
 .operation > span a { color: rgb(76, 178, 203); text-decoration: none; }
 .operation .car { margin: 0px; position: relative; }
