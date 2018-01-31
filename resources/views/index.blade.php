@@ -590,7 +590,7 @@
                             <div class="kuaijie">
                                 <a href="javascript:;" class="mingzidl" style="background-color:#189ce0">用户名</a>
                                 <a href="javascript:;" class="shoujidl">手机号</a>
-                                <a href="javascript:;" class="weixindl">微信</a>
+                                <!--a href="javascript:;" class="weixindl">微信</a-->
                             </div>
                             <hr style=" margin-top: 5px;margin-bottom: 0px;"/>
                             <!--用户名登录-->
