@@ -535,10 +535,11 @@
         </ul-->
 
         <div class="nav-right">
-            <div class="goShop"><a href="" target="_blank">搜索</a></div>
             <div class="zhuces">
-                <span><a class="loginBtn" id="login">登录</a></span>                                                <input style="display: none" value="" id="session">
+                <input style="border:thin solid #C4C4C4;width: 200px;height:35px;font-size:15px" value="" id="session">
+                <span><a class="loginBtn" id="login">🔍</a></span>    
             </div>
+            <div class="goShop"><a href="" target="_blank">登陆</a></div>
         </div>
 
     </div>
