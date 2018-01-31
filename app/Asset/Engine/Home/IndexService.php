@@ -132,7 +132,45 @@ class IndexService  {
     }
 
     public function news() {
-        
+        $news = array(
+            array(
+                'url' => 'http://www.kejixun.com/chuangye/170118/276125.shtml',
+                'src' => 'PcTpl/Home/Public/images/pc/1490322118269.jpg',
+                'content' => '以大众艺术品交易平台为依托，传递现代“猎人精神”',
+                'date' => '2017-01-18',
+            ),
+            array(
+                'url' => 'http://jb.sznews.com/html/2016-11/08/content_3656096.htm',
+                'src' => 'PcTpl/Home/Public/images/pc/1490322763387.jpg',
+                'content' => '金融新品集中亮相 文创产业首现金博会',
+                'date' => '2017-01-18',
+            ),
+            array(
+                'url' => 'http://collection.sina.com.cn/exhibit/zlxx/2016-09-27/doc-ifxwevmc5654434.shtml',
+                'src' => 'PcTpl/Home/Public/images/pc/1490322673374.jpg',
+                'content' => '首届国际学院版画联盟展亮相北京太庙艺术馆',
+                'date' => '2017-01-18',
+            ),
+            array(
+                'url' => 'http://www.artsbj.com/show-19-513225-1.html',
+                'src' => 'PcTpl/Home/Public/images/pc/1490323393338.jpg',
+                'content' => '王华祥版画展”开幕：展示王华祥走过的版画之路',
+                'date' => '2017-01-18',
+            ),
+            array(
+                'url' => 'http://www.cs.com.cn/ssgs/gssc/201603/t20160329_4935873.html',
+                'src' => 'PcTpl/Home/Public/images/pc/1490323516121.jpg',
+                'content' => '“维度”张显飞艺术展走进悦美术馆',
+                'date' => '2017-01-18',
+            ),
+            array(
+                'url' => 'http://www.takefoto.cn/viewnews-524124.html',
+                'src' => 'PcTpl/Home/Public/images/pc/1490321730457.jpg',
+                'content' => '遇见——搜猎人合作艺术家六人展',
+                'date' => '2017-01-18',
+            ),
+        );
+        return $news;
     }
 
     public function partner() {

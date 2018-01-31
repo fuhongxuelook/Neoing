@@ -964,23 +964,25 @@
                 <div class="container_content">
                     <div class="content_wrapper">
                         <div class="content_list">
-                            <div id="news_item_0" class="item_block wow first" style="animation-delay:.0s">
-                                <a  href="http://www.kejixun.com/chuangye/170118/276125.shtml" class="item_img" target="_blank">
-                                    <img src="/PcTpl/Home/Public/images/pc/1490322118269.jpg"/>
+                            @foreach($news as $key => $new) 
+                            <div id="{{'news_item_'.$key}}" class="item_block wow first" style="animation-delay:.0s">
+                                <a  href="{{$new['url']}}" class="item_img" target="_blank">
+                                    <img src="{{asset($new['src'])}}"/>
                                     <div class="rectborder"></div>
-                                    <i class="icon iconfont icon-add"></i>
+                                    <i class="icon iconfont "></i>
                                 </a>
                                 <div class="item_wrapper">
                                     <div class="item_info">
-                                        <a href="http://www.kejixun.com/chuangye/170118/276125.shtml" target="_blank">
-                                            <p class="title">以大众艺术品交易平台为依托，传递现代“猎人精神”</p>
+                                        <a href="{{$new['url']}}" target="_blank">
+                                            <p class="title">{{$new['content']}}</p>
                                         </a>
-                                        <p class="subtitle ellipsis">2017-01-18</p>
+                                        <p class="subtitle ellipsis">{{$new['date']}}</p>
                                     </div>
                                     <div class="item_tags"><i class="fa fa-tags"></i></div>
                                 </div>
                             </div>
-                            <div id="news_item_1" class="item_block wow" style="animation-delay:.1s">
+                            @endforeach
+                            <!--div id="news_item_1" class="item_block wow" style="animation-delay:.1s">
                                 <a  href="http://jb.sznews.com/html/2016-11/08/content_3656096.htm" class="item_img" target="_blank">
                                     <img src="/PcTpl/Home/Public/images/pc/1490322763387.jpg"/>
                                     <div class="rectborder"></div>
@@ -1064,7 +1066,7 @@
                                     <div class="item_tags"><i class="fa fa-tags"></i> </div>
                                     <a href="http://www.takefoto.cn/viewnews-524124.html" target="_blank" class="more">MORE <i class="fa fa-angle-right"></i></a>
                                 </div>
-                            </div>
+                            </div-->
                         </div>
                         <div class="clear"></div>
                     </div>
