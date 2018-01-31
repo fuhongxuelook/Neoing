@@ -536,7 +536,7 @@
 
         <div class="nav-right">
             <div class="zhuces">
-                <input style="border:3px solid #C4C4C4;width: 200px;height:32px;font-size:15px;border-radius:15px" placeholder="抽象画">
+                <input style="border:3px solid #C4C4C4;width: 200px;height:32px;font-size:15px;border-radius:15px" placeholder="{{$placeholder}}">
                 <span><a class="loginBtn" id="login">🔍</a></span>    
             </div>
             <div class="goShop"><a href="" target="_blank">登陆</a></div>

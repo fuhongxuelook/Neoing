@@ -206,4 +206,8 @@ class IndexService  {
         );
         return $partners;
     }
+
+    public function placeholder() {
+        return '抽象画';
+    }
 }
