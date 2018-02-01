@@ -537,7 +537,7 @@
         <div class="nav-right">
             <div class="zhuces">
                 <input style="border:3px solid #C4C4C4;width: 200px;height:32px;font-size:15px;border-radius:15px" placeholder="{{$placeholder}}">
-                <span><a class="searchBtn" href="" target="_blank">🔍</a></span> 
+                <span><a class="searchBtn" id='search'>🔍</a></span> 
             </div>
             <div class="goLogin"><a id="login" style="color:white;">登陆</a></div>
             <input style="display: none" value="" id="session">   
@@ -652,8 +652,9 @@
             $(this).find('.sub-con').stop().animate({'top': 0}, 500, 'linear');
         }).mouseleave(function () {
             $(this).find('.sub-con').stop().animate({'top': -53}, 500, 'linear');
-        })
+        });
     })
+
 </script>
 
 <div id="sitecontent" class="ff_sitecontent">
@@ -983,91 +984,6 @@
                                 </div>
                             </div>
                             @endforeach
-                            <!--div id="news_item_1" class="item_block wow" style="animation-delay:.1s">
-                                <a  href="http://jb.sznews.com/html/2016-11/08/content_3656096.htm" class="item_img" target="_blank">
-                                    <img src="/PcTpl/Home/Public/images/pc/1490322763387.jpg"/>
-                                    <div class="rectborder"></div>
-                                    <i class="icon iconfont icon-add"></i>
-                                </a>
-                                <div class="item_wrapper">
-                                    <div class="item_info">
-                                        <a  href="http://jb.sznews.com/html/2016-11/08/content_3656096.htm" target="_blank">
-                                            <p class="title"> 金融新品集中亮相 文创产业首现金博会</p>
-                                        </a>
-                                        <p class="subtitle ellipsis">2016-11-08</p>
-                                    </div>
-                                    <div class="item_tags"><i class="fa fa-tags"></i></div>
-                                    <a href="http://jb.sznews.com/html/2016-11/08/content_3656096.htm" target="_blank" class="more">MORE <i class="fa fa-angle-right"></i></a>
-                                </div>
-                            </div>
-                            <div id="news_item_2" class="item_block wow" style="animation-delay:.0s">
-                                <a href="http://collection.sina.com.cn/exhibit/zlxx/2016-09-27/doc-ifxwevmc5654434.shtml" class="item_img" target="_blank">
-                                    <img src="/PcTpl/Home/Public/images/pc/1490322673374.jpg"/>
-                                    <div class="rectborder"></div>
-                                    <i class="icon iconfont icon-add"></i>
-                                </a>
-                                <div class="item_wrapper">
-                                    <div class="item_info">
-                                        <a href="http://collection.sina.com.cn/exhibit/zlxx/2016-09-27/doc-ifxwevmc5654434.shtml"  target="_blank">
-                                            <p class="title">首届国际学院版画联盟展亮相北京太庙艺术馆</p>
-                                        </a>
-                                        <p class="subtitle ellipsis">2016-09-27</p>
-                                    </div>
-                                    <div class="item_tags"><i class="fa fa-tags"></i> </div>
-                                    <a href="http://collection.sina.com.cn/exhibit/zlxx/2016-09-27/doc-ifxwevmc5654434.shtml" target="_blank" class="more">MORE <i class="fa fa-angle-right"></i></a>
-                                </div>
-                            </div>
-                            <div id="news_item_3" class="item_block wow" style="animation-delay:.1s">
-                                <a  href="http://www.artsbj.com/show-19-513225-1.html" class="item_img"  target="_blank">
-                                    <img src="/PcTpl/Home/Public/images/pc/1490323393338.jpg"/>
-                                    <div class="rectborder"></div>
-                                    <i class="icon iconfont icon-add"></i>
-                                </a>
-                                <div class="item_wrapper">
-                                    <div class="item_info">
-                                        <a href="http://www.artsbj.com/show-19-513225-1.html" target="_blank">
-                                            <p class="title">“王华祥版画展”开幕：展示王华祥走过的版画之路  </p>
-                                        </a>
-                                        <p class="subtitle ellipsis">2016-04-12</p>
-                                    </div>
-                                    <div class="item_tags"><i class="fa fa-tags"></i> </div>
-                                    <a href="http://www.artsbj.com/show-19-513225-1.html" target="_blank" class="more">MORE <i class="fa fa-angle-right"></i></a>
-                                </div>
-                            </div>
-                            <div id="news_item_4" class="item_block wow" style="animation-delay:.0s">
-                                <a  href="http://www.cs.com.cn/ssgs/gssc/201603/t20160329_4935873.html" class="item_img"  target="_blank">
-                                    <img src="/PcTpl/Home/Public/images/pc/1490323516121.jpg"/>
-                                    <div class="rectborder"></div>
-                                    <i class="icon iconfont icon-add"></i>
-                                </a>
-                                <div class="item_wrapper">
-                                    <div class="item_info">
-                                        <a  href="http://www.cs.com.cn/ssgs/gssc/201603/t20160329_4935873.html" target="_blank">
-                                            <p class="title">“维度”张显飞艺术展走进悦美术馆 </p>
-                                        </a>
-                                        <p class="subtitle ellipsis">2016-03-29</p>
-                                    </div>
-                                    <div class="item_tags"><i class="fa fa-tags"></i> </div>
-                                    <a href="http://www.cs.com.cn/ssgs/gssc/201603/t20160329_4935873.html" target="_blank" class="more">MORE <i class="fa fa-angle-right"></i></a>
-                                </div>
-                            </div>
-                            <div id="news_item_5" class="item_block wow" style="animation-delay:.1s">
-                                <a  href="http://www.takefoto.cn/viewnews-524124.html" class="item_img" target="_blank">
-                                    <img src="/PcTpl/Home/Public/images/pc/1490321730457.jpg"/>
-                                    <div class="rectborder"></div>
-                                    <i class="icon iconfont icon-add"></i>
-                                </a>
-                                <div class="item_wrapper">
-                                    <div class="item_info">
-                                        <a  href="http://www.takefoto.cn/viewnews-524124.html" target="_blank">
-                                            <p class="title">遇见——搜猎人合作艺术家六人展 </p>
-                                        </a>
-                                        <p class="subtitle ellipsis">2015-09-01</p>
-                                    </div>
-                                    <div class="item_tags"><i class="fa fa-tags"></i> </div>
-                                    <a href="http://www.takefoto.cn/viewnews-524124.html" target="_blank" class="more">MORE <i class="fa fa-angle-right"></i></a>
-                                </div>
-                            </div-->
                         </div>
                         <div class="clear"></div>
                     </div>

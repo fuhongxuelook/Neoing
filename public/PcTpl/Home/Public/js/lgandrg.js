@@ -22,11 +22,17 @@ $(document).ready(function() {
         $('.all_div').fadeOut();
     });
     $('#login').click(function () {
+        alert('暂时无法登陆');
+        return false;
         $('.all_div').fadeIn();
         $('.lg').addClass('active');
         $('.rg').removeClass('active');
         $('.rgs').hide();
         $('.lgs').show();
+    });
+    $('#search').click(function() {
+        alert('暂时不支持查询操作');
+        return false;
     });
     $('.nav-menu>li').mouseenter(function () {
         $(this).find('.move').stop().animate({top:0},400);
