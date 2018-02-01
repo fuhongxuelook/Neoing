@@ -22,8 +22,6 @@ $(document).ready(function() {
         $('.all_div').fadeOut();
     });
     $('#login').click(function () {
-        alert('暂时无法登陆');
-        return false;
         $('.all_div').fadeIn();
         $('.lg').addClass('active');
         $('.rg').removeClass('active');
@@ -31,7 +29,8 @@ $(document).ready(function() {
         $('.lgs').show();
     });
     $('#search').click(function() {
-        alert('暂时不支持查询操作');
+        var content = $('#content').val();
+        window.location.href = "http://niao.com/market/jelly?content="+content;
         return false;
     });
     $('.nav-menu>li').mouseenter(function () {

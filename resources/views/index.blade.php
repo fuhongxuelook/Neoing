@@ -536,7 +536,7 @@
 
         <div class="nav-right">
             <div class="zhuces">
-                <input style="border:3px solid #C4C4C4;width: 200px;height:32px;font-size:15px;border-radius:15px" placeholder="{{$placeholder}}">
+                <input style="border:3px solid #C4C4C4;width: 200px;height:32px;font-size:15px;border-radius:15px" placeholder="{{$placeholder}}" id="content">
                 <span><a class="searchBtn" id='search'>🔍</a></span> 
             </div>
             <div class="goLogin"><a id="login" style="color:white;">登陆</a></div>
