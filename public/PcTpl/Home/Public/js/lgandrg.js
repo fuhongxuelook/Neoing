@@ -30,7 +30,7 @@ $(document).ready(function() {
     });
     $('#search').click(function() {
         var content = $('#content').val();
-        window.location.href = "http://niao.com/market/jelly?content="+content;
+        window.location.href = "http://niao.com/module/"+content+"/查询结果?content="+content;
         return false;
     });
     $('.nav-menu>li').mouseenter(function () {
