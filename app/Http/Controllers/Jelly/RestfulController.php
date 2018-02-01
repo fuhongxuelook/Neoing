@@ -18,6 +18,11 @@ class RestfulController extends Controller{
 	public function index() {
 		$jelly = $this->service->jelly();
 		$header = $this->service->header();
-    	return view('art/jelly',compact('jelly','header'));
+		$recommends = $this->service->recommend();
+		$brief = $this->service->brief();
+		$introduce = $this->service->introduce();
+		$artworks= $this->service->artworks();
+		$author = $this->service->author();
+    	return view('art/jelly',compact('jelly','header','recommends','brief','introduce','artworks','author'));
 	}
 }
