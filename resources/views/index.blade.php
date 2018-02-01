@@ -76,8 +76,8 @@
 
 <header>
 
-    <script type="text/javascript" src="/PcTpl/Public/js/reg.js"></script>
-    <script type="text/javascript" src="/PcTpl/Home/Public/js/lgandrg.js"></script>
+    <script type="text/javascript" src="{{asset('PcTpl/Public/js/reg.js')}}"></script>
+    <script type="text/javascript" src="{{asset('PcTpl/Home/Public/js/lgandrg.js')}}"></script>
     <style>
         * {
             margin: 0px;
