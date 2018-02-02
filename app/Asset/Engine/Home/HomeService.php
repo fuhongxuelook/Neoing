@@ -15,7 +15,7 @@ class HomeService  {
 
 	public function category() {
         $category = array(
-            '鸟布鲸' => array (
+            '生活' => array (
                 'view' => '写生风景',
                 'character' => '人物画',
                 'life' => '平凡的生活',

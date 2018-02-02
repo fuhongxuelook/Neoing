@@ -55,6 +55,9 @@
     </header>
     <div class="nav">
         <ul class="navBar">
+            <li>
+                <a class="move" href="javascript:;"><p font-family='Microsoft Yahei', Helvetica, Arial, sans-serif>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Niao&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p></a>
+            </li>
            @foreach ($category as $cates => $cate) 
            <li>
                 <a class="move" href="javascript:;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{$cates}}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
