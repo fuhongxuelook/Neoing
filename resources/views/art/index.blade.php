@@ -324,7 +324,7 @@
             <div class="ALL_text">
             </div>
             <div class="Search" style="margin-left: 50px;">
-                <form action="/module/a/结果" method="get">
+                <form action="/module/鸟布鲸/查询结果" method="get">
                     <input name="name" class="Search_text" placeholder="阳光照耀的日子" value="" type="text">
                     <label> &nbsp;&nbsp;&nbsp;</label>
                     <input value="Neo" class="Search_submit" type="submit">
