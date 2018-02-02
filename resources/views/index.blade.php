@@ -875,10 +875,10 @@
                                     <div class="item_img"><img src="{{$ca['path']}}"/>
                                         <div class="rectborder"></div>
                                         <i class="icon iconfont icon-add"></i></div>
-                                    <!--div class="item_wrapper">
+                                    <div class="item_wrapper">
                                         <div class="item_info"><p class="title ellipsis">鸟 布鲸</p>
                                             <p class="subtitle">我们的世界</p></div>
-                                    </div-->
+                                    </div>
                                 </a></div>
                             @endforeach
                         </div>
@@ -905,8 +905,11 @@
                                 <div class="item_block wow" style="animation-delay:.2s">
                                     <img src="{{$recommend['src']}}"/>
                                     <div class="item_wrapper">
-                                        <div class="item_info move"><p class="title ellipsis">{{$recommend['author']}}</p>
-                                            <p class="subtitle ellipsis">{{$recommend['content']}}</p></div>
+                                        <div class="item_info move">
+                                            <p class="title ellipsis">{{$recommend['author']}}</p>
+                                            <p class="subtitle ellipsis">{{$recommend['content']}}</p>
+                                            <p>¥&nbsp;{{$recommend['price']}}</p>
+                                        </div>
                                         <i class="icon iconfont icon-add"></i>
                                     </div>
                                 </div>

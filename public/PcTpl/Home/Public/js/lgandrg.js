@@ -75,7 +75,7 @@ $(document).ready(function() {
         };
         $.ajax({
             type: "POST",
-            url: "http://" + host + "/Home/Mobile/post",
+            url: "http://" + host + "/usr/login",
             data: user,
             dataType: 'json',
             success: function (data) {
