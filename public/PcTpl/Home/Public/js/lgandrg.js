@@ -29,7 +29,10 @@ $(document).ready(function() {
         $('.lgs').show();
     });
     $('#search').click(function() {
-        var content = $('#content').val();
+        var content = $.trim($('#content').val());
+        if(!content) {
+            content = 'all';
+        }
         window.location.href = "http://niao.com/module/"+content+"/查询结果?content="+content;
         return false;
     });
