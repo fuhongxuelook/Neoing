@@ -62,8 +62,8 @@
                     @foreach($cate as $ca)
                     <li>
                         <div class="move">
-                            <a class="changeA" href="{{$route['jump'].$cates.'/'.$ca}}">{{$ca}}</a>
-                            <a href="{{$route['jump'].$cates.'/'.$ca}}">{{$ca}}</a>
+                            <a class="changeA" href="{{$route['jump'].'module/'.$cates.'/'.$ca}}">{{$ca}}</a>
+                            <a href="{{$route['jump'].'module/'.$cates.'/'.$ca}}">{{$ca}}</a>
                         </div>
                     </li> 
                     @endforeach     
