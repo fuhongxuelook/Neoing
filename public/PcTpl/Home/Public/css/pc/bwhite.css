@@ -13,7 +13,7 @@
 .mlist.service_tabs .tab_content .owl-theme .owl-nav > div:hover{background-color: #3b3b3b;border-color: #3b3b3b;}
 .mlist.service_tabs .tab_button .content_list .item_block.active .item_info .nums{ color:#3b3b3b}
 
-.mlist.project .content_list .item_block .item_wrapper, .mlist.team .content_list .item_block:hover .item_wrapper{background-color: rgba(0,0,0,.8);}
+.mlist.project .content_list .item_block .item_wrapper, .mlist.team .content_list .item_block:hover .item_wrapper{background-color: rgba(0,0,0,.3);}
 #fixed_projectPost #postWrapper #postInfo #postControl .button:hover{background-color: #3b3b3b;border-color: #3b3b3b;}
 #fixed_projectPost #imageWrapper .owl-theme .owl-nav div:hover{background-color: #3b3b3b;}
 
@@ -21,7 +21,7 @@
 
 .mlist.team .content_list .item_block .item_img .rectborder{border-color: rgba(0,0,0,.8);}
 .mlist.team .content_list .item_block .item_img .icon{background-color: #3b3b3b;}
-.mlist.team .content_list .item_block:hover .item_wrapper{border-color: rgba(59,59,59,.9);background-color: rgba(59,59,59,.9);}
+.mlist.team .content_list .item_block:hover .item_wrapper{border-color: rgba(59,59,59,.9);background-color:rgba(58,58,58,.4);}
 .mlistpost.team #postWrapper #postInfo .wrapper .description a.more{background-color: #3b3b3b;}
 
 .mlist.news .content_list .item_block .item_img .rectborder{border-color: rgba(255,255,255,.4);}
