@@ -40,7 +40,7 @@
 <div id="full_navigation">
     <header>
         <div class="header_bar">
-            <div class="logo"><a href="{{$route['jump']}}"><img src="{{asset('Pctpl/Public/images/logo_n.png')}}"></a>
+            <div class="logo"><a href="{{$route['jump']}}"><img src="{{asset('PcTpl/Public/images/logo_niao.png')}}"></a>
             </div>
             <!--div class="search_bar">
                 <form action="http://soulieren.com/index.php/Home/Search/search" method="post">
