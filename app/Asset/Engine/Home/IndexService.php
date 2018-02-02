@@ -47,26 +47,38 @@ class IndexService  {
         $category = array(
             array(
                 'path' => '/PcTpl/Home/Public/images/pc/1490327989706.png',
+                'name' => '鸟布鲸',
+                'content' => 'Big World',
                 'url'  => 'home/page',
             ),
             array(
                 'path' => '/PcTpl/Home/Public/images/pc/1490326932783.png',
+                'name' => '学院派',
+                'content' => '绽放的艺术殿堂',
                 'url'  => 'home/page',
             ),
             array(
                 'path' => '/PcTpl/Home/Public/images/pc/1490323515250.png',
+                'name' => '画风',
+                'content' => '百家争鸣',
                 'url'  => 'home/page',
             ),
             array(
                 'path' => '/PcTpl/Home/Public/images/pc/1490325755542.png',
+                'name' => '流浪的艺术',
+                'content' => '流浪者的家',
                 'url'  => 'home/page',
             ),
             array(
                 'path' => '/PcTpl/Home/Public/images/pc/1490260622270.jpg',
+                'name' => '异域风采',
+                'content' => '多姿多彩',
                 'url'  => 'home/page',
             ),
             array(
                 'path' => '/PcTpl/Home/Public/images/pc/1490326477972.png',
+                'name' => '拉丁美洲',
+                'content' => '马孔多还在下雨',
                 'url'  => 'home/page',
             ),
         );

@@ -869,15 +869,16 @@
                     <div class="content_wrapper slider" data-slider-num='{"0":{"nav":0,"items":2},"1180":{"items":4}}'
                          data-slider-loop="1">
                         <div class="content_list">
-                            @foreach($category as $ca)
-                            <div id="project_item_0" class="item_block wow" style="animation-delay:.0s">
+                            @foreach($category as $key => $ca)
+                            <div id="{{'project_item_'.$key}}" class="item_block wow" style="animation-delay:.0s">
                                 <a href="{{$ca['url']}}" class="item_link" target="_parent">
                                     <div class="item_img"><img src="{{$ca['path']}}"/>
                                         <div class="rectborder"></div>
                                         <i class="icon iconfont icon-add"></i></div>
                                     <div class="item_wrapper">
-                                        <div class="item_info"><p class="title ellipsis">鸟 布鲸</p>
-                                            <p class="subtitle">我们的世界</p></div>
+                                        <div class="item_info">
+                                            <p class="title ellipsis">{{$ca['name']}}</p>
+                                            <p class="subtitle">{{$ca['content']}}</p></div>
                                     </div>
                                 </a></div>
                             @endforeach
