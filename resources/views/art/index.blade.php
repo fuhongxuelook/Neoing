@@ -6,7 +6,9 @@
     <meta name="description" content="我们的世界">
     <title>Neo</title>
     <!--分享-->
-    <script src="{{asset('pic/push.js')}}"></script><script src="../pic/hm.js"></script><script src="{{asset('pic/wb.js')}}" type="text/javascript" charset="utf-8"></script>
+    <script src="{{asset('pic/push.js')}}"></script>
+    <script src="{{asset('pic/hm.js')}}"></script>
+    <script src="{{asset('pic/wb.js')}}" type="text/javascript" charset="utf-8"></script>
     <!--分享结束-->
     <script type="text/javascript" src="{{asset('pic/jquery.js')}}"></script>
     <script src="{{asset('pic/add.js')}}"></script>
