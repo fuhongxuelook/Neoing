@@ -2,7 +2,7 @@
 
 namespace Neo\Asset\Engine\Home;
 
-//use Neo\Asset\Schema\Project\ProjectSchema as Schema;
+use Neo\Asset\Schema\Home\IndexSchema as Schema;
 //use Neo\Asset\Bean\Project\ProjectBean;
 //use Neo\Asset\Config\ProjectConfig as Conf;
 //use Illuminate\Support\Facades\Storage;
@@ -14,6 +14,8 @@ class IndexService  {
 
 
     public function theme() {
+        $themes = Schema::get()->toArray();
+        /*
         $themes = array(
             array(
                 'path' => 'PcTpl/Home/Public/images/Index/20180114banner02.jpg',
@@ -40,6 +42,7 @@ class IndexService  {
                 'url'  => 'market/jelly',
             ),
         );
+        */
         return $themes;
     }
     
